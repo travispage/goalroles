@@ -1,0 +1,1476 @@
+# Copyright (C) 2017 Myles McNamara
+# This file is distributed under the same license as the WP Job Manager - Visibility package.
+# Translators:
+# Myles McNamara <myles@smyl.es>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager Visibility\n"
+"Report-Msgid-Bugs-To: http://plugins.smyl.es\n"
+"POT-Creation-Date: 2017-01-28 00:48:45+00:00\n"
+"PO-Revision-Date: 2017-01-27 23:30+0000\n"
+"Last-Translator: Myles McNamara <myles@smyl.es>\n"
+"Language-Team: Greek (http://www.transifex.com/smyles/wp-job-manager-visibility/language/el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+
+#: classes/admin/ajax/custom.php:15 classes/admin/ajax/default.php:15
+msgid "Unable to determine post ID!"
+msgstr "Αδυναμία προσδιορισμού θέση ID!"
+
+#: classes/admin/ajax/custom.php:21 classes/admin/ajax/default.php:21
+msgid "A meta key (field) is required!"
+msgstr "Απαιτείται ένα κλειδί μετα (πεδίο)!"
+
+#: classes/admin/ajax/custom.php:50 classes/admin/ajax/default.php:51
+msgid "Error updating default configuration placeholder post meta!"
+msgstr "Σφάλμα ενημέρωσης προεπιλεγμένη διαμόρφωση κράτησης θέσης μετά μετα!"
+
+#: classes/admin/ajax/custom.php:52 classes/admin/ajax/default.php:53
+msgid "Default configuration updated successfully!"
+msgstr "Προεπιλεγμένη ρύθμιση παραμέτρων ενημερώθηκε με επιτυχία!"
+
+#: classes/admin/ajax/custom.php:65 classes/admin/ajax/default.php:66
+msgid "Error removing configuration!"
+msgstr "Αφαίρεση διαμόρφωσης σφάλμα!"
+
+#: classes/admin/ajax/custom.php:66 classes/admin/ajax/default.php:67
+msgid "Default configuration removed successfully!"
+msgstr "Προεπιλεγμένη ρύθμιση παραμέτρων αφαιρεθεί επιτυχώς!"
+
+#: classes/admin/ajax.php:224
+msgid "Unable to get the POST variable"
+msgstr "Σε θέση να πάρει η μεταβλητή θέση"
+
+#: classes/admin/assets.php:25
+msgid ""
+"If you continue receive this error, please submit a <a target=\"_blank\" "
+"href=\"%s\">support ticket</a>."
+msgstr "Εάν συνεχίσετε να λαμβάνετε αυτό το σφάλμα, παρακαλούμε να υποβάλλετε μια <a target=\"_blank\" href=\"%s\"> υποστήριξη εισιτηρίων</a>."
+
+#: classes/admin/assets.php:26
+msgid "This field is required!"
+msgstr "Αυτό το πεδίο απαιτείται!"
+
+#: classes/admin/assets.php:27
+msgid "Yes"
+msgstr "Ναι"
+
+#: classes/admin/assets.php:28
+msgid "Loading"
+msgstr "Φόρτωση"
+
+#: classes/admin/assets.php:29
+msgid "No"
+msgstr "Όχι"
+
+#: classes/admin/assets.php:30 classes/admin/views/metabox.php:68
+#: classes/admin/views/placeholders.php:49
+msgid "Cancel"
+msgstr "\"Άκυρο\""
+
+#: classes/admin/assets.php:31
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: classes/admin/assets.php:32 classes/admin/settings.php:134
+#: classes/admin/settings.php:203 classes/admin/settings.php:332
+#: classes/admin/settings.php:359 classes/output/rm.php:228
+msgid "Enable"
+msgstr "Ενεργοποίηση"
+
+#: classes/admin/assets.php:33 classes/admin/settings.php:323
+#: classes/admin/settings.php:341 classes/admin/settings.php:350
+#: classes/admin/settings.php:368
+msgid "Disable"
+msgstr "Απενεργοποίηση"
+
+#: classes/admin/assets.php:34
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: classes/admin/assets.php:35
+msgid "Uknown Error! Refresh the page and try again."
+msgstr "Uknown λάθος! Ανανεώσετε τη σελίδα και προσπαθήστε ξανά."
+
+#: classes/admin/assets.php:36
+msgid "Success"
+msgstr "Επιτυχία"
+
+#: classes/admin/assets.php:37
+msgid "Are you sure you want to remove this configuration?"
+msgstr "Είστε βέβαιοι ότι θέλετε να καταργήσετε αυτήν τη ρύθμιση;"
+
+#: classes/admin/assets.php:38
+msgid "You can't add a meta key to hide if it's set as a visible field!"
+msgstr "Δεν μπορείτε να προσθέσετε μια meta κλειδί για να κρύψει της εάν έχει οριστεί ως ορατό πεδίο!"
+
+#: classes/admin/help/default.php:23 classes/admin/help/groups.php:23
+msgid "Overview"
+msgstr "Επισκόπηση"
+
+#: classes/admin/help/default.php:26 classes/admin/listtable/default.php:22
+msgid "Visible Fields"
+msgstr "Ορατά πεδία"
+
+#: classes/admin/help/default.php:29 classes/admin/listtable/default.php:21
+msgid "Hidden Fields"
+msgstr "Κρυφά πεδία"
+
+#: classes/admin/help/default.php:43
+msgid ""
+"Default Visibilities are configurations you create for any user or group, "
+"that will be used for every listing on your site.  This allows you to "
+"configure fields you want visible or hidden to specific users or groups.  "
+"You can create unlimited visibility configurations to fine tweak everything "
+"exactly how you want it. Here's a few things to note:"
+msgstr "Προεπιλεγμένες επιλογές ορατότητας είναι διαμορφώσεις που δημιουργείτε για κάθε χρήστη ή ομάδα, που θα χρησιμοποιηθεί για κάθε λίστα στην τοποθεσία σας.  Αυτό σας επιτρέπει να ρυθμίσετε πεδία θέλετε ορατά ή κρυμμένα σε συγκεκριμένους χρήστες ή ομάδες.  Μπορείτε να δημιουργήσετε συνθέσεις απεριόριστη ορατότητα στο πρόστιμο τσίμπημα τα πάντα ακριβώς πώς το θέλετε. Εδώ είναι μερικά πράγματα να σημειωθεί:"
+
+#: classes/admin/help/default.php:45
+msgid ""
+"User default visibility configurations ALWAYS take priority over any group "
+"configurations"
+msgstr "Χρήστη προεπιλεγμένη ορατότητα διαμορφώσεις πάντα να έχει προτεραιότητα έναντι κάθε ομάδα διαμορφώσεις"
+
+#: classes/admin/help/default.php:46
+msgid "Group configurations are processed in order based on their priority"
+msgstr "Ομάδα συνθέσεις υποβάλλονται σε επεξεργασία με βάση τους προτεραιότητα προκειμένου"
+
+#: classes/admin/help/default.php:48
+msgid ""
+"As a quick example, if you have a default visibility configuration for the "
+"user <code>JohnSmith</code>, and you set the <code>job_description</code> "
+"field as hidden...if you also have this user in a group, that has the "
+"<code>job_description</code> visible, because user configurations take "
+"priority, that user will <strong>NOT</strong> be able to see "
+"<code>job_description</code>."
+msgstr "Ως ένα γρήγορο παράδειγμα, εάν έχετε μια προεπιλεγμένη ρύθμιση ορατότητας για τον χρήστη <code>ΑντώνηςΠαπαδόπουλος</code>, και που ορίζεται το πεδίο <code>job_description</code> ως κρυφά... Αν έχετε επίσης αυτού του χρήστη σε μια ομάδα, που έχει <code>job_description</code> ορατό, διότι οι διαμορφώσεις του χρήστη να έχει προτεραιότητα, ότι θα του χρήστη <strong>δεν</strong> είναι σε θέση να δείτε <code>job_description</code>."
+
+#: classes/admin/help/default.php:55
+msgid ""
+"Visible Fields are fields that you want to be shown for this specific user "
+"or group."
+msgstr "Ορατά πεδία είναι πεδία που θέλετε να εμφανίζεται για το συγκεκριμένο χρήστη ή ομάδα."
+
+#: classes/admin/help/default.php:56
+msgid ""
+"This is useful in situations where you have a user that is, as an example, "
+"apart of two groups, one with priority of 5 and one with priority of 10. Say"
+" the group with priority of 10 has the <code>job_description</code> field "
+"hidden ... if the group with priority of 5 has that same field set as "
+"visible, because the priority is lower than the group that hides the field, "
+"the <code>job_description</code> field will be shown."
+msgstr "Αυτό είναι χρήσιμο σε καταστάσεις όπου διαθέτετε ένα χρήστη που είναι, για παράδειγμα, εκτός από τις δύο ομάδες, με προτεραιότητα των 5 και ένα με προτεραιότητα των 10. Λένε την ομάδα με προτεραιότητα 10 έχει το πεδίο <code>job_description</code> κρυμμένα..., αν η ομάδα με την προτεραιότητα των 5 έχει το ίδιο πεδίο που έχει οριστεί ως ορατά, επειδή η προτεραιότητα είναι χαμηλότερη από την ομάδα που αποκρύπτει το πεδίο, το πεδίο \"<code>job_description</code>\" θα εμφανιστεί."
+
+#: classes/admin/help/default.php:63
+msgid ""
+"Hidden Fields are fields that you do NOT want shown for a specific user or "
+"group"
+msgstr "Κρυφά πεδία είναι πεδία που δεν θέλετε να εμφανίζονται για ένα συγκεκριμένο χρήστη ή ομάδα"
+
+#: classes/admin/help/default.php:64
+msgid ""
+"Setting hidden fields will probably be used the most, as this allows you to "
+"set fields to hide based on the user or group.  Hidden fields support what "
+"is called a <code>placeholder</code>.  The placeholder is the value you want"
+" to be shown instead of the actual value."
+msgstr "Ρύθμιση κρυφά πεδία θα πιθανώς να χρησιμοποιηθεί περισσότερο, καθώς αυτό επιτρέπει σε σας για να ορίσει πεδία να κρύψει με βάση το χρήστη ή την ομάδα.  Κρυφά πεδία υποστηρίζουν αυτό που ονομάζεται ένα <code>σύμβολο κράτησης θέσης</code>.  Το σύμβολο κράτησης θέσης είναι η τιμή που θέλετε να εμφανιστεί αντί για την πραγματική τιμή."
+
+#: classes/admin/help/default.php:65
+msgid "HTML IS supported in placeholders!"
+msgstr "HTML είναι υποστηρίζεται σε σύμβολα κράτησης θέσης!"
+
+#: classes/admin/help/default.php:66
+msgid "Specific Meta Key Information:"
+msgstr "Βασικές πληροφορίες συγκεκριμένες Meta:"
+
+#: classes/admin/help/default.php:67
+msgid ""
+"Due to the way the core of WP Job Manager is coded, as well as how some meta"
+" keys are handled in templates and the core plugin, there are some caveots "
+"and neat ways that I have coded my plugin to handle specific meta keys."
+msgstr "Λόγω του τρόπου που ο πυρήνας της WP δουλειά διευθυντικό στέλεχοs κωδικοποιείται, καθώς και πώς μερικά κλειδιά meta αντιμετωπίζονται σε πρότυπα και το plugin πυρήνα, υπάρχουν μερικά caveots και τακτοποιημένη τρόπους που I έχουν κωδικοποιούνται μου plugin για το χειρισμό συγκεκριμένων κλειδιά meta."
+
+#: classes/admin/help/default.php:69
+msgid ""
+"If you do not enter a placeholder value, the <strong>Apply Now</strong> "
+"button will be hidden.  If you enter a placeholder, it will be shown, but "
+"when the user clicks the button, they will see your placehoolder value."
+msgstr "Εάν δεν εισάγετε μια τιμή κράτησης θέσης, το κουμπί <strong>Εφαρμογή τώρα</strong> θα γίνει απόκρυψη.  Εάν εισαγάγετε ένα σύμβολο κράτησης θέσης, θα παρουσιαστεί, αλλά όταν ο χρήστης κάνει κλικ στο κουμπί, θα δουν την αξία του placehoolder σας."
+
+#: classes/admin/help/default.php:70
+msgid ""
+"By default the placeholder value will be shown instead of actual value ... "
+"if you want to output an excerpt of this field, go to the settings and "
+"enable excerpt for this meta key.  Any placeholder value will be appended "
+"(added to the end) of the excerpt."
+msgstr "Από προεπιλογή, η τιμή κράτησης θέσης θα εμφανιστεί αντί της πραγματικής αξίας... Αν θέλετε να εξαγάγετε ένα απόσπασμα αυτού του πεδίου, πηγαίνετε στις ρυθμίσεις και ενεργοποίηση απόσπασμα για αυτό το κλειδί meta.  Οποιαδήποτε τιμή κράτησης θέσης θα προσαρτηθεί (προστίθεται στο τέλος) από το απόσπασμα."
+
+#: classes/admin/help/groups.php:26 classes/admin/listtable/default.php:20
+#: classes/admin/listtable/groups.php:19
+msgid "Priority"
+msgstr "Προτεραιότητα"
+
+#: classes/admin/help/groups.php:29 classes/admin/listtable/groups.php:20
+#: classes/admin/metaboxes/groups.php:28 classes/admin/views/metabox.php:39
+#: classes/admin/views/users.php:46
+msgid "Users"
+msgstr "Οι χρήστες"
+
+#: classes/admin/help/groups.php:32 classes/admin/listtable/groups.php:21
+#: classes/admin/metaboxes/groups.php:37 classes/admin/settings.php:280
+#: classes/admin/views/metabox.php:30 classes/admin/views/users.php:32
+#: classes/cpt.php:268
+msgid "Groups"
+msgstr "Ομάδες"
+
+#: classes/admin/help/groups.php:35 classes/admin/listtable/groups.php:22
+#: classes/admin/metaboxes/groups.php:46 classes/admin/views/roles.php:28
+msgid "Roles"
+msgstr "Ρόλους"
+
+#: classes/admin/help/groups.php:50
+msgid ""
+"Groups can be used to create many different setups based on your specific "
+"needs. Groups will always have a lower priority than user specific "
+"configurations, so a group will never override a specific user "
+"configuration."
+msgstr "Ομάδες μπορούν να χρησιμοποιηθούν για να δημιουργήσουν πολλές διαφορετικές ρυθμίσεις, με βάση τις συγκεκριμένες ανάγκες σας. Ομάδες πάντα θα έχει χαμηλότερη προτεραιότητα από το χρήστης συγκεκριμένες διαμορφώσεις, έτσι μια ομάδα ποτέ δεν θα αντικαταστήσει μια ρύθμιση παραμέτρων του συγκεκριμένου χρήστη."
+
+#: classes/admin/help/groups.php:53
+msgid ""
+"You can include multiple users, other groups, roles, or even any other addon"
+" configurations (such as packages, etc)."
+msgstr "Μπορείτε να συμπεριλάβετε πολλούς χρήστες, άλλες ομάδες, τους ρόλους ή ακόμη και οποιεσδήποτε άλλες ρυθμίσεις παραμέτρων addon (όπως τα πακέτα, κλπ)."
+
+#: classes/admin/help/groups.php:61
+msgid ""
+"Default priority is 10 (if not set).  The lower the number the higher the "
+"priority ( 1 is a higher priority than 5 )"
+msgstr "Προεπιλεγμένη προτεραιότητα είναι 10 (αν δεν οριστεί).  Χαμηλότερος ο αριθμός υψηλότερη προτεραιότητα (το 1 είναι υψηλότερη προτεραιότητα από 5)"
+
+#: classes/admin/help/groups.php:64
+msgid ""
+"Priorities are specifically used for groups to determine what group should "
+"take priority whenever there is a coflict."
+msgstr "Προτεραιότητες που χρησιμοποιούνται ειδικά για τις ομάδες να προσδιορίσετε ποια ομάδα πρέπει να προηγούνται κάθε φορά που υπάρχει μια coflict."
+
+#: classes/admin/help/groups.php:67
+msgid ""
+"As an example, you have 2 different groups ( Employers [Priority 5], and "
+"Gold Package [Priority 1] ):"
+msgstr "Για παράδειγμα, έχετε 2 διαφορετικές ομάδες (οι εργοδότες [προτεραιότητα 5] και χρυσό πακέτο [προτεραιότητα 1]):"
+
+#: classes/admin/help/groups.php:70
+msgid "Employer Group (Priority 5) has these fields set to hide:"
+msgstr "Ομάδα του εργοδότη (προτεραιότητα 5) έχει αυτά τα πεδία που ορίζονται με απόκρυψη:"
+
+#: classes/admin/help/groups.php:73
+msgid "Gold Package (Priority 1) has these fields set to show:"
+msgstr "Χρυσό πακέτο (προτεραιότητα 1) έχει οριστεί για την εμφάνιση αυτών των πεδίων:"
+
+#: classes/admin/help/groups.php:76
+msgid ""
+"When someone visits your site and is a member of both of those groups, "
+"because Gold Package has a higher priority than Employer Group, the final "
+"result would be:"
+msgstr "Όταν κάποιος επισκέπτεται το site σας και είναι μέλος των δύο αυτών των ομάδων, διότι χρυσό πακέτο έχει υψηλότερη προτεραιότητα από την ομάδα του εργοδότη, το τελικό αποτέλεσμα θα είναι:"
+
+#: classes/admin/help/groups.php:79
+msgid "Show Fields:"
+msgstr "Εμφάνιση πεδίων:"
+
+#: classes/admin/help/groups.php:82
+msgid "Hide Fields:"
+msgstr "Αποκρύψετε πεδία:"
+
+#: classes/admin/help/groups.php:90
+msgid ""
+"Include as many users as you want into a group.  Even if users are included "
+"in this group, if you have any user specific configurations they will take "
+"priority over this group configuration."
+msgstr "Περιλαμβάνουν με όσους χρήστες θέλετε σε μια ομάδα.  Ακόμη και αν οι χρήστες που περιλαμβάνονται σε αυτήν την ομάδα, αν έχετε οποιεσδήποτε συγκεκριμένες ρυθμίσεις παραμέτρων χρήστη θα αναλάβει προτεραιότητας η διαμόρφωση αυτή ομάδα."
+
+#: classes/admin/help/groups.php:101 classes/admin/help/settings.php:32
+msgid "Coming Soon..."
+msgstr "Έρχομαι σύντομα..."
+
+#: classes/admin/help/groups.php:109
+msgid ""
+"You can include any registered roles into a group.  A special group has also"
+" been added called Anonymous which is used for any users that are not logged"
+" in."
+msgstr "Μπορείτε να συμπεριλάβετε τυχόν εγγεγραμμένα ρόλους σε μια ομάδα.  Μια ειδική ομάδα επίσης, έχει προστεθεί που ονομάζεται Ανώνυμος που χρησιμοποιείται για οποιουσδήποτε χρήστες που δεν είναι συνδεδεμένος."
+
+#: classes/admin/help/settings.php:24 classes/admin/settings.php:317
+msgid "Debug"
+msgstr "Εντοπισμού σφαλμάτων"
+
+#: classes/admin/listtable/custom.php:16
+msgid "Fields"
+msgstr "Πεδία"
+
+#: classes/admin/listtable/custom.php:17
+msgid "Total Fields"
+msgstr "Πεδία αθροίσματος"
+
+#: classes/admin/listtable/custom.php:18
+#: classes/admin/listtable/default.php:24
+#: classes/admin/listtable/groups.php:24
+msgid "Actions"
+msgstr "Δράσεις"
+
+#: classes/admin/listtable/custom.php:53
+#: classes/admin/listtable/default.php:98
+#: classes/admin/listtable/groups.php:123
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: classes/admin/listtable/custom.php:54
+#: classes/admin/listtable/default.php:99
+#: classes/admin/listtable/groups.php:124
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: classes/admin/listtable/default.php:18
+#: classes/admin/listtable/groups.php:18
+msgid "Title"
+msgstr "Τίτλος"
+
+#: classes/admin/listtable/default.php:23
+#: classes/admin/listtable/groups.php:23
+msgid "Last Updated"
+msgstr "Τελευταία ενημέρωση"
+
+#: classes/admin/listtable/default.php:51
+msgid "n/a"
+msgstr "δ/υ"
+
+#: classes/admin/listtable/default.php:62
+msgid "Group"
+msgstr ""
+
+#: classes/admin/listtable/default.php:69
+msgid "User"
+msgstr ""
+
+#: classes/admin/listtable/groups.php:64
+msgid "Are you sure you want to remove the <strong>%s</strong> group?"
+msgstr "Είστε βέβαιοι ότι θέλετε να καταργήσετε το <strong>%s</strong> ομάδα;"
+
+#: classes/admin/listtable/groups.php:65
+msgid "This will remove any configurations you have created for this group!"
+msgstr "Αυτό θα αφαιρέσει οποιεσδήποτε ρυθμίσεις παραμέτρων που έχετε δημιουργήσει για αυτήν την ομάδα!"
+
+#: classes/admin/listtable/groups.php:68
+msgid ""
+"There were configurations also found with this group in them, and if you "
+"remove this group it will be removed from those group configurations."
+msgstr "Εκεί ήταν διαμορφώσεις βρέθηκαν επίσης με αυτή την ομάδα τους, και εάν καταργήσετε αυτήν την ομάδα θα αφαιρεθεί από αυτές τις ρυθμίσεις ομάδας."
+
+#: classes/admin/listtable/groups.php:73
+msgid "Yes, remove the group!"
+msgstr "Ναι, να αφαιρέσει στην ομάδα!"
+
+#: classes/admin/listtable/groups.php:75
+msgid "Remove Group?"
+msgstr "Αφαιρέστε την ομάδα;"
+
+#: classes/admin/metaboxes/custom.php:22 classes/admin/metaboxes/custom.php:31
+#: classes/cpt.php:315
+msgid "Custom Visibilities"
+msgstr "Προσαρμοσμένες επιλογές ορατότητας"
+
+#: classes/admin/metaboxes/default.php:22
+msgid "Default Visible Fields"
+msgstr "Ορατά πεδία προεπιλογή"
+
+#: classes/admin/metaboxes/default.php:31
+msgid "Default Hidden Fields"
+msgstr "Προεπιλεγμένα κρυφά πεδία"
+
+#: classes/admin/metaboxes/default.php:56
+msgid "Select a Field to Show"
+msgstr "Επιλέξτε ένα πεδίο για την εμφάνιση"
+
+#: classes/admin/metaboxes/groups.php:55
+msgid "Group Priority"
+msgstr "Ομάδα προτεραιότητας"
+
+#: classes/admin/metaboxes/groups.php:89 classes/admin/views/roles.php:12
+msgid "Select a Role"
+msgstr "Επιλέξτε ένα ρόλο"
+
+#: classes/admin/metaboxes/groups.php:115
+msgid "Select a User"
+msgstr "Επιλέξτε ένα χρήστη"
+
+#: classes/admin/metaboxes/groups.php:140
+msgid "Select a Group"
+msgstr "Επιλέξτε μια ομάδα"
+
+#: classes/admin/metaboxes.php:40
+msgid "Debug Information"
+msgstr "Debug πληροφορίες"
+
+#: classes/admin/settings/fields.php:68
+msgid ""
+"Please install the <a href=\"%s\" target=\"_blank\">WP Job Manager "
+"Packages</a> plugin for packages integration with this plugin."
+msgstr ""
+
+#: classes/admin/settings/fields.php:69
+msgid ""
+"The packages plugin will add the ability to configure groups based on a "
+"specific package that the user has.  These packages can be any of the "
+"Visibility Packages created with the WP Job Manager Packages plugin, or any "
+"WooCommerce Paid Listing packages as well."
+msgstr ""
+
+#: classes/admin/settings/fields.php:70
+msgid ""
+"As a special promotion, any existing clients can use the promo code "
+"<strong>visclient15offpackages</strong> to get 15% off the purchase of the "
+"packages plugin!"
+msgstr ""
+
+#: classes/admin/settings/fields.php:71
+msgid "Check out the new WP Job Manager Packages Plugin:"
+msgstr ""
+
+#: classes/admin/settings/fields.php:310
+msgid "Deactivate License"
+msgstr "Απενεργοποιήσει την άδεια"
+
+#: classes/admin/settings/handlers.php:30
+msgid ""
+"Please make sure the default groups do not already exist, or there was an "
+"error creating them."
+msgstr "Παρακαλώ βεβαιωθείτε ότι οι προεπιλεγμένες ομάδες δεν υπάρχουν ήδη, ή Παρουσιάστηκε σφάλμα κατά τη δημιουργία τους."
+
+#: classes/admin/settings/handlers.php:33
+msgid "These default groups were added succesfully: "
+msgstr "Αυτές οι προεπιλεγμένες ομάδες προστέθηκαν με επιτυχία: "
+
+#: classes/admin/settings/handlers.php:43
+msgid "Succesfully updated %s existing listing permalinks!"
+msgstr ""
+
+#: classes/admin/settings/handlers.php:54
+msgid "Succesfully updated %s existing resume listing permalinks!"
+msgstr ""
+
+#: classes/admin/settings/handlers.php:89
+msgid "All cache (with AND without expirations) has been purged/removed!"
+msgstr ""
+
+#: classes/admin/settings/handlers.php:95
+msgid "All user config cache has been purged/removed!"
+msgstr "Όλα χρήστη config cache έχει εκκαθαριστεί/απομακρυνθεί!"
+
+#: classes/admin/settings/handlers.php:101
+msgid "The core WordPress cache has been flushed!"
+msgstr "Στον πυρήνα WordPress cache έχει εκκαθαριστεί!"
+
+#: classes/admin/settings/handlers.php:107
+msgid "All user group config cache has been purged/removed!"
+msgstr "Όλα χρήστη ομάδα config cache έχει εκκαθαριστεί/απομακρυνθεί!"
+
+#: classes/admin/settings.php:37 classes/cpt.php:243
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: classes/admin/settings.php:128
+msgid "Integration"
+msgstr "Ολοκλήρωση"
+
+#: classes/admin/settings.php:133
+msgid "Listings"
+msgstr "Καταχωρήσεις"
+
+#: classes/admin/settings.php:135
+msgid "Enable processing of visibility configurations for %s Listings"
+msgstr "Επιτρέπει επεξεργασία των ορατότητα διαμορφώσεις για %s καταχωρήσεις"
+
+#: classes/admin/settings.php:147 classes/output/rm.php:246
+msgid "Permalink"
+msgstr "Permalink"
+
+#: classes/admin/settings.php:148
+msgid "Use Custom Permalinks when Listing Created/Updated"
+msgstr ""
+
+#: classes/admin/settings.php:149
+msgid ""
+"Enable this option to use the custom permalink configuration below.  By "
+"default the core plugin creates the permalink with Company Name, Location, "
+"Type, and Job Title.  Enabling this option sets this structure when a new "
+"listing is created/updated.  To update existing listings, use the force "
+"update permalink structure below."
+msgstr ""
+
+#: classes/admin/settings.php:155 classes/output/rm.php:254
+msgid "Permalink Structure"
+msgstr "Δομή permalink"
+
+#: classes/admin/settings.php:160
+msgid "The custom permalink structure you want to use for "
+msgstr "Το έθιμο permalink δομή που θέλετε να χρησιμοποιήσετε για "
+
+#: classes/admin/settings.php:160
+msgid ""
+" Listing permalinks. Permalinks are generated using meta key values from the"
+" listing, and all meta keys MUST be inside curly braces "
+msgstr " Λίστα permalinks. Permalinks δημιουργούνται χρησιμοποιώντας τιμές κλειδιών μετα από τη λίστα, και όλα τα κλειδιά meta πρέπει μέσα σε άγκιστρα "
+
+#: classes/admin/settings.php:160 classes/output/rm.php:259
+msgid ""
+"To prevent random value from being used when a field does not have a value, "
+"prepend the metakey with an exclamation point.  Example: "
+msgstr ""
+
+#: classes/admin/settings.php:161 classes/output/rm.php:260
+msgid "The default core values available are: "
+msgstr "Οι προεπιλεγμένες τιμές πυρήνα διαθέσιμα είναι: "
+
+#: classes/admin/settings.php:161 classes/output/rm.php:260
+msgid "10 random characters"
+msgstr "10 τυχαίοι χαρακτήρες"
+
+#: classes/admin/settings.php:162
+msgid ""
+"<small>Any meta key can be used (only string value ones), including custom "
+"fields, so if your meta key is <code>job_info</code>, you would use "
+"<code>{job_info}</code>"
+msgstr "<small>Οποιαδήποτε meta κλειδί μπορεί να χρησιμοποιηθεί (μόνο τιμή συμβολοσειράς αυτοί), συμπεριλαμβανομένων των προσαρμοσμένων πεδίων, έτσι αν το κλειδί meta σας είναι <code>job_info</code>, θα χρησιμοποιούσατε <code>{job_info}</code>"
+
+#: classes/admin/settings.php:163 classes/output/rm.php:262
+msgid ""
+"<small>Spaces will be automatically replaced with dash/hyphen "
+"<code>-</code>, and all values will be set to lowercase.  If values are too "
+"long, they will automatically be shortened as well. If all fields used are "
+"empty, the random string will be used.</small>"
+msgstr "<small>Χώρους θα αντικατασταθούν αυτόματα με παύλα/παύλα <code>–</code>, και όλες οι τιμές θα οριστούν σε πεζά.  Εάν οι τιμές είναι πάρα πολύ καιρό, αυτοί θα κοντύνουν αυτόματα επίσης. Εάν όλα τα πεδία που χρησιμοποιούνται είναι κενή, θα χρησιμοποιηθεί η τυχαία συμβολοσειρά.</small>"
+
+#: classes/admin/settings.php:169 classes/output/rm.php:268
+msgid "Force update existing listing permalinks"
+msgstr ""
+
+#: classes/admin/settings.php:172 classes/output/rm.php:271
+msgid "Permalink Update"
+msgstr ""
+
+#: classes/admin/settings.php:173 classes/output/rm.php:272
+msgid ""
+"If you already have existing listings and have just enabled or changed the "
+"permalink structure, you need to force update existing listings if you want "
+"them to use the new structure."
+msgstr ""
+
+#: classes/admin/settings.php:179
+msgid "Company Website"
+msgstr "Ιστοσελίδα της εταιρείας"
+
+#: classes/admin/settings.php:180
+msgid "Remove"
+msgstr "Κατάργηση"
+
+#: classes/admin/settings.php:181
+msgid ""
+"By default when setting the company_website to hide, the placeholder will be"
+" used instead of the website URL.  Enable this option to completely remove "
+"the company website link from the single listing page."
+msgstr "Από προεπιλογή, κατά τον καθορισμό της company_website να κρύψει, θα χρησιμοποιείται το σύμβολο κράτησης θέσης αντί για τη διεύθυνση URL της ιστοσελίδας.  Ενεργοποιήσετε αυτή την επιλογή για να καταργήσετε εντελώς την εταιρεία ιστοσελίδα σύνδεσμο από τη λίστα ενιαία σελίδα."
+
+#: classes/admin/settings.php:188
+msgid "Job Description"
+msgstr "Περιγραφή εργασίας"
+
+#: classes/admin/settings.php:189
+msgid "Show excerpt if <code>job_description</code> meta key is hidden"
+msgstr "Δείτε απόσπασμα αν είναι κρυμμένο το κλειδί meta <code>job_description</code>"
+
+#: classes/admin/settings.php:190
+msgid ""
+"Enable this option to output the excerpt (first 55 words) first, then the "
+"placeholder value.  Normally, only the placeholder field would be output if "
+"the field is hidden."
+msgstr "Ενεργοποίηση αυτής της επιλογής για την έξοδο το απόσπασμα (πρώτα 55 λέξεις) πρώτη, τότε η αξία της κράτησης θέσης.  Κανονικά, μόνο το πεδίο κράτησης θέσης ήταν εξόδου, αν το πεδίο είναι κρυφό."
+
+#: classes/admin/settings.php:197 classes/admin/settings.php:202
+msgid "Cache"
+msgstr "Μνήμη cache"
+
+#: classes/admin/settings.php:204
+msgid ""
+"This plugin uses WordPress transients to cache user/group configs to prevent"
+" excessive, and unecessary database queries.  This will result in around a "
+"200-400% speed improvement, only disable if directed by "
+"support.<br/><strong>Cache is automatically purged and updated whenever "
+"visibility configurations are added or updated, regardless of expiration "
+"value below.</strong>"
+msgstr ""
+
+#: classes/admin/settings.php:211
+msgid "Expiration"
+msgstr "Λήξης"
+
+#: classes/admin/settings.php:212
+msgid ""
+"This will be the amount of time the cache is stored before it is "
+"automatically removed and has to be regenerated.<br/>Do not set this below 1"
+" Month unless you know what you're doing, as short cache expirations will "
+"cause unecessary database queries, ultimately slowing down your site."
+msgstr ""
+
+#: classes/admin/settings.php:216
+msgid "1 Minute"
+msgstr "1 λεπτό"
+
+#: classes/admin/settings.php:217
+msgid "5 Minutes"
+msgstr "5 λεπτά"
+
+#: classes/admin/settings.php:218
+msgid "15 Minutes"
+msgstr "15 λεπτά"
+
+#: classes/admin/settings.php:219
+msgid "30 Minutes"
+msgstr "30 λεπτά"
+
+#: classes/admin/settings.php:220
+msgid "1 Hour"
+msgstr "1 ώρα"
+
+#: classes/admin/settings.php:221
+msgid "12 Hours"
+msgstr "12 ώρες"
+
+#: classes/admin/settings.php:222
+msgid "24 Hours"
+msgstr "24 ώρες"
+
+#: classes/admin/settings.php:223
+msgid "1 Week"
+msgstr "1 εβδομάδα"
+
+#: classes/admin/settings.php:224
+msgid "2 Weeks"
+msgstr "2 εβδομάδες"
+
+#: classes/admin/settings.php:225
+msgid "1 Month"
+msgstr "1 μήνας"
+
+#: classes/admin/settings.php:226
+msgid "3 Months"
+msgstr "3 μήνες"
+
+#: classes/admin/settings.php:227
+msgid "6 Months"
+msgstr "6 μήνες"
+
+#: classes/admin/settings.php:228
+msgid "1 Year"
+msgstr "1 έτος"
+
+#: classes/admin/settings.php:233
+msgid "Purge All"
+msgstr "Εκκαθάριση όλα"
+
+#: classes/admin/settings.php:236
+msgid "Purge"
+msgstr "Εκκαθάριση"
+
+#: classes/admin/settings.php:237
+msgid ""
+"This will purge all user and group cache (with and without expirations) and "
+"require the cache to be rebuilt when the user visits the single listing page"
+" again.<br/>If the total of User Cache + Group Cache is less than all cache,"
+" you may need to use this to clear invalid cache without expirations."
+msgstr ""
+
+#: classes/admin/settings.php:243
+msgid "Purge User Cache"
+msgstr "Εκκαθάριση προσωρινής μνήμης χρήστη"
+
+#: classes/admin/settings.php:246
+msgid "Purge User"
+msgstr "Εκκαθάριση χρήστη"
+
+#: classes/admin/settings.php:247
+msgid ""
+"Purge only the user configuration cache (only user specific config, does not"
+" clear user groups cache), with expirations. Cache will be rebuilt when the "
+"user visits the single listing page again."
+msgstr ""
+
+#: classes/admin/settings.php:253
+msgid "Purge Groups Cache"
+msgstr "Εκκαθάριση προσωρινής μνήμης ομάδες"
+
+#: classes/admin/settings.php:256
+msgid "Purge Groups"
+msgstr "Εκκαθάριση ομάδες"
+
+#: classes/admin/settings.php:257
+msgid ""
+"Purge only the groups configuration cache (only user group config), with "
+"expirations. Cache will be rebuilt when the user visits the single listing "
+"page again."
+msgstr ""
+
+#: classes/admin/settings.php:263
+msgid "WP Cache"
+msgstr "WP Cache"
+
+#: classes/admin/settings.php:266
+msgid "Flush Cache"
+msgstr "Εκκαθάριση προσωρινής μνήμης"
+
+#: classes/admin/settings.php:267
+msgid ""
+"This will flush the entire WordPress core cache.  This is useful when "
+"taxonomies, meta, or other core WordPress data is showing old data."
+msgstr "Αυτό θα ξεπλύνετε το ολόκληρο cache πυρήνα WordPress.  Αυτό είναι χρήσιμο όταν ταξινομήσεις, μετα ή άλλων βασικών δεδομένων WordPress δείχνει παλιά δεδομένα."
+
+#: classes/admin/settings.php:273
+msgid "Backup"
+msgstr "Δημιουργία αντιγράφων ασφαλείας"
+
+#: classes/admin/settings.php:277
+msgid "Download Groups Backup"
+msgstr "Κατεβάστε τα ομάδες δημιουργίας αντιγράφων ασφαλείας"
+
+#: classes/admin/settings.php:281
+msgid "Generate and download a backup of created groups."
+msgstr "Παράγουν και να κατεβάσετε ένα αντίγραφο ασφαλείας του ομάδες που έχουν δημιουργηθεί."
+
+#: classes/admin/settings.php:287
+msgid "Download Defaults Backup"
+msgstr "Λήψη Backup προεπιλογές"
+
+#: classes/admin/settings.php:290
+msgid "Default"
+msgstr "Προεπιλογή"
+
+#: classes/admin/settings.php:291
+msgid "Generate and download a backup of default visibility configurations."
+msgstr "Παράγουν και να κατεβάσετε ένα αντίγραφο ασφαλείας του προεπιλεγμένη ορατότητα διαμορφώσεις."
+
+#: classes/admin/settings.php:297
+msgid "Download Custom Visibilities Backup"
+msgstr "Λήψη αντιγράφων ασφαλείας προσαρμοσμένες επιλογές ορατότητας"
+
+#: classes/admin/settings.php:300
+msgid "Custom"
+msgstr "Προσαρμοσμένη"
+
+#: classes/admin/settings.php:301
+msgid "Generate and download a backup of custom visibility configurations."
+msgstr "Παράγουν και να κατεβάσετε ένα αντίγραφο ασφαλείας των προσαρμοσμένων ορατότητα διαμορφώσεις."
+
+#: classes/admin/settings.php:307
+msgid "Import Backup!"
+msgstr "Εισαγάγετε το αντίγραφο ασφαλείας!"
+
+#: classes/admin/settings.php:310
+msgid "Import Backup"
+msgstr "Εισαγωγή αντιγράφων ασφαλείας"
+
+#: classes/admin/settings.php:311
+msgid ""
+"Import a previously generated backup.  This uses the default WordPress "
+"import feature, if you do not see a file upload after clicking this button, "
+"make sure to import using WordPress importer."
+msgstr "Εισαγάγετε ένα προηγούμενο αντίγραφο ασφαλείας.  Αυτό χρησιμοποιεί την προεπιλογή WordPress χαρακτηριστικό γνώρισμα, εισαγωγής, αν δεν μπορείτε να δείτε ένα αρχείο upload μετά κάνοντας κλικ σε αυτό το κουμπί, σιγουρευτείτε για να εισαγάγετε χρησιμοποιώντας WordPress εισαγωγέα."
+
+#: classes/admin/settings.php:322
+msgid "Disable License Deactivation"
+msgstr "Απενεργοποιήσετε άδεια απενεργοποίηση"
+
+#: classes/admin/settings.php:324
+msgid ""
+"By default when you deactivate the plugin it will also deactivate your "
+"license on the current site.  Check this box to disable the deactivation of "
+"your license when you deactivate the plugin."
+msgstr "Από προεπιλογή όταν απενεργοποιήσετε το plugin θα απενεργοποιεί επίσης την άδειά σας για την τρέχουσα τοποθεσία.  Τσεκάρετε το κουτί αυτό για να απενεργοποιήσετε την απενεργοποίηση της άδειάς σας, όταν μπορείτε να απενεργοποιήσετε το plugin."
+
+#: classes/admin/settings.php:331
+msgid "Enable Post Debug"
+msgstr "Ενεργοποιήσετε την αποσφαλμάτωση Post"
+
+#: classes/admin/settings.php:333
+msgid ""
+"Add a debug metabox to bottom of each add/edit post page (default, custom, "
+"groups)."
+msgstr "Προσθέσετε ένα metabox εντοπισμού σφαλμάτων στο κάτω μέρος κάθε σελίδας Προσθήκη/επεξεργασία post (προεπιλογή, προσαρμοσμένες, ομάδες)."
+
+#: classes/admin/settings.php:340
+msgid "Heartbeat"
+msgstr "Κτύπο της καρδιάς"
+
+#: classes/admin/settings.php:342
+msgid ""
+"Disables WordPress heartbeat on Job, Resume, and any other pages for this "
+"plugin (does not affect other post types)"
+msgstr "Απενεργοποιεί WordPress κτύπο της καρδιάς για δουλειά, βιογραφικό, καθώς και οποιεσδήποτε άλλες σελίδες για αυτό το plugin (δεν επηρεάζει άλλα είδη θέση)"
+
+#: classes/admin/settings.php:349
+msgid "Post Lock"
+msgstr "Θέση κλειδαριών"
+
+#: classes/admin/settings.php:351
+msgid ""
+"Disables WordPress Post Lock on Job, Resume, and any other pages for this "
+"plugin (does not affect other post types)"
+msgstr "Απενεργοποιεί κλειδαριά θέση WordPress για δουλειά, βιογραφικό, καθώς και οποιεσδήποτε άλλες σελίδες για αυτό το plugin (δεν επηρεάζει άλλα είδη θέση)"
+
+#: classes/admin/settings.php:358
+msgid "Show Debug in Footer"
+msgstr "Debug εμφάνιση στο υποσέλιδο"
+
+#: classes/admin/settings.php:360
+msgid ""
+"<strong>ONLY</strong> enable this when you are debugging, otherwise any "
+"visitor will see ALL of your user and group config!  You can also add "
+"<em>?admin_debug</em> to the end of the URL to show debug details (will only"
+" work for admins)."
+msgstr "<strong>Μόνο</strong> επιτρέπω this όταν εφαρμόζετε εντοπισμό σφαλμάτων, διαφορετικά κάθε επισκέπτης θα δει όλων των χρηστών και ομάδων config σας!  Μπορείτε επίσης να προσθέσετε <em>; admin_debug</em> στο τέλος της διεύθυνσης URL να δείτε debug λεπτομέρειες (θα λειτουργήσει μόνο για admins)."
+
+#: classes/admin/settings.php:367
+msgid "Admin Exception"
+msgstr "Admin εξαίρεση"
+
+#: classes/admin/settings.php:369
+msgid ""
+"By default if the user is an Administrator any field visibility "
+"configuration will bypassed.  Disable Admin Exception to process "
+"configurations for admins.  You can also just add "
+"<code>?admin_exception</code> to the end of the URL to preview the listing "
+"with visibility enabled."
+msgstr "Από προεπιλογή, αν ο χρήστης είναι διαχειριστής οποιοδήποτε πεδίο ορατότητας διαμόρφωση θα παρακαμφθεί.  Απενεργοποιήσετε Admin εξαίρεση να διαμορφώσεις διαδικασία για admins.  Μπορείτε επίσης ακριβώς να προσθέσετε <code>; admin_exception</code> στο τέλος της διεύθυνσης URL για να κάνετε προεπισκόπηση την λίστα με ορατότητα ενεργοποιημένη."
+
+#: classes/admin/settings.php:376
+msgid "Setup"
+msgstr "Εγκατάστασης"
+
+#: classes/admin/settings.php:380
+msgid "Add Default Groups"
+msgstr "Προσθέστε τις προεπιλεγμένες ομάδες"
+
+#: classes/admin/settings.php:383
+msgid "Default Groups"
+msgstr "Προεπιλεγμένες ομάδες"
+
+#: classes/admin/settings.php:384
+msgid ""
+"This will setup/add the Anonymous (anonymous role), Candidates (candidate "
+"role), and Employers (employer role) groups."
+msgstr "Αυτό θα setup/προσθέσει ο ανώνυμος (ανώνυμη ρόλο), υποψήφιοι (υποψήφιος ρόλο) και εργοδότες (ΡΟΛΟΣ του ΕΡΓΟΔΟΤΗ) ομάδες."
+
+#: classes/admin/settings.php:390
+msgid "License"
+msgstr "Άδεια"
+
+#: classes/admin/settings.php:394
+msgid "Email"
+msgstr "Ηλεκτρονικό ταχυδρομείο"
+
+#: classes/admin/settings.php:398
+msgid ""
+"The email associated with your license key, this <strong>MUST</strong> match"
+" the email found on your <a href=\"%s\" target=\"_blank\">My Account</a> "
+"page."
+msgstr "Το μήνυμα ηλεκτρονικού ταχυδρομείου που σχετίζονται με άδεια κλειδί σας, αυτό που <strong>πρέπει να</strong> ταιριάζει με το ηλεκτρονικό ταχυδρομείο που βρέθηκαν στη σελίδα <a href=\"%s\" target=\"_blank\"> Ο λογαριασμός μου</a>."
+
+#: classes/admin/settings.php:403
+msgid "License Key"
+msgstr "Άδεια κλειδί"
+
+#: classes/admin/settings.php:407
+msgid "The license key associated with the email above."
+msgstr "Το κλειδί αδειών που συνδέονται με το email παραπάνω."
+
+#: classes/admin/settings.php:413
+msgid "Packages"
+msgstr ""
+
+#: classes/admin/settings.php:423
+msgid "Support"
+msgstr "Υποστήριξη"
+
+#: classes/admin/settings.php:433
+msgid "About"
+msgstr "Σχετικά με"
+
+#: classes/admin/views/metabox.php:3
+msgid "Select Fields to Mask"
+msgstr "Επιλέξτε πεδία με μάσκα"
+
+#: classes/admin/views/metabox.php:4 classes/admin/views/users.php:13
+msgid "Select a User or Group"
+msgstr "Επιλέξτε έναν χρήστη ή ομάδα"
+
+#: classes/admin/views/metabox.php:5
+msgid "Select Visibility Fields"
+msgstr "Επιλέξτε Προβολή πεδία"
+
+#: classes/admin/views/metabox.php:17 classes/admin/views/placeholders.php:10
+msgid "Loading..."
+msgstr "Φόρτωση..."
+
+#: classes/admin/views/metabox.php:53
+msgid "Select Fields to Hide on Listing"
+msgstr "Επιλέξτε τα πεδία για να κρύψει στην λίστα"
+
+#: classes/admin/views/metabox.php:56
+msgid "Select Fields to Show on Listing"
+msgstr "Επιλέξτε τα πεδία για την εμφάνιση στην λίστα"
+
+#: classes/admin/views/metabox.php:62 classes/admin/views/placeholders.php:43
+msgid "Placeholder text or HTML to use instead of actual value"
+msgstr "Σύμβολο κράτησης θέσης κειμένου ή HTML για να το χρησιμοποιήσετε αντί για πραγματική αξία"
+
+#: classes/admin/views/metabox.php:65 classes/admin/views/placeholders.php:46
+msgid "Add"
+msgstr "Προσθέστε"
+
+#: classes/admin/views/metakeys.php:13 classes/admin/views/select.php:13
+msgid "Select a %s"
+msgstr "Επιλέξτε ένα %s"
+
+#: classes/admin/views/metakeys.php:21 classes/admin/views/select.php:21
+msgid "No %ss Found"
+msgstr "Ss % βρέθηκαν"
+
+#: classes/admin/views/ph-table.php:8 classes/admin/views/table.php:8
+msgid "Edit in Progress..."
+msgstr "Επεξεργασία σε εξέλιξη..."
+
+#: classes/admin/views/ph-table.php:14
+msgid "Field"
+msgstr "Πεδίο"
+
+#: classes/admin/views/ph-table.php:15 classes/admin/views/table.php:16
+msgid "Placeholder"
+msgstr "Σύμβολο κράτησης θέσης"
+
+#: classes/admin/views/ph-table.php:16 classes/admin/views/table.php:17
+msgid "Action"
+msgstr "Δράση"
+
+#: classes/admin/views/ph-table.php:53 classes/admin/views/table.php:74
+msgid "No Records"
+msgstr "Δεν εγγραφές"
+
+#: classes/admin/views/placeholders.php:24
+msgid "Select a field to hide"
+msgstr "Επιλέξτε ένα πεδίο για να κρύψει"
+
+#: classes/admin/views/priority.php:10
+msgid "Priority: "
+msgstr "Προτεραιότητα: "
+
+#: classes/admin/views/priority.php:17
+msgid "Default priority is 10"
+msgstr "Προεπιλεγμένη προτεραιότητα είναι 10"
+
+#: classes/admin/views/priority.php:18
+msgid "Lower number equals higher priority"
+msgstr "Χαμηλότερη αριθμού ισούται με υψηλότερη προτεραιότητα"
+
+#: classes/admin/views/priority.php:19
+msgid "See the help menu in top right corner for more details on priorities."
+msgstr "Δείτε το μενού \"βοήθεια\" στην επάνω δεξιά γωνία για περισσότερες λεπτομέρειες σχετικά με τις προτεραιότητες."
+
+#: classes/admin/views/roles.php:19
+msgid "No Roles Found"
+msgstr "Δεν υπάρχουν ρόλοι που βρέθηκαν"
+
+#: classes/admin/views/table.php:14
+msgid "User or Group"
+msgstr "Χρήστης ή ομάδα"
+
+#: classes/admin/views/table.php:15
+msgid "Show/Hide Fields"
+msgstr "Εμφάνιση/Απόκρυψη πεδίων"
+
+#: classes/admin/views/users.php:21
+msgid "No Groups Found"
+msgstr "Χωρίς ομάδες που βρέθηκαν"
+
+#: classes/admin/views/users.php:23
+msgid "Error getting Users!"
+msgstr "Σφάλμα κατά τη λήψη των χρηστών!"
+
+#: classes/admin/views.php:70
+msgid "No array data found!"
+msgstr "Δεν βρέθηκαν δεδομένα πίνακα!"
+
+#: classes/admin.php:61
+msgid "Thanks for upgrading/installing WP Job Manager Visibility!"
+msgstr ""
+
+#: classes/admin.php:62
+msgid ""
+"Did you know this plugin (WP Job Manager Visibility) can be extended using "
+"the <a href=\"%1$s\" target=\"_blank\">WP Job Manager Packages</a> "
+"plugin?<br/> <br />The packages plugin allows you to configure groups based "
+"on Visibility Packages or WooCommerce Paid Listings packages, and TONS of "
+"other features!<br /><strong><a href=\"%2$s\">Click here for more "
+"information (and 15 percent off coupon code)</a></strong>"
+msgstr ""
+
+#: classes/admin.php:63
+msgid "Dismiss"
+msgstr ""
+
+#: classes/cpt.php:66 classes/cpt.php:67
+msgid "%s successfully updated."
+msgstr "%s ενημερώθηκε με επιτυχία."
+
+#: classes/cpt.php:68
+msgid "%s successfully created."
+msgstr "%s δημιουργήθηκε με επιτυχία."
+
+#: classes/cpt.php:69
+msgid "%s successfully saved."
+msgstr "%s αποθηκευτεί με επιτυχία."
+
+#: classes/cpt.php:142
+msgid "Default visibility configuration"
+msgstr "Προεπιλεγμένη προβολή διαμόρφωσης"
+
+#: classes/cpt.php:147
+msgid "Custom visibility configuration"
+msgstr "Προσαρμοσμένη προβολή διαμόρφωσης"
+
+#: classes/cpt.php:152
+msgid "Visibility group"
+msgstr "Ομάδα ορατότητα"
+
+#: classes/cpt.php:266
+msgid "Visibility Groups"
+msgstr "Ορατότητα ομάδες"
+
+#: classes/cpt.php:267
+msgid "Visibility Group"
+msgstr "Ομάδα ορατότητα"
+
+#: classes/cpt.php:269
+msgid "Add New Visibility Group"
+msgstr "Προσθήκη νέας ομάδας ορατότητα"
+
+#: classes/cpt.php:270
+msgid "Edit Visibility Group"
+msgstr "Ομάδα προβολή επεξεργαστείτε"
+
+#: classes/cpt.php:271
+msgid "New Visibility Group"
+msgstr "Νέα ομάδα ορατότητα"
+
+#: classes/cpt.php:272
+msgid "View Visibility Group"
+msgstr "Ομάδα προβολή προβολή"
+
+#: classes/cpt.php:273
+msgid "Search Visibility Groups"
+msgstr "Αναζήτηση ορατότητας ομάδες"
+
+#: classes/cpt.php:274
+msgid "No Visibility Groups Found"
+msgstr "Καμία ορατότητα ομάδες βρέθηκαν"
+
+#: classes/cpt.php:275
+msgid "No Visibility Groups Found in Trash"
+msgstr "Καμία ορατότητα ομάδες που βρίσκονται στον κάδο απορριμμάτων"
+
+#: classes/cpt.php:316 classes/cpt.php:372
+msgid "Visibilities"
+msgstr "Επιλογές ορατότητας"
+
+#: classes/cpt.php:317
+msgid "Custom Visibility"
+msgstr "Προσαρμοσμένη προβολή"
+
+#: classes/cpt.php:318
+msgid "Add New Custom Visibility Configuration"
+msgstr "Προσθέστε νέα προσαρμοσμένη προβολή διαμόρφωσης"
+
+#: classes/cpt.php:319
+msgid "Edit Custom Visibility"
+msgstr "Επεξεργαστείτε την προσαρμοσμένη προβολή"
+
+#: classes/cpt.php:320
+msgid "New Custom Visibility"
+msgstr "Νέα προσαρμοσμένη προβολή"
+
+#: classes/cpt.php:321
+msgid "View Custom Visibility"
+msgstr "Προσαρμοσμένη προβολή προβολή"
+
+#: classes/cpt.php:322
+msgid "Search Custom Visibilities"
+msgstr "Αναζήτηση συνήθειας επιλογές ορατότητας"
+
+#: classes/cpt.php:323
+msgid "No Custom Visibilities Found"
+msgstr "Δεν προσαρμοσμένες επιλογές ορατότητας που βρέθηκαν"
+
+#: classes/cpt.php:324
+msgid "No Custom Visibilities Found in Trash"
+msgstr "Δεν προσαρμοσμένες επιλογές ορατότητας που βρέθηκαν στον κάδο απορριμμάτων"
+
+#: classes/cpt.php:371
+msgid "Default Visibilities"
+msgstr "Προεπιλεγμένες επιλογές ορατότητας"
+
+#: classes/cpt.php:373
+msgid "Default Visibility"
+msgstr "Προεπιλεγμένη ορατότητα"
+
+#: classes/cpt.php:374
+msgid "Add New Default Visibility Configuration"
+msgstr "Προσθέστε νέα προεπιλεγμένη ρύθμιση ορατότητας"
+
+#: classes/cpt.php:375
+msgid "Edit Default Visibility"
+msgstr "Επεξεργασία προεπιλεγμένης προβολής"
+
+#: classes/cpt.php:376
+msgid "New Default Visibility"
+msgstr "Νέα προεπιλεγμένη ορατότητα"
+
+#: classes/cpt.php:377
+msgid "View Default Visibility"
+msgstr "Προεπιλεγμένη εμφάνιση σε προβολή"
+
+#: classes/cpt.php:378
+msgid "Search Default Visibilities"
+msgstr "Αναζήτηση προεπιλεγμένες επιλογές ορατότητας"
+
+#: classes/cpt.php:379
+msgid "No Default Visibilities Found"
+msgstr "Καμία προεπιλογή επιλογές ορατότητας που βρέθηκαν"
+
+#: classes/cpt.php:380
+msgid "No Default Visibilities Found in Trash"
+msgstr "Καμία προεπιλογή επιλογές ορατότητας που βρέθηκαν στον κάδο απορριμμάτων"
+
+#: classes/install.php:88
+msgid "All"
+msgstr "Όλα"
+
+#: classes/install.php:89
+msgid "Anonymous"
+msgstr "Ανώνυμος"
+
+#: classes/install.php:90
+msgid "Candidates"
+msgstr "Υποψήφιοι"
+
+#: classes/install.php:91
+msgid "Employers"
+msgstr "Οι εργοδότες"
+
+#: classes/install.php:92
+msgid "Administrators"
+msgstr "Οι διαχειριστές"
+
+#: classes/output/jm.php:194
+msgid "Listing"
+msgstr "Λίστα"
+
+#: classes/output/rm.php:227
+msgid "Resume Listings"
+msgstr "Βιογραφικό καταχωρήσεις"
+
+#: classes/output/rm.php:229
+msgid "Enable processing of visibility configurations for Resume Manager."
+msgstr "Επιτρέπει την επεξεργασία των ορατότητα διαμορφώσεις για τη διαχείριση βιογραφικό."
+
+#: classes/output/rm.php:241
+msgid "Resumes"
+msgstr "Βιογραφικά"
+
+#: classes/output/rm.php:247
+msgid "Use Custom Permalinks"
+msgstr "Χρήση συνήθειας Permalinks"
+
+#: classes/output/rm.php:248
+msgid ""
+"Enable this option to use the custom permalink configuration below.  By "
+"default the Resumes plugin creates the permalink with Candidate Name, Title,"
+" and Location. .  By default the core plugin creates the permalink with "
+"Company Name, Location, Type, and Job Title.  Enabling this option sets this"
+" structure when a new listing is created/updated.  To update existing "
+"listings, use the force update permalink structure below."
+msgstr ""
+
+#: classes/output/rm.php:259
+msgid ""
+"The custom permalink structure you want to use for Resume permalinks. "
+"Permalinks are generated using meta key values from the listing, and all "
+"meta keys MUST be inside curly braces "
+msgstr "Το έθιμο permalink δομή που θέλετε να χρησιμοποιήσετε για βιογραφικό permalinks. Permalinks δημιουργούνται χρησιμοποιώντας τιμές κλειδιών μετα από τη λίστα, και όλα τα κλειδιά meta πρέπει μέσα σε άγκιστρα "
+
+#: classes/output/rm.php:261
+msgid ""
+"<small>Any meta key can be used (only string value ones), including custom "
+"fields, so if your meta key is <code>candidate_state</code>, you would use "
+"<code>{candidate_state}</code>"
+msgstr "<small>Οποιαδήποτε meta κλειδί μπορεί να χρησιμοποιηθεί (μόνο τιμή συμβολοσειράς αυτοί), συμπεριλαμβανομένων των προσαρμοσμένων πεδίων, έτσι αν το κλειδί meta σας είναι <code>candidate_state</code>, θα χρησιμοποιούσατε <code>{candidate_state}</code>"
+
+#: classes/output/rm.php:278
+msgid "Education Placeholder"
+msgstr "Εκπαίδευση σύμβολο κράτησης θέσης"
+
+#: classes/output/rm.php:279
+msgid ""
+"Select what field for Education should be replaced with a placeholder (if "
+"configured)"
+msgstr "Επιλέξτε πεδίο για την εκπαίδευση θα πρέπει να αντικατασταθεί με ένα σύμβολο κράτησης θέσης (εάν έχουν ρυθμιστεί)"
+
+#: classes/output/rm.php:283
+msgid "School name"
+msgstr "Όνομα του σχολείου"
+
+#: classes/output/rm.php:284 classes/output/rm.php:301
+msgid "Qualification(s)"
+msgstr "Διπλώματα"
+
+#: classes/output/rm.php:285 classes/output/rm.php:335
+msgid "Start/end date"
+msgstr "Ημερομηνία έναρξης/λήξης"
+
+#: classes/output/rm.php:286 classes/output/rm.php:319
+#: classes/output/rm.php:336 classes/output/rm.php:369
+msgid "Notes"
+msgstr "Σημειώσεις"
+
+#: classes/output/rm.php:292
+msgid "School Name"
+msgstr "Όνομα του σχολείου"
+
+#: classes/output/rm.php:293 classes/output/rm.php:302
+#: classes/output/rm.php:311 classes/output/rm.php:320
+#: classes/output/rm.php:343 classes/output/rm.php:352
+#: classes/output/rm.php:361 classes/output/rm.php:370
+msgid "Clear"
+msgstr "Σαφές"
+
+#: classes/output/rm.php:294 classes/output/rm.php:303
+#: classes/output/rm.php:312 classes/output/rm.php:321
+#: classes/output/rm.php:344 classes/output/rm.php:353
+#: classes/output/rm.php:362 classes/output/rm.php:371
+msgid ""
+"Should this field be cleared when a placeholder is used? Blank value will be"
+" used (unless selected for placeholder)"
+msgstr "Αυτό το πεδίο, θα πρέπει να εκκαθαριστούν όταν χρησιμοποιείται ένα σύμβολο κράτησης θέσης; Κενή τιμή θα χρησιμοποιηθεί (αν δεν επιλεγεί για το σύμβολο κράτησης θέσης)"
+
+#: classes/output/rm.php:310 classes/output/rm.php:360
+msgid "Start/End Date"
+msgstr "Ημερομηνία έναρξης/λήξης"
+
+#: classes/output/rm.php:328
+msgid "Experience Placeholder"
+msgstr "Εμπειρία κράτησης θέσης"
+
+#: classes/output/rm.php:329
+msgid ""
+"Select what field for Experience should be replaced with a placeholder (if "
+"configured)"
+msgstr "Επιλέξτε πεδίο για την εμπειρία, θα πρέπει να αντικατασταθεί με ένα σύμβολο κράτησης θέσης (εάν έχουν ρυθμιστεί)"
+
+#: classes/output/rm.php:333 classes/output/rm.php:342
+msgid "Employer"
+msgstr "Εργοδότη"
+
+#: classes/output/rm.php:334 classes/output/rm.php:351
+msgid "Job Title"
+msgstr "Τιτλος"
+
+#: classes/output/rm.php:378
+msgid "Links Placeholder"
+msgstr "Σύμβολο κράτησης θέσης συνδέσεις"
+
+#: classes/output/rm.php:379
+msgid ""
+"Select what field for Links should be replaced with a placeholder (if "
+"configured)."
+msgstr "Επιλέξτε πεδίο για συνδέσεις θα πρέπει να αντικατασταθεί με ένα σύμβολο κράτησης θέσης (εάν έχουν ρυθμιστεί)."
+
+#: classes/output/rm.php:383 classes/output/rm.php:390
+msgid "URL"
+msgstr "ΔΙΕΎΘΥΝΣΗ URL"
+
+#: classes/output/rm.php:384
+msgid "Name"
+msgstr "Όνομα"
+
+#: classes/output/rm.php:391
+msgid "Replace the URL with value from below"
+msgstr "Αντικαταστήσετε τη διεύθυνση URL με τιμή από κάτω"
+
+#: classes/output/rm.php:392
+msgid ""
+"If Name is selected above, and this is checked, this will replace the URL in"
+" the HTML link tag with the value from below."
+msgstr "Αν το όνομα είναι επιλέξατε στο προηγούμενο βήμα, και αν είναι επιλεγμένο, αυτό θα αντικαταστήσει τη διεύθυνση URL στην ετικέτα του Συνδέσμου HTML με την τιμή από κάτω."
+
+#: classes/output/rm.php:399
+msgid "URL Placeholder"
+msgstr "Σύμβολο κράτησης θέσης URL"
+
+#: classes/output/rm.php:401
+msgid ""
+"This value will be used instead of the actual URL if enabled (checked) above"
+" and the placeholder is set as Name"
+msgstr "Αυτή η τιμή θα χρησιμοποιηθεί αντί για το πραγματικό URL εάν ενεργοποιηθεί (ελέγχεται) ανωτέρω και το σύμβολο κράτησης θέσης που έχει οριστεί ως όνομα"
+
+#: classes/output/rm.php:408
+msgid "URL Prepend"
+msgstr "URL προτάξετε"
+
+#: classes/output/rm.php:410
+msgid ""
+"If you want to prepend the URL with any value, set it here.  This will be "
+"used regardless of settings above, and only if there is a value set."
+msgstr "Εάν θέλετε να προτάξετε το URL με οποιαδήποτε τιμή, μην την ρυθμίσετε εδώ.  Αυτό θα χρησιμοποιηθούν ανεξάρτητα από τις ρυθμίσεις πάνω από, και μόνο αν υπάρχει ένα σύνολο αξίας."
+
+#: classes/output/rm.php:461
+msgid "Candidate"
+msgstr "Υποψήφιος"
+
+#: classes/roles.php:57
+msgid "Anonymous (users not logged in)"
+msgstr "Ανώνυμος (δεν συνδεθείς χρήστες)"
+
+#: includes/compatibility.php:71
+msgid ""
+"Your server is using a <strong>VERY OLD, unsupported, and no longer "
+"maintained</strong> version of PHP, version 5.2 or older. <a href=\"%1$s\" "
+"target=\"_blank\">EOL (End of Life)</a> for PHP 5.2 was about <strong>%2$s "
+"ago</strong>!! This means there may be bugs, and security vulnerabilities "
+"that have not, and will never be patched for this version of PHP!<br /><br "
+"/>It is <strong>strongly</strong> recommended that you contact your web "
+"hosting provider and request to upgrade to PHP 5.4 or newer ... or <a "
+"href=\"%3$s\">Hide this Notice Forever!</a> (but don't say I didn't warn "
+"you)<br/><br /><a href=\"%4$s\" target=\"_blank\">Contact me</a> for an "
+"exclusive sMyles Plugins customer promo code discount for any shared "
+"<strong>SSD (Solid State Drive)</strong> hosting packages!  Data centers in "
+"Florida USA, Arizona USA, Montreal Canada, and France.  Your site will run "
+"faster than it ever has, or your money back!"
+msgstr "Ο διακομιστής σας χρησιμοποιεί μια <strong>Πολύ παλιά, δεν υποστηρίζεται, και δε συντηρούνται πια</strong> έκδοση της PHP, έκδοση 5.2 ή παλαιότερος. <a href=\"%1$s\" target=\"_blank\"> EOL (το τέλος της ζωής)</a> για την PHP 5.2 ήταν έτοιμος <strong>%2$ s. πριν</strong>! Αυτό σημαίνει ότι μπορεί να υπάρχουν σφάλματα, και τα τρωτά σημεία της ασφάλειας που δεν έχω, και ποτέ δεν θα είναι πρόχειρα για αυτή την έκδοση της PHP! < br / > < br / > είναι <strong>έντονα</strong> συνιστάται να επικοινωνήσετε με σας web hosting πάροχος και αίτημα για την αναβάθμιση σε PHP 5.4 ή νεότερα... ή <a href=\"%3$s\"> κρύψει αυτή ειδοποίηση για πάντα!</a> (αλλά μην πείτε ότι δεν σας προειδοποιήσαμε) <br/> < br / > <a href=\"%4$s\" target=\"_blank\"> επικοινωνήστε μαζί μου</a> για μια αποκλειστική sMyles Plugins πελάτη promo κώδικα έκπτωσης για οποιοδήποτε κοινόχρηστο <strong>SSD (στερεός κατάσταση οδηγώ)</strong> πακέτα φιλοξενίας!  Κέντρα δεδομένων στη Φλόριντα των ΗΠΑ, Αριζόνα Μόντρεαλ Καναδάς, και η Γαλλία.  Το site σας θα τρέξει πιο γρήγορα από ό, τι έχει ποτέ, ή τα χρήματά σας πίσω!"
+
+#: includes/compatibility.php:75
+msgid ""
+"Your server is using an <strong>OLD, unsupported, and no longer "
+"maintained</strong> version of PHP, version 5.3. <a href=\"%1$s\" "
+"target=\"_blank\">EOL (End of Life)</a> for PHP 5.3 was about <strong>%2$s "
+"ago</strong>!! This means there may be bugs, and security vulnerabilities "
+"that have not, and will never be patched for this version of PHP!<br /><br "
+"/>It is <strong>strongly</strong> recommended that you contact your web "
+"hosting provider and request to upgrade to PHP 5.4 or newer ... or <a "
+"href=\"%3$s\">Hide this Notice Forever!</a> (but don't say I didn't warn "
+"you)<br/><br /><a href=\"%4$s\" target=\"_blank\">Contact me</a> for an "
+"exclusive sMyles Plugins customer promo code discount for any shared "
+"<strong>SSD (Solid State Drive)</strong> hosting packages!  Data centers in "
+"Florida USA, Arizona USA, Montreal Canada, and France.  Your site will run "
+"faster than it ever has, or your money back!"
+msgstr "Ο διακομιστής σας χρησιμοποιεί ένα <strong>παλιό, δεν υποστηρίζεται, και δεν είναι πλέον διατηρημένο</strong> έκδοση της PHP, έκδοση 5.3. <a href=\"%1$s\" target=\"_blank\"> EOL (το τέλος της ζωής)</a> για PHP 5.3 ήταν έτοιμος <strong>%2$ s. πριν</strong>! Αυτό σημαίνει ότι μπορεί να υπάρχουν σφάλματα, και τα τρωτά σημεία της ασφάλειας που δεν έχω, και ποτέ δεν θα είναι πρόχειρα για αυτή την έκδοση της PHP! < br / > < br / > είναι <strong>έντονα</strong> συνιστάται να επικοινωνήσετε με σας web hosting πάροχος και αίτημα για την αναβάθμιση σε PHP 5.4 ή νεότερα... ή <a href=\"%3$s\"> κρύψει αυτή ειδοποίηση για πάντα!</a> (αλλά μην πείτε ότι δεν σας προειδοποιήσαμε) <br/> < br / > <a href=\"%4$s\" target=\"_blank\"> επικοινωνήστε μαζί μου</a> για μια αποκλειστική sMyles Plugins πελάτη promo κώδικα έκπτωσης για οποιοδήποτε κοινόχρηστο <strong>SSD (στερεός κατάσταση οδηγώ)</strong> πακέτα φιλοξενίας!  Κέντρα δεδομένων στη Φλόριντα των ΗΠΑ, Αριζόνα Μόντρεαλ Καναδάς, και η Γαλλία.  Το site σας θα τρέξει πιο γρήγορα από ό, τι έχει ποτέ, ή τα χρήματά σας πίσω!"
+
+#: includes/smyles-update/class-smyles-update.php:71
+msgid "Deactivate Licence"
+msgstr "Απενεργοποίηση των αδείας"
+
+#: includes/smyles-update/class-smyles-update.php:83
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr "Την άδειά σας για το <strong>%s</strong> έχει ενεργοποιηθεί. Ευχαριστώ!"
+
+#: includes/smyles-update/class-smyles-update.php:361
+msgid ""
+"A licence key for %s could not be found. Maybe you forgot to enter a licence"
+" key when setting up %s."
+msgstr "Έναs άδεια κλειδί για %s δεν βρέθηκε. Ίσως έχετε ξεχάσει εισέρχομαιχ έναs άδεια κλειδί κατά την εγκατάσταση %s."
+
+#: includes/smyles-update/class-smyles-update.php:365
+msgid "Invalid update request"
+msgstr "Μη έγκυρη αίτηση ΕΝΗΜΈΡΩΣΗΣ"
+
+#: includes/smyles-update/class-smyles-update.php:386
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr "Την άδειά σας για το <strong>%s</strong> έχει απενεργοποιηθεί."
+
+#: includes/smyles-update/class-smyles-update.php:426
+msgid "Licence"
+msgstr "Άδεια"
+
+#: includes/smyles-update/class-smyles-update.php:429
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for"
+" automatic updates.  The key <strong>and email MUST</strong> match the "
+"details you can find on your <a href=\"%s\" target=\"_blank\">My Account</a>"
+" page."
+msgstr "Εισάγετε άδεια κλειδί και το email σας και πατήστε return. Ένα έγκυρο κλειδί is χρειάστηκα για αυτόματες ενημερώσεις.  Το βασικό <strong>και το ηλεκτρονικό ταχυδρομείο πρέπει να</strong> ταιριάζει με τις λεπτομέρειες μπορείτε να βρείτε στη σελίδα <a href=\"%s\" target=\"_blank\"> Ο λογαριασμός μου</a>."
+
+#: includes/smyles-update/class-smyles-update.php:450
+msgid "Hide notice"
+msgstr "Απόκρυψη ειδοποίηση"
+
+#: includes/smyles-update/class-smyles-update.php:451
+msgid ""
+"<a href=\"%s\">Please activate your licence key</a> to get updates for "
+"<strong>%s</strong>.  This ensures you have the latest features, bug fixes, "
+"and experience!"
+msgstr "<a href=\"%s\"> Παρακαλώ ενεργοποιήσετε το κλειδί αδειών σας</a> να δείτε ενημερώσεις για <strong>%s</strong>.  Αυτό εξασφαλίζει να έχουν τα πιό πρόσφατα χαρακτηριστικά γνωρίσματα, αποτυπώσεις ζωύφιου, και εμπειρία!"
+
+#: includes/smyles-update/class-smyles-update.php:452
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr "Χάσει το κλειδί σας; <a href=\"%s\"> ανακτήσετε εδώ</a>."
+
+#: wp-job-manager-visibility.php:86
+msgid ""
+"WP Job Manager Visibility requires WP Job Manager Resumes 1.13.0 and above. "
+"Please upgrade as soon as possible!  Resume integration will be disabled "
+"until you upgrade to 1.13.0 or above."
+msgstr "WP δουλειά διευθυντικό στέλεχοs ορατότητα απαιτεί WP δουλειά διευθυντικό στέλεχοs βιογραφικά 1.13.0 και παραπάνω. Παρακαλώ Αναβαθμίστε το συντομότερο δυνατόν!  Βιογραφικό ολοκλήρωσης θα απενεργοποιηθεί έως ότου αναβάθμιση σε 1.13.0 ή παραπάνω."
+
+#: wp-job-manager-visibility.php:112
+msgid "Translate"
+msgstr "Μεταφράσετε"
+
+#: wp-job-manager-visibility.php:189
+msgid "Once Weekly"
+msgstr "Μία φορά την εβδομάδα"
+
+#: wp-job-manager-visibility.php:229 wp-job-manager-visibility.php:230
+msgid "Job"
+msgstr "Εργασία"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Visibility"
+msgstr "WP δουλειά διευθυντικό στέλεχοs - ορατότητα"
+
+#. Plugin URI of the plugin/theme
+msgid "http://plugins.smyl.es/wp-job-manager-visibility"
+msgstr "http://plugins.smyl.es/WP-Job-Manager-visibility"
+
+#. Description of the plugin/theme
+msgid ""
+"Set fields as visible or hidden (with placeholders) for WP Job Manager "
+"fields using custom groups or user configurations."
+msgstr "Ορίστε τα πεδία ως ορατά ή αόρατα (με σύμβολα κράτησης θέσης) για πεδία WP δουλειά διευθυντικό στέλεχοs, χρησιμοποιώντας προσαρμοσμένες ομάδες ή ρυθμίσεις χρήστη."
+
+#. Author of the plugin/theme
+msgid "Myles McNamara"
+msgstr "Myles McNamara"
+
+#. Author URI of the plugin/theme
+msgid "http://smyl.es"
+msgstr "http://smyl.ES"

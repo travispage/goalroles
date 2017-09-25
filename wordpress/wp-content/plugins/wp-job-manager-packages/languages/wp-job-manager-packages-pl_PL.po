@@ -1,0 +1,2078 @@
+# Copyright (C) 2017 Myles McNamara
+# This file is distributed under the GPLv3.
+# Translators:
+# Myles McNamara <myles@smyl.es>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - Packages 1.0.0\n"
+"Report-Msgid-Bugs-To: http://plugins.smyl.es\n"
+"POT-Creation-Date: 2017-01-26 22:53:07+00:00\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Myles McNamara <myles@smyl.es>, 2017\n"
+"Language-Team: Polish (Poland) (https://www.transifex.com/smyles/teams/24600/pl_PL/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: includes/admin/listtable/addpackage.php:72
+msgid "Package Type"
+msgstr "Rodzaj opakowania"
+
+#: includes/admin/listtable/addpackage.php:76
+#: includes/admin/listtable/addpackage.php:77
+msgid "%s Package"
+msgstr "Pakiet %s"
+
+#: includes/admin/listtable/addpackage.php:92
+#: includes/admin/listtable/addpackage.php:166
+#: includes/admin/wc/views/html-view-job-package-data.php:35
+msgid "Allow %s?"
+msgstr "Zezwalaj na %s?"
+
+#: includes/admin/listtable/addpackage.php:93
+#: includes/admin/listtable/addpackage.php:167
+msgid "Whether or not this user package supports this feature"
+msgstr "Czy ten pakiet użytkownika obsługuje tę funkcję"
+
+#: includes/admin/listtable/addpackage.php:104
+#: includes/admin/listtable/addpackage.php:178
+msgid "%s Limit"
+msgstr "%s limit"
+
+#: includes/admin/listtable/addpackage.php:105
+#: includes/admin/listtable/addpackage.php:179
+msgid "Set specific package limit (Use 0 for unlimited)"
+msgstr "Zestaw określony pakiet limit (Użyj wartości 0 dla nieograniczony)"
+
+#: includes/admin/listtable/addpackage.php:108
+#: includes/admin/listtable/addpackage.php:182 includes/admin/listtable.php:70
+#: includes/admin/listtable.php:105 includes/admin/listtable.php:157
+#: includes/admin/wc/views/html-view-job-package-data.php:17
+#: includes/admin/wc/views/html-view-job-package-data.php:45
+#: includes/admin/wc/views/html-view-resume-package-data.php:14
+#: includes/admin/wc/views/html-view-resume-package-data.php:42
+#: includes/admin/wc/views/html-view-resume-package-data.php:70
+msgid "Unlimited"
+msgstr "Nieograniczony"
+
+#: includes/admin/listtable/addpackage.php:113
+#: includes/admin/listtable/addpackage.php:187 includes/admin/listtable.php:75
+#: includes/admin/listtable.php:110 includes/admin/listtable.php:157
+msgid "%s Used"
+msgstr "%s używane"
+
+#: includes/admin/listtable/addpackage.php:114
+#: includes/admin/listtable/addpackage.php:188
+msgid "Set the total used out of limit available in package"
+msgstr "Ustaw całkowitą używane poza limit dostępnych w pakiecie"
+
+#: includes/admin/listtable/addpackage.php:122
+#: includes/admin/listtable/addpackage.php:196
+msgid "%s Posts"
+msgstr "%s postów"
+
+#: includes/admin/listtable/addpackage.php:123
+#: includes/admin/listtable/addpackage.php:197
+msgid "CSV (Comma Separated Value) of Post IDs used"
+msgstr "CSV (wartości oddzielone przecinkami) Post identyfikatory używane"
+
+#: includes/admin/listtable/addpackage.php:126
+#: includes/admin/listtable/addpackage.php:200
+msgid "Used posts &hellip;"
+msgstr "Używane posty &hellip;"
+
+#: includes/admin/listtable/addpackage.php:231
+#: includes/admin/listtable.php:182
+msgid "User"
+msgstr "Użytkownika"
+
+#: includes/admin/listtable/addpackage.php:234
+msgid "Guest"
+msgstr "Gości"
+
+#: includes/admin/listtable/addpackage.php:239
+#: includes/admin/listtable.php:185
+msgid "Product"
+msgstr "Produktu"
+
+#: includes/admin/listtable/addpackage.php:240
+msgid "Optionally link this package to a product."
+msgstr "Opcjonalnie powiązać ten pakiet produktu."
+
+#: includes/admin/listtable/addpackage.php:243
+msgid "Choose a product&hellip;"
+msgstr "Wybierz produkt &hellip;"
+
+#: includes/admin/listtable/addpackage.php:278
+#: includes/admin/listtable.php:184
+msgid "Status"
+msgstr "Stanu"
+
+#: includes/admin/listtable/addpackage.php:279
+msgid ""
+"Current status of the package.  Package must be active to show in user "
+"account and available to the user.  On-hold status normally means it's a "
+"subscription pending renewal payment."
+msgstr ""
+"Bieżący stan pakietu.  Pakiet musi być aktywna, aby pokazać w konto "
+"użytkownika i dostępne dla użytkownika.  Stan wstrzymania normalnie oznacza,"
+" że jest to subskrypcja oczekujące płatności odnowienia."
+
+#: includes/admin/listtable/addpackage.php:282
+msgid "Choose a status&hellip;"
+msgstr "Wybierz stan &hellip;"
+
+#: includes/admin/listtable/addpackage.php:297
+#: includes/admin/listtable.php:187
+msgid "Order ID"
+msgstr "Identyfikator zamówienia"
+
+#: includes/admin/listtable/addpackage.php:298
+msgid "Optionally link this package to an order."
+msgstr "Opcjonalnie powiązać ten pakiet do zamówienia."
+
+#: includes/admin/listtable/addpackage.php:301
+msgid "N/A"
+msgstr "N/D!"
+
+#: includes/admin/listtable/addpackage.php:307
+msgid "Save Package"
+msgstr "Zapisać pakiet"
+
+#: includes/admin/listtable/addpackage.php:329
+msgid ""
+"Please select a user from the dropdown to associate this user package with."
+msgstr ""
+"Wybierz użytkownika z listy rozwijanej, aby skojarzyć ten pakiet użytkownika"
+" z."
+
+#: includes/admin/listtable/addpackage.php:332
+msgid ""
+"A status is required for a package, please select one from the dropdown "
+"(must be active to show in user account)"
+msgstr ""
+"Stan jest wymagana dla pakietu, należy wybrać jeden z listy rozwijanej (musi"
+" być aktywna, aby pokazać na koncie użytkownika)"
+
+#: includes/admin/listtable/addpackage.php:425
+msgid "Package successfully saved"
+msgstr "Pakiet pomyślnie zapisany"
+
+#: includes/admin/listtable.php:143 includes/admin/listtable.php:150
+#: includes/admin/listtable.php:155
+msgid "n/a"
+msgstr "n/d!"
+
+#: includes/admin/listtable.php:160
+msgid "Subscription"
+msgstr "Subskrypcja"
+
+#: includes/admin/listtable.php:162
+msgid "Package"
+msgstr "Pakiet"
+
+#: includes/admin/listtable.php:165
+msgid "Edit"
+msgstr "Edycja"
+
+#: includes/admin/listtable.php:166
+msgid "Delete"
+msgstr "Usuń"
+
+#: includes/admin/listtable.php:183
+msgid "Type"
+msgstr "Typu"
+
+#: includes/admin/listtable.php:186
+msgid "Limits"
+msgstr "Limity"
+
+#: includes/admin/listtable.php:188
+msgid "Actions"
+msgstr "Działania"
+
+#: includes/admin/plugins/visibility/views/packages.php:19
+msgid "No Packages Found"
+msgstr "Nie pakietów"
+
+#: includes/admin/plugins/visibility/views/packages.php:25
+msgid "Select a Package"
+msgstr "Wybierz pakiet"
+
+#: includes/admin/plugins/visibility/views/packages.php:29
+#: includes/admin/plugins/visibility/views/packages.php:43
+msgid "%s Packages"
+msgstr "%s pakietów"
+
+#: includes/admin/plugins/visibility/views/packages.php:57
+#: includes/admin/plugins/visibility/views/packages.php:71
+msgid "WC Paid Listings %s Packages"
+msgstr "WC płatnych pakietów %s oferty"
+
+#: includes/admin/plugins/visibility.php:94
+#: includes/admin/plugins/visibility.php:182
+msgid "Packages"
+msgstr "Pakiety"
+
+#: includes/admin/settings/job.php:42 includes/functions.php:61
+#: includes/wc/job.php:38
+msgid "Job"
+msgstr "Zadanie"
+
+#: includes/admin/settings/job.php:43
+msgid "Jobs"
+msgstr "Oferty pracy"
+
+#: includes/admin/settings/job.php:51 includes/admin/settings/job.php:60
+#: includes/admin/settings/resume.php:68 includes/admin/settings/resume.php:77
+msgid "View %s"
+msgstr "Widoku %s"
+
+#: includes/admin/settings/job.php:61 includes/admin/settings/resume.php:78
+msgid "Require %1$s package to view a single %1$s"
+msgstr "Wymagają %1$ s pakiet aby wyświetlić pojedynczy %1$ s"
+
+#: includes/admin/settings/job.php:62 includes/admin/settings/resume.php:79
+msgid ""
+"If enabled, visitors will be required to have a %s package with view "
+"permissions, to view any single listing page."
+msgstr ""
+"Jeśli włączone, odwiedzający będzie musiał mieć pakiet %s z uprawnieniami "
+"widok, aby wyświetlić strony pojedynczy aukcji."
+
+#: includes/admin/settings/job.php:71 includes/admin/settings/job.php:80
+#: includes/admin/settings/resume.php:88 includes/admin/settings/resume.php:97
+msgid "Browse %s"
+msgstr "Przeglądaj %s"
+
+#: includes/admin/settings/job.php:81 includes/admin/settings/resume.php:98
+msgid "Require %s package to browse listings"
+msgstr "Wymagają pakiet %s do przeglądania oferty"
+
+#: includes/admin/settings/job.php:82 includes/admin/settings/resume.php:99
+msgid ""
+"If enabled, visitors will be required to have a package with browse "
+"permissions, to view the listing summary on the browse/list/search page."
+msgstr ""
+"Jeśli włączone, odwiedzający będą zobowiązane do posiadania pakietu z "
+"uprawnień przeglądania, aby wyświetlić podsumowanie aukcji na stronie "
+"listy/Przeglądaj/Szukaj."
+
+#: includes/admin/settings/job.php:90 includes/admin/settings/job.php:99
+msgid "%1$s %2$s"
+msgstr "%1$ s-%2$ s"
+
+#: includes/admin/settings/job.php:100
+msgid "Require %1$s package to %2$s a %1$s"
+msgstr "Wymagają pakiet s $ %1 do %2$ s %1$ s"
+
+#: includes/admin/settings/job.php:101
+msgid ""
+"If enabled, visitors will be required to have a %1$s package with %2$s "
+"permissions, to %3$s a listing."
+msgstr ""
+"Jeśli włączone, odwiedzający będzie wymagany pakiet s $ %1 z %2$ s "
+"uprawnienia, aby %3$ s aukcji."
+
+#: includes/admin/settings/job.php:111 includes/admin/settings/resume.php:128
+msgid "Type Colors"
+msgstr "Typu kolory"
+
+#: includes/admin/settings/job.php:120 includes/admin/settings/resume.php:137
+msgid "Customize Type Colors"
+msgstr "Dostosować kolory typu"
+
+#: includes/admin/settings/job.php:121 includes/admin/settings/resume.php:138
+msgid "Yes, enable custom type colors settings"
+msgstr "Tak, Włącz ustawienia kolorów niestandardowych typu"
+
+#: includes/admin/settings/job.php:122 includes/admin/settings/resume.php:139
+msgid "Enable to customize the type colors."
+msgstr "Włącz, aby dostosować kolory typu."
+
+#: includes/admin/settings/job.php:130 includes/admin/settings/resume.php:156
+msgid "View Color"
+msgstr "Zobacz kolor"
+
+#: includes/admin/settings/job.php:131 includes/admin/settings/resume.php:157
+msgid "Customize color to use for the the view type"
+msgstr "Dostosuj kolor do użycia dla typu widoku"
+
+#: includes/admin/settings/job.php:139 includes/admin/settings/resume.php:147
+msgid "Browse Color"
+msgstr "Przeglądaj kolor"
+
+#: includes/admin/settings/job.php:140 includes/admin/settings/resume.php:148
+msgid "Customize color to use for the the browse type"
+msgstr "Dostosuj kolor do użycia dla typu Przeglądaj"
+
+#: includes/admin/settings/job.php:148
+msgid "%s Color"
+msgstr "kolor %s"
+
+#: includes/admin/settings/job.php:149
+msgid "Customize color to use for the the %1$s type"
+msgstr "Dostosuj kolor do użycia dla typu %1$ s"
+
+#: includes/admin/settings/job.php:157
+msgid "%s Visibility"
+msgstr "widoczność %s"
+
+#: includes/admin/settings/job.php:166 includes/admin/settings/resume.php:231
+msgid "%1$s Visibility Pages"
+msgstr "%1$ s widoczność stron"
+
+#: includes/admin/settings/job.php:173 includes/admin/settings/resume.php:238
+msgid "Select Package Form Page"
+msgstr "Zaznacz pakiet strona formularza"
+
+#: includes/admin/settings/job.php:174
+msgid ""
+"Select the page where you have placed the "
+"<code>[job_visibility_packages]</code> shortcode. This lets the plugin know "
+"where the form is located."
+msgstr ""
+"Wybierz stronę, gdzie wprowadzili się <code>[job_visibility_packages]</code>"
+" shortcode. Dzięki temu plugin wiedzieć, gdzie znajduje się formularz."
+
+#: includes/admin/settings/job.php:180 includes/admin/settings/resume.php:245
+msgid "Browse Package Page"
+msgstr "Przeglądaj stronę pakietu"
+
+#: includes/admin/settings/job.php:181
+msgid ""
+"Select the page where you have placed the <code>[browse_job_packages]</code>"
+" shortcode, <strong>if you plan to use custom select browse package form "
+"page (optional).</strong>"
+msgstr ""
+"Wybierz stronę, gdzie wprowadzili się <code>[browse_job_packages]</code> "
+"shortcode, <strong>Jeśli masz zamiar używać niestandardowych wybierz "
+"Przeglądaj pakiet stronie formularza (opcjonalnie).</strong>"
+
+#: includes/admin/settings/job.php:187 includes/admin/settings/resume.php:252
+msgid "View Package Page"
+msgstr "Zobacz stronę pakietu"
+
+#: includes/admin/settings/job.php:188
+msgid ""
+"Select the page where you have placed the <code>[view_job_packages]</code> "
+"shortcode, <strong>if you plan to use custom select view package form page "
+"(optional).</strong>"
+msgstr ""
+"Wybierz stronę, gdzie wprowadzili się <code>[view_job_packages]</code> "
+"shortcode, <strong>Jeśli masz zamiar używać niestandardowych wybierz widok "
+"strona formularza pakietu (opcjonalnie).</strong>"
+
+#: includes/admin/settings/job.php:194
+msgid "%s Package Page"
+msgstr "Strona pakietu %s"
+
+#: includes/admin/settings/job.php:195
+msgid ""
+"Select the page where you have placed the <code>[apply_job_packages]</code> "
+"shortcode, <strong>if you plan to use custom select %s package form page "
+"(optional).</strong>"
+msgstr ""
+"Wybierz stronę, gdzie wprowadzili się <code>[apply_job_packages]</code> "
+"shortcode, <strong>Jeśli masz zamiar używać niestandardowych wybierz %s "
+"pakiet stronie formularza (opcjonalnie).</strong>"
+
+#: includes/admin/settings/resume.php:42 includes/functions.php:118
+#: includes/wc/resume.php:39
+msgid "Resume"
+msgstr "Życiorys"
+
+#: includes/admin/settings/resume.php:43
+msgid "Resumes"
+msgstr "Życiorysy"
+
+#: includes/admin/settings/resume.php:45
+msgid "To override any package configuration above ... "
+msgstr "Aby zastąpić każdy pakiet konfiguracji powyżej... "
+
+#: includes/admin/settings/resume.php:50
+msgid "View %s Name"
+msgstr "Nazwa widoku %s"
+
+#: includes/admin/settings/resume.php:59
+msgid "View Name Package"
+msgstr "Zobacz nazwy pakiet"
+
+#: includes/admin/settings/resume.php:60
+msgid "Require %s package to view resumes names"
+msgstr "Wymagają pakiet %s aby wyświetlić nazwy życiorysy"
+
+#: includes/admin/settings/resume.php:61
+msgid ""
+"If enabled, visitors will be required to have a %1$s package with view names"
+" permissions, for %1$s names to be visible."
+msgstr ""
+"Jeśli włączone, odwiedzający będą wymagane do %1$ s pakiet z widoku nazwy "
+"uprawnienia, aby %1$ s nazwy były widoczne."
+
+#: includes/admin/settings/resume.php:107
+#: includes/admin/settings/resume.php:116
+msgid "Contact %1$s"
+msgstr "Skontaktuj się z %1$ s"
+
+#: includes/admin/settings/resume.php:117
+msgid "Require contact package to contact a %1$s"
+msgstr "Wymagają kontaktu pakiet, aby skontaktować się z %1$ s"
+
+#: includes/admin/settings/resume.php:118
+msgid ""
+"If enabled, visitors will be required to have a %1$s package with contact "
+"permissions, to contact any single %1$s."
+msgstr ""
+"Jeśli włączone, odwiedzający będą zobowiązane do posiadania pakietu %1$ s z "
+"uprawnieniami kontaktu, do kontaktu wszelki pojedynczy %1$ s."
+
+#: includes/admin/settings/resume.php:165
+msgid "View Name Color"
+msgstr "Kolor nazwy widoku"
+
+#: includes/admin/settings/resume.php:166
+msgid "Customize color to use for the the view name type"
+msgstr "Dostosuj kolor do użycia dla typu nazwa widoku"
+
+#: includes/admin/settings/resume.php:174
+msgid "Contact Color"
+msgstr "Kontakt z kolorów"
+
+#: includes/admin/settings/resume.php:175
+msgid "Customize color to use for the the contact type"
+msgstr "Dostosuj kolor do użycia dla typ kontaktu"
+
+#: includes/admin/settings/resume.php:187
+msgid "Capability Override Settings"
+msgstr "Możliwość zastąpienia ustawień"
+
+#: includes/admin/settings/resume.php:194
+msgid "View Resume name Capability"
+msgstr "Nazwa widoku wznowienia zdolności"
+
+#: includes/admin/settings/resume.php:196
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view resumes "
+"names. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Wprowadzenie <a href=\"%s\"> możliwości</a> wymagane w celu wyświetlenia "
+"nazw wznawia. Obsługuje listę ról/możliwości oddzielone przecinkami."
+
+#: includes/admin/settings/resume.php:201
+msgid "Browse Resume Capability"
+msgstr "Przeglądanie funkcji Wznów"
+
+#: includes/admin/settings/resume.php:203
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to browse resumes."
+" Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Wprowadzenie <a href=\"%s\"> możliwości</a> wymagane w celu przeglądania CV."
+" Obsługuje listę ról/możliwości oddzielone przecinkami."
+
+#: includes/admin/settings/resume.php:208
+msgid "View Resume Capability"
+msgstr "Możliwość wznowienia widoku"
+
+#: includes/admin/settings/resume.php:210
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view a single "
+"resume. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Wprowadzenie <a href=\"%s\"> możliwości</a> niezbędne do oglądania "
+"pojedynczego życiorysu. Obsługuje listę ról/możliwości oddzielone "
+"przecinkami."
+
+#: includes/admin/settings/resume.php:215
+msgid "Contact Details Capability"
+msgstr "Dane kontaktowe możliwości"
+
+#: includes/admin/settings/resume.php:217
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view contact "
+"details on a resume. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Wprowadzenie <a href=\"%s\"> możliwości</a> wymagane w celu wyświetlenia "
+"danych kontaktowych na CV. Obsługuje listę ról/możliwości oddzielone "
+"przecinkami."
+
+#: includes/admin/settings/resume.php:222
+msgid "Resume Visibility"
+msgstr "Wznowić widoczność"
+
+#: includes/admin/settings/resume.php:239
+msgid ""
+"Select the page where you have placed the "
+"<code>[resume_visibility_packages]</code> shortcode. This lets the plugin "
+"know where the form is located."
+msgstr ""
+"Wybierz stronę, gdzie wprowadzili się "
+"<code>[resume_visibility_packages]</code> shortcode. Dzięki temu plugin "
+"wiedzieć, gdzie znajduje się formularz."
+
+#: includes/admin/settings/resume.php:246
+msgid ""
+"Select the page where you have placed the "
+"<code>[browse_resume_packages]</code> shortcode, <strong>if you plan to use "
+"custom select browse package form page (optional).</strong>"
+msgstr ""
+"Wybierz stronę, gdzie wprowadzili się <code>[browse_resume_packages]</code> "
+"shortcode, <strong>Jeśli masz zamiar używać niestandardowych wybierz "
+"Przeglądaj pakiet stronie formularza (opcjonalnie).</strong>"
+
+#: includes/admin/settings/resume.php:253
+msgid ""
+"Select the page where you have placed the "
+"<code>[view_resume_packages]</code> shortcode, <strong>if you plan to use "
+"custom select view package form page (optional).</strong>"
+msgstr ""
+"Wybierz stronę, gdzie wprowadzili się <code>[view_resume_packages]</code> "
+"shortcode, <strong>Jeśli masz zamiar używać niestandardowych wybierz widok "
+"strona formularza pakietu (opcjonalnie).</strong>"
+
+#: includes/admin/settings/resume.php:259
+msgid "View Name Package Page"
+msgstr "Wyświetl nazwę pakiet stronę"
+
+#: includes/admin/settings/resume.php:260
+msgid ""
+"Select the page where you have placed the "
+"<code>[view_name_resume_packages]</code> shortcode, <strong>if you plan to "
+"use custom select view name package form page (optional).</strong>"
+msgstr ""
+"Wybierz stronę, gdzie wprowadzili się "
+"<code>[view_name_resume_packages]</code> shortcode, <strong>Jeśli masz "
+"zamiar używać niestandardowych wybierz Wyświetl nazwę pakiet stronie "
+"formularza (opcjonalnie).</strong>"
+
+#: includes/admin/settings/resume.php:266
+msgid "Contact Package Page"
+msgstr "Pakiet Strona kontaktowa"
+
+#: includes/admin/settings/resume.php:267
+msgid ""
+"Select the page where you have placed the "
+"<code>[contact_resume_packages]</code> shortcode, <strong>if you plan to use"
+" custom select contact package form page (optional).</strong>"
+msgstr ""
+"Wybierz stronę, gdzie wprowadzili się <code>[contact_resume_packages]</code>"
+" shortcode, <strong>Jeśli masz zamiar używać niestandardowych wybierz "
+"kontakt strona formularza pakietu (opcjonalnie).</strong>"
+
+#: includes/admin/settings.php:131
+msgid ", or use a"
+msgstr ", lub za pomocą"
+
+#: includes/admin/settings.php:131
+msgid "<a href=\"%2$s\" target=\"_blank\">Template Override</a>: <code>%1$s</code>."
+msgstr "<a href=\"%2$s\" target=\"_blank\"> zastąpić szablon</a>: <code>%1$ s</code>."
+
+#: includes/admin/settings.php:181
+msgid "None"
+msgstr "Brak"
+
+#: includes/admin/settings.php:182
+msgid "Red"
+msgstr "Czerwony"
+
+#: includes/admin/settings.php:183
+msgid "Orange"
+msgstr "Pomarańczowy"
+
+#: includes/admin/settings.php:184
+msgid "Yellow"
+msgstr "Żółty"
+
+#: includes/admin/settings.php:185
+msgid "Olive"
+msgstr "Z oliwek"
+
+#: includes/admin/settings.php:186
+msgid "Green"
+msgstr "Zielony"
+
+#: includes/admin/settings.php:187
+msgid "Teal"
+msgstr "Teal"
+
+#: includes/admin/settings.php:188
+msgid "Blue"
+msgstr "Niebieski"
+
+#: includes/admin/settings.php:189
+msgid "Violet"
+msgstr "Violet"
+
+#: includes/admin/settings.php:190
+msgid "Purple"
+msgstr "Fioletowy"
+
+#: includes/admin/settings.php:191
+msgid "Pink"
+msgstr "Różowy"
+
+#: includes/admin/settings.php:192
+msgid "Grey"
+msgstr "Szary"
+
+#: includes/admin/settings.php:193
+msgid "Black"
+msgstr "Czarny"
+
+#: includes/admin/settings.php:214
+msgid "Redirects"
+msgstr "Ten artykuł dotyczy"
+
+#: includes/admin/settings.php:223
+msgid "Customize Redirect"
+msgstr "Dostosować przekierowanie"
+
+#: includes/admin/settings.php:224
+msgid "Yes, enable custom redirect settings"
+msgstr "Tak, Włącz ustawienia niestandardowe przekierowanie"
+
+#: includes/admin/settings.php:225
+msgid "Enable to customize the redirect settings and configuration."
+msgstr "Włącz, aby dostosować ustawienia przekierowania i konfiguracji."
+
+#: includes/admin/settings.php:233
+msgid "Wait Time"
+msgstr "Czas oczekiwania"
+
+#: includes/admin/settings.php:234
+msgid ""
+"Amount of time (in seconds) to wait before executing redirect.  Set to 0 "
+"(zero) to immediately redirect."
+msgstr ""
+"Ilość czasu (w sekundach) oczekiwania przed wykonaniem przekierowanie.  "
+"Równa 0 (zero), aby natychmiast przekierować."
+
+#: includes/admin/settings.php:241
+msgid "Hide All"
+msgstr "Ukryj wszystkie"
+
+#: includes/admin/settings.php:242
+msgid "Yes, hide all page contents while showing the dimmer."
+msgstr "Tak, można ukryć wszystkie zawartość strony pokazując ściemniacz."
+
+#: includes/admin/settings.php:243
+msgid ""
+"By default, when a redirect is enabled, a dimmer will be shown that covers "
+"the entire page contents with a loading icon in the middle, and notice text "
+"below it.  Enable this option to hide all content behind the dimmer (to only"
+" show loader and notice text)."
+msgstr ""
+"Domyślnie gdy przekierowanie jest włączone, ściemniacz pojawi się, które "
+"obejmuje zawartość całej strony z ikoną załadunku w środku i uprzedzenia "
+"tekst poniżej.  Włącz tę opcję ukryć wszystkie treści za ściemniacz (aby "
+"tylko Pokaż loader i powiadomienia tekstowe)."
+
+#: includes/admin/settings.php:251
+msgid "White Dimmer"
+msgstr "Ściemniacz biała"
+
+#: includes/admin/settings.php:252
+msgid "Yes, use the white (inverted) dimmer color."
+msgstr "Tak, użyj ciemniejszy kolor biały (odwrócony)."
+
+#: includes/admin/settings.php:253
+msgid ""
+"By default, the standard dimmer color is black, enable this setting to use "
+"the inverted color, white."
+msgstr ""
+"Domyślnie standardowy ciemniejszy kolor jest czarny, Włącz to ustawienie, "
+"aby użyć odwróconego, białego koloru."
+
+#: includes/admin/settings.php:278 includes/admin/settings.php:287
+msgid "Semantic UI"
+msgstr "Semantyczne interfejsu użytkownika"
+
+#: includes/admin/settings.php:288
+msgid "Yes, enable <a href=\"%s\" target=\"_blank\">Semantic UI</a>"
+msgstr ""
+"Tak, Włącz <a href=\"%s\" target=\"_blank\"> Semantyczną interfejsu "
+"użytkownika</a>"
+
+#: includes/admin/settings.php:289
+msgid "Enable this to use and customize the Semantic UI styling."
+msgstr "Włączyć i dostosować styl semantyczne interfejsu użytkownika."
+
+#: includes/admin/settings.php:296
+msgid "Table Style"
+msgstr "Styl tabeli"
+
+#: includes/admin/settings.php:297
+msgid ""
+"Yes, enable <a href=\"%s\" target=\"_blank\">Semantic UI</a> table styling "
+"for the My Packages list"
+msgstr ""
+"Tak, po tabeli <a href=\"%s\" target=\"_blank\"> Semantyczne UI</a> "
+"stylizacja do listy Moje pakiety"
+
+#: includes/admin/settings.php:298
+msgid ""
+"If enabled, the frontend user package list tables will use the Semantic UI "
+"styling."
+msgstr ""
+"Jeśli włączone, nakładka użytkownika pakiet listy tabel będą używać stylu "
+"semantyczne interfejsu użytkownika."
+
+#: includes/admin/settings.php:306
+msgid "Table Color"
+msgstr "Tabela kolorów"
+
+#: includes/admin/settings.php:307
+msgid "Customize color to use for the the table"
+msgstr "Dostosuj kolor do użycia dla tabeli"
+
+#: includes/admin/settings.php:343 includes/admin/wc.php:63
+msgid "Available Shortcodes:"
+msgstr "Dostępne Shortcodes:"
+
+#: includes/admin/settings.php:375
+msgid "%1$s %2$s Placeholder"
+msgstr "%1$ s-%2$ s symbol zastępczy"
+
+#: includes/admin/settings.php:376
+msgid ""
+"The content above will be shown when the user does not have permissions and "
+"a package is required"
+msgstr ""
+"Treść powyższych pojawi się, gdy użytkownik nie ma uprawnień i pakiet jest "
+"wymagane"
+
+#: includes/admin/settings.php:404
+msgid "%1$s %2$s Redirect"
+msgstr "Przekierować %1$ s %2$ s"
+
+#: includes/admin/settings.php:405
+msgid "Yes, redirect to the %1$s %2$s package select page"
+msgstr "Tak, przekierować do %1$ s-%2$ s pakiet stronie wybierz"
+
+#: includes/admin/settings.php:406
+msgid ""
+"If enabled, users without permissions will be redirected to the page "
+"(configured in Pages tab) to purchase or select package to use."
+msgstr ""
+"Jeśli włączone, użytkownicy bez uprawnień zostaną przekierowane do strony "
+"(skonfigurowane w zakładkę strony) na zakup lub wybierz pakiet do."
+
+#: includes/admin/settings.php:435
+msgid "%1$s %2$s Admin"
+msgstr "%1$ s-%2$ s Admin"
+
+#: includes/admin/settings.php:436
+msgid "Yes, require administrators to have package"
+msgstr "Tak, wymagają Administratorzy mogą mieć pakiet"
+
+#: includes/admin/settings.php:437
+msgid ""
+"If enabled, administrators will be required to have a package with "
+"permissions for this type."
+msgstr ""
+"Jeśli włączona, Administratorzy będzie wymagany pakiet z uprawnień dla tego "
+"typu."
+
+#: includes/admin/settings.php:466
+msgid "%1$s %2$s Redirect Notice"
+msgstr "%1$ s-%2$ s przekierowanie powiadomienia"
+
+#: includes/admin/settings.php:467
+msgid "Yes, use the %1$s %2$s placeholder as redirect notice"
+msgstr "Tak, użyj %1$ s %2$ s symbol zastępczy jak przekierować powiadomienia"
+
+#: includes/admin/settings.php:468
+msgid ""
+"If enabled, the placeholder value will be used as the notice shown before "
+"redirecting (instead of default one)."
+msgstr ""
+"Jeśli włączone, symbol zastępczy wartość będzie służyć jako wypowiedzenia "
+"się przed przekierowaniem (zamiast domyślnego, jeden)."
+
+#: includes/admin/setup.php:34
+msgid "Setup"
+msgstr "Instalacji"
+
+#: includes/admin/setup.php:178 includes/admin/setup.php:223
+msgid "Starter Package"
+msgstr "Pakiet startowy"
+
+#: includes/admin/setup.php:180
+msgid "View 1 Full Listing<br/>Browse All Listings"
+msgstr "Zobacz pełną listę 1 <br/> Przeglądaj wszystkie oferty"
+
+#: includes/admin/setup.php:188 includes/admin/setup.php:233
+msgid "Plus Package"
+msgstr "Plus pakiet"
+
+#: includes/admin/setup.php:190
+msgid ""
+"View 10 Full Listings<br/>Apply/Contact 5 Listings<br/>Browse All Listings"
+msgstr ""
+"Zobacz 10 pełnej oferty <br/> kontakt z 5 oferty <br/> Przeglądaj wszystkie "
+"oferty"
+
+#: includes/admin/setup.php:200 includes/admin/setup.php:247
+msgid "Premium Package"
+msgstr "Pakiet Premium"
+
+#: includes/admin/setup.php:202
+msgid ""
+"View Unlimited Full Listings<br/>Apply/Contact 10 Listings<br/>Browse All "
+"Listings"
+msgstr ""
+"Zobacz nieograniczony pełnej oferty <br/> kontakt z 10 aukcji <br/> "
+"Przeglądaj wszystkie oferty"
+
+#: includes/admin/setup.php:212 includes/admin/setup.php:261
+msgid "Single Application/Contact"
+msgstr "Pojedynczej aplikacji/kontakt"
+
+#: includes/admin/setup.php:214
+msgid "Apply/Contact 1 Listing"
+msgstr "Kontakt z 1 aukcji"
+
+#: includes/admin/setup.php:225
+msgid "View 1 Full Resume<br/>Browse All Resumes"
+msgstr "Zobacz 1 pełne CV <br/> Przeglądaj wszystkie życiorysy"
+
+#: includes/admin/setup.php:235
+msgid ""
+"View 10 Full Resumes<br/>View 5 Candidate Full Names<br/>Contact 5 "
+"Candidates<br/>Browse All Resumes"
+msgstr ""
+"Zobacz 10 pełne CV <br/> Zobacz 5 kandydat pełne nazwy <br/> kontakt z 5 "
+"kandydatów <br/> Przeglądaj wszystkie życiorysy"
+
+#: includes/admin/setup.php:249
+msgid ""
+"View Unlimited Full Resumes<br/>View Unlimited Candidate Full "
+"Names<br/>Contact 10 Candidates<br/>Browse All Resumes"
+msgstr ""
+"Zobacz nieograniczony pełny wznawia <br/> wyświetlić imiona i nazwiska "
+"kandydata nieograniczony <br/> kontakt z 10 kandydatów <br/> Przeglądaj "
+"wszystkie życiorysy"
+
+#: includes/admin/setup.php:263
+msgid "Contact 1 Candidate"
+msgstr "Kontakt z 1 kandydata"
+
+#: includes/admin/setup.php:270
+msgid "Silver Full Name Package"
+msgstr "Pakiet srebrny pełna nazwa"
+
+#: includes/admin/setup.php:272
+msgid "View 5 Candidate Full Names"
+msgstr "Widok 5 kandydat pełne nazwy"
+
+#: includes/admin/setup.php:312
+msgid "A total of %d pages were successfully created!"
+msgstr "W sumie %d stron zostały pomyślnie utworzone!"
+
+#: includes/admin/setup.php:343
+msgid "A total of %d packages were successfully created!"
+msgstr "W sumie %d pakiety zostały pomyślnie utworzone!"
+
+#: includes/admin/setup.php:350
+msgid "Job Manager Packages Setup"
+msgstr "Praca Menedżer pakietów Instalatora"
+
+#: includes/admin/setup.php:353
+msgid "1. Introduction"
+msgstr "1. wprowadzenie"
+
+#: includes/admin/setup.php:354
+msgid "2. Page Setup"
+msgstr "2. Ustawienia strony"
+
+#: includes/admin/setup.php:357
+msgid "3. Resume Page Setup"
+msgstr "3. wznowienie ustawienia strony"
+
+#: includes/admin/setup.php:358
+msgid "4. Packages Setup"
+msgstr "4. pakiety Instalatora"
+
+#: includes/admin/setup.php:359
+msgid "5. Done"
+msgstr "5. Sporządzono"
+
+#: includes/admin/setup.php:361
+msgid "3. Packages Setup"
+msgstr "3. pakiety Instalatora"
+
+#: includes/admin/setup.php:362
+msgid "4. Done"
+msgstr "4. Sporządzono"
+
+#: includes/admin/setup.php:369
+msgid "Setup Wizard Introduction"
+msgstr "Wprowadzenie do Kreatora konfiguracji"
+
+#: includes/admin/setup.php:371
+msgid "Thanks for installing <em>WP Job Manager Packages</em>!"
+msgstr "Dziękujemy za zainstalowanie <em>WP Job Manager Packages</em>!"
+
+#: includes/admin/setup.php:372
+msgid ""
+"This setup wizard will help you get started by creating the pages for "
+"package selection, and configuring those values in the settings for you."
+msgstr ""
+"Ten Kreator instalacji pomoże Ci rozpocząć pracę przez tworzenie stron za "
+"wybór pakietów i Konfigurowanie tych wartości w ustawieniach dla Ciebie."
+
+#: includes/admin/setup.php:373
+msgid ""
+"If you want to skip the wizard and setup the pages and shortcodes yourself "
+"manually, you can do so very easily using any of the available shortcodes. "
+"Refer to the %sdocumentation%s for help."
+msgstr ""
+"Jeśli chcesz pominąć kreatora i ustawienia strony i skróconych sobie "
+"ręcznie, można zrobić, więc bardzo łatwo przy użyciu dowolnej z dostępnych "
+"skróconych. Odnoszą się do % sdocumentation %s za pomoc."
+
+#: includes/admin/setup.php:378 includes/admin/setup.php:569
+msgid "WooCommerce Was Not Detected"
+msgstr "Nie wykryto WooCommerce"
+
+#: includes/admin/setup.php:379 includes/admin/setup.php:570
+msgid ""
+"Currently the only integration available with WP Job Manager Packages, is "
+"through WooCommerce (although others will be added later). WooCommerce was "
+"not detected as being activated on your site."
+msgstr ""
+"Obecnie tylko integracja dostępne z WP pracy Menedżera pakietów, jest przez "
+"WooCommerce (choć inni zostaną dodane później). WooCommerce nie został "
+"wykryty zostaje aktywowana w Twojej witrynie."
+
+#: includes/admin/setup.php:380 includes/admin/setup.php:572
+msgid "Click Here to Active/Install WooCommerce"
+msgstr "Kliknij tutaj, aby aktywny i zainstaluj WooCommerce"
+
+#: includes/admin/setup.php:382
+msgid ""
+"Once you have installed/activated, refresh this page, or click below to "
+"continue setup."
+msgstr ""
+"Po zainstalowane/aktywacji, Odśwież Tę stronę, lub kliknij poniżej, aby "
+"kontynuować instalację."
+
+#: includes/admin/setup.php:388
+msgid "Continue to page setup"
+msgstr "Przejdź do ustawienia strony"
+
+#: includes/admin/setup.php:389
+msgid "Skip setup. I will setup the plugin manually"
+msgstr "Pominąć instalacji. Będę ręcznie konfiguracja wtyczki"
+
+#: includes/admin/setup.php:395
+msgid "Page Setup"
+msgstr "Ustawienia strony"
+
+#: includes/admin/setup.php:397 includes/admin/setup.php:477
+msgid ""
+"<em>WP Job Manager Packages</em> includes %1$sshortcodes%2$s which can be "
+"used within your %3$spages%2$s to output content. These can be created for "
+"you below. For more information on the available shortcodes, view the "
+"%4$sshortcode documentation%2$s."
+msgstr ""
+"<em>WP Job Manager pakietów</em> obejmuje %1$ sshortcodes %2$ s, który może "
+"służyć w swoim %3$ spages %2$ s wyprowadzanie zawartości. Te mogą być "
+"tworzone dla Ciebie poniżej. Aby uzyskać więcej informacji o dostępnych "
+"skróconych Zobacz %4$ sshortcode dokumentacji %2$ s."
+
+#: includes/admin/setup.php:406 includes/admin/setup.php:484
+msgid "Page Title"
+msgstr "Tytuł strony"
+
+#: includes/admin/setup.php:407 includes/admin/setup.php:485
+msgid "Page Description"
+msgstr "Opis strony"
+
+#: includes/admin/setup.php:408 includes/admin/setup.php:486
+msgid "Content Shortcode"
+msgstr "Zawartości Shortcode"
+
+#: includes/admin/setup.php:416 includes/admin/setup.php:494
+msgid ""
+"This page will be used as the default page for package selection, and works "
+"for any of the package types (view, browse, etc)."
+msgstr ""
+"Tę stronę będzie służyć jako domyślna strona dla wybór pakietów i pracuje "
+"dla dowolnego typu pakietu (widok, Przeglądaj itd.)."
+
+#: includes/admin/setup.php:418 includes/admin/setup.php:496
+msgid ""
+"If you do not plan to use the specific package type shortcodes (for separate"
+" pages), you need to make sure this page exists as it will be used as the "
+"fallback page if the type specific pages do not exist (or are not configured"
+" in settings)."
+msgstr ""
+"Jeśli nie zamierzasz używać skróconych typu określonego pakietu (na "
+"oddzielnych stronach), należy upewnić się, że ta strona istnieje, jak to "
+"będzie służyć jako rezerwowej stronę jeśli określonych stron typu nie "
+"istnieje (lub nie są skonfigurowane w ustawieniach)."
+
+#: includes/admin/setup.php:426 includes/admin/setup.php:504
+msgid "This page will be used only for browse packages (not required)."
+msgstr ""
+"Ta strona będzie służyć tylko do przeglądania pakietów (nie wymagane)."
+
+#: includes/admin/setup.php:428 includes/admin/setup.php:506
+msgid ""
+"This page is useful if you wish to customize the browse package selection "
+"page, separate from the standard one above."
+msgstr ""
+"Ta strona jest przydatna, jeśli chcesz dostosować stronę wyboru Przeglądaj "
+"pakiet, odrębne od standardowych powyżej."
+
+#: includes/admin/setup.php:436 includes/admin/setup.php:514
+msgid "This page will be used only for apply/contact packages (not required)."
+msgstr "Ta strona będzie służyć tylko do kontakt z pakietów (nie wymagane)."
+
+#: includes/admin/setup.php:438 includes/admin/setup.php:516
+msgid ""
+"This page is useful if you wish to customize the apply/contact package "
+"selection page, separate from the standard one above."
+msgstr ""
+"Ta strona jest przydatna, jeśli chcesz dostosować stronę wyboru "
+"Zastosuj/kontakt pakiet, odrębne od standardowych powyżej."
+
+#: includes/admin/setup.php:446 includes/admin/setup.php:524
+msgid "This page will be used only for view listing packages (not required)."
+msgstr ""
+"Ta strona będzie służyć tylko do widoku lista pakietów (nie wymagane)."
+
+#: includes/admin/setup.php:448 includes/admin/setup.php:526
+#: includes/admin/setup.php:536
+msgid ""
+"This page is useful if you wish to customize the view listing package "
+"selection page, separate from the standard one above."
+msgstr ""
+"Ta strona jest przydatna, jeśli chcesz, aby dostosować widok pakiet wybór "
+"strony aukcji oddzielnie od ten standard, powyżej."
+
+#: includes/admin/setup.php:457 includes/admin/setup.php:545
+#: includes/admin/setup.php:625
+msgid "Skip this step"
+msgstr "Pomiń ten krok"
+
+#: includes/admin/setup.php:475
+msgid "Resume Page Setup"
+msgstr "Wznowić ustawienia strony"
+
+#: includes/admin/setup.php:476
+msgid ""
+"It looks like you have WP Job Manager Resumes installed/activated, so let's "
+"setup those pages as well!"
+msgstr ""
+"Wygląda na to, że masz wznawia WP Job Manager zainstalowany/aktywowany, "
+"warto więc konfiguracja tych stron, jak również!"
+
+#: includes/admin/setup.php:534
+msgid ""
+"This page will be used only for view name listing packages (not required)."
+msgstr ""
+"Ta strona będzie służyć tylko do pakietów Zobacz nazwa wpis (nie wymagane)."
+
+#: includes/admin/setup.php:563
+msgid "Package Setup"
+msgstr "Pakiet instalacyjny"
+
+#: includes/admin/setup.php:564
+msgid ""
+"If you would like, we can also setup <strong>DEMO</strong> packages for you "
+"to use.  This is not required, and is provided for demonstration purposes "
+"only, you will still need to customize the packages to suit your needs."
+msgstr ""
+"Jeśli chcesz, możemy także skonfigurować pakiety <strong>DEMO</strong> do "
+"użycia.  To nie jest wymagane i jest pod warunkiem, że dla celów "
+"demonstracyjnych, nadal trzeba będzie dostosować pakietów do własnych "
+"potrzeb."
+
+#: includes/admin/setup.php:571
+msgid ""
+"DO NOT proceed with this step before installing and activating WooCommerce!"
+"  WooCommerce must be installed and activated before adding packages!"
+msgstr ""
+"NIE wykonać tę czynność przed zainstalowaniem i odpaleniu WooCommerce!  "
+"WooCommerce musi być zainstalowany i aktywowany przed dodaniem pakiety!"
+
+#: includes/admin/setup.php:574
+msgid ""
+"Once you have installed AND activated, refresh this page, or click below to "
+"continue setup."
+msgstr ""
+"Raz zainstalowany i aktywowany, Odśwież Tę stronę, lub kliknij poniżej, aby "
+"kontynuować instalację."
+
+#: includes/admin/setup.php:584
+msgid "Package Title"
+msgstr "Tytuł pakietu"
+
+#: includes/admin/setup.php:585
+msgid "Package Price"
+msgstr "Cena pakietu"
+
+#: includes/admin/setup.php:586
+msgid "Package Description"
+msgstr "Opis pakietu"
+
+#: includes/admin/setup.php:592
+msgid "Listing Packages"
+msgstr "Lista pakietów"
+
+#: includes/admin/setup.php:607
+msgid "Resume Packages"
+msgstr "Pakiety wznawiania"
+
+#: includes/admin/setup.php:624
+msgid "Create Selected Packages"
+msgstr "Tworzenie wybrane pakiety"
+
+#: includes/admin/setup.php:643
+msgid "All Done!"
+msgstr "Wszystko zrobione!"
+
+#: includes/admin/setup.php:645
+msgid ""
+"Looks like you're all set to start using the plugin. In case you're "
+"wondering where to go next:"
+msgstr ""
+"Wygląda na to, gotowe do uruchomienia za pomocą wtyczki. W przypadku, gdy "
+"zastanawiasz się, gdzie iść dalej:"
+
+#: includes/admin/setup.php:648
+msgid "Tweak Visibility Settings"
+msgstr "Dostosować ustawienia widoczności"
+
+#: includes/admin/setup.php:650
+msgid "Tweak Resume Visibility Settings"
+msgstr "Dostosować ustawienia widoczności CV"
+
+#: includes/admin/setup.php:652
+msgid "Add a new Product/Package"
+msgstr "Dodawanie nowego produktu/opakowania"
+
+#: includes/admin/setup.php:655
+msgid ""
+"And don't forget, if you need any more help using <em>WP Job Manager "
+"Packages</em> you can consult the %1$sdocumentation%2$s or %3$scontact me "
+"via the support area%2$s!"
+msgstr ""
+"I nie zapomnij, jeśli potrzebujesz więcej pomocy przy użyciu <em>WP Job "
+"Manager pakietów</em> można skonsultować się z %1$ sdocumentation %2$ s lub "
+"%3$ scontact mnie poprzez wsparcie strefy %2$ s!"
+
+#: includes/admin/setup.php:657
+msgid "Flow Process:"
+msgstr "Proces przepływu:"
+
+#: includes/admin/setup.php:658
+msgid ""
+"To give you an understanding of how this plugin works, below is the flow "
+"process with examples. Examples below assume you have configured packages "
+"required for browse, view, and contact/apply.  This also assumes you have "
+"used the shortcode to output the form either on a page created in a previous"
+" setup step, or placed the shortcode inside the placeholder editor (in "
+"settings)."
+msgstr ""
+"Aby dać Ci zrozumienie jak działa ten plugin, poniżej jest proces przepływu "
+"z przykładami. Przykłady poniżej założono, że zostały skonfigurowane pakiety"
+" wymagane do przeglądania, widok, a kontakt/zastosowanie.  Zakłada to "
+"również, masz używany shortcode do wyjścia formie, albo na stronie "
+"utworzonej w poprzednim kroku instalacji, lub umieszczone shortcode wewnątrz"
+" edytora zastępczego (w ustawieniach)."
+
+#: includes/admin/setup.php:661
+msgid ""
+"User visits Listings page and is either redirected to package form page, or "
+"shown the package selection form."
+msgstr ""
+"Użytkownik odwiedza stronę oferty i jest przekierowywany na stronę "
+"formularza pakiet lub się formularz wybór opakowań."
+
+#: includes/admin/setup.php:664
+msgid ""
+"User selects a package, and is redirected to checkout page to complete "
+"purchase."
+msgstr ""
+"Użytkownik wybiera pakiet i zostaje przekierowany do strony zamówienia, aby "
+"dokonać zakupu."
+
+#: includes/admin/setup.php:667
+msgid ""
+"After purchase is complete, notification is shown with link to return to "
+"page user was previously viewing."
+msgstr ""
+"Po zakończeniu zakupu, powiadomienie jest wyświetlane z łącze, aby powrócić "
+"do strony użytkownika został wcześniej przeglądania."
+
+#: includes/admin/setup.php:670
+msgid ""
+"When user selects a listing, they will be shown the listing like normal (if "
+"they have unlimited package), otherwise they are either redirected or shown "
+"the package form page (like above)."
+msgstr ""
+"Gdy użytkownik wybierze aukcji, one pojawi się lista jak normalne (jeśli "
+"mają nieograniczony pakiet), w przeciwnym razie są albo Przekierowano lub "
+"się strony formularza pakiet (jak powyżej)."
+
+#: includes/admin/setup.php:673
+msgid ""
+"User will be able to select an existing package from the package form to use"
+" (or they can select one to purchase).  Once they submit the form, they are "
+"redirected back to the listing to view like normal."
+msgstr ""
+"Użytkownik będzie można wybrać istniejący pakiet pakiet formy korzystania "
+"(lub wybrać jeden do zakupu).  Po przesłaniu formularza, są przekierowywani "
+"do aukcji, aby wyświetlić jak normalne."
+
+#: includes/admin/setup.php:676
+msgid "Few key points:"
+msgstr "Kilka kluczowych punktów:"
+
+#: includes/admin/setup.php:678
+msgid ""
+"If the user has an unlimited package, they will immediately be able to view,"
+" contact, etc.  Only packages with limits will require them to select a "
+"package to use."
+msgstr ""
+"Jeśli użytkownik ma nieograniczony pakiet, natychmiast będzie w stanie "
+"wyświetlić, kontakt, itd.  Tylko pakiety z limitami będzie wymagać, aby "
+"wybrać pakiet do."
+
+#: includes/admin/setup.php:679
+msgid ""
+"All current user packages can be viewed (along with associated listings) on "
+"the My Account page."
+msgstr ""
+"Wszystkie aktualne pakiety użytkownika można przeglądać (wraz z aukcji "
+"powiązanych) na stronie Moje konto."
+
+#: includes/admin/setup.php:681
+msgid ""
+"Administrators are not required to have packages, make sure to use a "
+"separate user account to test with."
+msgstr ""
+"Administratorzy nie są wymagane, aby pakiety, upewnij się użyć osobnego "
+"konta użytkownika do testów."
+
+#: includes/admin/setup.php:684
+msgid ""
+"This plugin has been tested with Listify, Jobify, Listable, Pet Sitter, and "
+"Babysitter themes ... if you have issues, or your theme is not compatible, "
+"please let me know!"
+msgstr ""
+"Plugin został przetestowany z Listify, Jobify, Listable, pieścić siedzący i "
+"opiekunka tematów... Jeśli masz problemy, lub Twój szablon nie jest zgodny, "
+"proszę dać mi znać!"
+
+#: includes/admin/setup.php:687
+msgid ""
+"To use a template override, make sure you place the file in the "
+"<code>jm_packages</code> directory/folder, in your child theme's "
+"directory/folder."
+msgstr ""
+"Aby użyć zastąpić szablonu, upewnij się, że plik zostanie umieszczony w "
+"katalogu <code></code> jm_packages/folder, w katalog motywu dziecka."
+
+#: includes/admin/setup.php:690
+msgid "Listable currently only supports the redirect feature."
+msgstr "Listable obsługuje obecnie tylko funkcję Przekierowanie."
+
+#: includes/admin/setup.php:693
+msgid "Subscriptions will be included in one of the next releases!"
+msgstr "Subskrypcje będą znajdować się w jednym z następnych wersji!"
+
+#: includes/admin/setup.php:696
+msgid ""
+"Currently WooCommerce is the only support backend payment/cart/e-commerce "
+"system.  Let me know if there's another one you would like integrated."
+msgstr ""
+"WooCommerce jest obecnie tylko system płatności, koszyk, e-commerce backend "
+"wsparcia.  Daj mi znać, jeśli istnieje inny, jeden, które mają być "
+"zintegrowane."
+
+#: includes/admin/setup.php:699
+msgid "This plugin is full documented, check out the source code!"
+msgstr "Ten plugin jest pełna udokumentowane, sprawdź się kod źródłowy!"
+
+#: includes/admin/setup.php:704
+msgid "Support the Ongoing Development of the core plugin, WP Job Manager"
+msgstr "Wspierać dalszy rozwój wtyczki core, WP Job Manager"
+
+#: includes/admin/setup.php:705
+msgid ""
+"There are many ways to support open-source projects such as WP Job Manager, "
+"for example code contribution, translation, or even telling your friends how"
+" awesome the plugin (hopefully) is. Thanks in advance for your support - it "
+"is much appreciated!"
+msgstr ""
+"Istnieje wiele sposobów na wsparcie projektów open source takie jak WP Job "
+"Manager, na przykład kod wkładu, tłumaczenie, lub nawet opowiadać znajomym "
+"jak niesamowite plugin (miejmy nadzieję) jest. Dziękuje za wasze wsparcie - "
+"to jest bardzo ceniona!"
+
+#: includes/admin/setup.php:707
+msgid "Leave a positive review"
+msgstr "Wystawić ocenę pozytywną"
+
+#: includes/admin/setup.php:708
+msgid "Contribute a localization"
+msgstr "Wkład o lokalizacji"
+
+#: includes/admin/setup.php:709
+msgid "Contribute code or report a bug"
+msgstr "Wprowadzenia kodu lub zgłoś błąd"
+
+#: includes/admin/setup.php:710
+msgid "Help other users on the forums"
+msgstr "Pomoc innym użytkownikom na forum"
+
+#: includes/admin/wc/job.php:55 includes/admin/wc/resume.php:56
+msgid "Output price (cost) of package (you MUST include this!)"
+msgstr "Dane wyjściowe cena (koszt) pakietu (musi zawierać ten!)"
+
+#: includes/admin/wc/job.php:58 includes/admin/wc/resume.php:59
+msgid ""
+"Output package limit set for View (will output number or unlimited based on "
+"config)"
+msgstr ""
+"Dane wyjściowe pakiet limit ustawiony dla widoku (będzie wyjście numer lub "
+"nieograniczony w oparciu o config)"
+
+#: includes/admin/wc/job.php:61 includes/admin/wc/resume.php:65
+msgid ""
+"Output package limit set for %s (will output number or unlimited based on "
+"config)"
+msgstr ""
+"Dane wyjściowe pakiet limit ustawiony dla %s (będzie wyjście numer lub "
+"nieograniczony na podstawie config)"
+
+#: includes/admin/wc/resume.php:62
+msgid ""
+"Output package limit set for View Name (will output number or unlimited "
+"based on config)"
+msgstr ""
+"Dane wyjściowe pakiet limit ustawiony dla nazwy widoku (będzie wyjście numer"
+" lub nieograniczony config na podstawie)"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:8
+#: includes/admin/wc/views/html-view-resume-package-data.php:4
+msgid "View %s?"
+msgstr "Widoku %s?"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:9
+#: includes/admin/wc/views/html-view-resume-package-data.php:5
+msgid ""
+"Allow to view single listings with this package (if package required in "
+"settings)."
+msgstr ""
+"Pozwala wyświetlić pojedyncze oferty z tego pakietu (Jeśli pakiet wymagane w"
+" ustawieniach)."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:14
+#: includes/admin/wc/views/html-view-resume-package-data.php:11
+msgid "View %s limit"
+msgstr "Granica widoku %s"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:15
+#: includes/admin/wc/views/html-view-resume-package-data.php:12
+msgid ""
+"The number of listings a user can view with this package.  Leave blank to "
+"allow unlimited."
+msgstr ""
+"Liczbę oferty, które użytkownik może wyświetlać z tego pakietu.  Pozostaw "
+"puste, aby umożliwić nieograniczoną."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:28
+#: includes/admin/wc/views/html-view-resume-package-data.php:25
+msgid "View Rollover?"
+msgstr "Zobacz Przerzucanie?"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:29
+#: includes/admin/wc/views/html-view-job-package-data.php:57
+#: includes/admin/wc/views/html-view-resume-package-data.php:26
+#: includes/admin/wc/views/html-view-resume-package-data.php:54
+#: includes/admin/wc/views/html-view-resume-package-data.php:82
+msgid "Rollover (Add) unused credits to package when subscription is renewed."
+msgstr ""
+"Rollover (Dodaj) niewykorzystane kredyty do pakiet, podczas odnawiania "
+"subskrypcji."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:36
+msgid ""
+"Allow to %s listings with this package (if package required in settings)."
+msgstr ""
+"Pozostawić do %s oferty z tego pakietu (Jeśli pakiet wymagane w "
+"ustawieniach)."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:42
+msgid "%1$s %2$s limit"
+msgstr "%1$ s-%2$ s limit"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:43
+msgid ""
+"The number of listings a user can %s with this package. Leave blank to allow"
+" unlimited."
+msgstr ""
+"Liczba aukcji użytkownik może %s z tego pakietu. Pozostaw puste, aby "
+"umożliwić nieograniczoną."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:56
+msgid "%1$s Rollover?"
+msgstr "%1$ s Rollover?"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:62
+#: includes/admin/wc/views/html-view-resume-package-data.php:88
+msgid "Allow Browsing?"
+msgstr "Umożliwić przeglądanie?"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:63
+#: includes/admin/wc/views/html-view-resume-package-data.php:89
+msgid ""
+"Allow to browse listings with this package (if package required in "
+"settings)."
+msgstr ""
+"Umożliwić przeglądanie oferty z tego pakietu (Jeśli pakiet wymagane w "
+"ustawieniach)."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:69
+#: includes/admin/wc/views/html-view-resume-package-data.php:95
+msgid "Use Short Description"
+msgstr "Krótki opis"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:70
+#: includes/admin/wc/views/html-view-resume-package-data.php:96
+msgid ""
+"Enable this to use the short description for your own custom wording on the "
+"package selection form for listings."
+msgstr ""
+"Włącz to na potrzeby własne niestandardowe sformułowania w formularzu wybór "
+"pakietu dla oferty Krótki opis."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:32
+msgid "View %s Name?"
+msgstr "Nazwa widoku %s?"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:33
+msgid ""
+"Allow to view %s name with this package (if package required in settings)."
+msgstr ""
+"Pozwala wyświetlić nazwę %s z tego pakietu (Jeśli pakiet wymagane w "
+"ustawieniach)."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:39
+msgid "View %s Name limit"
+msgstr "Limit nazwy widoku %s"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:40
+msgid ""
+"The number of %s names a user can view with this package.  Leave blank to "
+"allow unlimited."
+msgstr ""
+"Liczba nazw %s, które użytkownik może wyświetlać z tego pakietu.  Pozostaw "
+"puste, aby umożliwić nieograniczoną."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:53
+msgid "View Name Rollover?"
+msgstr "Wyświetl nazwę przerzucania?"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:60
+msgid "Allow Contact?"
+msgstr "Umożliwić kontakt?"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:61
+msgid ""
+"Allow to contact listing with this package (if package required in "
+"settings)."
+msgstr ""
+"Umożliwić kontakt z aukcji z tego pakietu (Jeśli pakiet wymagane w "
+"ustawieniach)."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:67
+msgid "Contact %s limit"
+msgstr "Limitu kontakt %s"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:68
+msgid ""
+"The number of %s a user can contact with this package. Leave blank to allow "
+"unlimited."
+msgstr ""
+"Liczba %s użytkownika można skontaktować się z tego pakietu. Pozostaw puste,"
+" aby umożliwić nieograniczoną."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:81
+msgid "Contact Rollover?"
+msgstr "Kontakt z najazdu?"
+
+#: includes/admin/wc.php:95
+msgid "%s Visibility Package"
+msgstr "Pakiet poprawiający widoczność %s"
+
+#: includes/admin/wc.php:98
+msgid "%s Visibility Subscription"
+msgstr "%s widoczność subskrypcji"
+
+#: includes/admin/wc.php:203
+msgid "Fields"
+msgstr "Pól"
+
+#: includes/admin.php:45 includes/admin.php:81
+msgid "Visibility Packages"
+msgstr "Pakiety widoczności"
+
+#: includes/admin.php:68
+msgid "Package successfully deleted"
+msgstr "Pakiet pomyślnie usunięte"
+
+#: includes/admin.php:82 includes/admin.php:105
+msgid "Add User Package"
+msgstr "Dodaj użytkownika pakiet"
+
+#: includes/admin.php:150
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/form.php:114
+msgid "You can now %s this listing"
+msgstr "Możesz teraz %s Ta aukcja"
+
+#: includes/functions.php:18
+msgid "Apply"
+msgstr "Zastosowanie"
+
+#: includes/install.php:99
+msgid ""
+"A <a href=\"%s\">package</a> is required to browse listings, please select "
+"one from below."
+msgstr ""
+"<a href=\"%s\"> pakiet</a> jest wymagana do przeglądania oferty, proszę "
+"wybrać jeden z poniżej."
+
+#: includes/install.php:102
+msgid "Please <a href=\"%s\">select a package</a> to browse resumes."
+msgstr ""
+"Proszę <a href=\"%s\"> Wybierz pakiet</a> do przeglądania zostanie "
+"wznowione."
+
+#: includes/install.php:104
+msgid ""
+"Please select a <a href=\"%s\">package</a> to view the full candidate name."
+msgstr "Wybierz <a href=\"%s\"> pakiet</a>, aby wyświetlić nazwę pełną kandydata."
+
+#: includes/integration/job.php:241 includes/integration/resume.php:307
+msgid "Please <a href=\"%s\">select a package</a> to browse listings."
+msgstr "Proszę, <a href=\"%s\"> Wybierz pakiet</a> do przeglądania oferty."
+
+#: includes/integration/job.php:255 includes/integration/resume.php:321
+msgid "Please <a href=\"%s\">select a package</a> to view this listing's details."
+msgstr ""
+"Proszę, <a href=\"%s\"> Wybierz pakiet</a>, aby wyświetlić szczegóły "
+"dotyczące tej aukcji."
+
+#: includes/integration/job.php:269 includes/integration/resume.php:398
+msgid "Please <a href=\"%1$s\">select a package</a> to %2$s this listing."
+msgstr "Proszę <a href=\"%1$s\"> Wybierz pakiet</a> do %2$ s Ta aukcja."
+
+#: includes/integration/resume.php:77
+msgid ""
+"A <a href=\"%s\">package</a> is required to view the full name on this "
+"listing."
+msgstr ""
+"<a href=\"%s\"> pakiet</a> jest wymagane aby wyświetlić pełną nazwę na tej "
+"aukcji."
+
+#: includes/integration.php:74
+msgid ""
+"This page should redirect in <span class=\"jmpack_redirect_in\">%1$d</span> "
+"seconds, if not, please <a href=\"%2$s\">click here</a>."
+msgstr ""
+"Tę stronę należy przekierować w <span class=\"jmpack_redirect_in\"> %1$ "
+"d</span> sekund, jeśli nie, proszę <a href=\"%2$s\"> kliknąć tutaj</a>."
+
+#: includes/packages/job.php:53 includes/packages/resume.php:55
+msgid "Browse"
+msgstr "Przeglądaj"
+
+#: includes/packages/job.php:59 includes/packages/resume.php:61
+msgid "View"
+msgstr "Widok"
+
+#: includes/packages/job.php:71
+msgid "apply to"
+msgstr "stosuje się do"
+
+#: includes/packages/job.php:91 includes/packages/resume.php:94
+msgid "%s to "
+msgstr "%s do "
+
+#: includes/packages/job.php:95 includes/packages/resume.php:98
+msgid "view %s single listing"
+msgid_plural "view %s single listings"
+msgstr[0] "widoku %s pojedynczy aukcji"
+msgstr[1] "Zobacz %s pojedyncze oferty"
+msgstr[2] "Zobacz %s pojedyncze oferty"
+
+#: includes/packages/job.php:95 includes/packages/job.php:107
+#: includes/packages/resume.php:98 includes/packages/resume.php:109
+#: includes/packages/resume.php:121 includes/packages.php:69
+#: templates/my-packages.php:64
+msgid "unlimited"
+msgstr "nieograniczony"
+
+#: includes/packages/job.php:107 includes/packages/resume.php:121
+msgid "%s %s listing"
+msgid_plural "%s %s listings"
+msgstr[0] "%s %s aukcji"
+msgstr[1] "%s %s oferty"
+msgstr[2] "%s %s oferty"
+
+#: includes/packages/job.php:113 includes/packages/resume.php:127
+msgid ", and "
+msgstr ", i "
+
+#: includes/packages/job.php:115 includes/packages/resume.php:129
+msgid "browse all listings"
+msgstr "Przeglądaj wszystkie oferty"
+
+#: includes/packages/resume.php:67
+msgid "View Name"
+msgstr "Nazwa widoku"
+
+#: includes/packages/resume.php:73 includes/themes/listify.php:49
+#: templates/access-denied-contact-details.php:6
+#: templates/jobify/access-denied-contact-details.php:6
+#: templates/jobify/access-denied-contact-details.php:11
+msgid "Contact"
+msgstr "Kontakt"
+
+#: includes/packages/resume.php:109
+msgid "view %s single listing name"
+msgid_plural "view %s single listing names"
+msgstr[0] "Nazwa widoku %s pojedynczy aukcji"
+msgstr[1] "Widok pojedynczego, lista nazw %s"
+msgstr[2] "Widok pojedynczego, lista nazw %s"
+
+#: includes/shortcodes/job.php:71 includes/shortcodes/resume.php:54
+msgid "Select Browse Package"
+msgstr "Wybierz pozycję Przeglądaj pakiet"
+
+#: includes/shortcodes/job.php:72 includes/shortcodes/resume.php:55
+msgid "Choose a Browse Package"
+msgstr "Wybierz pakiet Przeglądaj"
+
+#: includes/shortcodes/job.php:113 includes/shortcodes/resume.php:96
+msgid "Select a View Package"
+msgstr "Wybierz pakiet Zobacz"
+
+#: includes/shortcodes/job.php:114 includes/shortcodes/resume.php:97
+msgid "Choose a View Package"
+msgstr "Wybierz pakiet Zobacz"
+
+#: includes/shortcodes/job.php:137
+msgid "Select %s Package"
+msgstr "Wybierz pakiet %s"
+
+#: includes/shortcodes/job.php:138
+msgid "Choose %s Package"
+msgstr "Wybierz pakiet %s"
+
+#: includes/shortcodes/resume.php:120
+msgid "Select a View Name Package"
+msgstr "Wybierz pakiet nazwa widoku"
+
+#: includes/shortcodes/resume.php:121
+msgid "Choose a View Name Package"
+msgstr "Wybierz pakiet nazwa widoku"
+
+#: includes/shortcodes/resume.php:144
+msgid "Select Contact Package"
+msgstr "Wybierz pakiet kontakt"
+
+#: includes/shortcodes/resume.php:145
+msgid "Choose Contact Package"
+msgstr "Wybierz pakiet kontakt"
+
+#: includes/shortcodes.php:100 templates/listable/package-selection.php:72
+msgid "Select Package"
+msgstr "Wybierz pakiet"
+
+#: includes/shortcodes.php:101
+msgid "Choose a Package"
+msgstr "Wybierz pakiet"
+
+#: includes/updater/smyles-updater-licenses.php:105
+#: includes/updater/smyles-updater-licenses.php:199
+msgid "Error"
+msgstr "Błąd"
+
+#: includes/updater/smyles-updater-licenses.php:105
+msgid "Unable to determine slug to deactivate license."
+msgstr "Nie można określić slug do dezaktywacji licencji."
+
+#: includes/updater/smyles-updater-licenses.php:119
+msgid "Error determining the plugin Product ID."
+msgstr "Błąd określenia plugin identyfikator produktu."
+
+#: includes/updater/smyles-updater-licenses.php:123
+msgid "Error pulling the license key from option data."
+msgstr "Błąd ciągnąc ten upoważnić klucz od danych opcji."
+
+#: includes/updater/smyles-updater-licenses.php:127
+msgid ""
+"Error pulling the email associated with the license key from option data."
+msgstr ""
+"Błąd ciągnąc adres e-mail skojarzony z kluczem licencyjnym z danych opcji."
+
+#: includes/updater/smyles-updater-licenses.php:131
+msgid ""
+"Error pulling the instance ID associated with the license key from option "
+"data."
+msgstr ""
+"Błąd ciągnąc identyfikator wystąpienia skojarzone z kluczem licencyjnym z "
+"danych opcji."
+
+#: includes/updater/smyles-updater-licenses.php:144
+msgid ""
+"Connection failed to the License Key API server - possible server issue."
+msgstr ""
+"Połączenie nie powiodło się z serwerem licencja klucz API - problem z "
+"serwerem możliwe."
+
+#: includes/updater/smyles-updater-licenses.php:151
+msgid " Successfully Deactivated!"
+msgstr " Pomyślnie wyłączona!"
+
+#: includes/updater/smyles-updater-licenses.php:152
+msgid "You have successfully deactivated the %s license."
+msgstr "Pomyślnie dezaktywacji licencji %s."
+
+#: includes/updater/smyles-updater-licenses.php:164
+#: includes/updater/smyles-updater-licenses.php:274
+msgid "Error!"
+msgstr "Błąd!"
+
+#: includes/updater/smyles-updater-licenses.php:164
+msgid ""
+"The license has been successfully deactivated locally, but please visit your"
+" sMyles Plugins <a href=\"%s\" target=\"_blank\">My Account</a> page to "
+"verify this activation has been removed from our server.  There was an error"
+" automatically removing it, and chances are that is because it was already "
+"removed via your <a href=\"%s\" target=\"_blank\">My Account</a> page "
+"already.."
+msgstr ""
+"Licencja została pomyślnie wyłączona lokalnie, ale proszę odwiedź stronę "
+"wtyczki <a href=\"%s\" target=\"_blank\"> Moje konto</a> sMyles aby "
+"sprawdzić, czy ten aktywacyjny został usunięty z naszego serwera.  Wystąpił "
+"błąd, automatycznie usuwając go, i są szanse, że jest, ponieważ został już "
+"usunięty za pośrednictwem strony <a href=\"%s\" target=\"_blank\"> Moje "
+"konto</a> już..."
+
+#: includes/updater/smyles-updater-licenses.php:200
+msgid ""
+"Unable to determine slug, license key, and/or email to activate license, "
+"contact support."
+msgstr ""
+"Nie można określić slug, klucz licencyjny lub wiadomości e-mail, aby "
+"aktywować licencję, skontaktuj się z obsługą."
+
+#: includes/updater/smyles-updater-licenses.php:259
+msgid " Successfully Activated!"
+msgstr " Pomyślnie aktywowany!"
+
+#: includes/updater/smyles-updater-licenses.php:259
+msgid ""
+"You have successfully activated the %s license, and will now be able to "
+"automatically upgrade this plugin through WordPress when an update is "
+"available."
+msgstr ""
+"Pomyślnie aktywowano licencji %s, a teraz będzie mógł automatycznie "
+"uaktualnić ten plugin do WordPress, gdy dostępna jest aktualizacja."
+
+#: includes/updater/smyles-updater-licenses.php:362
+msgid "Deactivate the %s License?"
+msgstr "Dezaktywacji licencji %s?"
+
+#: includes/updater/smyles-updater-licenses.php:367
+msgid "No"
+msgstr "Nr"
+
+#: includes/updater/smyles-updater-licenses.php:371
+msgid "Yes"
+msgstr "Tak"
+
+#: includes/updater/smyles-updater-licenses.php:377
+msgid "sMyles Plugins Licensing"
+msgstr "sMyles licencjonowania wtyczek"
+
+#: includes/updater/smyles-updater-licenses.php:380
+msgid "Plugins"
+msgstr "Wtyczki"
+
+#: includes/updater/views/html-key-input.php:5
+msgid "License"
+msgstr "Licencja"
+
+#: includes/updater/views/html-key-input.php:8
+msgid ""
+"Enter your license key and email and hit return. A valid key is required for"
+" updates."
+msgstr ""
+"Wprowadź klucz licencyjny i e-mail i naciśnij Enter. Prawidłowy klucz jest "
+"wymagany dla aktualizacji."
+
+#: includes/updater/views/html-key-notice.php:6
+msgid "Hide notice"
+msgstr "Ukryj powiadomienia"
+
+#: includes/updater/views/html-key-notice.php:7
+msgid ""
+"<a href=\"%1$s\">Please activate your license key</a> in order to receive "
+"updates and support for \"%2$s\"."
+msgstr ""
+"<a href=\"%1$s\"> proszę aktywować klucz licencyjny</a>, aby otrzymywać "
+"aktualizacje i wsparcie dla \"%2$ s\"."
+
+#: includes/updater/views/html-license-activate.php:3
+msgid "Activating ..."
+msgstr "Aktywowanie..."
+
+#: includes/updater/views/html-license-activate.php:6
+#: includes/updater/views/html-license-deactivate.php:6
+msgid "Plugin Not Found"
+msgstr "Plugin nie znaleziono"
+
+#: includes/updater/views/html-license-activate.php:18
+#: includes/updater/views/html-license-deactivate.php:20
+msgid "Details"
+msgstr "Szczegóły"
+
+#: includes/updater/views/html-license-activate.php:33
+#: includes/updater/views/html-license-deactivate.php:35
+msgid "Installed Version:"
+msgstr "Zainstalowana wersja:"
+
+#: includes/updater/views/html-license-activate.php:54
+msgid "Activate License"
+msgstr "Aktywowanie licencji"
+
+#: includes/updater/views/html-license-deactivate.php:3
+msgid "Deactivating ..."
+msgstr "Dezaktywowanie..."
+
+#: includes/updater/views/html-license-deactivate.php:43
+msgid "Activated:"
+msgstr "Aktywowane:"
+
+#: includes/updater/views/html-license-deactivate.php:64
+msgid "Deactivate License"
+msgstr "Dezaktywacji licencji"
+
+#: includes/updater/views/html-ms-update.php:6
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr ""
+"Dostępna jest nowa wersja %1$ s. <a target=\"_blank\" class=\"thickbox\" "
+"href=\"%2$s\"> Zobacz wersja %3$ s szczegóły</a> lub <a href=\"%4$s\"> "
+"Aktualizuj teraz</a>."
+
+#: includes/user.php:52
+msgid "This is not a valid package, or is an unlimited package."
+msgstr "To nie jest to prawidłowy pakiet, lub jest nieograniczony pakiet."
+
+#: includes/wc/wcp-job-visibility-package.php:58
+#: includes/wc/wcp-resume-visibility-package.php:61
+msgid "Add to cart"
+msgstr "Dodaj do koszyka"
+
+#: includes/wc/wcp-job-visibility-package.php:58
+#: includes/wc/wcp-resume-visibility-package.php:61
+msgid "Read More"
+msgstr "Dowiedz się więcej"
+
+#: includes/wc.php:397 includes/wc.php:404
+msgid "page"
+msgstr "Strona"
+
+#: includes/wc.php:402
+msgid "listing"
+msgstr "Aukcja"
+
+#: includes/wc.php:412
+msgid ""
+"To go back to the %1$s you were previously viewing, <a href=\"%2$s\">click "
+"here</a>."
+msgstr ""
+"Aby wrócić do %1$ s wcześniej były podczas przeglądania, <a href=\"%2$s\"> "
+"kliknij tutaj</a>."
+
+#: templates/jobify/job-application.php:8
+#: templates/jobify/job-application.php:13
+msgid "Apply for job"
+msgstr "Ubiegaj się o pracę"
+
+#: templates/listable/package-selection.php:51
+msgid "Your packages"
+msgstr "Pakiety"
+
+#: templates/listable/package-selection.php:65
+#: templates/package-selection.php:34
+msgid "%1$s out of %2$d available %3$s used"
+msgstr "%1$ s spośród %2$ d dostępne %3$ s używane"
+
+#: templates/listable/package-selection.php:80
+msgid "Purchase packages"
+msgstr "Zakup pakietów"
+
+#: templates/listable/package-selection.php:105
+msgid "Free"
+msgstr "Darmowe"
+
+#: templates/listable/package-selection.php:141
+msgid "Get Started"
+msgstr "Pierwsze kroki"
+
+#: templates/listable/package-selection.php:150
+#: templates/package-selection.php:78
+msgid "No packages found"
+msgstr "Nie pakietów"
+
+#: templates/my-packages-limit-details.php:5
+msgid "Feature"
+msgstr "Funkcja"
+
+#: templates/my-packages-limit-details.php:6
+msgid "Remaining"
+msgstr "Pozostałe"
+
+#: templates/my-packages-limit-details.php:7
+msgid "Used"
+msgstr "Używane"
+
+#: templates/my-packages-limit-details.php:8
+msgid "Limit"
+msgstr "Limitu"
+
+#: templates/my-packages-limit-details.php:29
+msgid "Listings"
+msgstr "Oferty"
+
+#: templates/my-packages.php:18
+msgid "My %s Visibility Packages"
+msgstr "Moje pakiety poprawiające widoczność %s"
+
+#: templates/my-packages.php:23
+msgid "Package Name"
+msgstr "Nazwa pakietu"
+
+#: templates/my-packages.php:24
+msgid "Package Features"
+msgstr "Pakiet funkcji"
+
+#: templates/my-packages.php:66
+msgid "of"
+msgstr "z"
+
+#: templates/package-selection.php:22
+msgid "Your Packages:"
+msgstr "Pakiety:"
+
+#: templates/package-selection.php:43
+msgid "Purchase Package:"
+msgstr "Zakup pakietu:"
+
+#: wp-job-manager-packages.php:255
+msgid ""
+"WP Job Manager Packages requires WooCommerce Subscriptions 2.0 and above. "
+"Please upgrade as soon as possible!"
+msgstr ""
+"WP Job Manager Packages wymaga WooCommerce subskrypcje 2.0 i wyżej. Proszę "
+"uaktualnić tak szybko, jak to możliwe!"
+
+#: wp-job-manager-packages.php:401
+msgid ""
+"WP Job Manager - Packages is missing requirements and has been <a "
+"href=\"%s\">deactivated</a>. Please make sure all requirements are "
+"available."
+msgstr ""
+"WP Job Manager - pakiety brakuje wymagania i został <a href=\"%s\"> "
+"dezaktywowany</a>. Upewnij się, że wszystkie wymagania są dostępne."
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Packages"
+msgstr "WP Job Manager - pakiety"
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.smyl.es/wp-job-manager-packages"
+msgstr "https://plugins.smyl.es/WP-Job-Manager-Packages"
+
+#. Description of the plugin/theme
+msgid ""
+"Create and configure custom Visibility Packages for WP Job Manager and WP "
+"Resume Manager to require visitors to purchase a package to view, apply, "
+"contact, browse, and more!"
+msgstr ""
+"Utworzyć i skonfigurować niestandardowe pakiety poprawiające widoczność dla "
+"Menedżera zadań WP i WP Wznów Manager wymaga odwiedzający do zakupu pakietu "
+"do wyświetlenia, zastosować, kontakt, Przeglądaj!"
+
+#. Author of the plugin/theme
+msgid "Myles McNamara"
+msgstr "Myles McNamara"
+
+#. Author URI of the plugin/theme
+msgid "https://smyl.es"
+msgstr "https://smyl.es"
+
+#: includes/admin/setup.php:414
+msgctxt "Default page title (wizard)"
+msgid "Visibility Packages"
+msgstr "Pakiety widoczności"
+
+#: includes/admin/setup.php:424
+msgctxt "Default page title (wizard)"
+msgid "Browse Packages"
+msgstr "Przeglądaj pakiety"
+
+#: includes/admin/setup.php:434
+msgctxt "Default page title (wizard)"
+msgid "Apply/Contact Packages"
+msgstr "Kontakt z pakietów"
+
+#: includes/admin/setup.php:444
+msgctxt "Default page title (wizard)"
+msgid "View Packages"
+msgstr "Zobacz pakiety"
+
+#: includes/admin/setup.php:492
+msgctxt "Default page title (wizard)"
+msgid "Resume Visibility Packages"
+msgstr "Wznowić pakiety poprawiające widoczność"
+
+#: includes/admin/setup.php:502
+msgctxt "Default page title (wizard)"
+msgid "Browse Resume Packages"
+msgstr "Przeglądaj Pakiety wznawiania"
+
+#: includes/admin/setup.php:512
+msgctxt "Default page title (wizard)"
+msgid "Resume Contact Packages"
+msgstr "Wznowić kontaktowy paczek"
+
+#: includes/admin/setup.php:522
+msgctxt "Default page title (wizard)"
+msgid "View Resume Packages"
+msgstr "Zobacz Pakiety wznawiania"
+
+#: includes/admin/setup.php:532
+msgctxt "Default page title (wizard)"
+msgid "View Name Resume Packages"
+msgstr "Zobacz nazwy Wznów pakiety"

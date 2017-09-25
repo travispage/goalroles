@@ -1,0 +1,2042 @@
+# Copyright (C) 2017 Myles McNamara
+# This file is distributed under the GPLv3.
+# Translators:
+# Myles McNamara <myles@smyl.es>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - Packages 1.0.0\n"
+"Report-Msgid-Bugs-To: http://plugins.smyl.es\n"
+"POT-Creation-Date: 2017-01-26 22:53:07+00:00\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Myles McNamara <myles@smyl.es>, 2017\n"
+"Language-Team: Arabic (https://www.transifex.com/smyles/teams/24600/ar/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: includes/admin/listtable/addpackage.php:72
+msgid "Package Type"
+msgstr "نوع الحزمة"
+
+#: includes/admin/listtable/addpackage.php:76
+#: includes/admin/listtable/addpackage.php:77
+msgid "%s Package"
+msgstr "حزمة % s"
+
+#: includes/admin/listtable/addpackage.php:92
+#: includes/admin/listtable/addpackage.php:166
+#: includes/admin/wc/views/html-view-job-package-data.php:35
+msgid "Allow %s?"
+msgstr "السماح ب % s؟"
+
+#: includes/admin/listtable/addpackage.php:93
+#: includes/admin/listtable/addpackage.php:167
+msgid "Whether or not this user package supports this feature"
+msgstr "أم لا هذه الحزمة المستخدم يدعم هذه الميزة"
+
+#: includes/admin/listtable/addpackage.php:104
+#: includes/admin/listtable/addpackage.php:178
+msgid "%s Limit"
+msgstr "حد % s"
+
+#: includes/admin/listtable/addpackage.php:105
+#: includes/admin/listtable/addpackage.php:179
+msgid "Set specific package limit (Use 0 for unlimited)"
+msgstr "حد تعيين حزمة محددة (استخدام 0 لغير محدود)"
+
+#: includes/admin/listtable/addpackage.php:108
+#: includes/admin/listtable/addpackage.php:182 includes/admin/listtable.php:70
+#: includes/admin/listtable.php:105 includes/admin/listtable.php:157
+#: includes/admin/wc/views/html-view-job-package-data.php:17
+#: includes/admin/wc/views/html-view-job-package-data.php:45
+#: includes/admin/wc/views/html-view-resume-package-data.php:14
+#: includes/admin/wc/views/html-view-resume-package-data.php:42
+#: includes/admin/wc/views/html-view-resume-package-data.php:70
+msgid "Unlimited"
+msgstr "غير محدود"
+
+#: includes/admin/listtable/addpackage.php:113
+#: includes/admin/listtable/addpackage.php:187 includes/admin/listtable.php:75
+#: includes/admin/listtable.php:110 includes/admin/listtable.php:157
+msgid "%s Used"
+msgstr "المستخدم % s"
+
+#: includes/admin/listtable/addpackage.php:114
+#: includes/admin/listtable/addpackage.php:188
+msgid "Set the total used out of limit available in package"
+msgstr "تعيين مجموع استخدامها خارج حدود المتوفرة في حزمة"
+
+#: includes/admin/listtable/addpackage.php:122
+#: includes/admin/listtable/addpackage.php:196
+msgid "%s Posts"
+msgstr "وظائف % s"
+
+#: includes/admin/listtable/addpackage.php:123
+#: includes/admin/listtable/addpackage.php:197
+msgid "CSV (Comma Separated Value) of Post IDs used"
+msgstr "CSV (الفاصلة فصل القيمة) وظيفة معرفات المستخدمة"
+
+#: includes/admin/listtable/addpackage.php:126
+#: includes/admin/listtable/addpackage.php:200
+msgid "Used posts &hellip;"
+msgstr "تستخدم الوظائف &hellip;"
+
+#: includes/admin/listtable/addpackage.php:231
+#: includes/admin/listtable.php:182
+msgid "User"
+msgstr "المستخدم"
+
+#: includes/admin/listtable/addpackage.php:234
+msgid "Guest"
+msgstr "ضيف"
+
+#: includes/admin/listtable/addpackage.php:239
+#: includes/admin/listtable.php:185
+msgid "Product"
+msgstr "المنتج"
+
+#: includes/admin/listtable/addpackage.php:240
+msgid "Optionally link this package to a product."
+msgstr "بشكل اختياري ربط هذه الحزمة إلى منتج."
+
+#: includes/admin/listtable/addpackage.php:243
+msgid "Choose a product&hellip;"
+msgstr "اختيار منتج &hellip;"
+
+#: includes/admin/listtable/addpackage.php:278
+#: includes/admin/listtable.php:184
+msgid "Status"
+msgstr "مركز"
+
+#: includes/admin/listtable/addpackage.php:279
+msgid ""
+"Current status of the package.  Package must be active to show in user "
+"account and available to the user.  On-hold status normally means it's a "
+"subscription pending renewal payment."
+msgstr ""
+"الوضع الحالي للحزمة.  يجب أن تكون حزمة النشطة لإظهارها في حساب المستخدم "
+"ومتوفرة للمستخدم.  وضع في الانتظار يعني عادة اشتراك حين دفع التجديد."
+
+#: includes/admin/listtable/addpackage.php:282
+msgid "Choose a status&hellip;"
+msgstr "اختر حالة &hellip;"
+
+#: includes/admin/listtable/addpackage.php:297
+#: includes/admin/listtable.php:187
+msgid "Order ID"
+msgstr "معرف الطلب"
+
+#: includes/admin/listtable/addpackage.php:298
+msgid "Optionally link this package to an order."
+msgstr "بشكل اختياري ربط هذه الحزمة إلى أمر."
+
+#: includes/admin/listtable/addpackage.php:301
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/admin/listtable/addpackage.php:307
+msgid "Save Package"
+msgstr "حفظ الحزمة"
+
+#: includes/admin/listtable/addpackage.php:329
+msgid ""
+"Please select a user from the dropdown to associate this user package with."
+msgstr ""
+"الرجاء تحديد مستخدم من القائمة المنسدلة لإقران هذه الحزمة المستخدم مع."
+
+#: includes/admin/listtable/addpackage.php:332
+msgid ""
+"A status is required for a package, please select one from the dropdown "
+"(must be active to show in user account)"
+msgstr ""
+"حالة مطلوب لمجموعة، الرجاء تحديد واحدة من القائمة المنسدلة (يجب أن تكون نشطة"
+" لإظهارها في حساب المستخدم)"
+
+#: includes/admin/listtable/addpackage.php:425
+msgid "Package successfully saved"
+msgstr "الحزمة بنجاح حفظ"
+
+#: includes/admin/listtable.php:143 includes/admin/listtable.php:150
+#: includes/admin/listtable.php:155
+msgid "n/a"
+msgstr "n/a"
+
+#: includes/admin/listtable.php:160
+msgid "Subscription"
+msgstr "الاشتراك"
+
+#: includes/admin/listtable.php:162
+msgid "Package"
+msgstr "حزمة"
+
+#: includes/admin/listtable.php:165
+msgid "Edit"
+msgstr "تحرير"
+
+#: includes/admin/listtable.php:166
+msgid "Delete"
+msgstr "حذف"
+
+#: includes/admin/listtable.php:183
+msgid "Type"
+msgstr "نوع"
+
+#: includes/admin/listtable.php:186
+msgid "Limits"
+msgstr "حدود"
+
+#: includes/admin/listtable.php:188
+msgid "Actions"
+msgstr "الإجراءات"
+
+#: includes/admin/plugins/visibility/views/packages.php:19
+msgid "No Packages Found"
+msgstr "أية حزم وجد"
+
+#: includes/admin/plugins/visibility/views/packages.php:25
+msgid "Select a Package"
+msgstr "حدد حزمة"
+
+#: includes/admin/plugins/visibility/views/packages.php:29
+#: includes/admin/plugins/visibility/views/packages.php:43
+msgid "%s Packages"
+msgstr "الحزم % s"
+
+#: includes/admin/plugins/visibility/views/packages.php:57
+#: includes/admin/plugins/visibility/views/packages.php:71
+msgid "WC Paid Listings %s Packages"
+msgstr "مرحاض دفع قوائم الحزم % s"
+
+#: includes/admin/plugins/visibility.php:94
+#: includes/admin/plugins/visibility.php:182
+msgid "Packages"
+msgstr "الحزم"
+
+#: includes/admin/settings/job.php:42 includes/functions.php:61
+#: includes/wc/job.php:38
+msgid "Job"
+msgstr "الوظيفة"
+
+#: includes/admin/settings/job.php:43
+msgid "Jobs"
+msgstr "الوظائف"
+
+#: includes/admin/settings/job.php:51 includes/admin/settings/job.php:60
+#: includes/admin/settings/resume.php:68 includes/admin/settings/resume.php:77
+msgid "View %s"
+msgstr "عرض % s"
+
+#: includes/admin/settings/job.php:61 includes/admin/settings/resume.php:78
+msgid "Require %1$s package to view a single %1$s"
+msgstr "تتطلب حزمة % 1$ s لعرض واحد % 1$ s"
+
+#: includes/admin/settings/job.php:62 includes/admin/settings/resume.php:79
+msgid ""
+"If enabled, visitors will be required to have a %s package with view "
+"permissions, to view any single listing page."
+msgstr ""
+"إذا تم تمكين، سيلزم الزائرين لحزمة % s مع عرض الأذونات لعرض أية صفحة في "
+"قائمة واحدة."
+
+#: includes/admin/settings/job.php:71 includes/admin/settings/job.php:80
+#: includes/admin/settings/resume.php:88 includes/admin/settings/resume.php:97
+msgid "Browse %s"
+msgstr "تصفح % s"
+
+#: includes/admin/settings/job.php:81 includes/admin/settings/resume.php:98
+msgid "Require %s package to browse listings"
+msgstr "تتطلب حزمة % s تصفح القوائم"
+
+#: includes/admin/settings/job.php:82 includes/admin/settings/resume.php:99
+msgid ""
+"If enabled, visitors will be required to have a package with browse "
+"permissions, to view the listing summary on the browse/list/search page."
+msgstr ""
+"إذا تم تمكين، سوف يلزم زائر أن يكون مجموعة مع أذونات استعراض لعرض الملخص "
+"قائمة على صفحة استعراض/قائمة/البحث."
+
+#: includes/admin/settings/job.php:90 includes/admin/settings/job.php:99
+msgid "%1$s %2$s"
+msgstr "% 1$ s % 2$ s"
+
+#: includes/admin/settings/job.php:100
+msgid "Require %1$s package to %2$s a %1$s"
+msgstr "تتطلب حزمة s $ % 1 إلى % 2$ s % 1$ s"
+
+#: includes/admin/settings/job.php:101
+msgid ""
+"If enabled, visitors will be required to have a %1$s package with %2$s "
+"permissions, to %3$s a listing."
+msgstr ""
+"إذا تم تمكين، زائر سوف يلزم أن يكون لدى % 1$ s حزمة تحتوي على % 2$ s "
+"الأذونات، إلى % 3$ s قائمة."
+
+#: includes/admin/settings/job.php:111 includes/admin/settings/resume.php:128
+msgid "Type Colors"
+msgstr "نوع الألوان"
+
+#: includes/admin/settings/job.php:120 includes/admin/settings/resume.php:137
+msgid "Customize Type Colors"
+msgstr "تخصيص نوع الألوان"
+
+#: includes/admin/settings/job.php:121 includes/admin/settings/resume.php:138
+msgid "Yes, enable custom type colors settings"
+msgstr "نعم، قم بتمكين إعدادات الألوان نوع مخصص"
+
+#: includes/admin/settings/job.php:122 includes/admin/settings/resume.php:139
+msgid "Enable to customize the type colors."
+msgstr "تمكن من تخصيص الألوان نوع."
+
+#: includes/admin/settings/job.php:130 includes/admin/settings/resume.php:156
+msgid "View Color"
+msgstr "عرض الألوان"
+
+#: includes/admin/settings/job.php:131 includes/admin/settings/resume.php:157
+msgid "Customize color to use for the the view type"
+msgstr "تخصيص اللون لاستخدامه لنوع طريقة العرض"
+
+#: includes/admin/settings/job.php:139 includes/admin/settings/resume.php:147
+msgid "Browse Color"
+msgstr "تصفح اللون"
+
+#: includes/admin/settings/job.php:140 includes/admin/settings/resume.php:148
+msgid "Customize color to use for the the browse type"
+msgstr "تخصيص اللون لاستخدامه لنوع استعراض"
+
+#: includes/admin/settings/job.php:148
+msgid "%s Color"
+msgstr "اللون % s"
+
+#: includes/admin/settings/job.php:149
+msgid "Customize color to use for the the %1$s type"
+msgstr "تخصيص اللون لاستخدامه للنوع % 1$ s"
+
+#: includes/admin/settings/job.php:157
+msgid "%s Visibility"
+msgstr "الرؤية % s"
+
+#: includes/admin/settings/job.php:166 includes/admin/settings/resume.php:231
+msgid "%1$s Visibility Pages"
+msgstr "% 1$ s الرؤية صفحات"
+
+#: includes/admin/settings/job.php:173 includes/admin/settings/resume.php:238
+msgid "Select Package Form Page"
+msgstr "حدد حزمة نموذج صفحة"
+
+#: includes/admin/settings/job.php:174
+msgid ""
+"Select the page where you have placed the "
+"<code>[job_visibility_packages]</code> shortcode. This lets the plugin know "
+"where the form is located."
+msgstr ""
+"حدد الصفحة التي قمت بوضعها القصير <code>[job_visibility_packages]</code>. "
+"يتيح هذا البرنامج المساعد تعرف أين يقع النموذج."
+
+#: includes/admin/settings/job.php:180 includes/admin/settings/resume.php:245
+msgid "Browse Package Page"
+msgstr "استعراض صفحة الحزمة"
+
+#: includes/admin/settings/job.php:181
+msgid ""
+"Select the page where you have placed the <code>[browse_job_packages]</code>"
+" shortcode, <strong>if you plan to use custom select browse package form "
+"page (optional).</strong>"
+msgstr ""
+"حدد الصفحة التي قمت بوضعها القصير <code>[browse_job_packages]</code>، "
+"<strong>إذا كنت تخطط لاستخدام مخصص تحديد استعراض صفحة نموذج الحزمة "
+"(اختياري)-</strong>"
+
+#: includes/admin/settings/job.php:187 includes/admin/settings/resume.php:252
+msgid "View Package Page"
+msgstr "صفحة عرض الحزمة"
+
+#: includes/admin/settings/job.php:188
+msgid ""
+"Select the page where you have placed the <code>[view_job_packages]</code> "
+"shortcode, <strong>if you plan to use custom select view package form page "
+"(optional).</strong>"
+msgstr ""
+"حدد الصفحة التي قمت بوضعها القصير <code>[view_job_packages]</code>، "
+"<strong>إذا كنت تخطط لاستخدام مخصص حدد عرض حزمة نموذج الصفحة "
+"(اختياري)-</strong>"
+
+#: includes/admin/settings/job.php:194
+msgid "%s Package Page"
+msgstr "صفحة الحزمة % s"
+
+#: includes/admin/settings/job.php:195
+msgid ""
+"Select the page where you have placed the <code>[apply_job_packages]</code> "
+"shortcode, <strong>if you plan to use custom select %s package form page "
+"(optional).</strong>"
+msgstr ""
+"حدد الصفحة التي قمت بوضعها القصير <code>[apply_job_packages]</code>، "
+"<strong>إذا كنت تخطط لاستخدام مخصص حدد % s حزمة نموذج الصفحة "
+"(اختياري)-</strong>"
+
+#: includes/admin/settings/resume.php:42 includes/functions.php:118
+#: includes/wc/resume.php:39
+msgid "Resume"
+msgstr "السيرة الذاتية"
+
+#: includes/admin/settings/resume.php:43
+msgid "Resumes"
+msgstr "السير الذاتية"
+
+#: includes/admin/settings/resume.php:45
+msgid "To override any package configuration above ... "
+msgstr "لتجاوز أي حزمة التكوين أعلاه... "
+
+#: includes/admin/settings/resume.php:50
+msgid "View %s Name"
+msgstr "اسم طريقة العرض % s"
+
+#: includes/admin/settings/resume.php:59
+msgid "View Name Package"
+msgstr "عرض اسم الحزمة"
+
+#: includes/admin/settings/resume.php:60
+msgid "Require %s package to view resumes names"
+msgstr "تتطلب حزمة % s لعرض أسماء السير الذاتية"
+
+#: includes/admin/settings/resume.php:61
+msgid ""
+"If enabled, visitors will be required to have a %1$s package with view names"
+" permissions, for %1$s names to be visible."
+msgstr ""
+"إذا تم تمكين، زائر سوف يلزم أن يكون لدى % 1$ s حزمة مع عرض أسماء الأذونات، %"
+" 1$ s الأسماء بحيث تكون مرئية."
+
+#: includes/admin/settings/resume.php:107
+#: includes/admin/settings/resume.php:116
+msgid "Contact %1$s"
+msgstr "جهة الاتصال % 1$ s"
+
+#: includes/admin/settings/resume.php:117
+msgid "Require contact package to contact a %1$s"
+msgstr "تتطلب حزمة الاتصال الاتصال % 1$ s"
+
+#: includes/admin/settings/resume.php:118
+msgid ""
+"If enabled, visitors will be required to have a %1$s package with contact "
+"permissions, to contact any single %1$s."
+msgstr ""
+"إذا تم تمكين، سوف يلزم الزائرين % 1$ s حزمة مع أذونات الاتصال، الاتصال بأي "
+"واحد من % 1$ s."
+
+#: includes/admin/settings/resume.php:165
+msgid "View Name Color"
+msgstr "عرض اسم اللون"
+
+#: includes/admin/settings/resume.php:166
+msgid "Customize color to use for the the view name type"
+msgstr "تخصيص اللون لاستخدامه لنوع اسم طريقة العرض"
+
+#: includes/admin/settings/resume.php:174
+msgid "Contact Color"
+msgstr "اتصل بلون"
+
+#: includes/admin/settings/resume.php:175
+msgid "Customize color to use for the the contact type"
+msgstr "تخصيص اللون لاستخدامه لنوع الاتصال"
+
+#: includes/admin/settings/resume.php:187
+msgid "Capability Override Settings"
+msgstr "القدرة على تجاوز إعدادات"
+
+#: includes/admin/settings/resume.php:194
+msgid "View Resume name Capability"
+msgstr "عرض السيرة الذاتية اسم القدرة"
+
+#: includes/admin/settings/resume.php:196
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view resumes "
+"names. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"أدخل على <a href=\"%s\"> القدرة</a> المطلوبة من أجل عرض أسماء السير الذاتية."
+" ويدعم قائمة مفصولة بفواصل من الأدوار/قدرات."
+
+#: includes/admin/settings/resume.php:201
+msgid "Browse Resume Capability"
+msgstr "استعراض القدرة على استئناف"
+
+#: includes/admin/settings/resume.php:203
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to browse resumes."
+" Supports a comma separated list of roles/capabilities."
+msgstr ""
+"أدخل على <a href=\"%s\"> القدرة</a> المطلوبة من أجل استعراض السير الذاتية. "
+"ويدعم قائمة مفصولة بفواصل من الأدوار/قدرات."
+
+#: includes/admin/settings/resume.php:208
+msgid "View Resume Capability"
+msgstr "عرض استئناف القدرة"
+
+#: includes/admin/settings/resume.php:210
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view a single "
+"resume. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"أدخل على <a href=\"%s\"> القدرة</a> المطلوبة من أجل عرض استئناف واحد. ويدعم "
+"قائمة مفصولة بفواصل من الأدوار/قدرات."
+
+#: includes/admin/settings/resume.php:215
+msgid "Contact Details Capability"
+msgstr "القدرة على الاتصال"
+
+#: includes/admin/settings/resume.php:217
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view contact "
+"details on a resume. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"أدخل <a href=\"%s\"> القدرة</a> اللازمة لعرض تفاصيل الاتصال على استئناف. "
+"ويدعم قائمة مفصولة بفواصل من الأدوار/قدرات."
+
+#: includes/admin/settings/resume.php:222
+msgid "Resume Visibility"
+msgstr "رؤية السيرة الذاتية"
+
+#: includes/admin/settings/resume.php:239
+msgid ""
+"Select the page where you have placed the "
+"<code>[resume_visibility_packages]</code> shortcode. This lets the plugin "
+"know where the form is located."
+msgstr ""
+"حدد الصفحة التي قمت بوضعها القصير <code>[resume_visibility_packages]</code>."
+" يتيح هذا البرنامج المساعد تعرف أين يقع النموذج."
+
+#: includes/admin/settings/resume.php:246
+msgid ""
+"Select the page where you have placed the "
+"<code>[browse_resume_packages]</code> shortcode, <strong>if you plan to use "
+"custom select browse package form page (optional).</strong>"
+msgstr ""
+"حدد الصفحة التي قمت بوضعها القصير <code>[browse_resume_packages]</code>، "
+"<strong>إذا كنت تخطط لاستخدام مخصص تحديد استعراض صفحة نموذج الحزمة "
+"(اختياري)-</strong>"
+
+#: includes/admin/settings/resume.php:253
+msgid ""
+"Select the page where you have placed the "
+"<code>[view_resume_packages]</code> shortcode, <strong>if you plan to use "
+"custom select view package form page (optional).</strong>"
+msgstr ""
+"حدد الصفحة التي قمت بوضعها القصير <code>[view_resume_packages]</code>، "
+"<strong>إذا كنت تخطط لاستخدام مخصص حدد عرض حزمة نموذج الصفحة "
+"(اختياري)-</strong>"
+
+#: includes/admin/settings/resume.php:259
+msgid "View Name Package Page"
+msgstr "صفحة عرض اسم الحزمة"
+
+#: includes/admin/settings/resume.php:260
+msgid ""
+"Select the page where you have placed the "
+"<code>[view_name_resume_packages]</code> shortcode, <strong>if you plan to "
+"use custom select view name package form page (optional).</strong>"
+msgstr ""
+"حدد الصفحة التي قمت بوضعها القصير <code>[view_name_resume_packages]</code>، "
+"<strong>إذا كنت تخطط لاستخدام مخصص حدد عرض اسم حزمة نموذج الصفحة "
+"(اختياري)-</strong>"
+
+#: includes/admin/settings/resume.php:266
+msgid "Contact Package Page"
+msgstr "الاتصال بصفحة الحزمة"
+
+#: includes/admin/settings/resume.php:267
+msgid ""
+"Select the page where you have placed the "
+"<code>[contact_resume_packages]</code> shortcode, <strong>if you plan to use"
+" custom select contact package form page (optional).</strong>"
+msgstr ""
+"حدد الصفحة التي قمت بوضعها القصير <code>[contact_resume_packages]</code>، "
+"<strong>إذا كنت تخطط لاستخدام مخصص حدد الاتصال حزمة نموذج الصفحة "
+"(اختياري)-</strong>"
+
+#: includes/admin/settings.php:131
+msgid ", or use a"
+msgstr "، أو استخدام"
+
+#: includes/admin/settings.php:131
+msgid "<a href=\"%2$s\" target=\"_blank\">Template Override</a>: <code>%1$s</code>."
+msgstr "<a href=\"%2$s\" target=\"_blank\"> تجاوز قالب</a>: <code>% 1$ s</code>."
+
+#: includes/admin/settings.php:181
+msgid "None"
+msgstr "لا شيء"
+
+#: includes/admin/settings.php:182
+msgid "Red"
+msgstr "الأحمر"
+
+#: includes/admin/settings.php:183
+msgid "Orange"
+msgstr "أورانج"
+
+#: includes/admin/settings.php:184
+msgid "Yellow"
+msgstr "أصفر"
+
+#: includes/admin/settings.php:185
+msgid "Olive"
+msgstr "الزيتون"
+
+#: includes/admin/settings.php:186
+msgid "Green"
+msgstr "الأخضر"
+
+#: includes/admin/settings.php:187
+msgid "Teal"
+msgstr "أزرق مخضر"
+
+#: includes/admin/settings.php:188
+msgid "Blue"
+msgstr "الأزرق"
+
+#: includes/admin/settings.php:189
+msgid "Violet"
+msgstr "بنفسجي"
+
+#: includes/admin/settings.php:190
+msgid "Purple"
+msgstr "أرجواني"
+
+#: includes/admin/settings.php:191
+msgid "Pink"
+msgstr "وردي"
+
+#: includes/admin/settings.php:192
+msgid "Grey"
+msgstr "رمادي"
+
+#: includes/admin/settings.php:193
+msgid "Black"
+msgstr "أسود"
+
+#: includes/admin/settings.php:214
+msgid "Redirects"
+msgstr "عمليات إعادة التوجيه"
+
+#: includes/admin/settings.php:223
+msgid "Customize Redirect"
+msgstr "تخصيص إعادة توجيه"
+
+#: includes/admin/settings.php:224
+msgid "Yes, enable custom redirect settings"
+msgstr "نعم، قم بتمكين إعدادات إعادة توجيه مخصص"
+
+#: includes/admin/settings.php:225
+msgid "Enable to customize the redirect settings and configuration."
+msgstr "تمكين لتخصيص إعدادات إعادة التوجيه والتكوين."
+
+#: includes/admin/settings.php:233
+msgid "Wait Time"
+msgstr "وقت الانتظار"
+
+#: includes/admin/settings.php:234
+msgid ""
+"Amount of time (in seconds) to wait before executing redirect.  Set to 0 "
+"(zero) to immediately redirect."
+msgstr ""
+"مقدار الوقت (بالثواني) الانتظار قبل تنفيذ إعادة توجيه.  تعيين إلى 0 (صفر) "
+"لإعادة توجيه فورا."
+
+#: includes/admin/settings.php:241
+msgid "Hide All"
+msgstr "إخفاء الكل"
+
+#: includes/admin/settings.php:242
+msgid "Yes, hide all page contents while showing the dimmer."
+msgstr "نعم، إخفاء جميع محتويات الصفحة حين تبين باهتة."
+
+#: includes/admin/settings.php:243
+msgid ""
+"By default, when a redirect is enabled, a dimmer will be shown that covers "
+"the entire page contents with a loading icon in the middle, and notice text "
+"below it.  Enable this option to hide all content behind the dimmer (to only"
+" show loader and notice text)."
+msgstr ""
+"بشكل افتراضي، عندما يتم تمكين إعادة توجيه، باهتة الخارطة التي تغطي محتويات "
+"الصفحة بأكملها بأيقونة تحميل في المتوسط، وإشعار النص أسفله.  تمكين هذا "
+"الخيار لإخفاء كافة المحتويات وراء باهتة (لعرض إشعار ومحمل النص فقط)."
+
+#: includes/admin/settings.php:251
+msgid "White Dimmer"
+msgstr "باهتة اللون الأبيض"
+
+#: includes/admin/settings.php:252
+msgid "Yes, use the white (inverted) dimmer color."
+msgstr "نعم، استخدم اللون الأبيض باهتة (مقلوب)."
+
+#: includes/admin/settings.php:253
+msgid ""
+"By default, the standard dimmer color is black, enable this setting to use "
+"the inverted color, white."
+msgstr ""
+"بشكل افتراضي، القياسية باهتة اللون الأسود، تمكين هذا الإعداد لاستخدام مقلوب،"
+" اللون الأبيض."
+
+#: includes/admin/settings.php:278 includes/admin/settings.php:287
+msgid "Semantic UI"
+msgstr "UI الدلالية"
+
+#: includes/admin/settings.php:288
+msgid "Yes, enable <a href=\"%s\" target=\"_blank\">Semantic UI</a>"
+msgstr "نعم، قم بتمكين <a href=\"%s\" target=\"_blank\"> واجهة المستخدم الدلالية</a>"
+
+#: includes/admin/settings.php:289
+msgid "Enable this to use and customize the Semantic UI styling."
+msgstr "تمكين هذا استخدام وتخصيص التصميم \"واجهة المستخدم الدلالي\"."
+
+#: includes/admin/settings.php:296
+msgid "Table Style"
+msgstr "نمط الجدول"
+
+#: includes/admin/settings.php:297
+msgid ""
+"Yes, enable <a href=\"%s\" target=\"_blank\">Semantic UI</a> table styling "
+"for the My Packages list"
+msgstr ""
+"نعم، قم بتمكين الجدول <a href=\"%s\" target=\"_blank\"> الدلالي واجهة</a> "
+"التصميم للحصول على قائمة \"حزم بي\""
+
+#: includes/admin/settings.php:298
+msgid ""
+"If enabled, the frontend user package list tables will use the Semantic UI "
+"styling."
+msgstr ""
+"إذا تم تمكين، سوف تستخدم الواجهة المستخدم حزمة قائمة الجداول التصميم \"واجهة"
+" المستخدم الدلالي\"."
+
+#: includes/admin/settings.php:306
+msgid "Table Color"
+msgstr "جدول الألوان"
+
+#: includes/admin/settings.php:307
+msgid "Customize color to use for the the table"
+msgstr "تخصيص اللون لاستخدامه للجدول"
+
+#: includes/admin/settings.php:343 includes/admin/wc.php:63
+msgid "Available Shortcodes:"
+msgstr "الهاتفية القصيرة المتاحة:"
+
+#: includes/admin/settings.php:375
+msgid "%1$s %2$s Placeholder"
+msgstr "% 1$ s % 2$ s العنصر النائب"
+
+#: includes/admin/settings.php:376
+msgid ""
+"The content above will be shown when the user does not have permissions and "
+"a package is required"
+msgstr "سيظهر المحتوى أعلاه عند المستخدم ليس لديه الأذونات ومجموعة مطلوب"
+
+#: includes/admin/settings.php:404
+msgid "%1$s %2$s Redirect"
+msgstr "% 1$ s % 2$ s إعادة توجيه"
+
+#: includes/admin/settings.php:405
+msgid "Yes, redirect to the %1$s %2$s package select page"
+msgstr "نعم، إعادة توجيه إلى % 1$ s % 2$ s حزمة حدد الصفحة"
+
+#: includes/admin/settings.php:406
+msgid ""
+"If enabled, users without permissions will be redirected to the page "
+"(configured in Pages tab) to purchase or select package to use."
+msgstr ""
+"إذا تم تمكين، سيعاد توجيه المستخدمين بدون أذونات إلى الصفحة (تم تكوينها في "
+"علامة التبويب صفحات) شراء أو تحديد الحزمة استخدام."
+
+#: includes/admin/settings.php:435
+msgid "%1$s %2$s Admin"
+msgstr "% 1$ s % 2$ s المشرف"
+
+#: includes/admin/settings.php:436
+msgid "Yes, require administrators to have package"
+msgstr "نعم، تتطلب من المسؤولين للحزمة"
+
+#: includes/admin/settings.php:437
+msgid ""
+"If enabled, administrators will be required to have a package with "
+"permissions for this type."
+msgstr ""
+"إذا كان ممكناً، سيطلب من المسؤولين أن يكون مجموعة مع أذونات لهذا النوع."
+
+#: includes/admin/settings.php:466
+msgid "%1$s %2$s Redirect Notice"
+msgstr "% 1$ s % 2$ s إعادة توجيه إشعار"
+
+#: includes/admin/settings.php:467
+msgid "Yes, use the %1$s %2$s placeholder as redirect notice"
+msgstr "نعم، استخدام % 1$ s % 2$ s العنصر النائب بتوجيه إشعار"
+
+#: includes/admin/settings.php:468
+msgid ""
+"If enabled, the placeholder value will be used as the notice shown before "
+"redirecting (instead of default one)."
+msgstr ""
+"إذا كان ممكناً، سيتم استخدام قيمة العنصر النائب كالأشعار سيظهر قبل إعادة "
+"توجيه (بدلاً من الافتراضي واحد)."
+
+#: includes/admin/setup.php:34
+msgid "Setup"
+msgstr "برنامج الإعداد"
+
+#: includes/admin/setup.php:178 includes/admin/setup.php:223
+msgid "Starter Package"
+msgstr "حزمة المبتدئين"
+
+#: includes/admin/setup.php:180
+msgid "View 1 Full Listing<br/>Browse All Listings"
+msgstr "عرض قائمة كاملة 1 <br/> استعراض كافة إدخالات القوائم"
+
+#: includes/admin/setup.php:188 includes/admin/setup.php:233
+msgid "Plus Package"
+msgstr "بالإضافة إلى حزمة"
+
+#: includes/admin/setup.php:190
+msgid ""
+"View 10 Full Listings<br/>Apply/Contact 5 Listings<br/>Browse All Listings"
+msgstr ""
+"عرض القوائم الكاملة 10 <br/> تطبيق الاتصال قوائم 5 <br/> استعراض كافة "
+"إدخالات القوائم"
+
+#: includes/admin/setup.php:200 includes/admin/setup.php:247
+msgid "Premium Package"
+msgstr "حزمة قسط"
+
+#: includes/admin/setup.php:202
+msgid ""
+"View Unlimited Full Listings<br/>Apply/Contact 10 Listings<br/>Browse All "
+"Listings"
+msgstr ""
+"عرض القوائم الكاملة غير محدود <br/> تطبيق الاتصال قوائم 10 <br/> استعراض "
+"كافة إدخالات القوائم"
+
+#: includes/admin/setup.php:212 includes/admin/setup.php:261
+msgid "Single Application/Contact"
+msgstr "تطبيق/اتصال واحدة"
+
+#: includes/admin/setup.php:214
+msgid "Apply/Contact 1 Listing"
+msgstr "تطبيق/الاتصال القائمة 1"
+
+#: includes/admin/setup.php:225
+msgid "View 1 Full Resume<br/>Browse All Resumes"
+msgstr "عرض السيرة الذاتية الكاملة 1 <br/> استعراض جميع السير الذاتية"
+
+#: includes/admin/setup.php:235
+msgid ""
+"View 10 Full Resumes<br/>View 5 Candidate Full Names<br/>Contact 5 "
+"Candidates<br/>Browse All Resumes"
+msgstr ""
+"عرض السير الذاتية الكاملة 10 <br/> عرض الأسماء الكاملة المرشح 5 <br/> "
+"الاتصال بالمرشحين 5 <br/> استعراض جميع السير الذاتية"
+
+#: includes/admin/setup.php:249
+msgid ""
+"View Unlimited Full Resumes<br/>View Unlimited Candidate Full "
+"Names<br/>Contact 10 Candidates<br/>Browse All Resumes"
+msgstr ""
+"عرض السير الذاتية الكاملة غير محدود <br/> عرض الأسماء المرشحة غير محدود "
+"الكاملة <br/> الاتصال بالمرشحين 10 <br/> استعراض جميع السير الذاتية"
+
+#: includes/admin/setup.php:263
+msgid "Contact 1 Candidate"
+msgstr "اتصل المرشح 1"
+
+#: includes/admin/setup.php:270
+msgid "Silver Full Name Package"
+msgstr "المجموعة الفضية الاسم الكامل"
+
+#: includes/admin/setup.php:272
+msgid "View 5 Candidate Full Names"
+msgstr "عرض 5 من أسماء كامل المرشح"
+
+#: includes/admin/setup.php:312
+msgid "A total of %d pages were successfully created!"
+msgstr "تم بنجاح إنشاء مجموعة صفحات % d!"
+
+#: includes/admin/setup.php:343
+msgid "A total of %d packages were successfully created!"
+msgstr "تم بنجاح إنشاء مجموعة حزم % d!"
+
+#: includes/admin/setup.php:350
+msgid "Job Manager Packages Setup"
+msgstr "وظيفة مدير حزم الإعداد"
+
+#: includes/admin/setup.php:353
+msgid "1. Introduction"
+msgstr "1-مقدمة"
+
+#: includes/admin/setup.php:354
+msgid "2. Page Setup"
+msgstr "2. إعداد الصفحة"
+
+#: includes/admin/setup.php:357
+msgid "3. Resume Page Setup"
+msgstr "3-استئناف إعداد الصفحة"
+
+#: includes/admin/setup.php:358
+msgid "4. Packages Setup"
+msgstr "4-مجموعات الإعداد"
+
+#: includes/admin/setup.php:359
+msgid "5. Done"
+msgstr "5-القيام به"
+
+#: includes/admin/setup.php:361
+msgid "3. Packages Setup"
+msgstr "3-مجموعات الإعداد"
+
+#: includes/admin/setup.php:362
+msgid "4. Done"
+msgstr "4-القيام به"
+
+#: includes/admin/setup.php:369
+msgid "Setup Wizard Introduction"
+msgstr "مقدمة معالج الإعداد"
+
+#: includes/admin/setup.php:371
+msgid "Thanks for installing <em>WP Job Manager Packages</em>!"
+msgstr "شكرا لتثبيت <em>الفسفور الأبيض وظيفة مدير الحزم</em>!"
+
+#: includes/admin/setup.php:372
+msgid ""
+"This setup wizard will help you get started by creating the pages for "
+"package selection, and configuring those values in the settings for you."
+msgstr ""
+"معالج الإعداد هذا سوف تساعدك على البدء بإنشاء صفحات لاختيار حزمة، وتكوين تلك"
+" القيم في الإعدادات لك."
+
+#: includes/admin/setup.php:373
+msgid ""
+"If you want to skip the wizard and setup the pages and shortcodes yourself "
+"manually, you can do so very easily using any of the available shortcodes. "
+"Refer to the %sdocumentation%s for help."
+msgstr ""
+"إذا كنت ترغب في تخطي المعالج وإعداد الصفحات والهاتفية القصيرة نفسك يدوياً، "
+"يمكنك القيام بذلك بسهولة جداً استخدام أي من الهاتفية القصيرة المتاحة. الرجوع"
+" إلى سدوكومينتيشن % % s للحصول على مساعدة."
+
+#: includes/admin/setup.php:378 includes/admin/setup.php:569
+msgid "WooCommerce Was Not Detected"
+msgstr "لم يتم الكشف عن ووكوميرسي"
+
+#: includes/admin/setup.php:379 includes/admin/setup.php:570
+msgid ""
+"Currently the only integration available with WP Job Manager Packages, is "
+"through WooCommerce (although others will be added later). WooCommerce was "
+"not detected as being activated on your site."
+msgstr ""
+"حاليا إدماج الوحيدة المتاحة مع الفسفور الأبيض وظيفة مدير الحزم، عن طريق "
+"ووكوميرسي (على الرغم من أن الآخرين سوف تضاف لاحقاً). لم يتم الكشف عن "
+"ووكوميرسي كما يجري تفعيلها على الموقع الخاص بك."
+
+#: includes/admin/setup.php:380 includes/admin/setup.php:572
+msgid "Click Here to Active/Install WooCommerce"
+msgstr "انقر هنا لتثبيت نشط/ووكوميرسي"
+
+#: includes/admin/setup.php:382
+msgid ""
+"Once you have installed/activated, refresh this page, or click below to "
+"continue setup."
+msgstr ""
+"بمجرد تثبيت/تنشيط، قم بتحديث هذه الصفحة، أو انقر أدناه لمتابعة الإعداد."
+
+#: includes/admin/setup.php:388
+msgid "Continue to page setup"
+msgstr "الاستمرار في إعداد الصفحة"
+
+#: includes/admin/setup.php:389
+msgid "Skip setup. I will setup the plugin manually"
+msgstr "تخطي برنامج الإعداد. سيقوم برنامج الإعداد البرنامج المساعد يدوياً"
+
+#: includes/admin/setup.php:395
+msgid "Page Setup"
+msgstr "إعداد الصفحة"
+
+#: includes/admin/setup.php:397 includes/admin/setup.php:477
+msgid ""
+"<em>WP Job Manager Packages</em> includes %1$sshortcodes%2$s which can be "
+"used within your %3$spages%2$s to output content. These can be created for "
+"you below. For more information on the available shortcodes, view the "
+"%4$sshortcode documentation%2$s."
+msgstr ""
+"تتضمن <em>حزم الفسفور الأبيض وظيفة مدير</em> % 1$ سشورتكوديس % 2$ s التي "
+"يمكن استخدامها داخل جهاز % 3$ سباجيس % 2$ s لإخراج المحتوى. يمكن أن يكون "
+"إنشاء هذه لك أدناه. للحصول على المزيد من المعلومات حول الهاتفية القصيرة "
+"المتاحة، عرض % 4$ سشورتكودي الوثائق % 2$ s."
+
+#: includes/admin/setup.php:406 includes/admin/setup.php:484
+msgid "Page Title"
+msgstr "عنوان الصفحة"
+
+#: includes/admin/setup.php:407 includes/admin/setup.php:485
+msgid "Page Description"
+msgstr "وصف الصفحة"
+
+#: includes/admin/setup.php:408 includes/admin/setup.php:486
+msgid "Content Shortcode"
+msgstr "المحتوى القصير"
+
+#: includes/admin/setup.php:416 includes/admin/setup.php:494
+msgid ""
+"This page will be used as the default page for package selection, and works "
+"for any of the package types (view, browse, etc)."
+msgstr ""
+"سيتم استخدام هذه الصفحة كصفحة افتراضية لاختيار حزمة، ويعمل لأي نوع من أنواع "
+"الحزمة (العرض، واستعراض، إلخ)."
+
+#: includes/admin/setup.php:418 includes/admin/setup.php:496
+msgid ""
+"If you do not plan to use the specific package type shortcodes (for separate"
+" pages), you need to make sure this page exists as it will be used as the "
+"fallback page if the type specific pages do not exist (or are not configured"
+" in settings)."
+msgstr ""
+"إذا كنت لا تخطط لاستخدام الهاتفية القصيرة نوع حزمة محددة (لصفحات منفصلة)، "
+"تحتاج إلى التأكد من وجود هذه الصفحة كما أنها ستستخدم كصفحة بديلة إذا كان نوع"
+" صفحات معينة غير موجودة (أو لم يتم تكوين في إعدادات)."
+
+#: includes/admin/setup.php:426 includes/admin/setup.php:504
+msgid "This page will be used only for browse packages (not required)."
+msgstr "سيتم استخدام هذه الصفحة فقط لحزم تصفح (غير مطلوب)."
+
+#: includes/admin/setup.php:428 includes/admin/setup.php:506
+msgid ""
+"This page is useful if you wish to customize the browse package selection "
+"page, separate from the standard one above."
+msgstr ""
+"هذه الصفحة مفيدة إذا كنت ترغب في تخصيص صفحة اختيار الحزمة استعراض، منفصلة عن"
+" معيار واحد أعلاه."
+
+#: includes/admin/setup.php:436 includes/admin/setup.php:514
+msgid "This page will be used only for apply/contact packages (not required)."
+msgstr "وسوف تستخدم هذه الصفحة فقط لحزم تطبيق الاتصال (غير مطلوب)."
+
+#: includes/admin/setup.php:438 includes/admin/setup.php:516
+msgid ""
+"This page is useful if you wish to customize the apply/contact package "
+"selection page, separate from the standard one above."
+msgstr ""
+"هذه الصفحة مفيدة إذا كنت ترغب في تخصيص صفحة اختيار حزمة تطبيق/الاتصال، "
+"منفصلة عن معيار واحد أعلاه."
+
+#: includes/admin/setup.php:446 includes/admin/setup.php:524
+msgid "This page will be used only for view listing packages (not required)."
+msgstr "وسوف تستخدم هذه الصفحة فقط لعرض قائمة الحزم (غير مطلوب)."
+
+#: includes/admin/setup.php:448 includes/admin/setup.php:526
+#: includes/admin/setup.php:536
+msgid ""
+"This page is useful if you wish to customize the view listing package "
+"selection page, separate from the standard one above."
+msgstr ""
+"هذه الصفحة مفيدة إذا كنت ترغب في تخصيص عرض قائمة الحزمة التحديد الصفحة، "
+"منفصلة عن معيار واحد أعلاه."
+
+#: includes/admin/setup.php:457 includes/admin/setup.php:545
+#: includes/admin/setup.php:625
+msgid "Skip this step"
+msgstr "تخطي هذه الخطوة"
+
+#: includes/admin/setup.php:475
+msgid "Resume Page Setup"
+msgstr "استئناف إعداد الصفحة"
+
+#: includes/admin/setup.php:476
+msgid ""
+"It looks like you have WP Job Manager Resumes installed/activated, so let's "
+"setup those pages as well!"
+msgstr ""
+"يبدو أن لديك يستأنف الفسفور الأبيض وظيفة مدير تثبيت/المنشط، لذلك دعونا إعداد"
+" تلك الصفحات، وكذلك!"
+
+#: includes/admin/setup.php:534
+msgid ""
+"This page will be used only for view name listing packages (not required)."
+msgstr "سيتم استخدام هذه الصفحة فقط لعرض اسم قائمة الحزم (غير مطلوب)."
+
+#: includes/admin/setup.php:563
+msgid "Package Setup"
+msgstr "إعداد حزمة"
+
+#: includes/admin/setup.php:564
+msgid ""
+"If you would like, we can also setup <strong>DEMO</strong> packages for you "
+"to use.  This is not required, and is provided for demonstration purposes "
+"only, you will still need to customize the packages to suit your needs."
+msgstr ""
+"إذا كنت تريد، نحن يمكنك أيضا إعداد حزم <strong>التجريبي</strong> لتتمكن من "
+"استخدامها.  هذا غير مطلوب، وهو شرط لأغراض العرض التوضيحي فقط، وسوف لا تزال "
+"تحتاج إلى تخصيص الحزم لتناسب احتياجاتك."
+
+#: includes/admin/setup.php:571
+msgid ""
+"DO NOT proceed with this step before installing and activating WooCommerce!"
+"  WooCommerce must be installed and activated before adding packages!"
+msgstr ""
+"لا تقم بالمتابعة مع هذه الخطوة قبل تثبيت وتفعيل ووكوميرسي!  يجب تثبيت وتنشيط"
+" قبل إضافة حزم ووكوميرسي!"
+
+#: includes/admin/setup.php:574
+msgid ""
+"Once you have installed AND activated, refresh this page, or click below to "
+"continue setup."
+msgstr ""
+"مرة واحدة قمت بتثبيتها وتفعيلها، قم بتحديث هذه الصفحة، أو انقر أدناه لمتابعة"
+" الإعداد."
+
+#: includes/admin/setup.php:584
+msgid "Package Title"
+msgstr "عنوان حزمة"
+
+#: includes/admin/setup.php:585
+msgid "Package Price"
+msgstr "سعر الحزمة"
+
+#: includes/admin/setup.php:586
+msgid "Package Description"
+msgstr "وصف الحزمة"
+
+#: includes/admin/setup.php:592
+msgid "Listing Packages"
+msgstr "قائمة الحزم"
+
+#: includes/admin/setup.php:607
+msgid "Resume Packages"
+msgstr "استئناف الحزم"
+
+#: includes/admin/setup.php:624
+msgid "Create Selected Packages"
+msgstr "إنشاء مجموعات مختارة"
+
+#: includes/admin/setup.php:643
+msgid "All Done!"
+msgstr "كل شيء!"
+
+#: includes/admin/setup.php:645
+msgid ""
+"Looks like you're all set to start using the plugin. In case you're "
+"wondering where to go next:"
+msgstr ""
+"يبدو وكأنه كنت كل مجموعة لبدء استخدام البرنامج المساعد. في حال كنت أتساءل "
+"أين يذهبون المقبل:"
+
+#: includes/admin/setup.php:648
+msgid "Tweak Visibility Settings"
+msgstr "قرص إعدادات الرؤية"
+
+#: includes/admin/setup.php:650
+msgid "Tweak Resume Visibility Settings"
+msgstr "قرص إعدادات رؤية السيرة الذاتية"
+
+#: includes/admin/setup.php:652
+msgid "Add a new Product/Package"
+msgstr "إضافة منتج/حزمة جديدة"
+
+#: includes/admin/setup.php:655
+msgid ""
+"And don't forget, if you need any more help using <em>WP Job Manager "
+"Packages</em> you can consult the %1$sdocumentation%2$s or %3$scontact me "
+"via the support area%2$s!"
+msgstr ""
+"ولا تنسى، وإذا كنت تحتاج إلى أي مزيد من المساعدة باستخدام <em>الفسفور الأبيض"
+" وظيفة مدير الحزم</em> يمكنك الرجوع % 1$ سدوكومينتيشن % 2$ s أو % 3$ "
+"سكونتاكت لي عن طريق دعم المنطقة % 2$ s!"
+
+#: includes/admin/setup.php:657
+msgid "Flow Process:"
+msgstr "عملية التدفق:"
+
+#: includes/admin/setup.php:658
+msgid ""
+"To give you an understanding of how this plugin works, below is the flow "
+"process with examples. Examples below assume you have configured packages "
+"required for browse, view, and contact/apply.  This also assumes you have "
+"used the shortcode to output the form either on a page created in a previous"
+" setup step, or placed the shortcode inside the placeholder editor (in "
+"settings)."
+msgstr ""
+"لإعطائك فهم كيف يعمل هذا البرنامج المساعد، أدناه هو عملية التدفق مع الأمثلة."
+" تفترض الأمثلة أدناه قمت بتكوين الحزم المطلوبة لتصفح وعرض جهة الاتصال/تطبيق."
+"  وهذا يفترض أيضا لديك المستخدمة في القصير لإخراج النموذج أما على صفحة تم "
+"إنشاؤها في خطوة سابقة إعداد، أو وضع القصير داخل محرر العنصر النائب (في "
+"إعدادات)."
+
+#: includes/admin/setup.php:661
+msgid ""
+"User visits Listings page and is either redirected to package form page, or "
+"shown the package selection form."
+msgstr ""
+"المستخدم زيارة صفحة القوائم ويتم إعادة توجيهك إلى صفحة نموذج الحزمة أو سيظهر"
+" النموذج اختيار الحزمة."
+
+#: includes/admin/setup.php:664
+msgid ""
+"User selects a package, and is redirected to checkout page to complete "
+"purchase."
+msgstr "تحديد حزمة المستخدم، ويتم إعادة توجيهك إلى صفحة الخروج لإتمام الشراء."
+
+#: includes/admin/setup.php:667
+msgid ""
+"After purchase is complete, notification is shown with link to return to "
+"page user was previously viewing."
+msgstr ""
+"بعد الانتهاء من الشراء، يتم عرض إعلام مع وصلة للعودة إلى صفحة عرض المستخدم "
+"كان سابقا."
+
+#: includes/admin/setup.php:670
+msgid ""
+"When user selects a listing, they will be shown the listing like normal (if "
+"they have unlimited package), otherwise they are either redirected or shown "
+"the package form page (like above)."
+msgstr ""
+"عندما يقوم المستخدم بتحديد قائمة، سيتم عرض القائمة مثل العادية (إذا كانت "
+"لديك حزمة غير محدود)، إلا أنها أما المعاد توجيهها أو تظهر صفحة نموذج الحزمة "
+"(مثل أعلاه)."
+
+#: includes/admin/setup.php:673
+msgid ""
+"User will be able to select an existing package from the package form to use"
+" (or they can select one to purchase).  Once they submit the form, they are "
+"redirected back to the listing to view like normal."
+msgstr ""
+"وسوف يتمكن المستخدم من تحديد حزمة موجودة من شكل حزمة استخدام (أو يمكنهم "
+"تحديد واحد لشراء).  بمجرد أنهم بإرسال النموذج، تتم إعادة توجيه مرة أخرى إلى "
+"القائمة لعرض مثل العادية."
+
+#: includes/admin/setup.php:676
+msgid "Few key points:"
+msgstr "بعض النقاط الرئيسية:"
+
+#: includes/admin/setup.php:678
+msgid ""
+"If the user has an unlimited package, they will immediately be able to view,"
+" contact, etc.  Only packages with limits will require them to select a "
+"package to use."
+msgstr ""
+"إذا كان لدى المستخدم حزمة غير محدود، فورا أنها ستكون قادرة على عرض، "
+"والاتصال، وما إلى ذلك.  سوف تتطلب حزم فقط مع حدود لهم لتحديد حزمة استخدام."
+
+#: includes/admin/setup.php:679
+msgid ""
+"All current user packages can be viewed (along with associated listings) on "
+"the My Account page."
+msgstr ""
+"يمكن عرض كافة حزم المستخدم الحالي (جنبا إلى جنب مع القوائم المرتبطة بها) في "
+"صفحة \"الحساب الخاص بي\"."
+
+#: includes/admin/setup.php:681
+msgid ""
+"Administrators are not required to have packages, make sure to use a "
+"separate user account to test with."
+msgstr ""
+"المسؤولين لا يلزم أن يكون الحزم، تأكد من استخدام حساب مستخدم منفصل لاختبار "
+"مع."
+
+#: includes/admin/setup.php:684
+msgid ""
+"This plugin has been tested with Listify, Jobify, Listable, Pet Sitter, and "
+"Babysitter themes ... if you have issues, or your theme is not compatible, "
+"please let me know!"
+msgstr ""
+"تم اختبار هذا البرنامج المساعد إذا كانت لديك مشاكل، أو الموضوع الخاص بك غير "
+"متوافق مع ليستيفي، جوبيفي، ليستابل، والحيوانات الأليفة حاضنة، ومواضيع جليسه "
+"الأطفال..., واسمحوا لي أن أعرف!"
+
+#: includes/admin/setup.php:687
+msgid ""
+"To use a template override, make sure you place the file in the "
+"<code>jm_packages</code> directory/folder, in your child theme's "
+"directory/folder."
+msgstr ""
+"لاستخدام تجاوز قالب، تأكد من قمت بوضع الملف في الدليل "
+"<code>jm_packages</code>/المجلد، في الدليل/المجلد الموضوع الأطفال الخاص بك."
+
+#: includes/admin/setup.php:690
+msgid "Listable currently only supports the redirect feature."
+msgstr "الأدوية حاليا فقط تدعم ميزة \"إعادة توجيه\"."
+
+#: includes/admin/setup.php:693
+msgid "Subscriptions will be included in one of the next releases!"
+msgstr "سيتم تضمين اشتراكات في واحد من الإصدارات التالية!"
+
+#: includes/admin/setup.php:696
+msgid ""
+"Currently WooCommerce is the only support backend payment/cart/e-commerce "
+"system.  Let me know if there's another one you would like integrated."
+msgstr ""
+"ووكوميرسي حاليا نظام الدفع/عربة/التجارة الإلكترونية الخلفية الدعم فقط.  "
+"واسمحوا لي أن أعرف إذا كان هناك آخر واحد كنت تريد متكاملة."
+
+#: includes/admin/setup.php:699
+msgid "This plugin is full documented, check out the source code!"
+msgstr "هذا البرنامج المساعد كامل موثق، تحقق من التعليمات البرمجية للمصدر!"
+
+#: includes/admin/setup.php:704
+msgid "Support the Ongoing Development of the core plugin, WP Job Manager"
+msgstr ""
+"دعم \"التطوير المستمر\" للبرنامج المساعد الأساسية، الفسفور الأبيض وظيفة مدير"
+
+#: includes/admin/setup.php:705
+msgid ""
+"There are many ways to support open-source projects such as WP Job Manager, "
+"for example code contribution, translation, or even telling your friends how"
+" awesome the plugin (hopefully) is. Thanks in advance for your support - it "
+"is much appreciated!"
+msgstr ""
+"هناك العديد من الطرق لدعم المشاريع المفتوحة المصدر مثل الفسفور الأبيض وظيفة "
+"مدير، على سبيل المثال التعليمات البرمجية مساهمة، الترجمة، أو حتى قول أصدقائك"
+" كيف رهيبة البرنامج المساعد (أمل). شكرا مقدما لدعمكم--تقدير كبير!"
+
+#: includes/admin/setup.php:707
+msgid "Leave a positive review"
+msgstr "ترك استعراض إيجابي"
+
+#: includes/admin/setup.php:708
+msgid "Contribute a localization"
+msgstr "المساهمة الترجمة"
+
+#: includes/admin/setup.php:709
+msgid "Contribute code or report a bug"
+msgstr "المساهمة في التعليمات البرمجية أو تقرير الشوائب"
+
+#: includes/admin/setup.php:710
+msgid "Help other users on the forums"
+msgstr "مساعدة المستخدمين الآخرين في المنتديات"
+
+#: includes/admin/wc/job.php:55 includes/admin/wc/resume.php:56
+msgid "Output price (cost) of package (you MUST include this!)"
+msgstr "إخراج السعر (التكلفة) للحزمة (يجب تضمين هذا!)"
+
+#: includes/admin/wc/job.php:58 includes/admin/wc/resume.php:59
+msgid ""
+"Output package limit set for View (will output number or unlimited based on "
+"config)"
+msgstr ""
+"تعيين حد حزمة الإخراج لعرض (سيتم إخراج عدد محدود أو غير محدود استناداً إلى "
+"التكوين)"
+
+#: includes/admin/wc/job.php:61 includes/admin/wc/resume.php:65
+msgid ""
+"Output package limit set for %s (will output number or unlimited based on "
+"config)"
+msgstr ""
+"إخراج الحزمة المحدد ل % s (سيتم إخراج عدد أو التكوين على أساس غير محدود)"
+
+#: includes/admin/wc/resume.php:62
+msgid ""
+"Output package limit set for View Name (will output number or unlimited "
+"based on config)"
+msgstr ""
+"إخراج حزمة الحد المعين \"اسم العرض\" (سيتم إخراج التكوين استناداً إلى عدد "
+"محدود أو غير محدود)"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:8
+#: includes/admin/wc/views/html-view-resume-package-data.php:4
+msgid "View %s?"
+msgstr "عرض % s؟"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:9
+#: includes/admin/wc/views/html-view-resume-package-data.php:5
+msgid ""
+"Allow to view single listings with this package (if package required in "
+"settings)."
+msgstr ""
+"السماح بعرض قوائم واحد مع هذه الحزمة (إذا كانت الحزمة المطلوبة في "
+"الإعدادات)."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:14
+#: includes/admin/wc/views/html-view-resume-package-data.php:11
+msgid "View %s limit"
+msgstr "حد عرض % s"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:15
+#: includes/admin/wc/views/html-view-resume-package-data.php:12
+msgid ""
+"The number of listings a user can view with this package.  Leave blank to "
+"allow unlimited."
+msgstr ""
+"عدد القوائم التي يمكن لمستخدم عرض مع هذه الحزمة.  اترك المساحة فارغة للسماح "
+"لغير محدود."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:28
+#: includes/admin/wc/views/html-view-resume-package-data.php:25
+msgid "View Rollover?"
+msgstr "عرض التمديد؟"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:29
+#: includes/admin/wc/views/html-view-job-package-data.php:57
+#: includes/admin/wc/views/html-view-resume-package-data.php:26
+#: includes/admin/wc/views/html-view-resume-package-data.php:54
+#: includes/admin/wc/views/html-view-resume-package-data.php:82
+msgid "Rollover (Add) unused credits to package when subscription is renewed."
+msgstr ""
+"الاعتمادات الانتقال (إضافة) غير مستخدمة للحزمة عندما يتم تجديد الاشتراك."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:36
+msgid ""
+"Allow to %s listings with this package (if package required in settings)."
+msgstr ""
+"السماح بالقوائم % s مع هذه الحزمة (إذا كانت الحزمة المطلوبة في الإعدادات)."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:42
+msgid "%1$s %2$s limit"
+msgstr "% 1$ s % 2$ s الحد"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:43
+msgid ""
+"The number of listings a user can %s with this package. Leave blank to allow"
+" unlimited."
+msgstr ""
+"ويمكن عدد إدخالات المستخدم % s مع هذه الحزمة. اترك المساحة فارغة للسماح لغير"
+" محدود."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:56
+msgid "%1$s Rollover?"
+msgstr "% 1$ s التمديد؟"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:62
+#: includes/admin/wc/views/html-view-resume-package-data.php:88
+msgid "Allow Browsing?"
+msgstr "السماح باستعراض؟"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:63
+#: includes/admin/wc/views/html-view-resume-package-data.php:89
+msgid ""
+"Allow to browse listings with this package (if package required in "
+"settings)."
+msgstr ""
+"السماح بتصفح القوائم مع هذه الحزمة (إذا كانت الحزمة المطلوبة في الإعدادات)."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:69
+#: includes/admin/wc/views/html-view-resume-package-data.php:95
+msgid "Use Short Description"
+msgstr "استخدام وصف قصير"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:70
+#: includes/admin/wc/views/html-view-resume-package-data.php:96
+msgid ""
+"Enable this to use the short description for your own custom wording on the "
+"package selection form for listings."
+msgstr ""
+"تمكين هذا ﻻستخدام الوصف القصير الخاص بك الصيغة المخصصة في النموذج تحديد حزمة"
+" للقوائم."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:32
+msgid "View %s Name?"
+msgstr "اسم طريقة العرض % s؟"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:33
+msgid ""
+"Allow to view %s name with this package (if package required in settings)."
+msgstr ""
+"السماح بعرض اسم % s مع هذه الحزمة (إذا كانت الحزمة المطلوبة في الإعدادات)."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:39
+msgid "View %s Name limit"
+msgstr "عرض % s اسم حد"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:40
+msgid ""
+"The number of %s names a user can view with this package.  Leave blank to "
+"allow unlimited."
+msgstr ""
+"يمكن عرض العدد أسماء المستخدم % s مع هذه الحزمة.  اترك المساحة فارغة للسماح "
+"لغير محدود."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:53
+msgid "View Name Rollover?"
+msgstr "عرض اسم التمديد؟"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:60
+msgid "Allow Contact?"
+msgstr "السماح بالاتصال؟"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:61
+msgid ""
+"Allow to contact listing with this package (if package required in "
+"settings)."
+msgstr ""
+"السماح بالاتصال بقائمة بهذه الحزمة (إذا كانت الحزمة المطلوبة في الإعدادات)."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:67
+msgid "Contact %s limit"
+msgstr "تحديد جهة الاتصال % s"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:68
+msgid ""
+"The number of %s a user can contact with this package. Leave blank to allow "
+"unlimited."
+msgstr ""
+"العدد % s مستخدم الاتصال مع هذه الحزمة. اترك المساحة فارغة للسماح لغير "
+"محدود."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:81
+msgid "Contact Rollover?"
+msgstr "اتصل بالتمديد؟"
+
+#: includes/admin/wc.php:95
+msgid "%s Visibility Package"
+msgstr "حزمة التعريف % s"
+
+#: includes/admin/wc.php:98
+msgid "%s Visibility Subscription"
+msgstr "اشتراك الرؤية % s"
+
+#: includes/admin/wc.php:203
+msgid "Fields"
+msgstr "الحقول"
+
+#: includes/admin.php:45 includes/admin.php:81
+msgid "Visibility Packages"
+msgstr "حزم الرؤية"
+
+#: includes/admin.php:68
+msgid "Package successfully deleted"
+msgstr "الحزمة بنجاح حذف"
+
+#: includes/admin.php:82 includes/admin.php:105
+msgid "Add User Package"
+msgstr "إضافة حزمة المستخدم"
+
+#: includes/admin.php:150
+msgid "WooCommerce"
+msgstr "ووكوميرسي"
+
+#: includes/form.php:114
+msgid "You can now %s this listing"
+msgstr "يمكنك الآن % s هذا الإدراج"
+
+#: includes/functions.php:18
+msgid "Apply"
+msgstr "تطبيق"
+
+#: includes/install.php:99
+msgid ""
+"A <a href=\"%s\">package</a> is required to browse listings, please select "
+"one from below."
+msgstr ""
+"مطلوب <a href=\"%s\"> حزمة</a> لاستعراض القوائم، الرجاء تحديد واحد من "
+"الأسفل."
+
+#: includes/install.php:102
+msgid "Please <a href=\"%s\">select a package</a> to browse resumes."
+msgstr "الرجاء <a href=\"%s\"> تحديد حزمة</a> لاستعراض يستأنف."
+
+#: includes/install.php:104
+msgid ""
+"Please select a <a href=\"%s\">package</a> to view the full candidate name."
+msgstr "الرجاء تحديد <a href=\"%s\"> حزمة</a> لعرض اسم المرشح الكامل."
+
+#: includes/integration/job.php:241 includes/integration/resume.php:307
+msgid "Please <a href=\"%s\">select a package</a> to browse listings."
+msgstr "الرجاء <a href=\"%s\"> تحديد حزمة</a> تصفح القوائم."
+
+#: includes/integration/job.php:255 includes/integration/resume.php:321
+msgid "Please <a href=\"%s\">select a package</a> to view this listing's details."
+msgstr "الرجاء <a href=\"%s\"> تحديد حزمة</a> لعرض تفاصيل هذه القائمة."
+
+#: includes/integration/job.php:269 includes/integration/resume.php:398
+msgid "Please <a href=\"%1$s\">select a package</a> to %2$s this listing."
+msgstr "الرجاء <a href=\"%1$s\"> تحديد حزمة</a> إلى % 2$ s إدخال القائمة هذا."
+
+#: includes/integration/resume.php:77
+msgid ""
+"A <a href=\"%s\">package</a> is required to view the full name on this "
+"listing."
+msgstr "<a href=\"%s\"> حزمة</a> مطلوب لعرض الاسم الكامل في هذه القائمة."
+
+#: includes/integration.php:74
+msgid ""
+"This page should redirect in <span class=\"jmpack_redirect_in\">%1$d</span> "
+"seconds, if not, please <a href=\"%2$s\">click here</a>."
+msgstr ""
+"هذه الصفحة يجب إعادة توجيه في <span class=\"jmpack_redirect_in\"> % 1$ "
+"d</span> ثانية، أن لم يكن، انقر <a href=\"%2$s\"> هنا</a>."
+
+#: includes/packages/job.php:53 includes/packages/resume.php:55
+msgid "Browse"
+msgstr "تصفح"
+
+#: includes/packages/job.php:59 includes/packages/resume.php:61
+msgid "View"
+msgstr "طريقة العرض"
+
+#: includes/packages/job.php:71
+msgid "apply to"
+msgstr "تطبيق على"
+
+#: includes/packages/job.php:91 includes/packages/resume.php:94
+msgid "%s to "
+msgstr "% s "
+
+#: includes/packages/job.php:95 includes/packages/resume.php:98
+msgid "view %s single listing"
+msgid_plural "view %s single listings"
+msgstr[0] "عرض قوائم واحد % s"
+msgstr[1] "عرض قائمة واحدة % s"
+msgstr[2] "عرض قوائم واحد % s"
+msgstr[3] "عرض قوائم واحد % s"
+msgstr[4] "عرض قوائم واحد % s"
+msgstr[5] "عرض قوائم واحد % s"
+
+#: includes/packages/job.php:95 includes/packages/job.php:107
+#: includes/packages/resume.php:98 includes/packages/resume.php:109
+#: includes/packages/resume.php:121 includes/packages.php:69
+#: templates/my-packages.php:64
+msgid "unlimited"
+msgstr "غير محدود"
+
+#: includes/packages/job.php:107 includes/packages/resume.php:121
+msgid "%s %s listing"
+msgid_plural "%s %s listings"
+msgstr[0] "قوائم % s % s"
+msgstr[1] "قائمة % s % s"
+msgstr[2] "قوائم % s % s"
+msgstr[3] "قوائم % s % s"
+msgstr[4] "قوائم % s % s"
+msgstr[5] "قوائم % s % s"
+
+#: includes/packages/job.php:113 includes/packages/resume.php:127
+msgid ", and "
+msgstr "، و "
+
+#: includes/packages/job.php:115 includes/packages/resume.php:129
+msgid "browse all listings"
+msgstr "استعراض كافة إدخالات القوائم"
+
+#: includes/packages/resume.php:67
+msgid "View Name"
+msgstr "اسم طريقة العرض"
+
+#: includes/packages/resume.php:73 includes/themes/listify.php:49
+#: templates/access-denied-contact-details.php:6
+#: templates/jobify/access-denied-contact-details.php:6
+#: templates/jobify/access-denied-contact-details.php:11
+msgid "Contact"
+msgstr "جهة الاتصال"
+
+#: includes/packages/resume.php:109
+msgid "view %s single listing name"
+msgid_plural "view %s single listing names"
+msgstr[0] "عرض % s واحدة قائمة بأسماء"
+msgstr[1] "اسم واحد من قائمة عرض % s"
+msgstr[2] "عرض % s واحدة قائمة بأسماء"
+msgstr[3] "عرض % s واحدة قائمة بأسماء"
+msgstr[4] "عرض % s واحدة قائمة بأسماء"
+msgstr[5] "عرض % s واحدة قائمة بأسماء"
+
+#: includes/shortcodes/job.php:71 includes/shortcodes/resume.php:54
+msgid "Select Browse Package"
+msgstr "حدد حزمة استعراض"
+
+#: includes/shortcodes/job.php:72 includes/shortcodes/resume.php:55
+msgid "Choose a Browse Package"
+msgstr "اختر مجموعة استعراض"
+
+#: includes/shortcodes/job.php:113 includes/shortcodes/resume.php:96
+msgid "Select a View Package"
+msgstr "حدد حزمة العرض"
+
+#: includes/shortcodes/job.php:114 includes/shortcodes/resume.php:97
+msgid "Choose a View Package"
+msgstr "اختر طريقة عرض حزمة"
+
+#: includes/shortcodes/job.php:137
+msgid "Select %s Package"
+msgstr "حدد حزمة % s"
+
+#: includes/shortcodes/job.php:138
+msgid "Choose %s Package"
+msgstr "اختر حزمة % s"
+
+#: includes/shortcodes/resume.php:120
+msgid "Select a View Name Package"
+msgstr "حدد حزمة اسم طريقة العرض"
+
+#: includes/shortcodes/resume.php:121
+msgid "Choose a View Name Package"
+msgstr "اختر مجموعة اسم طريقة العرض"
+
+#: includes/shortcodes/resume.php:144
+msgid "Select Contact Package"
+msgstr "حدد حزمة الاتصال"
+
+#: includes/shortcodes/resume.php:145
+msgid "Choose Contact Package"
+msgstr "اختر مجموعة الاتصال"
+
+#: includes/shortcodes.php:100 templates/listable/package-selection.php:72
+msgid "Select Package"
+msgstr "حدد حزمة"
+
+#: includes/shortcodes.php:101
+msgid "Choose a Package"
+msgstr "اختر مجموعة"
+
+#: includes/updater/smyles-updater-licenses.php:105
+#: includes/updater/smyles-updater-licenses.php:199
+msgid "Error"
+msgstr "خطأ"
+
+#: includes/updater/smyles-updater-licenses.php:105
+msgid "Unable to determine slug to deactivate license."
+msgstr "غير قادر على تحديد الارتفاع التقريبي لإلغاء الترخيص."
+
+#: includes/updater/smyles-updater-licenses.php:119
+msgid "Error determining the plugin Product ID."
+msgstr "خطأ في تحديد البرنامج المساعد معرف المنتج."
+
+#: includes/updater/smyles-updater-licenses.php:123
+msgid "Error pulling the license key from option data."
+msgstr "حدث خطأ أثناء سحب مفتاح الترخيص من بيانات الخيار."
+
+#: includes/updater/smyles-updater-licenses.php:127
+msgid ""
+"Error pulling the email associated with the license key from option data."
+msgstr ""
+"حدث خطأ أثناء سحب البريد الإلكتروني المقترن بمفتاح الترخيص من بيانات الخيار."
+
+#: includes/updater/smyles-updater-licenses.php:131
+msgid ""
+"Error pulling the instance ID associated with the license key from option "
+"data."
+msgstr "حدث خطأ أثناء سحب معرف مثيل المقترنة بمفتاح الترخيص من بيانات الخيار."
+
+#: includes/updater/smyles-updater-licenses.php:144
+msgid ""
+"Connection failed to the License Key API server - possible server issue."
+msgstr "فشل الاتصال بخادم ترخيص مفتاح API-مسألة الخادم ممكن."
+
+#: includes/updater/smyles-updater-licenses.php:151
+msgid " Successfully Deactivated!"
+msgstr " إلغاء تنشيط بنجاح!"
+
+#: includes/updater/smyles-updater-licenses.php:152
+msgid "You have successfully deactivated the %s license."
+msgstr "قد قمت بنجاح بإلغاء تنشيطه الترخيص % s."
+
+#: includes/updater/smyles-updater-licenses.php:164
+#: includes/updater/smyles-updater-licenses.php:274
+msgid "Error!"
+msgstr "خطأ!"
+
+#: includes/updater/smyles-updater-licenses.php:164
+msgid ""
+"The license has been successfully deactivated locally, but please visit your"
+" sMyles Plugins <a href=\"%s\" target=\"_blank\">My Account</a> page to "
+"verify this activation has been removed from our server.  There was an error"
+" automatically removing it, and chances are that is because it was already "
+"removed via your <a href=\"%s\" target=\"_blank\">My Account</a> page "
+"already.."
+msgstr ""
+"الترخيص قد تم بنجاح إلغاء تنشيط محلياً، ولكن يرجى زيارة صفحة الإضافات <a "
+"href=\"%s\" target=\"_blank\"> حسابي</a> سميليس للتحقق من هذا التنشيط قد "
+"أزيلت من الخادم الخاص بنا.  حدث خطأ أثناء إزالة تلقائياً، وهناك احتمالات أن "
+"يرجع إلى أن تمت إزالته مسبقاً عن طريق صفحة <a href=\"%s\" target=\"_blank\">"
+" الحساب الخاص بي</a> الفعل..."
+
+#: includes/updater/smyles-updater-licenses.php:200
+msgid ""
+"Unable to determine slug, license key, and/or email to activate license, "
+"contact support."
+msgstr ""
+"غير قادر على تحديد سبيكة، مفتاح الترخيص، و/أو البريد الإلكتروني لتنشيط "
+"الترخيص أو الاتصال بالدعم."
+
+#: includes/updater/smyles-updater-licenses.php:259
+msgid " Successfully Activated!"
+msgstr " تنشيط بنجاح!"
+
+#: includes/updater/smyles-updater-licenses.php:259
+msgid ""
+"You have successfully activated the %s license, and will now be able to "
+"automatically upgrade this plugin through WordPress when an update is "
+"available."
+msgstr ""
+"قمت بنجاح بتنشيط الترخيص % s، والآن سوف تكون قادرة على ترقية هذا البرنامج "
+"المساعد من خلال وورد تلقائياً عندما يتوفر تحديث."
+
+#: includes/updater/smyles-updater-licenses.php:362
+msgid "Deactivate the %s License?"
+msgstr "إلغاء تنشيط الترخيص % s؟"
+
+#: includes/updater/smyles-updater-licenses.php:367
+msgid "No"
+msgstr "لا"
+
+#: includes/updater/smyles-updater-licenses.php:371
+msgid "Yes"
+msgstr "نعم"
+
+#: includes/updater/smyles-updater-licenses.php:377
+msgid "sMyles Plugins Licensing"
+msgstr "سميلس \"ترخيص الإضافات\""
+
+#: includes/updater/smyles-updater-licenses.php:380
+msgid "Plugins"
+msgstr "الإضافات"
+
+#: includes/updater/views/html-key-input.php:5
+msgid "License"
+msgstr "الترخيص"
+
+#: includes/updater/views/html-key-input.php:8
+msgid ""
+"Enter your license key and email and hit return. A valid key is required for"
+" updates."
+msgstr ""
+"أدخل مفتاح الترخيص الخاص بك والبريد الإلكتروني وضرب العودة. مطلوب مفتاح صالح"
+" للحصول على التحديثات."
+
+#: includes/updater/views/html-key-notice.php:6
+msgid "Hide notice"
+msgstr "إخفاء الإشعار"
+
+#: includes/updater/views/html-key-notice.php:7
+msgid ""
+"<a href=\"%1$s\">Please activate your license key</a> in order to receive "
+"updates and support for \"%2$s\"."
+msgstr ""
+"<a href=\"%1$s\"> الرجاء تنشيط مفتاح الترخيص الخاص بك</a> لتلقي التحديثات "
+"والدعم ل '% 2$ s'."
+
+#: includes/updater/views/html-license-activate.php:3
+msgid "Activating ..."
+msgstr "تفعيل..."
+
+#: includes/updater/views/html-license-activate.php:6
+#: includes/updater/views/html-license-deactivate.php:6
+msgid "Plugin Not Found"
+msgstr "لم يتم العثور على البرنامج المساعد"
+
+#: includes/updater/views/html-license-activate.php:18
+#: includes/updater/views/html-license-deactivate.php:20
+msgid "Details"
+msgstr "تفاصيل"
+
+#: includes/updater/views/html-license-activate.php:33
+#: includes/updater/views/html-license-deactivate.php:35
+msgid "Installed Version:"
+msgstr "الإصدار المثبت:"
+
+#: includes/updater/views/html-license-activate.php:54
+msgid "Activate License"
+msgstr "تنشيط الترخيص"
+
+#: includes/updater/views/html-license-deactivate.php:3
+msgid "Deactivating ..."
+msgstr "إلغاء تنشيط..."
+
+#: includes/updater/views/html-license-deactivate.php:43
+msgid "Activated:"
+msgstr "تنشيط:"
+
+#: includes/updater/views/html-license-deactivate.php:64
+msgid "Deactivate License"
+msgstr "إلغاء تنشيط الترخيص"
+
+#: includes/updater/views/html-ms-update.php:6
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr ""
+"هناك يتوفر إصدار جديد من % 1$ s. <a target=\"_blank\" class=\"thickbox\" "
+"href=\"%2$s\"> عرض الإصدار % 3$ s التفاصيل</a> أو <a href=\"%4$s\"> التحديث "
+"الآن</a>."
+
+#: includes/user.php:52
+msgid "This is not a valid package, or is an unlimited package."
+msgstr "وهذا ليس من صلاحية حزمة، أو هو حزمة غير محدود."
+
+#: includes/wc/wcp-job-visibility-package.php:58
+#: includes/wc/wcp-resume-visibility-package.php:61
+msgid "Add to cart"
+msgstr "إضافة إلى عربة التسوق"
+
+#: includes/wc/wcp-job-visibility-package.php:58
+#: includes/wc/wcp-resume-visibility-package.php:61
+msgid "Read More"
+msgstr "اقرأ المزيد"
+
+#: includes/wc.php:397 includes/wc.php:404
+msgid "page"
+msgstr "الصفحة"
+
+#: includes/wc.php:402
+msgid "listing"
+msgstr "من القائمة"
+
+#: includes/wc.php:412
+msgid ""
+"To go back to the %1$s you were previously viewing, <a href=\"%2$s\">click "
+"here</a>."
+msgstr "للعودة إلى % 1$ s التي كانت سابقا عرضها، <a href=\"%2$s\"> انقر هنا</a>."
+
+#: templates/jobify/job-application.php:8
+#: templates/jobify/job-application.php:13
+msgid "Apply for job"
+msgstr "التقدم للوظيفة"
+
+#: templates/listable/package-selection.php:51
+msgid "Your packages"
+msgstr "الحزم الخاصة بك"
+
+#: templates/listable/package-selection.php:65
+#: templates/package-selection.php:34
+msgid "%1$s out of %2$d available %3$s used"
+msgstr "% 1$ s من % 2$ s $d % 3 المتاحة المستخدمة"
+
+#: templates/listable/package-selection.php:80
+msgid "Purchase packages"
+msgstr "حزم الشراء"
+
+#: templates/listable/package-selection.php:105
+msgid "Free"
+msgstr "مجاناً"
+
+#: templates/listable/package-selection.php:141
+msgid "Get Started"
+msgstr "الشروع في العمل"
+
+#: templates/listable/package-selection.php:150
+#: templates/package-selection.php:78
+msgid "No packages found"
+msgstr "أية حزم وجد"
+
+#: templates/my-packages-limit-details.php:5
+msgid "Feature"
+msgstr "ميزة"
+
+#: templates/my-packages-limit-details.php:6
+msgid "Remaining"
+msgstr "المتبقية"
+
+#: templates/my-packages-limit-details.php:7
+msgid "Used"
+msgstr "يستخدم"
+
+#: templates/my-packages-limit-details.php:8
+msgid "Limit"
+msgstr "الحد الأقصى"
+
+#: templates/my-packages-limit-details.php:29
+msgid "Listings"
+msgstr "القوائم"
+
+#: templates/my-packages.php:18
+msgid "My %s Visibility Packages"
+msgstr "حزم رؤية بلدي % s"
+
+#: templates/my-packages.php:23
+msgid "Package Name"
+msgstr "اسم الحزمة"
+
+#: templates/my-packages.php:24
+msgid "Package Features"
+msgstr "حزمة ميزات"
+
+#: templates/my-packages.php:66
+msgid "of"
+msgstr "من"
+
+#: templates/package-selection.php:22
+msgid "Your Packages:"
+msgstr "الحزم الخاصة بك:"
+
+#: templates/package-selection.php:43
+msgid "Purchase Package:"
+msgstr "شراء حزمة:"
+
+#: wp-job-manager-packages.php:255
+msgid ""
+"WP Job Manager Packages requires WooCommerce Subscriptions 2.0 and above. "
+"Please upgrade as soon as possible!"
+msgstr ""
+"الفسفور الأبيض بين وظيفة مدير الحزم يتطلب اشتراكات ووكوميرسي 2.0 وما فوق. "
+"الرجاء الترقية في أقرب وقت ممكن!"
+
+#: wp-job-manager-packages.php:401
+msgid ""
+"WP Job Manager - Packages is missing requirements and has been <a "
+"href=\"%s\">deactivated</a>. Please make sure all requirements are "
+"available."
+msgstr ""
+"الفسفور الأبيض بين وظيفة مدير-حزم مفقود في الاحتياجات وتم <a href=\"%s\"> "
+"إبطال مفعولها</a>. الرجاء التأكد من أن جميع الشروط متوفرة."
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Packages"
+msgstr "الفسفور الأبيض بين وظيفة مدير-الحزم"
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.smyl.es/wp-job-manager-packages"
+msgstr "https://plugins.smyl.es/wp-job-manager-packages"
+
+#. Description of the plugin/theme
+msgid ""
+"Create and configure custom Visibility Packages for WP Job Manager and WP "
+"Resume Manager to require visitors to purchase a package to view, apply, "
+"contact, browse, and more!"
+msgstr ""
+"إنشاء وتكوين \"حزم الرؤية\" مخصصة للفسفور الأبيض وظيفة مدير ومدير استئناف "
+"الفسفور الأبيض لطلب الزائرين لشراء حزمة لعرض، تطبيق، والاتصال، وتصفح، وأكثر!"
+
+#. Author of the plugin/theme
+msgid "Myles McNamara"
+msgstr "مكنمارا مايلز"
+
+#. Author URI of the plugin/theme
+msgid "https://smyl.es"
+msgstr "https://smyl.es"
+
+#: includes/admin/setup.php:414
+msgctxt "Default page title (wizard)"
+msgid "Visibility Packages"
+msgstr "حزم الرؤية"
+
+#: includes/admin/setup.php:424
+msgctxt "Default page title (wizard)"
+msgid "Browse Packages"
+msgstr "تصفح الحزم"
+
+#: includes/admin/setup.php:434
+msgctxt "Default page title (wizard)"
+msgid "Apply/Contact Packages"
+msgstr "تطبيق/الاتصال الحزم"
+
+#: includes/admin/setup.php:444
+msgctxt "Default page title (wizard)"
+msgid "View Packages"
+msgstr "عرض الحزم"
+
+#: includes/admin/setup.php:492
+msgctxt "Default page title (wizard)"
+msgid "Resume Visibility Packages"
+msgstr "استئناف حزم الرؤية"
+
+#: includes/admin/setup.php:502
+msgctxt "Default page title (wizard)"
+msgid "Browse Resume Packages"
+msgstr "تصفح حزم السيرة الذاتية"
+
+#: includes/admin/setup.php:512
+msgctxt "Default page title (wizard)"
+msgid "Resume Contact Packages"
+msgstr "استئناف مجموعات جهات الاتصال"
+
+#: includes/admin/setup.php:522
+msgctxt "Default page title (wizard)"
+msgid "View Resume Packages"
+msgstr "حزم عرض السيرة الذاتية"
+
+#: includes/admin/setup.php:532
+msgctxt "Default page title (wizard)"
+msgid "View Name Resume Packages"
+msgstr "عرض اسم استئناف الحزم"

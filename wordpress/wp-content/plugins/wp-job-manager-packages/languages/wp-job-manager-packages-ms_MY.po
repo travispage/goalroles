@@ -1,0 +1,2074 @@
+# Copyright (C) 2017 Myles McNamara
+# This file is distributed under the GPLv3.
+# Translators:
+# Myles McNamara <myles@smyl.es>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - Packages 1.0.0\n"
+"Report-Msgid-Bugs-To: http://plugins.smyl.es\n"
+"POT-Creation-Date: 2017-01-26 22:53:07+00:00\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Myles McNamara <myles@smyl.es>, 2017\n"
+"Language-Team: Malay (Malaysia) (https://www.transifex.com/smyles/teams/24600/ms_MY/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ms_MY\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: includes/admin/listtable/addpackage.php:72
+msgid "Package Type"
+msgstr "Jenis pakej"
+
+#: includes/admin/listtable/addpackage.php:76
+#: includes/admin/listtable/addpackage.php:77
+msgid "%s Package"
+msgstr "Pakej %s"
+
+#: includes/admin/listtable/addpackage.php:92
+#: includes/admin/listtable/addpackage.php:166
+#: includes/admin/wc/views/html-view-job-package-data.php:35
+msgid "Allow %s?"
+msgstr "Benarkan %s?"
+
+#: includes/admin/listtable/addpackage.php:93
+#: includes/admin/listtable/addpackage.php:167
+msgid "Whether or not this user package supports this feature"
+msgstr "Sama ada atau tidak pakej pengguna ini menyokong ciri ini"
+
+#: includes/admin/listtable/addpackage.php:104
+#: includes/admin/listtable/addpackage.php:178
+msgid "%s Limit"
+msgstr "had %s"
+
+#: includes/admin/listtable/addpackage.php:105
+#: includes/admin/listtable/addpackage.php:179
+msgid "Set specific package limit (Use 0 for unlimited)"
+msgstr "Pakej tertentu yang ditetapkan had (penggunaan 0 untuk tidak terhad)"
+
+#: includes/admin/listtable/addpackage.php:108
+#: includes/admin/listtable/addpackage.php:182 includes/admin/listtable.php:70
+#: includes/admin/listtable.php:105 includes/admin/listtable.php:157
+#: includes/admin/wc/views/html-view-job-package-data.php:17
+#: includes/admin/wc/views/html-view-job-package-data.php:45
+#: includes/admin/wc/views/html-view-resume-package-data.php:14
+#: includes/admin/wc/views/html-view-resume-package-data.php:42
+#: includes/admin/wc/views/html-view-resume-package-data.php:70
+msgid "Unlimited"
+msgstr "Tanpa had"
+
+#: includes/admin/listtable/addpackage.php:113
+#: includes/admin/listtable/addpackage.php:187 includes/admin/listtable.php:75
+#: includes/admin/listtable.php:110 includes/admin/listtable.php:157
+msgid "%s Used"
+msgstr "%s yang digunakan"
+
+#: includes/admin/listtable/addpackage.php:114
+#: includes/admin/listtable/addpackage.php:188
+msgid "Set the total used out of limit available in package"
+msgstr ""
+"Menetapkan jumlah yang digunakan daripada had yang disediakan dalam pakej"
+
+#: includes/admin/listtable/addpackage.php:122
+#: includes/admin/listtable/addpackage.php:196
+msgid "%s Posts"
+msgstr "jawatan %s"
+
+#: includes/admin/listtable/addpackage.php:123
+#: includes/admin/listtable/addpackage.php:197
+msgid "CSV (Comma Separated Value) of Post IDs used"
+msgstr "CSV (nilai dipisahkan oleh koma) daripada Post ID digunakan"
+
+#: includes/admin/listtable/addpackage.php:126
+#: includes/admin/listtable/addpackage.php:200
+msgid "Used posts &hellip;"
+msgstr "Menggunakan jawatan &hellip;"
+
+#: includes/admin/listtable/addpackage.php:231
+#: includes/admin/listtable.php:182
+msgid "User"
+msgstr "Pengguna"
+
+#: includes/admin/listtable/addpackage.php:234
+msgid "Guest"
+msgstr "Tetamu"
+
+#: includes/admin/listtable/addpackage.php:239
+#: includes/admin/listtable.php:185
+msgid "Product"
+msgstr "Produk"
+
+#: includes/admin/listtable/addpackage.php:240
+msgid "Optionally link this package to a product."
+msgstr "Pilihan pautan pakej ini kepada sesuatu produk."
+
+#: includes/admin/listtable/addpackage.php:243
+msgid "Choose a product&hellip;"
+msgstr "Memilih produk &hellip;"
+
+#: includes/admin/listtable/addpackage.php:278
+#: includes/admin/listtable.php:184
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/listtable/addpackage.php:279
+msgid ""
+"Current status of the package.  Package must be active to show in user "
+"account and available to the user.  On-hold status normally means it's a "
+"subscription pending renewal payment."
+msgstr ""
+"Status semasa pakej.  Pakej mestilah aktif untuk menunjukkan dalam akaun "
+"pengguna dan tersedia kepada pengguna.  Status pada mengadakan biasanya "
+"bermakna ianya langganan sementara menunggu bayaran pembaharuan."
+
+#: includes/admin/listtable/addpackage.php:282
+msgid "Choose a status&hellip;"
+msgstr "Pilih status &hellip;"
+
+#: includes/admin/listtable/addpackage.php:297
+#: includes/admin/listtable.php:187
+msgid "Order ID"
+msgstr "ID perintah"
+
+#: includes/admin/listtable/addpackage.php:298
+msgid "Optionally link this package to an order."
+msgstr "Pilihan pautan pakej ini kepada suatu perintah."
+
+#: includes/admin/listtable/addpackage.php:301
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/admin/listtable/addpackage.php:307
+msgid "Save Package"
+msgstr "Pakej jimat"
+
+#: includes/admin/listtable/addpackage.php:329
+msgid ""
+"Please select a user from the dropdown to associate this user package with."
+msgstr ""
+"Sila pilih pengguna dari dropdown untuk mengaitkan pakej pengguna ini "
+"dengan."
+
+#: includes/admin/listtable/addpackage.php:332
+msgid ""
+"A status is required for a package, please select one from the dropdown "
+"(must be active to show in user account)"
+msgstr ""
+"Status diperlukan untuk pakej, sila pilih salah satu dari juntai (mestilah "
+"aktif untuk menunjukkan dalam akaun pengguna)"
+
+#: includes/admin/listtable/addpackage.php:425
+msgid "Package successfully saved"
+msgstr "Pakej yang berjaya diselamatkan"
+
+#: includes/admin/listtable.php:143 includes/admin/listtable.php:150
+#: includes/admin/listtable.php:155
+msgid "n/a"
+msgstr "n/a"
+
+#: includes/admin/listtable.php:160
+msgid "Subscription"
+msgstr "Langganan"
+
+#: includes/admin/listtable.php:162
+msgid "Package"
+msgstr "Pakej"
+
+#: includes/admin/listtable.php:165
+msgid "Edit"
+msgstr "Edit"
+
+#: includes/admin/listtable.php:166
+msgid "Delete"
+msgstr "Hapus"
+
+#: includes/admin/listtable.php:183
+msgid "Type"
+msgstr "Jenis"
+
+#: includes/admin/listtable.php:186
+msgid "Limits"
+msgstr "Had-had"
+
+#: includes/admin/listtable.php:188
+msgid "Actions"
+msgstr "Tindakan-tindakan"
+
+#: includes/admin/plugins/visibility/views/packages.php:19
+msgid "No Packages Found"
+msgstr "Tiada pakej yang ditemui"
+
+#: includes/admin/plugins/visibility/views/packages.php:25
+msgid "Select a Package"
+msgstr "Sila pilih pakej"
+
+#: includes/admin/plugins/visibility/views/packages.php:29
+#: includes/admin/plugins/visibility/views/packages.php:43
+msgid "%s Packages"
+msgstr "Pakej %s"
+
+#: includes/admin/plugins/visibility/views/packages.php:57
+#: includes/admin/plugins/visibility/views/packages.php:71
+msgid "WC Paid Listings %s Packages"
+msgstr "Tandas yang dibayar pakej %s senarai"
+
+#: includes/admin/plugins/visibility.php:94
+#: includes/admin/plugins/visibility.php:182
+msgid "Packages"
+msgstr "Pakej-pakej"
+
+#: includes/admin/settings/job.php:42 includes/functions.php:61
+#: includes/wc/job.php:38
+msgid "Job"
+msgstr "Kerja"
+
+#: includes/admin/settings/job.php:43
+msgid "Jobs"
+msgstr "Kerja-kerja"
+
+#: includes/admin/settings/job.php:51 includes/admin/settings/job.php:60
+#: includes/admin/settings/resume.php:68 includes/admin/settings/resume.php:77
+msgid "View %s"
+msgstr "Lihat %s"
+
+#: includes/admin/settings/job.php:61 includes/admin/settings/resume.php:78
+msgid "Require %1$s package to view a single %1$s"
+msgstr "Memerlukan pakej s $ %1 untuk melihat s $ tunggal %1 a"
+
+#: includes/admin/settings/job.php:62 includes/admin/settings/resume.php:79
+msgid ""
+"If enabled, visitors will be required to have a %s package with view "
+"permissions, to view any single listing page."
+msgstr ""
+"Jika dibolehkan, pengunjung akan diwajibkan untuk melakukan satu pakej %s "
+"dengan kebenaran pandangan, untuk melihat mana-mana halaman senarai tunggal."
+
+#: includes/admin/settings/job.php:71 includes/admin/settings/job.php:80
+#: includes/admin/settings/resume.php:88 includes/admin/settings/resume.php:97
+msgid "Browse %s"
+msgstr "Layari %s"
+
+#: includes/admin/settings/job.php:81 includes/admin/settings/resume.php:98
+msgid "Require %s package to browse listings"
+msgstr "Memerlukan pakej %s untuk menyemak senarai"
+
+#: includes/admin/settings/job.php:82 includes/admin/settings/resume.php:99
+msgid ""
+"If enabled, visitors will be required to have a package with browse "
+"permissions, to view the listing summary on the browse/list/search page."
+msgstr ""
+"Jika dibolehkan, pengunjung akan diwajibkan untuk melakukan satu pakej "
+"dengan kebenaran browse, untuk melihat senarai ringkasan pada halaman "
+"carian/senarai/carian."
+
+#: includes/admin/settings/job.php:90 includes/admin/settings/job.php:99
+msgid "%1$s %2$s"
+msgstr "%1$ s %2$ s"
+
+#: includes/admin/settings/job.php:100
+msgid "Require %1$s package to %2$s a %1$s"
+msgstr "Memerlukan pakej s $ %1 %2$ s a %1$ s"
+
+#: includes/admin/settings/job.php:101
+msgid ""
+"If enabled, visitors will be required to have a %1$s package with %2$s "
+"permissions, to %3$s a listing."
+msgstr ""
+"Jika dibolehkan, pengunjung akan dikehendaki untuk mempunyai satu pakej s $ "
+"%1 dengan kebenaran s $ %2, kepada s $ %3 senarai."
+
+#: includes/admin/settings/job.php:111 includes/admin/settings/resume.php:128
+msgid "Type Colors"
+msgstr "Jenis warna"
+
+#: includes/admin/settings/job.php:120 includes/admin/settings/resume.php:137
+msgid "Customize Type Colors"
+msgstr "Suaikan jenis warna"
+
+#: includes/admin/settings/job.php:121 includes/admin/settings/resume.php:138
+msgid "Yes, enable custom type colors settings"
+msgstr "Ya, mengaktifkan tetapan warna jenis adat"
+
+#: includes/admin/settings/job.php:122 includes/admin/settings/resume.php:139
+msgid "Enable to customize the type colors."
+msgstr "Membolehkan untuk menyesuaikan jenis warna."
+
+#: includes/admin/settings/job.php:130 includes/admin/settings/resume.php:156
+msgid "View Color"
+msgstr "Lihat warna"
+
+#: includes/admin/settings/job.php:131 includes/admin/settings/resume.php:157
+msgid "Customize color to use for the the view type"
+msgstr "Warna digunakan untuk menyesuaikan dengan jenis paparan"
+
+#: includes/admin/settings/job.php:139 includes/admin/settings/resume.php:147
+msgid "Browse Color"
+msgstr "Layari warna"
+
+#: includes/admin/settings/job.php:140 includes/admin/settings/resume.php:148
+msgid "Customize color to use for the the browse type"
+msgstr "Menyesuaikan warna menggunakan yang jenis carian"
+
+#: includes/admin/settings/job.php:148
+msgid "%s Color"
+msgstr "warna %s"
+
+#: includes/admin/settings/job.php:149
+msgid "Customize color to use for the the %1$s type"
+msgstr "Warna digunakan untuk menyesuaikan dengan jenis s $ %1"
+
+#: includes/admin/settings/job.php:157
+msgid "%s Visibility"
+msgstr "penglihatan %s"
+
+#: includes/admin/settings/job.php:166 includes/admin/settings/resume.php:231
+msgid "%1$s Visibility Pages"
+msgstr "%1$ s keterlihatan Laman"
+
+#: includes/admin/settings/job.php:173 includes/admin/settings/resume.php:238
+msgid "Select Package Form Page"
+msgstr "Pilih laman borang pakej"
+
+#: includes/admin/settings/job.php:174
+msgid ""
+"Select the page where you have placed the "
+"<code>[job_visibility_packages]</code> shortcode. This lets the plugin know "
+"where the form is located."
+msgstr ""
+"Pilih halaman di mana anda telah meletakkan shortcode "
+"<code>[job_visibility_packages]</code>. Ini membolehkan plugin yang tahu di "
+"mana terletaknya bentuk."
+
+#: includes/admin/settings/job.php:180 includes/admin/settings/resume.php:245
+msgid "Browse Package Page"
+msgstr "Layari laman pakej"
+
+#: includes/admin/settings/job.php:181
+msgid ""
+"Select the page where you have placed the <code>[browse_job_packages]</code>"
+" shortcode, <strong>if you plan to use custom select browse package form "
+"page (optional).</strong>"
+msgstr ""
+"Pilih halaman di mana anda telah meletakkan shortcode "
+"<code>[browse_job_packages]</code>, <strong>jika anda merancang untuk "
+"menggunakan adat Pilih layari laman borang pakej (pilihan).</strong>"
+
+#: includes/admin/settings/job.php:187 includes/admin/settings/resume.php:252
+msgid "View Package Page"
+msgstr "Lihat pakej Laman"
+
+#: includes/admin/settings/job.php:188
+msgid ""
+"Select the page where you have placed the <code>[view_job_packages]</code> "
+"shortcode, <strong>if you plan to use custom select view package form page "
+"(optional).</strong>"
+msgstr ""
+"Pilih halaman di mana anda telah meletakkan shortcode "
+"<code>[view_job_packages]</code>, <strong>jika anda merancang untuk "
+"menggunakan adat lihat pilih pakej Borang Laman (pilihan).</strong>"
+
+#: includes/admin/settings/job.php:194
+msgid "%s Package Page"
+msgstr "Laman pakej %s"
+
+#: includes/admin/settings/job.php:195
+msgid ""
+"Select the page where you have placed the <code>[apply_job_packages]</code> "
+"shortcode, <strong>if you plan to use custom select %s package form page "
+"(optional).</strong>"
+msgstr ""
+"Pilih halaman di mana anda telah meletakkan shortcode "
+"<code>[apply_job_packages]</code>, <strong>jika anda merancang untuk "
+"menggunakan adat Pilih %s pakej Borang Laman (pilihan).</strong>"
+
+#: includes/admin/settings/resume.php:42 includes/functions.php:118
+#: includes/wc/resume.php:39
+msgid "Resume"
+msgstr "Resume"
+
+#: includes/admin/settings/resume.php:43
+msgid "Resumes"
+msgstr "Resume"
+
+#: includes/admin/settings/resume.php:45
+msgid "To override any package configuration above ... "
+msgstr "Mengatasi mana-mana Pakej konfigurasi ke atas... "
+
+#: includes/admin/settings/resume.php:50
+msgid "View %s Name"
+msgstr "Nama paparan %s"
+
+#: includes/admin/settings/resume.php:59
+msgid "View Name Package"
+msgstr "Paparan nama pakej"
+
+#: includes/admin/settings/resume.php:60
+msgid "Require %s package to view resumes names"
+msgstr "Memerlukan pakej %s untuk melihat nama resume"
+
+#: includes/admin/settings/resume.php:61
+msgid ""
+"If enabled, visitors will be required to have a %1$s package with view names"
+" permissions, for %1$s names to be visible."
+msgstr ""
+"Jika dibolehkan, pengunjung akan dikehendaki untuk mempunyai satu pakej s $ "
+"%1 dengan kebenaran nama paparan, nama s $ %1 akan dapat dilihat."
+
+#: includes/admin/settings/resume.php:107
+#: includes/admin/settings/resume.php:116
+msgid "Contact %1$s"
+msgstr "Hubungi %1$ s"
+
+#: includes/admin/settings/resume.php:117
+msgid "Require contact package to contact a %1$s"
+msgstr "Memerlukan hubungan pakej untuk menghubungi a %1$ s"
+
+#: includes/admin/settings/resume.php:118
+msgid ""
+"If enabled, visitors will be required to have a %1$s package with contact "
+"permissions, to contact any single %1$s."
+msgstr ""
+"Jika dibolehkan, pengunjung akan diwajibkan untuk melakukan satu pakej s $ "
+"%1 dengan keizinan kenalan, untuk menghubungi mana-mana s$ %1 tunggal."
+
+#: includes/admin/settings/resume.php:165
+msgid "View Name Color"
+msgstr "Paparan nama warna"
+
+#: includes/admin/settings/resume.php:166
+msgid "Customize color to use for the the view name type"
+msgstr "Warna digunakan untuk menyesuaikan dengan jenis nama paparan"
+
+#: includes/admin/settings/resume.php:174
+msgid "Contact Color"
+msgstr "Hubungi warna"
+
+#: includes/admin/settings/resume.php:175
+msgid "Customize color to use for the the contact type"
+msgstr "Menyesuaikan warna menggunakan yang jenis perhubungan yang"
+
+#: includes/admin/settings/resume.php:187
+msgid "Capability Override Settings"
+msgstr "Keupayaan menimpa seting"
+
+#: includes/admin/settings/resume.php:194
+msgid "View Resume name Capability"
+msgstr "Lihat Resume nama keupayaan"
+
+#: includes/admin/settings/resume.php:196
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view resumes "
+"names. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Masukkan <a href=\"%s\"> keupayaan</a> yang diperlukan untuk melihat nama "
+"resume. Menyokong senarai peranan/keupayaan dipisahkan koma."
+
+#: includes/admin/settings/resume.php:201
+msgid "Browse Resume Capability"
+msgstr "Layari keupayaan Resume"
+
+#: includes/admin/settings/resume.php:203
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to browse resumes."
+" Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Masukkan dalam <a href=\"%s\"> keupayaan</a> yang diperlukan untuk menyemak "
+"imbas resume. Menyokong senarai peranan/keupayaan dipisahkan koma."
+
+#: includes/admin/settings/resume.php:208
+msgid "View Resume Capability"
+msgstr "Lihat Resume keupayaan"
+
+#: includes/admin/settings/resume.php:210
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view a single "
+"resume. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Masukkan <a href=\"%s\"> keupayaan</a> diperlukan supaya dapat melihat "
+"resume yang tunggal. Menyokong senarai peranan/keupayaan dipisahkan koma."
+
+#: includes/admin/settings/resume.php:215
+msgid "Contact Details Capability"
+msgstr "Keupayaan maklumat perhubungan"
+
+#: includes/admin/settings/resume.php:217
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view contact "
+"details on a resume. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Masukkan <a href=\"%s\"> keupayaan</a> diperlukan untuk melihat maklumat "
+"mengenai resume. Menyokong senarai peranan/keupayaan dipisahkan koma."
+
+#: includes/admin/settings/resume.php:222
+msgid "Resume Visibility"
+msgstr "Resume keterlihatan"
+
+#: includes/admin/settings/resume.php:239
+msgid ""
+"Select the page where you have placed the "
+"<code>[resume_visibility_packages]</code> shortcode. This lets the plugin "
+"know where the form is located."
+msgstr ""
+"Pilih halaman di mana anda telah meletakkan shortcode "
+"<code>[resume_visibility_packages]</code>. Ini membolehkan plugin yang tahu "
+"di mana terletaknya bentuk."
+
+#: includes/admin/settings/resume.php:246
+msgid ""
+"Select the page where you have placed the "
+"<code>[browse_resume_packages]</code> shortcode, <strong>if you plan to use "
+"custom select browse package form page (optional).</strong>"
+msgstr ""
+"Pilih halaman di mana anda telah meletakkan shortcode "
+"<code>[browse_resume_packages]</code>, <strong>jika anda merancang untuk "
+"menggunakan adat Pilih layari laman borang pakej (pilihan).</strong>"
+
+#: includes/admin/settings/resume.php:253
+msgid ""
+"Select the page where you have placed the "
+"<code>[view_resume_packages]</code> shortcode, <strong>if you plan to use "
+"custom select view package form page (optional).</strong>"
+msgstr ""
+"Pilih halaman di mana anda telah meletakkan shortcode "
+"<code>[view_resume_packages]</code>, <strong>jika anda merancang untuk "
+"menggunakan adat lihat pilih pakej Borang Laman (pilihan).</strong>"
+
+#: includes/admin/settings/resume.php:259
+msgid "View Name Package Page"
+msgstr "Lihat nama pakej Laman"
+
+#: includes/admin/settings/resume.php:260
+msgid ""
+"Select the page where you have placed the "
+"<code>[view_name_resume_packages]</code> shortcode, <strong>if you plan to "
+"use custom select view name package form page (optional).</strong>"
+msgstr ""
+"Pilih halaman di mana anda telah meletakkan shortcode "
+"<code>[view_name_resume_packages]</code>, <strong>jika anda merancang untuk "
+"menggunakan adat Pilih paparan nama pakej laman borang (pilihan).</strong>"
+
+#: includes/admin/settings/resume.php:266
+msgid "Contact Package Page"
+msgstr "Hubungi Laman pakej"
+
+#: includes/admin/settings/resume.php:267
+msgid ""
+"Select the page where you have placed the "
+"<code>[contact_resume_packages]</code> shortcode, <strong>if you plan to use"
+" custom select contact package form page (optional).</strong>"
+msgstr ""
+"Pilih halaman di mana anda telah meletakkan shortcode "
+"<code>[contact_resume_packages]</code>, <strong>jika anda merancang untuk "
+"menggunakan adat Pilih Hubungi Laman borang pakej (pilihan).</strong>"
+
+#: includes/admin/settings.php:131
+msgid ", or use a"
+msgstr ", atau menggunakan satu"
+
+#: includes/admin/settings.php:131
+msgid "<a href=\"%2$s\" target=\"_blank\">Template Override</a>: <code>%1$s</code>."
+msgstr ""
+"<a href=\"%2$s\" target=\"_blank\"> mengatasi templat</a>: <code>%1$ "
+"s</code>."
+
+#: includes/admin/settings.php:181
+msgid "None"
+msgstr "Tiada seorang pun"
+
+#: includes/admin/settings.php:182
+msgid "Red"
+msgstr "Merah"
+
+#: includes/admin/settings.php:183
+msgid "Orange"
+msgstr "Orange"
+
+#: includes/admin/settings.php:184
+msgid "Yellow"
+msgstr "Kuning"
+
+#: includes/admin/settings.php:185
+msgid "Olive"
+msgstr "Zaitun"
+
+#: includes/admin/settings.php:186
+msgid "Green"
+msgstr "Hijau"
+
+#: includes/admin/settings.php:187
+msgid "Teal"
+msgstr "Teal"
+
+#: includes/admin/settings.php:188
+msgid "Blue"
+msgstr "Biru"
+
+#: includes/admin/settings.php:189
+msgid "Violet"
+msgstr "Violet"
+
+#: includes/admin/settings.php:190
+msgid "Purple"
+msgstr "Ungu"
+
+#: includes/admin/settings.php:191
+msgid "Pink"
+msgstr "Pink"
+
+#: includes/admin/settings.php:192
+msgid "Grey"
+msgstr "Kelabu"
+
+#: includes/admin/settings.php:193
+msgid "Black"
+msgstr "Hitam"
+
+#: includes/admin/settings.php:214
+msgid "Redirects"
+msgstr "Dilencongkan ke"
+
+#: includes/admin/settings.php:223
+msgid "Customize Redirect"
+msgstr "Menyesuaikan diarah semula"
+
+#: includes/admin/settings.php:224
+msgid "Yes, enable custom redirect settings"
+msgstr "Ya, membolehkan seting tersuai redirect"
+
+#: includes/admin/settings.php:225
+msgid "Enable to customize the redirect settings and configuration."
+msgstr "Membolehkan untuk menyesuaikan seting redirect dan konfigurasi."
+
+#: includes/admin/settings.php:233
+msgid "Wait Time"
+msgstr "Tunggu masa"
+
+#: includes/admin/settings.php:234
+msgid ""
+"Amount of time (in seconds) to wait before executing redirect.  Set to 0 "
+"(zero) to immediately redirect."
+msgstr ""
+"Jumlah masa (dalam minit) untuk menunggu sebelum melaksanakan diarah semula."
+"  Disetkan ke 0 (kosong) untuk mengarahkan semula dengan serta-merta."
+
+#: includes/admin/settings.php:241
+msgid "Hide All"
+msgstr "Sembunyi semua"
+
+#: includes/admin/settings.php:242
+msgid "Yes, hide all page contents while showing the dimmer."
+msgstr "Ya, Sembunyi semua kandungan laman sambil menunjukkan yang malap."
+
+#: includes/admin/settings.php:243
+msgid ""
+"By default, when a redirect is enabled, a dimmer will be shown that covers "
+"the entire page contents with a loading icon in the middle, and notice text "
+"below it.  Enable this option to hide all content behind the dimmer (to only"
+" show loader and notice text)."
+msgstr ""
+"Secara lalai, apabila lencongan didayakan, malap yang akan ditunjukkan yang "
+"merangkumi seluruh halaman isi kandungan dengan memuatkan ikon di Timur "
+"Tengah, dan notis teks di bawahnya.  Membolehkan opsyen ini untuk Sembunyi "
+"semua kandungan di sebalik malap (untuk hanya Papar loader dan notis teks)."
+
+#: includes/admin/settings.php:251
+msgid "White Dimmer"
+msgstr "Malap putih"
+
+#: includes/admin/settings.php:252
+msgid "Yes, use the white (inverted) dimmer color."
+msgstr "Ya, menggunakan warna putih dimmer (terbalik)."
+
+#: includes/admin/settings.php:253
+msgid ""
+"By default, the standard dimmer color is black, enable this setting to use "
+"the inverted color, white."
+msgstr ""
+"Secara lalai, standard dimmer warna hitam, membolehkan seting ini untuk "
+"menggunakan warna yang terbalik, putih."
+
+#: includes/admin/settings.php:278 includes/admin/settings.php:287
+msgid "Semantic UI"
+msgstr "UI semantik"
+
+#: includes/admin/settings.php:288
+msgid "Yes, enable <a href=\"%s\" target=\"_blank\">Semantic UI</a>"
+msgstr "Ya, dayakan <a href=\"%s\" target=\"_blank\"> UI semantik</a>"
+
+#: includes/admin/settings.php:289
+msgid "Enable this to use and customize the Semantic UI styling."
+msgstr "Membolehkan ini untuk menggunakan dan menyesuaikan Style UI semantik."
+
+#: includes/admin/settings.php:296
+msgid "Table Style"
+msgstr "Jadual gaya"
+
+#: includes/admin/settings.php:297
+msgid ""
+"Yes, enable <a href=\"%s\" target=\"_blank\">Semantic UI</a> table styling "
+"for the My Packages list"
+msgstr ""
+"Ya, membolehkan Jadual <a href=\"%s\" target=\"_blank\"> UI semantik</a> "
+"yang menggayakan untuk senarai pakej yang saya"
+
+#: includes/admin/settings.php:298
+msgid ""
+"If enabled, the frontend user package list tables will use the Semantic UI "
+"styling."
+msgstr ""
+"Jika dibolehkan, Jadual senarai pakej frontend pengguna akan menggunakan "
+"Style UI semantik."
+
+#: includes/admin/settings.php:306
+msgid "Table Color"
+msgstr "Jadual warna"
+
+#: includes/admin/settings.php:307
+msgid "Customize color to use for the the table"
+msgstr "Warna digunakan untuk menyesuaikan dengan jadual"
+
+#: includes/admin/settings.php:343 includes/admin/wc.php:63
+msgid "Available Shortcodes:"
+msgstr "Shortcode tersedia:"
+
+#: includes/admin/settings.php:375
+msgid "%1$s %2$s Placeholder"
+msgstr "s $s %2$ %1 ruang letak"
+
+#: includes/admin/settings.php:376
+msgid ""
+"The content above will be shown when the user does not have permissions and "
+"a package is required"
+msgstr ""
+"Kandungan di atas akan dipaparkan apabila pengguna tidak mempunyai kebenaran"
+" dan pakej yang diperlukan"
+
+#: includes/admin/settings.php:404
+msgid "%1$s %2$s Redirect"
+msgstr "%1$ s %2$ s melencong"
+
+#: includes/admin/settings.php:405
+msgid "Yes, redirect to the %1$s %2$s package select page"
+msgstr "Ya, melencong ke %1$ s %2$ s pakej pilih halaman"
+
+#: includes/admin/settings.php:406
+msgid ""
+"If enabled, users without permissions will be redirected to the page "
+"(configured in Pages tab) to purchase or select package to use."
+msgstr ""
+"Jika dibolehkan, pengguna tanpa kebenaran akan dihalakan ke halaman "
+"(dikonfigurasikan dalam tab halaman) untuk membeli atau pilih pakej untuk "
+"menggunakan."
+
+#: includes/admin/settings.php:435
+msgid "%1$s %2$s Admin"
+msgstr "s $s %2$ %1 Admin"
+
+#: includes/admin/settings.php:436
+msgid "Yes, require administrators to have package"
+msgstr "Ya, memerlukan pentadbir untuk pakej"
+
+#: includes/admin/settings.php:437
+msgid ""
+"If enabled, administrators will be required to have a package with "
+"permissions for this type."
+msgstr ""
+"Jika dibolehkan, pentadbir perlu mempunyai satu pakej dengan keizinan untuk "
+"jenis ini."
+
+#: includes/admin/settings.php:466
+msgid "%1$s %2$s Redirect Notice"
+msgstr "%1 s %2$ $s Redirect notis"
+
+#: includes/admin/settings.php:467
+msgid "Yes, use the %1$s %2$s placeholder as redirect notice"
+msgstr "Ya, gunakan dalam %1$ s %2$ s Ruang letak kerana mengarahkan notis"
+
+#: includes/admin/settings.php:468
+msgid ""
+"If enabled, the placeholder value will be used as the notice shown before "
+"redirecting (instead of default one)."
+msgstr ""
+"Jika dibolehkan, Ruang letak nilai akan digunakan sebagai notis yang "
+"ditunjukkan sebelum mengarah (bukan lalai satu)."
+
+#: includes/admin/setup.php:34
+msgid "Setup"
+msgstr "Persediaan"
+
+#: includes/admin/setup.php:178 includes/admin/setup.php:223
+msgid "Starter Package"
+msgstr "Pakej Starter"
+
+#: includes/admin/setup.php:180
+msgid "View 1 Full Listing<br/>Browse All Listings"
+msgstr "Lihat senarai penuh 1 <br/> layari senarai semua"
+
+#: includes/admin/setup.php:188 includes/admin/setup.php:233
+msgid "Plus Package"
+msgstr "Plus pakej"
+
+#: includes/admin/setup.php:190
+msgid ""
+"View 10 Full Listings<br/>Apply/Contact 5 Listings<br/>Browse All Listings"
+msgstr ""
+"Lihat senarai penuh 10 <br/> memohon/hubungi senarai 5 <br/> layari senarai "
+"semua"
+
+#: includes/admin/setup.php:200 includes/admin/setup.php:247
+msgid "Premium Package"
+msgstr "Pakej premium"
+
+#: includes/admin/setup.php:202
+msgid ""
+"View Unlimited Full Listings<br/>Apply/Contact 10 Listings<br/>Browse All "
+"Listings"
+msgstr ""
+"Lihat senarai penuh tidak terhad <br/> memohon/hubungi senarai 10 <br/> "
+"layari senarai semua"
+
+#: includes/admin/setup.php:212 includes/admin/setup.php:261
+msgid "Single Application/Contact"
+msgstr "Permohonan/hubungi tunggal"
+
+#: includes/admin/setup.php:214
+msgid "Apply/Contact 1 Listing"
+msgstr "Memohon/hubungi 1 Senarai"
+
+#: includes/admin/setup.php:225
+msgid "View 1 Full Resume<br/>Browse All Resumes"
+msgstr "Lihat Resume penuh 1 <br/> layari semua resume"
+
+#: includes/admin/setup.php:235
+msgid ""
+"View 10 Full Resumes<br/>View 5 Candidate Full Names<br/>Contact 5 "
+"Candidates<br/>Browse All Resumes"
+msgstr ""
+"Resume penuh 10 pandangan <br/> melihat nama penuh calon 5 <br/> hubungi "
+"calon 5 <br/> layari semua resume"
+
+#: includes/admin/setup.php:249
+msgid ""
+"View Unlimited Full Resumes<br/>View Unlimited Candidate Full "
+"Names<br/>Contact 10 Candidates<br/>Browse All Resumes"
+msgstr ""
+"Resume penuh tanpa had pandangan <br/> melihat nama penuh calon tidak terhad"
+" <br/> hubungi calon 10 <br/> layari semua resume"
+
+#: includes/admin/setup.php:263
+msgid "Contact 1 Candidate"
+msgstr "Hubungi calon 1"
+
+#: includes/admin/setup.php:270
+msgid "Silver Full Name Package"
+msgstr "Pakej Perak nama penuh"
+
+#: includes/admin/setup.php:272
+msgid "View 5 Candidate Full Names"
+msgstr "Lihat 5 nama penuh calon"
+
+#: includes/admin/setup.php:312
+msgid "A total of %d pages were successfully created!"
+msgstr "Sebanyak %d halaman berjayaa dicipta!"
+
+#: includes/admin/setup.php:343
+msgid "A total of %d packages were successfully created!"
+msgstr "Sebanyak %d pakej berjayaa dicipta!"
+
+#: includes/admin/setup.php:350
+msgid "Job Manager Packages Setup"
+msgstr "Persediaan pakej Pengurus tugas"
+
+#: includes/admin/setup.php:353
+msgid "1. Introduction"
+msgstr "1. pengenalan"
+
+#: includes/admin/setup.php:354
+msgid "2. Page Setup"
+msgstr "2. Laman persediaan"
+
+#: includes/admin/setup.php:357
+msgid "3. Resume Page Setup"
+msgstr "3. sambung Persediaan Laman"
+
+#: includes/admin/setup.php:358
+msgid "4. Packages Setup"
+msgstr "4. pakej persediaan"
+
+#: includes/admin/setup.php:359
+msgid "5. Done"
+msgstr "5. selesai"
+
+#: includes/admin/setup.php:361
+msgid "3. Packages Setup"
+msgstr "3. pakej persediaan"
+
+#: includes/admin/setup.php:362
+msgid "4. Done"
+msgstr "4. dilakukan"
+
+#: includes/admin/setup.php:369
+msgid "Setup Wizard Introduction"
+msgstr "Pengenalan Pendeta Persediaan"
+
+#: includes/admin/setup.php:371
+msgid "Thanks for installing <em>WP Job Manager Packages</em>!"
+msgstr "Terima kasih untuk memasang <em>Pakej Pengurus kerja WP</em>!"
+
+#: includes/admin/setup.php:372
+msgid ""
+"This setup wizard will help you get started by creating the pages for "
+"package selection, and configuring those values in the settings for you."
+msgstr ""
+"Pendeta Persediaan ini akan membantu anda bermula dengan mencipta halaman "
+"untuk pilihan pakej dan mengkonfigurasi nilai-nilai tersebut dalam seting "
+"untuk anda."
+
+#: includes/admin/setup.php:373
+msgid ""
+"If you want to skip the wizard and setup the pages and shortcodes yourself "
+"manually, you can do so very easily using any of the available shortcodes. "
+"Refer to the %sdocumentation%s for help."
+msgstr ""
+"Jika anda mahu melangkau pendeta dan setup halaman dan shortcode diri anda "
+"secara manual, anda boleh melakukan begitu sangat mudah menggunakan mana-"
+"mana shortcode yang disediakan. Merujuk kepada sdocumentation %% s. untuk "
+"bantuan."
+
+#: includes/admin/setup.php:378 includes/admin/setup.php:569
+msgid "WooCommerce Was Not Detected"
+msgstr "WooCommerce tidak dapat dikesan"
+
+#: includes/admin/setup.php:379 includes/admin/setup.php:570
+msgid ""
+"Currently the only integration available with WP Job Manager Packages, is "
+"through WooCommerce (although others will be added later). WooCommerce was "
+"not detected as being activated on your site."
+msgstr ""
+"Buat masa ini integrasi sahaja yang disediakan dengan pakej Pengurus kerja "
+"WP, adalah melalui WooCommerce (walaupun orang lain akan ditambah kemudian)."
+" WooCommerce tidak dapat dikesan sebagai sedang aktif di laman anda."
+
+#: includes/admin/setup.php:380 includes/admin/setup.php:572
+msgid "Click Here to Active/Install WooCommerce"
+msgstr "Klik di sini untuk WooCommerce aktif/pasang"
+
+#: includes/admin/setup.php:382
+msgid ""
+"Once you have installed/activated, refresh this page, or click below to "
+"continue setup."
+msgstr ""
+"Sebaik sahaja anda telah dipasang/diaktifkan, Muat semula Laman ini, atau "
+"klik di bawah untuk meneruskan persediaan."
+
+#: includes/admin/setup.php:388
+msgid "Continue to page setup"
+msgstr "Terus setup Laman"
+
+#: includes/admin/setup.php:389
+msgid "Skip setup. I will setup the plugin manually"
+msgstr "Langkau persediaan. Saya akan sediakan plugin secara manual"
+
+#: includes/admin/setup.php:395
+msgid "Page Setup"
+msgstr "Persediaan Laman"
+
+#: includes/admin/setup.php:397 includes/admin/setup.php:477
+msgid ""
+"<em>WP Job Manager Packages</em> includes %1$sshortcodes%2$s which can be "
+"used within your %3$spages%2$s to output content. These can be created for "
+"you below. For more information on the available shortcodes, view the "
+"%4$sshortcode documentation%2$s."
+msgstr ""
+"<em>WP kerja Pengurus pakej</em> termasuk %1$ sshortcodes %2$ s yang boleh "
+"digunakan dalam anda %3$ spages %2$ s untuk mengeluarkan kandungan. Ini "
+"boleh diwujudkan untuk anda di bawah. Untuk maklumat lanjut mengenai "
+"shortcode yang tersedia, lihat s$ dokumentasi %2 %4$ sshortcode."
+
+#: includes/admin/setup.php:406 includes/admin/setup.php:484
+msgid "Page Title"
+msgstr "Tajuk Muka Surat"
+
+#: includes/admin/setup.php:407 includes/admin/setup.php:485
+msgid "Page Description"
+msgstr "Penerangan Laman"
+
+#: includes/admin/setup.php:408 includes/admin/setup.php:486
+msgid "Content Shortcode"
+msgstr "Kandungan Shortcode"
+
+#: includes/admin/setup.php:416 includes/admin/setup.php:494
+msgid ""
+"This page will be used as the default page for package selection, and works "
+"for any of the package types (view, browse, etc)."
+msgstr ""
+"Laman ini akan digunakan sebagai halaman default untuk pemilihan pakej, dan "
+"kerja-kerja bagi mana-mana jenis pakej (lihat, browse, dll)."
+
+#: includes/admin/setup.php:418 includes/admin/setup.php:496
+msgid ""
+"If you do not plan to use the specific package type shortcodes (for separate"
+" pages), you need to make sure this page exists as it will be used as the "
+"fallback page if the type specific pages do not exist (or are not configured"
+" in settings)."
+msgstr ""
+"Jika anda tidak bercadang untuk menggunakan shortcode jenis pakej yang "
+"tertentu (untuk muka surat berasingan), anda perlu pastikan Laman ini wujud "
+"kerana ia akan digunakan sebagai halaman bertahan Jika halaman khusus jenis "
+"tidak wujud (atau tidak ditatarajah dalam tetapan)."
+
+#: includes/admin/setup.php:426 includes/admin/setup.php:504
+msgid "This page will be used only for browse packages (not required)."
+msgstr "Laman ini akan digunakan hanya untuk melihat pakej (tidak wajib)."
+
+#: includes/admin/setup.php:428 includes/admin/setup.php:506
+msgid ""
+"This page is useful if you wish to customize the browse package selection "
+"page, separate from the standard one above."
+msgstr ""
+"Laman ini adalah berguna jika anda ingin menyesuaikan browse pakej pilihan "
+"halaman, berasingan daripada yang standard yang di atas."
+
+#: includes/admin/setup.php:436 includes/admin/setup.php:514
+msgid "This page will be used only for apply/contact packages (not required)."
+msgstr ""
+"Laman ini akan digunakan hanya untuk memohon/hubungi pakej (tidak wajib)."
+
+#: includes/admin/setup.php:438 includes/admin/setup.php:516
+msgid ""
+"This page is useful if you wish to customize the apply/contact package "
+"selection page, separate from the standard one above."
+msgstr ""
+"Laman ini adalah berguna jika anda ingin menyesuaikan memohon/hubungi pakej "
+"pilihan halaman, berasingan daripada yang standard yang di atas."
+
+#: includes/admin/setup.php:446 includes/admin/setup.php:524
+msgid "This page will be used only for view listing packages (not required)."
+msgstr ""
+"Laman ini akan digunakan hanya untuk melihat senarai pakej (tidak wajib)."
+
+#: includes/admin/setup.php:448 includes/admin/setup.php:526
+#: includes/admin/setup.php:536
+msgid ""
+"This page is useful if you wish to customize the view listing package "
+"selection page, separate from the standard one above."
+msgstr ""
+"Laman ini adalah berguna jika anda ingin menyesuaikan paparan senarai pakej "
+"pilihan halaman, berasingan daripada yang standard yang di atas."
+
+#: includes/admin/setup.php:457 includes/admin/setup.php:545
+#: includes/admin/setup.php:625
+msgid "Skip this step"
+msgstr "Langkau langkah ini"
+
+#: includes/admin/setup.php:475
+msgid "Resume Page Setup"
+msgstr "Sambung Persediaan Laman"
+
+#: includes/admin/setup.php:476
+msgid ""
+"It looks like you have WP Job Manager Resumes installed/activated, so let's "
+"setup those pages as well!"
+msgstr ""
+"Ia kelihatan seperti anda mempunyai resume Pengurus kerja WP "
+"dipasang/diaktifkan, jadi Mari kita sediakan halaman juga!"
+
+#: includes/admin/setup.php:534
+msgid ""
+"This page will be used only for view name listing packages (not required)."
+msgstr ""
+"Laman ini akan digunakan hanya untuk lihat senarai nama pakej (tidak wajib)."
+
+#: includes/admin/setup.php:563
+msgid "Package Setup"
+msgstr "Pakej persediaan"
+
+#: includes/admin/setup.php:564
+msgid ""
+"If you would like, we can also setup <strong>DEMO</strong> packages for you "
+"to use.  This is not required, and is provided for demonstration purposes "
+"only, you will still need to customize the packages to suit your needs."
+msgstr ""
+"Jika anda mahu, kami boleh juga sediakan pakej <strong>DEMO</strong> untuk "
+"anda gunakan.  Ini adalah tidak diperlukan, dan diberikan untuk tujuan "
+"demonstrasi sahaja, anda masih perlu untuk menyesuaikan pakej yang sesuai "
+"dengan keperluan anda."
+
+#: includes/admin/setup.php:571
+msgid ""
+"DO NOT proceed with this step before installing and activating WooCommerce!"
+"  WooCommerce must be installed and activated before adding packages!"
+msgstr ""
+"Teruskan dengan langkah ini sebelum memasang dan mengaktifkan WooCommerce!  "
+"WooCommerce mesti dipasang dan diaktifkan sebelum menambah pakej!"
+
+#: includes/admin/setup.php:574
+msgid ""
+"Once you have installed AND activated, refresh this page, or click below to "
+"continue setup."
+msgstr ""
+"Sekali anda telah dipasang dan diaktifkan, Muat semula Laman ini, atau klik "
+"di bawah untuk meneruskan persediaan."
+
+#: includes/admin/setup.php:584
+msgid "Package Title"
+msgstr "Tajuk pakej"
+
+#: includes/admin/setup.php:585
+msgid "Package Price"
+msgstr "Harga pakej"
+
+#: includes/admin/setup.php:586
+msgid "Package Description"
+msgstr "Keterangan pakej"
+
+#: includes/admin/setup.php:592
+msgid "Listing Packages"
+msgstr "Senarai pakej"
+
+#: includes/admin/setup.php:607
+msgid "Resume Packages"
+msgstr "Pakej resume"
+
+#: includes/admin/setup.php:624
+msgid "Create Selected Packages"
+msgstr "Cipta pakej-pakej yang dipilih"
+
+#: includes/admin/setup.php:643
+msgid "All Done!"
+msgstr "Semua dilakukan!"
+
+#: includes/admin/setup.php:645
+msgid ""
+"Looks like you're all set to start using the plugin. In case you're "
+"wondering where to go next:"
+msgstr ""
+"Kelihatan seperti anda sudah siap untuk mula menggunakan plugin. Dalam kes "
+"anda tertanya-tanya di mana untuk pergi seterusnya:"
+
+#: includes/admin/setup.php:648
+msgid "Tweak Visibility Settings"
+msgstr "Tweak Tetapan Ketampakan"
+
+#: includes/admin/setup.php:650
+msgid "Tweak Resume Visibility Settings"
+msgstr "Tweak Tetapan Ketampakan Resume"
+
+#: includes/admin/setup.php:652
+msgid "Add a new Product/Package"
+msgstr "Tambah produk/pakej baru"
+
+#: includes/admin/setup.php:655
+msgid ""
+"And don't forget, if you need any more help using <em>WP Job Manager "
+"Packages</em> you can consult the %1$sdocumentation%2$s or %3$scontact me "
+"via the support area%2$s!"
+msgstr ""
+"Dan jangan lupa, jika anda memerlukan sebarang bantuan lebih banyak "
+"menggunakan <em>WP kerja Pengurus pakej</em> anda boleh rujuk di %1$ "
+"sdocumentation %2$ s atau %3$ scontact saya melalui s$ kawasan %2 sokongan!"
+
+#: includes/admin/setup.php:657
+msgid "Flow Process:"
+msgstr "Aliran proses:"
+
+#: includes/admin/setup.php:658
+msgid ""
+"To give you an understanding of how this plugin works, below is the flow "
+"process with examples. Examples below assume you have configured packages "
+"required for browse, view, and contact/apply.  This also assumes you have "
+"used the shortcode to output the form either on a page created in a previous"
+" setup step, or placed the shortcode inside the placeholder editor (in "
+"settings)."
+msgstr ""
+"Untuk memberikan anda kefahaman tentang bagaimana plugin ini berfungsi, "
+"berikut adalah proses aliran dengan contoh-contoh. Contoh di bawah "
+"menganggap anda telah konfigurasikan pakej-pakej yang diperlukan untuk semak"
+" seimbas, pandangan, dan kenalan/terpakai.  Ini juga menganggap anda "
+"mempunyai shortcode yang digunakan untuk output dalam bentuk sama ada di "
+"halaman yang dicipta dalam langkah persediaan terdahulu, atau diletakkan "
+"shortcode di dalam ruang letak editor (dalam persekitaran)."
+
+#: includes/admin/setup.php:661
+msgid ""
+"User visits Listings page and is either redirected to package form page, or "
+"shown the package selection form."
+msgstr ""
+"Pengguna melawat laman senarai dan sama ada dilencongkan ke laman borang "
+"pakej, atau menunjukkan borang pemilihan pakej."
+
+#: includes/admin/setup.php:664
+msgid ""
+"User selects a package, and is redirected to checkout page to complete "
+"purchase."
+msgstr ""
+"Pengguna memilih pakej, dan diarahkan semula ke Laman checkout untuk "
+"melengkapkan pembelian."
+
+#: includes/admin/setup.php:667
+msgid ""
+"After purchase is complete, notification is shown with link to return to "
+"page user was previously viewing."
+msgstr ""
+"Selepas pembelian selesai, pemberitahuan ditayang dengan link untuk kembali "
+"ke halaman pengguna adalah sebelum ini melihat."
+
+#: includes/admin/setup.php:670
+msgid ""
+"When user selects a listing, they will be shown the listing like normal (if "
+"they have unlimited package), otherwise they are either redirected or shown "
+"the package form page (like above)."
+msgstr ""
+"Apabila pengguna memilih senarai, mereka akan menunjukkan Penyenaraian "
+"seperti biasa (jika mereka mempunyai pakej unlimited), sebaliknya mereka "
+"akan Dilencongkan atau menunjukkan halaman borang pakej (seperti di atas)."
+
+#: includes/admin/setup.php:673
+msgid ""
+"User will be able to select an existing package from the package form to use"
+" (or they can select one to purchase).  Once they submit the form, they are "
+"redirected back to the listing to view like normal."
+msgstr ""
+"Pengguna boleh memilih pakej yang sedia ada daripada bentuk pakej untuk "
+"digunakan (atau mereka boleh memilih salah satu untuk membeli).  Apabila "
+"mereka mengemukakan borang, mereka akan diarahkan kembali ke Penyenaraian "
+"untuk melihat seperti biasa."
+
+#: includes/admin/setup.php:676
+msgid "Few key points:"
+msgstr "Beberapa perkara yang utama:"
+
+#: includes/admin/setup.php:678
+msgid ""
+"If the user has an unlimited package, they will immediately be able to view,"
+" contact, etc.  Only packages with limits will require them to select a "
+"package to use."
+msgstr ""
+"Jika pengguna mempunyai pakej yang terhad, mereka dengan serta-merta akan "
+"dapat lihat, hubungi, dan lain-lain.  Hanya pakej dengan had yang memerlukan"
+" mereka untuk memilih pakej untuk menggunakan."
+
+#: includes/admin/setup.php:679
+msgid ""
+"All current user packages can be viewed (along with associated listings) on "
+"the My Account page."
+msgstr ""
+"Semua pakej pengguna semasa boleh dilihat (bersama-sama dengan Senarai "
+"berkaitan) dalam halaman akaun saya."
+
+#: includes/admin/setup.php:681
+msgid ""
+"Administrators are not required to have packages, make sure to use a "
+"separate user account to test with."
+msgstr ""
+"Pentadbir yang tidak diperlukan untuk memiliki pakej, pastikan untuk "
+"menggunakan akaun pengguna yang berasingan untuk menguji dengan."
+
+#: includes/admin/setup.php:684
+msgid ""
+"This plugin has been tested with Listify, Jobify, Listable, Pet Sitter, and "
+"Babysitter themes ... if you have issues, or your theme is not compatible, "
+"please let me know!"
+msgstr ""
+"Plugin ini telah diuji dengan Listify, Jobify, Listable, Sitter haiwan "
+"kesayangan dan tema pengasuh... Jika anda mempunyai isu atau tema anda "
+"adalah tidak serasi, tolong beritahu saya!"
+
+#: includes/admin/setup.php:687
+msgid ""
+"To use a template override, make sure you place the file in the "
+"<code>jm_packages</code> directory/folder, in your child theme's "
+"directory/folder."
+msgstr ""
+"Untuk menggunakan menimpa template, sila pastikan anda meletakkan fail "
+"tersebut dalam <code>jm_packages</code> direktori/folder dalam "
+"direktori/folder tema kanak-kanak anda."
+
+#: includes/admin/setup.php:690
+msgid "Listable currently only supports the redirect feature."
+msgstr "Listable buat masa ini hanya menyokong ciri diarah semula."
+
+#: includes/admin/setup.php:693
+msgid "Subscriptions will be included in one of the next releases!"
+msgstr "Langganan akan dimasukkan ke dalam salah satu keluaran akan datang!"
+
+#: includes/admin/setup.php:696
+msgid ""
+"Currently WooCommerce is the only support backend payment/cart/e-commerce "
+"system.  Let me know if there's another one you would like integrated."
+msgstr ""
+"Buat masa ini WooCommerce adalah sistem pembayaran/troli/e-dagang backend "
+"sokongan sahaja.  Beritahu saya jika ada lagi satu anda ingin bersepadu."
+
+#: includes/admin/setup.php:699
+msgid "This plugin is full documented, check out the source code!"
+msgstr "Plag masuk ini adalah lengkap didokumenkan, semak keluar kod sumber!"
+
+#: includes/admin/setup.php:704
+msgid "Support the Ongoing Development of the core plugin, WP Job Manager"
+msgstr "Menyokong pembangunan berterusan plugin teras, WP kerja Pengurus"
+
+#: includes/admin/setup.php:705
+msgid ""
+"There are many ways to support open-source projects such as WP Job Manager, "
+"for example code contribution, translation, or even telling your friends how"
+" awesome the plugin (hopefully) is. Thanks in advance for your support - it "
+"is much appreciated!"
+msgstr ""
+"Terdapat banyak cara untuk menyokong projek sumber terbuka seperti WP kerja "
+"Pengurus, sebagai contoh Kod sumbangan, penterjemahan, atau bahkan "
+"memberitahu rakan-rakan anda bagaimana awesome plugin (Mudah-mudahan) ialah."
+" Terima kasih terlebih dahulu bagi sokongan anda - ia adalah amat dihargai!"
+
+#: includes/admin/setup.php:707
+msgid "Leave a positive review"
+msgstr "Meninggalkan Ulasan positif"
+
+#: includes/admin/setup.php:708
+msgid "Contribute a localization"
+msgstr "Menyumbang lokalisasi yang"
+
+#: includes/admin/setup.php:709
+msgid "Contribute code or report a bug"
+msgstr "Menyumbang kod atau melaporkan bug"
+
+#: includes/admin/setup.php:710
+msgid "Help other users on the forums"
+msgstr "Membantu pengguna lain di forum"
+
+#: includes/admin/wc/job.php:55 includes/admin/wc/resume.php:56
+msgid "Output price (cost) of package (you MUST include this!)"
+msgstr "Output harga (kos) pakej (anda mesti termasuk ini!)"
+
+#: includes/admin/wc/job.php:58 includes/admin/wc/resume.php:59
+msgid ""
+"Output package limit set for View (will output number or unlimited based on "
+"config)"
+msgstr ""
+"Had pakej keluaran untuk paparan (akan mengeluarkan nombor atau terhad "
+"berdasarkan config)"
+
+#: includes/admin/wc/job.php:61 includes/admin/wc/resume.php:65
+msgid ""
+"Output package limit set for %s (will output number or unlimited based on "
+"config)"
+msgstr ""
+"Had pakej output untuk %s (akan mengeluarkan nombor atau tatarajah "
+"berdasarkan tidak terhad)"
+
+#: includes/admin/wc/resume.php:62
+msgid ""
+"Output package limit set for View Name (will output number or unlimited "
+"based on config)"
+msgstr ""
+"Had pakej output untuk nama paparan (akan output tatarajah berdasarkan "
+"nombor atau tanpa had)"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:8
+#: includes/admin/wc/views/html-view-resume-package-data.php:4
+msgid "View %s?"
+msgstr "Lihat %s?"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:9
+#: includes/admin/wc/views/html-view-resume-package-data.php:5
+msgid ""
+"Allow to view single listings with this package (if package required in "
+"settings)."
+msgstr ""
+"Membenarkan untuk melihat senarai tunggal dengan pakej ini (jika pakej "
+"diperlukan dalam tetapan)."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:14
+#: includes/admin/wc/views/html-view-resume-package-data.php:11
+msgid "View %s limit"
+msgstr "Had lihat %s"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:15
+#: includes/admin/wc/views/html-view-resume-package-data.php:12
+msgid ""
+"The number of listings a user can view with this package.  Leave blank to "
+"allow unlimited."
+msgstr ""
+"Bilangan Penyenaraian yang pengguna boleh lihat dengan pakej ini.  "
+"Tinggalkan tempat kosong untuk membenarkan tanpa had."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:28
+#: includes/admin/wc/views/html-view-resume-package-data.php:25
+msgid "View Rollover?"
+msgstr "Peralihan pandangan?"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:29
+#: includes/admin/wc/views/html-view-job-package-data.php:57
+#: includes/admin/wc/views/html-view-resume-package-data.php:26
+#: includes/admin/wc/views/html-view-resume-package-data.php:54
+#: includes/admin/wc/views/html-view-resume-package-data.php:82
+msgid "Rollover (Add) unused credits to package when subscription is renewed."
+msgstr ""
+"Peralihan (Add) digunakan kredit untuk pakej apabila langganan diperbaharui."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:36
+msgid ""
+"Allow to %s listings with this package (if package required in settings)."
+msgstr ""
+"Membenarkan Penyenaraian %s dengan pakej ini (jika pakej diperlukan dalam "
+"tetapan)."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:42
+msgid "%1$s %2$s limit"
+msgstr "%1$ s %2$ s had"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:43
+msgid ""
+"The number of listings a user can %s with this package. Leave blank to allow"
+" unlimited."
+msgstr ""
+"Bilangan Penyenaraian yang pengguna boleh %s dengan pakej ini. Tinggalkan "
+"tempat kosong untuk membenarkan tanpa had."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:56
+msgid "%1$s Rollover?"
+msgstr "s $ %1 peralihan?"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:62
+#: includes/admin/wc/views/html-view-resume-package-data.php:88
+msgid "Allow Browsing?"
+msgstr "Benarkan melayari?"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:63
+#: includes/admin/wc/views/html-view-resume-package-data.php:89
+msgid ""
+"Allow to browse listings with this package (if package required in "
+"settings)."
+msgstr ""
+"Membenarkan untuk melayari senarai dengan pakej ini (jika pakej diperlukan "
+"dalam tetapan)."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:69
+#: includes/admin/wc/views/html-view-resume-package-data.php:95
+msgid "Use Short Description"
+msgstr "Gunakan penerangan ringkas"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:70
+#: includes/admin/wc/views/html-view-resume-package-data.php:96
+msgid ""
+"Enable this to use the short description for your own custom wording on the "
+"package selection form for listings."
+msgstr ""
+"Membolehkan ini menggunakan huraian yang ringkas untuk kata-kata adat "
+"sendiri pada borang pemilihan pakej untuk penyenaraian."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:32
+msgid "View %s Name?"
+msgstr "Nama paparan %s?"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:33
+msgid ""
+"Allow to view %s name with this package (if package required in settings)."
+msgstr ""
+"Membenarkan untuk melihat nama %s dengan pakej ini (jika pakej diperlukan "
+"dalam tetapan)."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:39
+msgid "View %s Name limit"
+msgstr "Lihat %s nama had"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:40
+msgid ""
+"The number of %s names a user can view with this package.  Leave blank to "
+"allow unlimited."
+msgstr ""
+"Bilangan nama-nama %s yang pengguna boleh lihat dengan pakej ini.  "
+"Tinggalkan tempat kosong untuk membenarkan tanpa had."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:53
+msgid "View Name Rollover?"
+msgstr "Paparan nama peralihan?"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:60
+msgid "Allow Contact?"
+msgstr "Benarkan kenalan?"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:61
+msgid ""
+"Allow to contact listing with this package (if package required in "
+"settings)."
+msgstr ""
+"Membenarkan untuk menghubungi menyenaraikan dengan pakej ini (jika pakej "
+"diperlukan dalam tetapan)."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:67
+msgid "Contact %s limit"
+msgstr "Had kenalan %s"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:68
+msgid ""
+"The number of %s a user can contact with this package. Leave blank to allow "
+"unlimited."
+msgstr ""
+"Bilangan pengguna %s boleh menghubungi dengan pakej ini. Tinggalkan tempat "
+"kosong untuk membenarkan tanpa had."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:81
+msgid "Contact Rollover?"
+msgstr "Hubungi peralihan?"
+
+#: includes/admin/wc.php:95
+msgid "%s Visibility Package"
+msgstr "Pakej keterlihatan %s"
+
+#: includes/admin/wc.php:98
+msgid "%s Visibility Subscription"
+msgstr "%s keterlihatan langganan"
+
+#: includes/admin/wc.php:203
+msgid "Fields"
+msgstr "Bidang-bidang"
+
+#: includes/admin.php:45 includes/admin.php:81
+msgid "Visibility Packages"
+msgstr "Pakej keterlihatan"
+
+#: includes/admin.php:68
+msgid "Package successfully deleted"
+msgstr "Pakej berjaya dihapuskan"
+
+#: includes/admin.php:82 includes/admin.php:105
+msgid "Add User Package"
+msgstr "Tambah pakej pengguna"
+
+#: includes/admin.php:150
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/form.php:114
+msgid "You can now %s this listing"
+msgstr "Anda boleh %s kini penyenaraian ini"
+
+#: includes/functions.php:18
+msgid "Apply"
+msgstr "Memohon"
+
+#: includes/install.php:99
+msgid ""
+"A <a href=\"%s\">package</a> is required to browse listings, please select "
+"one from below."
+msgstr ""
+"<a href=\"%s\"> pakej</a> yang diperlukan untuk menyemak imbas senarai, sila"
+" pilih salah satu dari senarai dibawah."
+
+#: includes/install.php:102
+msgid "Please <a href=\"%s\">select a package</a> to browse resumes."
+msgstr "Sila <a href=\"%s\"> pilih pakej</a> untuk melayari tersambung semula."
+
+#: includes/install.php:104
+msgid ""
+"Please select a <a href=\"%s\">package</a> to view the full candidate name."
+msgstr "Sila pilih <a href=\"%s\"> pakej</a> untuk melihat nama penuh calon."
+
+#: includes/integration/job.php:241 includes/integration/resume.php:307
+msgid "Please <a href=\"%s\">select a package</a> to browse listings."
+msgstr "Sila <a href=\"%s\"> pilih pakej</a> untuk melihat senarai."
+
+#: includes/integration/job.php:255 includes/integration/resume.php:321
+msgid "Please <a href=\"%s\">select a package</a> to view this listing's details."
+msgstr ""
+"Sila <a href=\"%s\"> pilih pakej</a> untuk melihat butiran penyenaraian ini."
+
+#: includes/integration/job.php:269 includes/integration/resume.php:398
+msgid "Please <a href=\"%1$s\">select a package</a> to %2$s this listing."
+msgstr "Sila <a href=\"%1$s\"> pilih pakej</a> kepada %2$ s penyenaraian ini."
+
+#: includes/integration/resume.php:77
+msgid ""
+"A <a href=\"%s\">package</a> is required to view the full name on this "
+"listing."
+msgstr ""
+"<a href=\"%s\"> pakej</a> yang diperlukan untuk melihat nama penuh mengenai "
+"penyenaraian ini."
+
+#: includes/integration.php:74
+msgid ""
+"This page should redirect in <span class=\"jmpack_redirect_in\">%1$d</span> "
+"seconds, if not, please <a href=\"%2$s\">click here</a>."
+msgstr ""
+"Laman ini perlu mengarahkan semula dalam <span class=\"jmpack_redirect_in\">"
+" %1$ d</span> saat, jika tidak, sila <a href=\"%2$s\"> klik di sini</a>."
+
+#: includes/packages/job.php:53 includes/packages/resume.php:55
+msgid "Browse"
+msgstr "Semak seimbas"
+
+#: includes/packages/job.php:59 includes/packages/resume.php:61
+msgid "View"
+msgstr "Pandangan"
+
+#: includes/packages/job.php:71
+msgid "apply to"
+msgstr "terpakai bagi"
+
+#: includes/packages/job.php:91 includes/packages/resume.php:94
+msgid "%s to "
+msgstr "%s "
+
+#: includes/packages/job.php:95 includes/packages/resume.php:98
+msgid "view %s single listing"
+msgid_plural "view %s single listings"
+msgstr[0] "Lihat senarai tunggal %s"
+msgstr[1] "Lihat senarai tunggal %s"
+
+#: includes/packages/job.php:95 includes/packages/job.php:107
+#: includes/packages/resume.php:98 includes/packages/resume.php:109
+#: includes/packages/resume.php:121 includes/packages.php:69
+#: templates/my-packages.php:64
+msgid "unlimited"
+msgstr "tanpa had"
+
+#: includes/packages/job.php:107 includes/packages/resume.php:121
+msgid "%s %s listing"
+msgid_plural "%s %s listings"
+msgstr[0] "Penyenaraian %s %s"
+msgstr[1] "Senarai %s %s"
+
+#: includes/packages/job.php:113 includes/packages/resume.php:127
+msgid ", and "
+msgstr ", dan "
+
+#: includes/packages/job.php:115 includes/packages/resume.php:129
+msgid "browse all listings"
+msgstr "Lihat senarai semua"
+
+#: includes/packages/resume.php:67
+msgid "View Name"
+msgstr "Nama paparan"
+
+#: includes/packages/resume.php:73 includes/themes/listify.php:49
+#: templates/access-denied-contact-details.php:6
+#: templates/jobify/access-denied-contact-details.php:6
+#: templates/jobify/access-denied-contact-details.php:11
+msgid "Contact"
+msgstr "Orang hubungan"
+
+#: includes/packages/resume.php:109
+msgid "view %s single listing name"
+msgid_plural "view %s single listing names"
+msgstr[0] "Lihat %s satu senarai nama"
+msgstr[1] "paparan tunggal Penyenaraian nama %s"
+
+#: includes/shortcodes/job.php:71 includes/shortcodes/resume.php:54
+msgid "Select Browse Package"
+msgstr "Pilih pakej Browse"
+
+#: includes/shortcodes/job.php:72 includes/shortcodes/resume.php:55
+msgid "Choose a Browse Package"
+msgstr "Pilih pakej Browse"
+
+#: includes/shortcodes/job.php:113 includes/shortcodes/resume.php:96
+msgid "Select a View Package"
+msgstr "Sila pilih pakej View"
+
+#: includes/shortcodes/job.php:114 includes/shortcodes/resume.php:97
+msgid "Choose a View Package"
+msgstr "Pilih pakej View"
+
+#: includes/shortcodes/job.php:137
+msgid "Select %s Package"
+msgstr "Pilih pakej %s"
+
+#: includes/shortcodes/job.php:138
+msgid "Choose %s Package"
+msgstr "Memilih pakej %s"
+
+#: includes/shortcodes/resume.php:120
+msgid "Select a View Name Package"
+msgstr "Sila pilih pakej nama paparan"
+
+#: includes/shortcodes/resume.php:121
+msgid "Choose a View Name Package"
+msgstr "Pilih pakej nama paparan"
+
+#: includes/shortcodes/resume.php:144
+msgid "Select Contact Package"
+msgstr "Pilih pakej perhubungan"
+
+#: includes/shortcodes/resume.php:145
+msgid "Choose Contact Package"
+msgstr "Memilih pakej perhubungan"
+
+#: includes/shortcodes.php:100 templates/listable/package-selection.php:72
+msgid "Select Package"
+msgstr "Pilih pakej"
+
+#: includes/shortcodes.php:101
+msgid "Choose a Package"
+msgstr "Pilih pakej"
+
+#: includes/updater/smyles-updater-licenses.php:105
+#: includes/updater/smyles-updater-licenses.php:199
+msgid "Error"
+msgstr "Ralat"
+
+#: includes/updater/smyles-updater-licenses.php:105
+msgid "Unable to determine slug to deactivate license."
+msgstr "Tidak dapat menentukan slug untuk menyahaktifkan lesen."
+
+#: includes/updater/smyles-updater-licenses.php:119
+msgid "Error determining the plugin Product ID."
+msgstr "Kesilapan menentukan plugin ID produk."
+
+#: includes/updater/smyles-updater-licenses.php:123
+msgid "Error pulling the license key from option data."
+msgstr "Ralat kekunci lesen daripada data pilihan menarik."
+
+#: includes/updater/smyles-updater-licenses.php:127
+msgid ""
+"Error pulling the email associated with the license key from option data."
+msgstr ""
+"Ralat yang menarik dalam e-mel yang berkaitan dengan kunci lesen daripada "
+"data opsyen."
+
+#: includes/updater/smyles-updater-licenses.php:131
+msgid ""
+"Error pulling the instance ID associated with the license key from option "
+"data."
+msgstr ""
+"Ralat menarik Tika ID yang dikaitkan dengan kunci lesen daripada data "
+"opsyen."
+
+#: includes/updater/smyles-updater-licenses.php:144
+msgid ""
+"Connection failed to the License Key API server - possible server issue."
+msgstr "Sambungan gagal API kunci lesen pelayan - pelayan mungkin isu."
+
+#: includes/updater/smyles-updater-licenses.php:151
+msgid " Successfully Deactivated!"
+msgstr " Berjaya dinyahaktifkan!"
+
+#: includes/updater/smyles-updater-licenses.php:152
+msgid "You have successfully deactivated the %s license."
+msgstr "Anda telah berjaya dinyahaktifkan lesen %s."
+
+#: includes/updater/smyles-updater-licenses.php:164
+#: includes/updater/smyles-updater-licenses.php:274
+msgid "Error!"
+msgstr "Ralat!"
+
+#: includes/updater/smyles-updater-licenses.php:164
+msgid ""
+"The license has been successfully deactivated locally, but please visit your"
+" sMyles Plugins <a href=\"%s\" target=\"_blank\">My Account</a> page to "
+"verify this activation has been removed from our server.  There was an error"
+" automatically removing it, and chances are that is because it was already "
+"removed via your <a href=\"%s\" target=\"_blank\">My Account</a> page "
+"already.."
+msgstr ""
+"Lesen telah telah berjaya dinyahaktifkan tempatan, tetapi sila layari laman "
+"plugin <a href=\"%s\" target=\"_blank\"> Akaun saya</a> sMyles anda untuk "
+"mengesahkan pengaktifan ini telah dialih keluar daripada pelayan kami.  "
+"Terdapat ralat yang mengeluarkannya secara automatik, dan kemungkinannya "
+"adalah kerana ia telah pun dibuang melalui Laman <a href=\"%s\" "
+"target=\"_blank\"> Akaun saya</a> anda sudah..."
+
+#: includes/updater/smyles-updater-licenses.php:200
+msgid ""
+"Unable to determine slug, license key, and/or email to activate license, "
+"contact support."
+msgstr ""
+"Tidak dapat menentukan slug, kunci lesen, dan/atau e-mel untuk mengaktifkan "
+"lesen, hubungi sokongan."
+
+#: includes/updater/smyles-updater-licenses.php:259
+msgid " Successfully Activated!"
+msgstr " Berjaya diaktifkan!"
+
+#: includes/updater/smyles-updater-licenses.php:259
+msgid ""
+"You have successfully activated the %s license, and will now be able to "
+"automatically upgrade this plugin through WordPress when an update is "
+"available."
+msgstr ""
+"Anda telah berjaya mengaktifkan lesen %s, dan kini akan dapat menaik taraf "
+"plugin ini melalui WordPress secara automatik apabila kemas kini tersedia."
+
+#: includes/updater/smyles-updater-licenses.php:362
+msgid "Deactivate the %s License?"
+msgstr "Menyahaktifkan lesen %s?"
+
+#: includes/updater/smyles-updater-licenses.php:367
+msgid "No"
+msgstr "tidak"
+
+#: includes/updater/smyles-updater-licenses.php:371
+msgid "Yes"
+msgstr "Ya"
+
+#: includes/updater/smyles-updater-licenses.php:377
+msgid "sMyles Plugins Licensing"
+msgstr "sMyles plugin Pelesenan"
+
+#: includes/updater/smyles-updater-licenses.php:380
+msgid "Plugins"
+msgstr "Plugin"
+
+#: includes/updater/views/html-key-input.php:5
+msgid "License"
+msgstr "Lesen"
+
+#: includes/updater/views/html-key-input.php:8
+msgid ""
+"Enter your license key and email and hit return. A valid key is required for"
+" updates."
+msgstr ""
+"Masukkan kunci lesen dan e-mel anda dan tekan kembali. Kekunci yang sah "
+"adalah diperlukan untuk kemas kini."
+
+#: includes/updater/views/html-key-notice.php:6
+msgid "Hide notice"
+msgstr "Sembunyi notis"
+
+#: includes/updater/views/html-key-notice.php:7
+msgid ""
+"<a href=\"%1$s\">Please activate your license key</a> in order to receive "
+"updates and support for \"%2$s\"."
+msgstr ""
+"<a href=\"%1$s\"> Sila aktifkan kunci lesen anda</a> untuk menerima kemas "
+"kini dan sokongan untuk \"%2$ s\"."
+
+#: includes/updater/views/html-license-activate.php:3
+msgid "Activating ..."
+msgstr "Mengaktifkan..."
+
+#: includes/updater/views/html-license-activate.php:6
+#: includes/updater/views/html-license-deactivate.php:6
+msgid "Plugin Not Found"
+msgstr "Plugin yang tidak dijumpai"
+
+#: includes/updater/views/html-license-activate.php:18
+#: includes/updater/views/html-license-deactivate.php:20
+msgid "Details"
+msgstr "Butir-butir"
+
+#: includes/updater/views/html-license-activate.php:33
+#: includes/updater/views/html-license-deactivate.php:35
+msgid "Installed Version:"
+msgstr "Versi yang telah dipasang:"
+
+#: includes/updater/views/html-license-activate.php:54
+msgid "Activate License"
+msgstr "Mengaktifkan lesen"
+
+#: includes/updater/views/html-license-deactivate.php:3
+msgid "Deactivating ..."
+msgstr "Menyahaktifkan..."
+
+#: includes/updater/views/html-license-deactivate.php:43
+msgid "Activated:"
+msgstr "Diaktifkan:"
+
+#: includes/updater/views/html-license-deactivate.php:64
+msgid "Deactivate License"
+msgstr "Menyahaktifkan lesen"
+
+#: includes/updater/views/html-ms-update.php:6
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr ""
+"Terdapat versi baru %1$ s yang disediakan. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\"> lihat versi %3$ s butiran</a> atau <a "
+"href=\"%4$s\"> kemas kini sekarang</a>."
+
+#: includes/user.php:52
+msgid "This is not a valid package, or is an unlimited package."
+msgstr ""
+"Ini bukanlah satu pakej yang sah, atau adalah pakej yang tidak terhad."
+
+#: includes/wc/wcp-job-visibility-package.php:58
+#: includes/wc/wcp-resume-visibility-package.php:61
+msgid "Add to cart"
+msgstr "Tambah ke dalam troli"
+
+#: includes/wc/wcp-job-visibility-package.php:58
+#: includes/wc/wcp-resume-visibility-package.php:61
+msgid "Read More"
+msgstr "Read More"
+
+#: includes/wc.php:397 includes/wc.php:404
+msgid "page"
+msgstr "Laman"
+
+#: includes/wc.php:402
+msgid "listing"
+msgstr "Penyenaraian"
+
+#: includes/wc.php:412
+msgid ""
+"To go back to the %1$s you were previously viewing, <a href=\"%2$s\">click "
+"here</a>."
+msgstr ""
+"Untuk kembali kepada %1$ s anda sebelum ini tadi, <a href=\"%2$s\"> klik di "
+"sini</a>."
+
+#: templates/jobify/job-application.php:8
+#: templates/jobify/job-application.php:13
+msgid "Apply for job"
+msgstr "Memohon kerja"
+
+#: templates/listable/package-selection.php:51
+msgid "Your packages"
+msgstr "Pakej anda"
+
+#: templates/listable/package-selection.php:65
+#: templates/package-selection.php:34
+msgid "%1$s out of %2$d available %3$s used"
+msgstr "s $ %1 daripada %2$ d %3 disediakan $s digunakan"
+
+#: templates/listable/package-selection.php:80
+msgid "Purchase packages"
+msgstr "Pakej pembelian"
+
+#: templates/listable/package-selection.php:105
+msgid "Free"
+msgstr "Percuma"
+
+#: templates/listable/package-selection.php:141
+msgid "Get Started"
+msgstr "Bermula"
+
+#: templates/listable/package-selection.php:150
+#: templates/package-selection.php:78
+msgid "No packages found"
+msgstr "Tiada pakej yang ditemui"
+
+#: templates/my-packages-limit-details.php:5
+msgid "Feature"
+msgstr "Ciri-ciri"
+
+#: templates/my-packages-limit-details.php:6
+msgid "Remaining"
+msgstr "Baki"
+
+#: templates/my-packages-limit-details.php:7
+msgid "Used"
+msgstr "Digunakan"
+
+#: templates/my-packages-limit-details.php:8
+msgid "Limit"
+msgstr "Had"
+
+#: templates/my-packages-limit-details.php:29
+msgid "Listings"
+msgstr "Senarai"
+
+#: templates/my-packages.php:18
+msgid "My %s Visibility Packages"
+msgstr "Saya pakej keterlihatan %s"
+
+#: templates/my-packages.php:23
+msgid "Package Name"
+msgstr "Nama pakej"
+
+#: templates/my-packages.php:24
+msgid "Package Features"
+msgstr "Ciri-ciri pakej"
+
+#: templates/my-packages.php:66
+msgid "of"
+msgstr "daripada"
+
+#: templates/package-selection.php:22
+msgid "Your Packages:"
+msgstr "Pakej anda:"
+
+#: templates/package-selection.php:43
+msgid "Purchase Package:"
+msgstr "Pakej pembelian:"
+
+#: wp-job-manager-packages.php:255
+msgid ""
+"WP Job Manager Packages requires WooCommerce Subscriptions 2.0 and above. "
+"Please upgrade as soon as possible!"
+msgstr ""
+"Pakej WP kerja Pengurus memerlukan WooCommerce langganan 2.0 dan ke atas. "
+"Sila upgrade secepat mungkin!"
+
+#: wp-job-manager-packages.php:401
+msgid ""
+"WP Job Manager - Packages is missing requirements and has been <a "
+"href=\"%s\">deactivated</a>. Please make sure all requirements are "
+"available."
+msgstr ""
+"Pengurus kerja WP - pakej tiada syarat-syarat dan telah <a href=\"%s\"> "
+"dinyahaktifkan</a>. Sila pastikan semua keperluan disediakan."
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Packages"
+msgstr "WP kerja Pengurus - pakej"
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.smyl.es/wp-job-manager-packages"
+msgstr "https://plugins.smyl.es/WP-Job-Manager-Packages"
+
+#. Description of the plugin/theme
+msgid ""
+"Create and configure custom Visibility Packages for WP Job Manager and WP "
+"Resume Manager to require visitors to purchase a package to view, apply, "
+"contact, browse, and more!"
+msgstr ""
+"Cipta dan konfigurasi jarak penglihatan pakej custom untuk WP kerja Pengurus"
+" dan Pengurus Resume WP untuk meminta pengunjung untuk membeli pakej yang "
+"melihat, memohon, hubungi, menyemak imbas, dan banyak lagi!"
+
+#. Author of the plugin/theme
+msgid "Myles McNamara"
+msgstr "Myles McNamara"
+
+#. Author URI of the plugin/theme
+msgid "https://smyl.es"
+msgstr "https://smyl.es"
+
+#: includes/admin/setup.php:414
+msgctxt "Default page title (wizard)"
+msgid "Visibility Packages"
+msgstr "Pakej keterlihatan"
+
+#: includes/admin/setup.php:424
+msgctxt "Default page title (wizard)"
+msgid "Browse Packages"
+msgstr "Lihat senarai pakej"
+
+#: includes/admin/setup.php:434
+msgctxt "Default page title (wizard)"
+msgid "Apply/Contact Packages"
+msgstr "Memohon/hubungi pakej"
+
+#: includes/admin/setup.php:444
+msgctxt "Default page title (wizard)"
+msgid "View Packages"
+msgstr "Lihat pakej"
+
+#: includes/admin/setup.php:492
+msgctxt "Default page title (wizard)"
+msgid "Resume Visibility Packages"
+msgstr "Pakej resume keterlihatan"
+
+#: includes/admin/setup.php:502
+msgctxt "Default page title (wizard)"
+msgid "Browse Resume Packages"
+msgstr "Layari pakej Resume"
+
+#: includes/admin/setup.php:512
+msgctxt "Default page title (wizard)"
+msgid "Resume Contact Packages"
+msgstr "Pakej resume kenalan"
+
+#: includes/admin/setup.php:522
+msgctxt "Default page title (wizard)"
+msgid "View Resume Packages"
+msgstr "Pakej Resume pandangan"
+
+#: includes/admin/setup.php:532
+msgctxt "Default page title (wizard)"
+msgid "View Name Resume Packages"
+msgstr "Pakej Resume nama paparan"

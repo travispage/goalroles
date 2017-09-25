@@ -1,0 +1,1476 @@
+# Copyright (C) 2017 Myles McNamara
+# This file is distributed under the same license as the WP Job Manager - Visibility package.
+# Translators:
+# Myles McNamara <myles@smyl.es>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager Visibility\n"
+"Report-Msgid-Bugs-To: http://plugins.smyl.es\n"
+"POT-Creation-Date: 2017-01-28 00:48:45+00:00\n"
+"PO-Revision-Date: 2017-01-27 23:30+0000\n"
+"Last-Translator: Myles McNamara <myles@smyl.es>\n"
+"Language-Team: Malay (Malaysia) (http://www.transifex.com/smyles/wp-job-manager-visibility/language/ms_MY/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ms_MY\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+
+#: classes/admin/ajax/custom.php:15 classes/admin/ajax/default.php:15
+msgid "Unable to determine post ID!"
+msgstr "Tidak dapat menentukan post ID!"
+
+#: classes/admin/ajax/custom.php:21 classes/admin/ajax/default.php:21
+msgid "A meta key (field) is required!"
+msgstr "Kekunci meta (field) yang diperlukan!"
+
+#: classes/admin/ajax/custom.php:50 classes/admin/ajax/default.php:51
+msgid "Error updating default configuration placeholder post meta!"
+msgstr "Ralat pengemaskinian lalai Konfigurasi Ruang letak posting meta!"
+
+#: classes/admin/ajax/custom.php:52 classes/admin/ajax/default.php:53
+msgid "Default configuration updated successfully!"
+msgstr "Konfigurasi lalai berjaya dikemas kini!"
+
+#: classes/admin/ajax/custom.php:65 classes/admin/ajax/default.php:66
+msgid "Error removing configuration!"
+msgstr "Ralat mengalih keluar konfigurasi!"
+
+#: classes/admin/ajax/custom.php:66 classes/admin/ajax/default.php:67
+msgid "Default configuration removed successfully!"
+msgstr "Konfigurasi lalai dialih keluar berjaya!"
+
+#: classes/admin/ajax.php:224
+msgid "Unable to get the POST variable"
+msgstr "Tidak boleh berubah-ubah POST"
+
+#: classes/admin/assets.php:25
+msgid ""
+"If you continue receive this error, please submit a <a target=\"_blank\" "
+"href=\"%s\">support ticket</a>."
+msgstr "Jika awda masih mendapat ralat ini, sila kemukakan satu <a target=\"_blank\" href=\"%s\"> Tiket sokongan</a>."
+
+#: classes/admin/assets.php:26
+msgid "This field is required!"
+msgstr "Bidang ini adalah diperlukan!"
+
+#: classes/admin/assets.php:27
+msgid "Yes"
+msgstr "Ya"
+
+#: classes/admin/assets.php:28
+msgid "Loading"
+msgstr "Memuatkan"
+
+#: classes/admin/assets.php:29
+msgid "No"
+msgstr "tidak"
+
+#: classes/admin/assets.php:30 classes/admin/views/metabox.php:68
+#: classes/admin/views/placeholders.php:49
+msgid "Cancel"
+msgstr "Batal"
+
+#: classes/admin/assets.php:31
+msgid "Close"
+msgstr "Tutup"
+
+#: classes/admin/assets.php:32 classes/admin/settings.php:134
+#: classes/admin/settings.php:203 classes/admin/settings.php:332
+#: classes/admin/settings.php:359 classes/output/rm.php:228
+msgid "Enable"
+msgstr "Membolehkan"
+
+#: classes/admin/assets.php:33 classes/admin/settings.php:323
+#: classes/admin/settings.php:341 classes/admin/settings.php:350
+#: classes/admin/settings.php:368
+msgid "Disable"
+msgstr "Mematikan"
+
+#: classes/admin/assets.php:34
+msgid "Error"
+msgstr "Ralat"
+
+#: classes/admin/assets.php:35
+msgid "Uknown Error! Refresh the page and try again."
+msgstr "Ralat Uknown! Me-refresh halaman dan cuba lagi."
+
+#: classes/admin/assets.php:36
+msgid "Success"
+msgstr "Kejayaan"
+
+#: classes/admin/assets.php:37
+msgid "Are you sure you want to remove this configuration?"
+msgstr "Adakah anda pasti anda mahu mengalih keluar konfigurasi ini?"
+
+#: classes/admin/assets.php:38
+msgid "You can't add a meta key to hide if it's set as a visible field!"
+msgstr "Anda tidak boleh menambah satu kekunci meta untuk menyembunyikan jika ia disetkan sebagai bidang yang boleh dilihat!"
+
+#: classes/admin/help/default.php:23 classes/admin/help/groups.php:23
+msgid "Overview"
+msgstr "Gambaran keseluruhan"
+
+#: classes/admin/help/default.php:26 classes/admin/listtable/default.php:22
+msgid "Visible Fields"
+msgstr "Bidang-bidang yang boleh dilihat"
+
+#: classes/admin/help/default.php:29 classes/admin/listtable/default.php:21
+msgid "Hidden Fields"
+msgstr "Bidang-bidang yang tersembunyi"
+
+#: classes/admin/help/default.php:43
+msgid ""
+"Default Visibilities are configurations you create for any user or group, "
+"that will be used for every listing on your site.  This allows you to "
+"configure fields you want visible or hidden to specific users or groups.  "
+"You can create unlimited visibility configurations to fine tweak everything "
+"exactly how you want it. Here's a few things to note:"
+msgstr "Visibilities lalai adalah konfigurasi yang anda cipta untuk mana-mana pengguna atau Kumpulan, yang akan digunakan untuk penyenaraian setiap halaman anda.  Ini membolehkan anda konfigurasi bidang-bidang yang anda mahu kelihatan atau tersembunyi kepada pengguna tertentu atau Kumpulan.  Anda boleh membuat konfigurasi jarak penglihatan terhad kepada denda tweak segala-galanya betul-betul bagaimana anda mahu ia. Berikut adalah beberapa perkara untuk mengambil perhatian:"
+
+#: classes/admin/help/default.php:45
+msgid ""
+"User default visibility configurations ALWAYS take priority over any group "
+"configurations"
+msgstr "Pengguna lalai keterlihatan konfigurasi sentiasa mengambil keutamaan ke atas mana-mana Kumpulan konfigurasi"
+
+#: classes/admin/help/default.php:46
+msgid "Group configurations are processed in order based on their priority"
+msgstr "Konfigurasi Kumpulan diproses dalam susunan mengikut keutamaan mereka"
+
+#: classes/admin/help/default.php:48
+msgid ""
+"As a quick example, if you have a default visibility configuration for the "
+"user <code>JohnSmith</code>, and you set the <code>job_description</code> "
+"field as hidden...if you also have this user in a group, that has the "
+"<code>job_description</code> visible, because user configurations take "
+"priority, that user will <strong>NOT</strong> be able to see "
+"<code>job_description</code>."
+msgstr "Sebagai contoh yang cepat, jika anda mempunyai konfigurasi keterlihatan lalai untuk pengguna <code>JohnSmith</code>, dan anda menyediakan medan <code>job_description</code> sebagai tersembunyi... Jika anda juga mempunyai pengguna ini dalam Kumpulan, yang telah <code>job_description</code> dapat dilihat, kerana Konfigurasi pengguna mengambil keutamaan, bahawa pengguna <strong>tidak</strong> akan dapat melihat <code>job_description</code>."
+
+#: classes/admin/help/default.php:55
+msgid ""
+"Visible Fields are fields that you want to be shown for this specific user "
+"or group."
+msgstr "Bidang-bidang yang boleh dilihat adalah bidang yang anda mahu untuk dipaparkan untuk pengguna khusus atau Kumpulan ini."
+
+#: classes/admin/help/default.php:56
+msgid ""
+"This is useful in situations where you have a user that is, as an example, "
+"apart of two groups, one with priority of 5 and one with priority of 10. Say"
+" the group with priority of 10 has the <code>job_description</code> field "
+"hidden ... if the group with priority of 5 has that same field set as "
+"visible, because the priority is lower than the group that hides the field, "
+"the <code>job_description</code> field will be shown."
+msgstr "Ini adalah berguna dalam keadaan di mana anda mempunyai pengguna iaitu sebagai contoh, selain daripada dua Kumpulan, satu dengan Prioriti sebanyak 5 dan satu lagi dengan Prioriti sebanyak 10. Mengatakan Kumpulan dengan keutamaan 10 mempunyai medan <code>job_description</code> yang tersembunyi... Sekiranya Kumpulan dengan keutamaan 5 mempunyai bidang yang sama ditetapkan kelihatan, kerana keutamaan yang lebih rendah berbanding Kumpulan yang menyembunyikan medan, medan <code>job_description</code> akan ditunjukkan."
+
+#: classes/admin/help/default.php:63
+msgid ""
+"Hidden Fields are fields that you do NOT want shown for a specific user or "
+"group"
+msgstr "Bidang-bidang yang tersembunyi adalah bidang yang anda tidak mahu ditunjukkan untuk pengguna khusus atau Kumpulan"
+
+#: classes/admin/help/default.php:64
+msgid ""
+"Setting hidden fields will probably be used the most, as this allows you to "
+"set fields to hide based on the user or group.  Hidden fields support what "
+"is called a <code>placeholder</code>.  The placeholder is the value you want"
+" to be shown instead of the actual value."
+msgstr "Menetapkan bidang tersembunyi akan mungkin digunakan, kerana ini membolehkan anda menetapkan bidang untuk menyembunyikan berasaskan pada pengguna atau Kumpulan.  Bidang tersembunyi menyokong apa yang dipanggil sebuah <code>Ruang letak</code>.  Ruang letak itu adalah nilai yang hendak ditunjukkan bukan nilai sebenar."
+
+#: classes/admin/help/default.php:65
+msgid "HTML IS supported in placeholders!"
+msgstr "HTML adalah disokong dalam ruang letak!"
+
+#: classes/admin/help/default.php:66
+msgid "Specific Meta Key Information:"
+msgstr "Maklumat utama Meta tertentu:"
+
+#: classes/admin/help/default.php:67
+msgid ""
+"Due to the way the core of WP Job Manager is coded, as well as how some meta"
+" keys are handled in templates and the core plugin, there are some caveots "
+"and neat ways that I have coded my plugin to handle specific meta keys."
+msgstr "Oleh kerana cara teras bagi WP kerja Pengurus dikodkan, serta bagaimana beberapa kekunci meta diuruskan dalam template dan plugin teras, Terdapat beberapa caveots dan cara-cara yang kemas yang saya telah membangunkan tema WordPress plugin saya untuk mengendalikan khusus meta kekunci."
+
+#: classes/admin/help/default.php:69
+msgid ""
+"If you do not enter a placeholder value, the <strong>Apply Now</strong> "
+"button will be hidden.  If you enter a placeholder, it will be shown, but "
+"when the user clicks the button, they will see your placehoolder value."
+msgstr "Jika anda tidak memasukkan nilai Ruang letak, butang <strong>Digunakan sekarang</strong> akan disembunyikan.  Jika anda memasukkan satu Ruang letak, ia akan dipaparkan, tetapi apabila pengguna klik butang, mereka akan melihat nilai placehoolder anda."
+
+#: classes/admin/help/default.php:70
+msgid ""
+"By default the placeholder value will be shown instead of actual value ... "
+"if you want to output an excerpt of this field, go to the settings and "
+"enable excerpt for this meta key.  Any placeholder value will be appended "
+"(added to the end) of the excerpt."
+msgstr "Secara lalai nilai Ruang letak akan dipaparkan dan bukannya nilai sebenar... Jika anda ingin mengeluarkan petikan daripada bidang ini, pergi ke seting dan membolehkan petikan untuk kunci meta ini.  Mana-mana Ruang letak nilai akan dilampirkan (ditambah di akhir) petikan."
+
+#: classes/admin/help/groups.php:26 classes/admin/listtable/default.php:20
+#: classes/admin/listtable/groups.php:19
+msgid "Priority"
+msgstr "Keutamaan"
+
+#: classes/admin/help/groups.php:29 classes/admin/listtable/groups.php:20
+#: classes/admin/metaboxes/groups.php:28 classes/admin/views/metabox.php:39
+#: classes/admin/views/users.php:46
+msgid "Users"
+msgstr "Pengguna"
+
+#: classes/admin/help/groups.php:32 classes/admin/listtable/groups.php:21
+#: classes/admin/metaboxes/groups.php:37 classes/admin/settings.php:280
+#: classes/admin/views/metabox.php:30 classes/admin/views/users.php:32
+#: classes/cpt.php:268
+msgid "Groups"
+msgstr "Kumpulan"
+
+#: classes/admin/help/groups.php:35 classes/admin/listtable/groups.php:22
+#: classes/admin/metaboxes/groups.php:46 classes/admin/views/roles.php:28
+msgid "Roles"
+msgstr "Peranan"
+
+#: classes/admin/help/groups.php:50
+msgid ""
+"Groups can be used to create many different setups based on your specific "
+"needs. Groups will always have a lower priority than user specific "
+"configurations, so a group will never override a specific user "
+"configuration."
+msgstr "Kumpulan boleh digunakan untuk mencipta banyak setups berbeza berdasarkan keperluan khusus anda. Kumpulan akan sentiasa mempunyai Prioriti rendah berbanding tatarajah khusus pengguna, jadi Kumpulan Jangan sekali-kali akan menimpa Konfigurasi pengguna tertentu."
+
+#: classes/admin/help/groups.php:53
+msgid ""
+"You can include multiple users, other groups, roles, or even any other addon"
+" configurations (such as packages, etc)."
+msgstr "Anda boleh memasukkan berbilang pengguna, Kumpulan-kumpulan lain, peranan atau pun sebarang konfigurasi addon lain (seperti pakej, dan sebagainya)."
+
+#: classes/admin/help/groups.php:61
+msgid ""
+"Default priority is 10 (if not set).  The lower the number the higher the "
+"priority ( 1 is a higher priority than 5 )"
+msgstr "Keutamaan lalai adalah 10 (jika tidak ditetapkan).  Yang lebih rendah ini nombor lebih tinggi Prioriti (1 adalah Prioriti yang lebih tinggi daripada 5)"
+
+#: classes/admin/help/groups.php:64
+msgid ""
+"Priorities are specifically used for groups to determine what group should "
+"take priority whenever there is a coflict."
+msgstr "Keutamaan khusus digunakan bagi Kumpulan untuk menentukan Kumpulan apa perlu mengambil keutamaan apabila ada yang coflict."
+
+#: classes/admin/help/groups.php:67
+msgid ""
+"As an example, you have 2 different groups ( Employers [Priority 5], and "
+"Gold Package [Priority 1] ):"
+msgstr "Sebagai contoh, anda mempunyai 2 Kumpulan yang berbeza (majikan [Keutamaan 5] dan pakej Gold [Keutamaan 1]):"
+
+#: classes/admin/help/groups.php:70
+msgid "Employer Group (Priority 5) has these fields set to hide:"
+msgstr "Kumpulan pekerja (keutamaan 5) mempunyai bidang ini bakal Sembunyi:"
+
+#: classes/admin/help/groups.php:73
+msgid "Gold Package (Priority 1) has these fields set to show:"
+msgstr "Pakej Gold (keutamaan 1) mempunyai bidang ini bakal menunjukkan:"
+
+#: classes/admin/help/groups.php:76
+msgid ""
+"When someone visits your site and is a member of both of those groups, "
+"because Gold Package has a higher priority than Employer Group, the final "
+"result would be:"
+msgstr "Apabila seseorang melawat laman web anda dan adalah ahli daripada kedua-dua kumpulan tersebut, kerana pakej Gold mempunyai Prioriti yang lebih tinggi daripada kumpulan pekerja, keputusan akhir ialah:"
+
+#: classes/admin/help/groups.php:79
+msgid "Show Fields:"
+msgstr "Menunjukkan bidang:"
+
+#: classes/admin/help/groups.php:82
+msgid "Hide Fields:"
+msgstr "Sembunyikan medan:"
+
+#: classes/admin/help/groups.php:90
+msgid ""
+"Include as many users as you want into a group.  Even if users are included "
+"in this group, if you have any user specific configurations they will take "
+"priority over this group configuration."
+msgstr "Termasuk pengguna seberapa banyak yang anda mahu ke dalam satu Kumpulan.  Walaupun pengguna termasuk dalam Kumpulan ini, jika anda mempunyai sebarang konfigurasi tertentu pengguna mereka akan mengambil keutamaan ke atas konfigurasi Kumpulan ini."
+
+#: classes/admin/help/groups.php:101 classes/admin/help/settings.php:32
+msgid "Coming Soon..."
+msgstr "akan datang..."
+
+#: classes/admin/help/groups.php:109
+msgid ""
+"You can include any registered roles into a group.  A special group has also"
+" been added called Anonymous which is used for any users that are not logged"
+" in."
+msgstr "Anda boleh memasukkan apa-apa peranan berdaftar ke dalam satu Kumpulan.  Kumpulan khas juga telah ditambah dipanggil Anonymous yang digunakan untuk mana-mana pengguna yang telah log masuk."
+
+#: classes/admin/help/settings.php:24 classes/admin/settings.php:317
+msgid "Debug"
+msgstr "Nyahpepijat"
+
+#: classes/admin/listtable/custom.php:16
+msgid "Fields"
+msgstr "Bidang-bidang"
+
+#: classes/admin/listtable/custom.php:17
+msgid "Total Fields"
+msgstr "Jumlah bidang"
+
+#: classes/admin/listtable/custom.php:18
+#: classes/admin/listtable/default.php:24
+#: classes/admin/listtable/groups.php:24
+msgid "Actions"
+msgstr "Tindakan-tindakan"
+
+#: classes/admin/listtable/custom.php:53
+#: classes/admin/listtable/default.php:98
+#: classes/admin/listtable/groups.php:123
+msgid "Edit"
+msgstr "Edit"
+
+#: classes/admin/listtable/custom.php:54
+#: classes/admin/listtable/default.php:99
+#: classes/admin/listtable/groups.php:124
+msgid "Delete"
+msgstr "Hapus"
+
+#: classes/admin/listtable/default.php:18
+#: classes/admin/listtable/groups.php:18
+msgid "Title"
+msgstr "Tajuk"
+
+#: classes/admin/listtable/default.php:23
+#: classes/admin/listtable/groups.php:23
+msgid "Last Updated"
+msgstr "Tarikh Akhir Kemaskini"
+
+#: classes/admin/listtable/default.php:51
+msgid "n/a"
+msgstr "n/a"
+
+#: classes/admin/listtable/default.php:62
+msgid "Group"
+msgstr ""
+
+#: classes/admin/listtable/default.php:69
+msgid "User"
+msgstr ""
+
+#: classes/admin/listtable/groups.php:64
+msgid "Are you sure you want to remove the <strong>%s</strong> group?"
+msgstr "Adakah anda pasti hendak mengalih keluar Kumpulan <strong>%s</strong>?"
+
+#: classes/admin/listtable/groups.php:65
+msgid "This will remove any configurations you have created for this group!"
+msgstr "Ini akan mengalih keluar sebarang konfigurasi yang anda ciptakan untuk Kumpulan ini!"
+
+#: classes/admin/listtable/groups.php:68
+msgid ""
+"There were configurations also found with this group in them, and if you "
+"remove this group it will be removed from those group configurations."
+msgstr "Tiada adalah konfigurasi yang juga ditemui dengan Kumpulan ini di dalamnya, dan jika anda mengalih keluar kumpulan ini maka ianya akan dihapuskan dari konfigurasi Kumpulan."
+
+#: classes/admin/listtable/groups.php:73
+msgid "Yes, remove the group!"
+msgstr "Ya, mengalih keluar Kumpulan!"
+
+#: classes/admin/listtable/groups.php:75
+msgid "Remove Group?"
+msgstr "Mengalih keluar Kumpulan?"
+
+#: classes/admin/metaboxes/custom.php:22 classes/admin/metaboxes/custom.php:31
+#: classes/cpt.php:315
+msgid "Custom Visibilities"
+msgstr "Adat Visibilities"
+
+#: classes/admin/metaboxes/default.php:22
+msgid "Default Visible Fields"
+msgstr "Bidang-bidang yang dilihat lalai"
+
+#: classes/admin/metaboxes/default.php:31
+msgid "Default Hidden Fields"
+msgstr "Bidang tersembunyi lalai"
+
+#: classes/admin/metaboxes/default.php:56
+msgid "Select a Field to Show"
+msgstr "Pilih medan untuk menunjukkan"
+
+#: classes/admin/metaboxes/groups.php:55
+msgid "Group Priority"
+msgstr "Keutamaan Kumpulan"
+
+#: classes/admin/metaboxes/groups.php:89 classes/admin/views/roles.php:12
+msgid "Select a Role"
+msgstr "Pilih peranan yang"
+
+#: classes/admin/metaboxes/groups.php:115
+msgid "Select a User"
+msgstr "Pilih pengguna"
+
+#: classes/admin/metaboxes/groups.php:140
+msgid "Select a Group"
+msgstr "Pilih Kumpulan"
+
+#: classes/admin/metaboxes.php:40
+msgid "Debug Information"
+msgstr "Maklumat nyahpepijat"
+
+#: classes/admin/settings/fields.php:68
+msgid ""
+"Please install the <a href=\"%s\" target=\"_blank\">WP Job Manager "
+"Packages</a> plugin for packages integration with this plugin."
+msgstr ""
+
+#: classes/admin/settings/fields.php:69
+msgid ""
+"The packages plugin will add the ability to configure groups based on a "
+"specific package that the user has.  These packages can be any of the "
+"Visibility Packages created with the WP Job Manager Packages plugin, or any "
+"WooCommerce Paid Listing packages as well."
+msgstr ""
+
+#: classes/admin/settings/fields.php:70
+msgid ""
+"As a special promotion, any existing clients can use the promo code "
+"<strong>visclient15offpackages</strong> to get 15% off the purchase of the "
+"packages plugin!"
+msgstr ""
+
+#: classes/admin/settings/fields.php:71
+msgid "Check out the new WP Job Manager Packages Plugin:"
+msgstr ""
+
+#: classes/admin/settings/fields.php:310
+msgid "Deactivate License"
+msgstr "Menyahaktifkan lesen"
+
+#: classes/admin/settings/handlers.php:30
+msgid ""
+"Please make sure the default groups do not already exist, or there was an "
+"error creating them."
+msgstr "Sila pastikan golongan lalai tidak wujud, atau terdapat ralat yang mencipta mereka."
+
+#: classes/admin/settings/handlers.php:33
+msgid "These default groups were added succesfully: "
+msgstr "Kumpulan-Kumpulan ini lalai ditambah GBSB: "
+
+#: classes/admin/settings/handlers.php:43
+msgid "Succesfully updated %s existing listing permalinks!"
+msgstr ""
+
+#: classes/admin/settings/handlers.php:54
+msgid "Succesfully updated %s existing resume listing permalinks!"
+msgstr ""
+
+#: classes/admin/settings/handlers.php:89
+msgid "All cache (with AND without expirations) has been purged/removed!"
+msgstr ""
+
+#: classes/admin/settings/handlers.php:95
+msgid "All user config cache has been purged/removed!"
+msgstr "Semua pengguna tatarajah cache telah disingkirkan/dibuang!"
+
+#: classes/admin/settings/handlers.php:101
+msgid "The core WordPress cache has been flushed!"
+msgstr "Teras WordPress cache telah dipam!"
+
+#: classes/admin/settings/handlers.php:107
+msgid "All user group config cache has been purged/removed!"
+msgstr "Semua pengguna Kumpulan tatarajah cache telah disingkirkan/dibuang!"
+
+#: classes/admin/settings.php:37 classes/cpt.php:243
+msgid "Settings"
+msgstr "Seting"
+
+#: classes/admin/settings.php:128
+msgid "Integration"
+msgstr "Integrasi"
+
+#: classes/admin/settings.php:133
+msgid "Listings"
+msgstr "Senarai"
+
+#: classes/admin/settings.php:135
+msgid "Enable processing of visibility configurations for %s Listings"
+msgstr "Membolehkan pemprosesan penglihatan konfigurasi untuk %s senarai"
+
+#: classes/admin/settings.php:147 classes/output/rm.php:246
+msgid "Permalink"
+msgstr "Permalink"
+
+#: classes/admin/settings.php:148
+msgid "Use Custom Permalinks when Listing Created/Updated"
+msgstr ""
+
+#: classes/admin/settings.php:149
+msgid ""
+"Enable this option to use the custom permalink configuration below.  By "
+"default the core plugin creates the permalink with Company Name, Location, "
+"Type, and Job Title.  Enabling this option sets this structure when a new "
+"listing is created/updated.  To update existing listings, use the force "
+"update permalink structure below."
+msgstr ""
+
+#: classes/admin/settings.php:155 classes/output/rm.php:254
+msgid "Permalink Structure"
+msgstr "Struktur Permalink"
+
+#: classes/admin/settings.php:160
+msgid "The custom permalink structure you want to use for "
+msgstr "Struktur permalink tersuai yang anda hendak gunakan untuk "
+
+#: classes/admin/settings.php:160
+msgid ""
+" Listing permalinks. Permalinks are generated using meta key values from the"
+" listing, and all meta keys MUST be inside curly braces "
+msgstr " Penyenaraian permalinks. Permalinks dijana menggunakan meta nilai-nilai utama daripada penyenaraian dan semua meta kunci mesti di dalam pendakap kerinting "
+
+#: classes/admin/settings.php:160 classes/output/rm.php:259
+msgid ""
+"To prevent random value from being used when a field does not have a value, "
+"prepend the metakey with an exclamation point.  Example: "
+msgstr ""
+
+#: classes/admin/settings.php:161 classes/output/rm.php:260
+msgid "The default core values available are: "
+msgstr "Nilai teras lalai yang tersedia adalah: "
+
+#: classes/admin/settings.php:161 classes/output/rm.php:260
+msgid "10 random characters"
+msgstr "watak-watak secara rawak 10"
+
+#: classes/admin/settings.php:162
+msgid ""
+"<small>Any meta key can be used (only string value ones), including custom "
+"fields, so if your meta key is <code>job_info</code>, you would use "
+"<code>{job_info}</code>"
+msgstr "<small>Meta mana-mana kekunci boleh digunakan (hanya rentetan nilai orang-orang), termasuk bidang adat, jadi jika kekunci meta anda <code>job_info</code>, anda akan menggunakan <code>{job_info}</code>"
+
+#: classes/admin/settings.php:163 classes/output/rm.php:262
+msgid ""
+"<small>Spaces will be automatically replaced with dash/hyphen "
+"<code>-</code>, and all values will be set to lowercase.  If values are too "
+"long, they will automatically be shortened as well. If all fields used are "
+"empty, the random string will be used.</small>"
+msgstr "Kawasan <small>akan secara automatik digantikan dengan melontarkan/sengkang <code>–</code>, dan semua nilai akan disetkan untuk huruf kecil.  Jika nilai terlalu panjang, mereka akan secara automatik akan dipendekkan juga. Jika semua bidang yang digunakan adalah kosong, rentetan rawak akan digunakan.</small>"
+
+#: classes/admin/settings.php:169 classes/output/rm.php:268
+msgid "Force update existing listing permalinks"
+msgstr ""
+
+#: classes/admin/settings.php:172 classes/output/rm.php:271
+msgid "Permalink Update"
+msgstr ""
+
+#: classes/admin/settings.php:173 classes/output/rm.php:272
+msgid ""
+"If you already have existing listings and have just enabled or changed the "
+"permalink structure, you need to force update existing listings if you want "
+"them to use the new structure."
+msgstr ""
+
+#: classes/admin/settings.php:179
+msgid "Company Website"
+msgstr "Laman web Syarikat"
+
+#: classes/admin/settings.php:180
+msgid "Remove"
+msgstr "Alih Keluar"
+
+#: classes/admin/settings.php:181
+msgid ""
+"By default when setting the company_website to hide, the placeholder will be"
+" used instead of the website URL.  Enable this option to completely remove "
+"the company website link from the single listing page."
+msgstr "Secara lalai apabila menetapkan company_website untuk menyembunyikan, Ruang letak yang akan digunakan dan bukannya URL laman web.  Membolehkan opsyen ini untuk mengalih keluar pautan laman web Syarikat daripada halaman senarai tunggal."
+
+#: classes/admin/settings.php:188
+msgid "Job Description"
+msgstr "Penghuraian kerja"
+
+#: classes/admin/settings.php:189
+msgid "Show excerpt if <code>job_description</code> meta key is hidden"
+msgstr "Menunjukkan petikan jika kekunci meta <code>job_description</code> yang tersembunyi"
+
+#: classes/admin/settings.php:190
+msgid ""
+"Enable this option to output the excerpt (first 55 words) first, then the "
+"placeholder value.  Normally, only the placeholder field would be output if "
+"the field is hidden."
+msgstr "Membolehkan opsyen ini untuk keluaran petikan (kata-kata pertama 55) pertama, maka nilai Ruang letak.  Biasanya, hanya ruang letak bidang akan menjadi output jika bidang yang tersembunyi."
+
+#: classes/admin/settings.php:197 classes/admin/settings.php:202
+msgid "Cache"
+msgstr "Cache"
+
+#: classes/admin/settings.php:204
+msgid ""
+"This plugin uses WordPress transients to cache user/group configs to prevent"
+" excessive, and unecessary database queries.  This will result in around a "
+"200-400% speed improvement, only disable if directed by "
+"support.<br/><strong>Cache is automatically purged and updated whenever "
+"visibility configurations are added or updated, regardless of expiration "
+"value below.</strong>"
+msgstr ""
+
+#: classes/admin/settings.php:211
+msgid "Expiration"
+msgstr "Tamat tempoh"
+
+#: classes/admin/settings.php:212
+msgid ""
+"This will be the amount of time the cache is stored before it is "
+"automatically removed and has to be regenerated.<br/>Do not set this below 1"
+" Month unless you know what you're doing, as short cache expirations will "
+"cause unecessary database queries, ultimately slowing down your site."
+msgstr ""
+
+#: classes/admin/settings.php:216
+msgid "1 Minute"
+msgstr "1 minit"
+
+#: classes/admin/settings.php:217
+msgid "5 Minutes"
+msgstr "5 minit"
+
+#: classes/admin/settings.php:218
+msgid "15 Minutes"
+msgstr "15 minit"
+
+#: classes/admin/settings.php:219
+msgid "30 Minutes"
+msgstr "30 minit"
+
+#: classes/admin/settings.php:220
+msgid "1 Hour"
+msgstr "1 jam"
+
+#: classes/admin/settings.php:221
+msgid "12 Hours"
+msgstr "12 jam"
+
+#: classes/admin/settings.php:222
+msgid "24 Hours"
+msgstr "24 jam"
+
+#: classes/admin/settings.php:223
+msgid "1 Week"
+msgstr "1 minggu"
+
+#: classes/admin/settings.php:224
+msgid "2 Weeks"
+msgstr "2 minggu"
+
+#: classes/admin/settings.php:225
+msgid "1 Month"
+msgstr "1 bulan"
+
+#: classes/admin/settings.php:226
+msgid "3 Months"
+msgstr "3 bulan"
+
+#: classes/admin/settings.php:227
+msgid "6 Months"
+msgstr "6 bulan"
+
+#: classes/admin/settings.php:228
+msgid "1 Year"
+msgstr "1 tahun"
+
+#: classes/admin/settings.php:233
+msgid "Purge All"
+msgstr "Singkir semua"
+
+#: classes/admin/settings.php:236
+msgid "Purge"
+msgstr "Singkir"
+
+#: classes/admin/settings.php:237
+msgid ""
+"This will purge all user and group cache (with and without expirations) and "
+"require the cache to be rebuilt when the user visits the single listing page"
+" again.<br/>If the total of User Cache + Group Cache is less than all cache,"
+" you may need to use this to clear invalid cache without expirations."
+msgstr ""
+
+#: classes/admin/settings.php:243
+msgid "Purge User Cache"
+msgstr "Singkir Cache pengguna"
+
+#: classes/admin/settings.php:246
+msgid "Purge User"
+msgstr "Singkir pengguna"
+
+#: classes/admin/settings.php:247
+msgid ""
+"Purge only the user configuration cache (only user specific config, does not"
+" clear user groups cache), with expirations. Cache will be rebuilt when the "
+"user visits the single listing page again."
+msgstr ""
+
+#: classes/admin/settings.php:253
+msgid "Purge Groups Cache"
+msgstr "Singkir Cache Kumpulan"
+
+#: classes/admin/settings.php:256
+msgid "Purge Groups"
+msgstr "Singkir Kumpulan"
+
+#: classes/admin/settings.php:257
+msgid ""
+"Purge only the groups configuration cache (only user group config), with "
+"expirations. Cache will be rebuilt when the user visits the single listing "
+"page again."
+msgstr ""
+
+#: classes/admin/settings.php:263
+msgid "WP Cache"
+msgstr "WP Cache"
+
+#: classes/admin/settings.php:266
+msgid "Flush Cache"
+msgstr "Flush Cache"
+
+#: classes/admin/settings.php:267
+msgid ""
+"This will flush the entire WordPress core cache.  This is useful when "
+"taxonomies, meta, or other core WordPress data is showing old data."
+msgstr "Ini akan flush teras WordPress seluruh cache.  Ini adalah berguna apabila taxonomies, meta atau teras lain WordPress data menunjukkan data lama."
+
+#: classes/admin/settings.php:273
+msgid "Backup"
+msgstr "Sandaran"
+
+#: classes/admin/settings.php:277
+msgid "Download Groups Backup"
+msgstr "Muat turun Kumpulan sandaran"
+
+#: classes/admin/settings.php:281
+msgid "Generate and download a backup of created groups."
+msgstr "Menjana dan memuat turun sandaran Kumpulan diwujudkan."
+
+#: classes/admin/settings.php:287
+msgid "Download Defaults Backup"
+msgstr "Muat turun sandaran lalai"
+
+#: classes/admin/settings.php:290
+msgid "Default"
+msgstr "Lalai"
+
+#: classes/admin/settings.php:291
+msgid "Generate and download a backup of default visibility configurations."
+msgstr "Menjana dan memuat turun sandaran konfigurasi keterlihatan lalai."
+
+#: classes/admin/settings.php:297
+msgid "Download Custom Visibilities Backup"
+msgstr "Muat turun Visibilities adat sandaran"
+
+#: classes/admin/settings.php:300
+msgid "Custom"
+msgstr "Adat"
+
+#: classes/admin/settings.php:301
+msgid "Generate and download a backup of custom visibility configurations."
+msgstr "Menjana dan memuat turun sandaran konfigurasi keterlihatan adat."
+
+#: classes/admin/settings.php:307
+msgid "Import Backup!"
+msgstr "Mengimport sandaran!"
+
+#: classes/admin/settings.php:310
+msgid "Import Backup"
+msgstr "Sandaran import"
+
+#: classes/admin/settings.php:311
+msgid ""
+"Import a previously generated backup.  This uses the default WordPress "
+"import feature, if you do not see a file upload after clicking this button, "
+"make sure to import using WordPress importer."
+msgstr "Mengimport sandaran sebelum ini dijana.  Ini menggunakan default WordPress import ciri, jika anda tidak melihat fail upload selepas mengklik butang ini, pastikan import menggunakan WordPress pengimport."
+
+#: classes/admin/settings.php:322
+msgid "Disable License Deactivation"
+msgstr "Menyahdayakan penyahaktifan lesen"
+
+#: classes/admin/settings.php:324
+msgid ""
+"By default when you deactivate the plugin it will also deactivate your "
+"license on the current site.  Check this box to disable the deactivation of "
+"your license when you deactivate the plugin."
+msgstr "Secara lalai apabila anda menyahaktifkan plugin ia akan juga menyahaktifkan lesen anda di laman web ini sekarang.  Semak kotak ini untuk mematikan penyahaktifan lesen anda apabila anda menyahaktifkan plugin."
+
+#: classes/admin/settings.php:331
+msgid "Enable Post Debug"
+msgstr "Mendayakan nyahpepijat Post"
+
+#: classes/admin/settings.php:333
+msgid ""
+"Add a debug metabox to bottom of each add/edit post page (default, custom, "
+"groups)."
+msgstr "Tambah metabox nyahpepijat ke bawah setiap halaman pos Tambah/edit (lalai, adat, Kumpulan)."
+
+#: classes/admin/settings.php:340
+msgid "Heartbeat"
+msgstr "Denyutan jantung"
+
+#: classes/admin/settings.php:342
+msgid ""
+"Disables WordPress heartbeat on Job, Resume, and any other pages for this "
+"plugin (does not affect other post types)"
+msgstr "Menyahdayakan denyutan jantung WordPress kerja, Resume, dan mana-mana halaman lain untuk plugin ini (tidak menjejaskan jenis jawatan lain)"
+
+#: classes/admin/settings.php:349
+msgid "Post Lock"
+msgstr "Post Lock"
+
+#: classes/admin/settings.php:351
+msgid ""
+"Disables WordPress Post Lock on Job, Resume, and any other pages for this "
+"plugin (does not affect other post types)"
+msgstr "Menyahdayakan Lock Post WordPress kerja, Resume, dan mana-mana halaman lain untuk plugin ini (tidak menjejaskan jenis jawatan lain)"
+
+#: classes/admin/settings.php:358
+msgid "Show Debug in Footer"
+msgstr "Menunjukkan nyahpepijat Footer"
+
+#: classes/admin/settings.php:360
+msgid ""
+"<strong>ONLY</strong> enable this when you are debugging, otherwise any "
+"visitor will see ALL of your user and group config!  You can also add "
+"<em>?admin_debug</em> to the end of the URL to show debug details (will only"
+" work for admins)."
+msgstr "<strong>Sahaja</strong> membolehkan ini apabila anda menyahpepijat, sebaliknya mana-mana pelawat akan nampak semua Konfigurasi pengguna dan Kumpulan yang anda!  Anda juga boleh menambah <em>? admin_debug</em> akhir URL Papar maklumat nyahpepijat (hanya akan bekerja untuk admin)."
+
+#: classes/admin/settings.php:367
+msgid "Admin Exception"
+msgstr "Admin pengecualian"
+
+#: classes/admin/settings.php:369
+msgid ""
+"By default if the user is an Administrator any field visibility "
+"configuration will bypassed.  Disable Admin Exception to process "
+"configurations for admins.  You can also just add "
+"<code>?admin_exception</code> to the end of the URL to preview the listing "
+"with visibility enabled."
+msgstr "Secara lalai jika pengguna pentadbir mana-mana medan penglihatan konfigurasi akan bypassed.  Nyahdayakan pengecualian Admin untuk proses konfigurasi untuk pentadbir.  Anda juga hanya boleh menambah <code>? admin_exception</code> akhir URL untuk melihat penyenaraian dengan penglihatan yang membolehkan."
+
+#: classes/admin/settings.php:376
+msgid "Setup"
+msgstr "Persediaan"
+
+#: classes/admin/settings.php:380
+msgid "Add Default Groups"
+msgstr "Tambah Kumpulan lalai"
+
+#: classes/admin/settings.php:383
+msgid "Default Groups"
+msgstr "Kumpulan lalai"
+
+#: classes/admin/settings.php:384
+msgid ""
+"This will setup/add the Anonymous (anonymous role), Candidates (candidate "
+"role), and Employers (employer role) groups."
+msgstr "Ini akan persediaan/Tambah Anonymous (tanpa nama peranan), calon-calon (peranan calon), dan Kumpulan majikan (peranan majikan)."
+
+#: classes/admin/settings.php:390
+msgid "License"
+msgstr "Lesen"
+
+#: classes/admin/settings.php:394
+msgid "Email"
+msgstr "E-mel"
+
+#: classes/admin/settings.php:398
+msgid ""
+"The email associated with your license key, this <strong>MUST</strong> match"
+" the email found on your <a href=\"%s\" target=\"_blank\">My Account</a> "
+"page."
+msgstr "E-mel berkaitan dengan kunci lesen anda, ini <strong>mesti</strong> padan dengan e-mel yang didapati di halaman <a href=\"%s\" target=\"_blank\"> Akaun saya</a> anda."
+
+#: classes/admin/settings.php:403
+msgid "License Key"
+msgstr "Kunci lesen"
+
+#: classes/admin/settings.php:407
+msgid "The license key associated with the email above."
+msgstr "Kekunci lesen yang berkaitan dengan e-mel yang di atas."
+
+#: classes/admin/settings.php:413
+msgid "Packages"
+msgstr ""
+
+#: classes/admin/settings.php:423
+msgid "Support"
+msgstr "Sokongan"
+
+#: classes/admin/settings.php:433
+msgid "About"
+msgstr "Kira-kira"
+
+#: classes/admin/views/metabox.php:3
+msgid "Select Fields to Mask"
+msgstr "Pilih medan untuk topeng"
+
+#: classes/admin/views/metabox.php:4 classes/admin/views/users.php:13
+msgid "Select a User or Group"
+msgstr "Pilih pengguna atau Kumpulan"
+
+#: classes/admin/views/metabox.php:5
+msgid "Select Visibility Fields"
+msgstr "Pilih medan penglihatan"
+
+#: classes/admin/views/metabox.php:17 classes/admin/views/placeholders.php:10
+msgid "Loading..."
+msgstr "Memuatkan..."
+
+#: classes/admin/views/metabox.php:53
+msgid "Select Fields to Hide on Listing"
+msgstr "Pilih medan untuk Sembunyikan Penyenaraian"
+
+#: classes/admin/views/metabox.php:56
+msgid "Select Fields to Show on Listing"
+msgstr "Pilih medan untuk Tunjuk Penyenaraian"
+
+#: classes/admin/views/metabox.php:62 classes/admin/views/placeholders.php:43
+msgid "Placeholder text or HTML to use instead of actual value"
+msgstr "Ruang letak teks atau HTML untuk menggunakan berbanding nilai sebenar"
+
+#: classes/admin/views/metabox.php:65 classes/admin/views/placeholders.php:46
+msgid "Add"
+msgstr "Tambah"
+
+#: classes/admin/views/metakeys.php:13 classes/admin/views/select.php:13
+msgid "Select a %s"
+msgstr "Pilih satu %s"
+
+#: classes/admin/views/metakeys.php:21 classes/admin/views/select.php:21
+msgid "No %ss Found"
+msgstr "Ss % tidak ditemui"
+
+#: classes/admin/views/ph-table.php:8 classes/admin/views/table.php:8
+msgid "Edit in Progress..."
+msgstr "Edit dijalankan..."
+
+#: classes/admin/views/ph-table.php:14
+msgid "Field"
+msgstr "Bidang"
+
+#: classes/admin/views/ph-table.php:15 classes/admin/views/table.php:16
+msgid "Placeholder"
+msgstr "Ruang letak"
+
+#: classes/admin/views/ph-table.php:16 classes/admin/views/table.php:17
+msgid "Action"
+msgstr "Tindakan"
+
+#: classes/admin/views/ph-table.php:53 classes/admin/views/table.php:74
+msgid "No Records"
+msgstr "Tiada rekod"
+
+#: classes/admin/views/placeholders.php:24
+msgid "Select a field to hide"
+msgstr "Pilih medan untuk menyembunyikan"
+
+#: classes/admin/views/priority.php:10
+msgid "Priority: "
+msgstr "Keutamaan: "
+
+#: classes/admin/views/priority.php:17
+msgid "Default priority is 10"
+msgstr "Keutamaan lalai adalah 10"
+
+#: classes/admin/views/priority.php:18
+msgid "Lower number equals higher priority"
+msgstr "Nombor sama tinggi Prioriti rendah"
+
+#: classes/admin/views/priority.php:19
+msgid "See the help menu in top right corner for more details on priorities."
+msgstr "Lihat menu bantuan di sudut kanan atas untuk maklumat lanjut mengenai keutamaan."
+
+#: classes/admin/views/roles.php:19
+msgid "No Roles Found"
+msgstr "Tiada peranan yang ditemui"
+
+#: classes/admin/views/table.php:14
+msgid "User or Group"
+msgstr "Pengguna atau Kumpulan"
+
+#: classes/admin/views/table.php:15
+msgid "Show/Hide Fields"
+msgstr "Tayang/Sembunyi bidang"
+
+#: classes/admin/views/users.php:21
+msgid "No Groups Found"
+msgstr "Tiada Kumpulan yang didapati"
+
+#: classes/admin/views/users.php:23
+msgid "Error getting Users!"
+msgstr "Ralat mendapatkan pengguna!"
+
+#: classes/admin/views.php:70
+msgid "No array data found!"
+msgstr "Ada pelbagai data yang sama dijumpai!"
+
+#: classes/admin.php:61
+msgid "Thanks for upgrading/installing WP Job Manager Visibility!"
+msgstr ""
+
+#: classes/admin.php:62
+msgid ""
+"Did you know this plugin (WP Job Manager Visibility) can be extended using "
+"the <a href=\"%1$s\" target=\"_blank\">WP Job Manager Packages</a> "
+"plugin?<br/> <br />The packages plugin allows you to configure groups based "
+"on Visibility Packages or WooCommerce Paid Listings packages, and TONS of "
+"other features!<br /><strong><a href=\"%2$s\">Click here for more "
+"information (and 15 percent off coupon code)</a></strong>"
+msgstr ""
+
+#: classes/admin.php:63
+msgid "Dismiss"
+msgstr ""
+
+#: classes/cpt.php:66 classes/cpt.php:67
+msgid "%s successfully updated."
+msgstr "%s telah berjaya dikemaskini."
+
+#: classes/cpt.php:68
+msgid "%s successfully created."
+msgstr "%s telah berjaya dicipta."
+
+#: classes/cpt.php:69
+msgid "%s successfully saved."
+msgstr "%s telah berjaya disimpan."
+
+#: classes/cpt.php:142
+msgid "Default visibility configuration"
+msgstr "Konfigurasi lalai keterlihatan"
+
+#: classes/cpt.php:147
+msgid "Custom visibility configuration"
+msgstr "Konfigurasi adat keterlihatan"
+
+#: classes/cpt.php:152
+msgid "Visibility group"
+msgstr "Kumpulan keterlihatan"
+
+#: classes/cpt.php:266
+msgid "Visibility Groups"
+msgstr "Kumpulan keterlihatan"
+
+#: classes/cpt.php:267
+msgid "Visibility Group"
+msgstr "Kumpulan keterlihatan"
+
+#: classes/cpt.php:269
+msgid "Add New Visibility Group"
+msgstr "Tambah Kumpulan keterlihatan baru"
+
+#: classes/cpt.php:270
+msgid "Edit Visibility Group"
+msgstr "Edit keterlihatan Kumpulan"
+
+#: classes/cpt.php:271
+msgid "New Visibility Group"
+msgstr "Kumpulan keterlihatan baru"
+
+#: classes/cpt.php:272
+msgid "View Visibility Group"
+msgstr "Lihat jarak penglihatan Kumpulan"
+
+#: classes/cpt.php:273
+msgid "Search Visibility Groups"
+msgstr "Kumpulan carian keterlihatan"
+
+#: classes/cpt.php:274
+msgid "No Visibility Groups Found"
+msgstr "Tiada Kumpulan penglihatan yang ditemui"
+
+#: classes/cpt.php:275
+msgid "No Visibility Groups Found in Trash"
+msgstr "Tiada Kumpulan penglihatan yang ditemui dalam sampah"
+
+#: classes/cpt.php:316 classes/cpt.php:372
+msgid "Visibilities"
+msgstr "Visibilities"
+
+#: classes/cpt.php:317
+msgid "Custom Visibility"
+msgstr "Adat keterlihatan"
+
+#: classes/cpt.php:318
+msgid "Add New Custom Visibility Configuration"
+msgstr "Tambah konfigurasi keterlihatan adat baru"
+
+#: classes/cpt.php:319
+msgid "Edit Custom Visibility"
+msgstr "Edit Custom keterlihatan"
+
+#: classes/cpt.php:320
+msgid "New Custom Visibility"
+msgstr "Penglihatan Kastam yang baru"
+
+#: classes/cpt.php:321
+msgid "View Custom Visibility"
+msgstr "Penglihatan tersuai pemandangan"
+
+#: classes/cpt.php:322
+msgid "Search Custom Visibilities"
+msgstr "Carian tersuai Visibilities"
+
+#: classes/cpt.php:323
+msgid "No Custom Visibilities Found"
+msgstr "Tiada Visibilities adat yang didapati"
+
+#: classes/cpt.php:324
+msgid "No Custom Visibilities Found in Trash"
+msgstr "Tiada Visibilities adat yang didapati dalam sampah"
+
+#: classes/cpt.php:371
+msgid "Default Visibilities"
+msgstr "Visibilities lalai"
+
+#: classes/cpt.php:373
+msgid "Default Visibility"
+msgstr "Penglihatan lalai"
+
+#: classes/cpt.php:374
+msgid "Add New Default Visibility Configuration"
+msgstr "Tambah konfigurasi keterlihatan lalai baru"
+
+#: classes/cpt.php:375
+msgid "Edit Default Visibility"
+msgstr "Edit keterlihatan lalai"
+
+#: classes/cpt.php:376
+msgid "New Default Visibility"
+msgstr "Baru lalai keterlihatan"
+
+#: classes/cpt.php:377
+msgid "View Default Visibility"
+msgstr "Paparan lalai keterlihatan"
+
+#: classes/cpt.php:378
+msgid "Search Default Visibilities"
+msgstr "Carian lalai Visibilities"
+
+#: classes/cpt.php:379
+msgid "No Default Visibilities Found"
+msgstr "Tiada Visibilities lalai yang ditemui"
+
+#: classes/cpt.php:380
+msgid "No Default Visibilities Found in Trash"
+msgstr "Tiada Visibilities lalai yang ditemui dalam sampah"
+
+#: classes/install.php:88
+msgid "All"
+msgstr "Semua"
+
+#: classes/install.php:89
+msgid "Anonymous"
+msgstr "Tanpa nama"
+
+#: classes/install.php:90
+msgid "Candidates"
+msgstr "Calon-calon yang"
+
+#: classes/install.php:91
+msgid "Employers"
+msgstr "Majikan"
+
+#: classes/install.php:92
+msgid "Administrators"
+msgstr "Pentadbir"
+
+#: classes/output/jm.php:194
+msgid "Listing"
+msgstr "Penyenaraian"
+
+#: classes/output/rm.php:227
+msgid "Resume Listings"
+msgstr "Sambung senarai"
+
+#: classes/output/rm.php:229
+msgid "Enable processing of visibility configurations for Resume Manager."
+msgstr "Membolehkan pemprosesan penglihatan konfigurasi untuk Resume Pengurus."
+
+#: classes/output/rm.php:241
+msgid "Resumes"
+msgstr "Resume"
+
+#: classes/output/rm.php:247
+msgid "Use Custom Permalinks"
+msgstr "Menggunakan Permalinks adat"
+
+#: classes/output/rm.php:248
+msgid ""
+"Enable this option to use the custom permalink configuration below.  By "
+"default the Resumes plugin creates the permalink with Candidate Name, Title,"
+" and Location. .  By default the core plugin creates the permalink with "
+"Company Name, Location, Type, and Job Title.  Enabling this option sets this"
+" structure when a new listing is created/updated.  To update existing "
+"listings, use the force update permalink structure below."
+msgstr ""
+
+#: classes/output/rm.php:259
+msgid ""
+"The custom permalink structure you want to use for Resume permalinks. "
+"Permalinks are generated using meta key values from the listing, and all "
+"meta keys MUST be inside curly braces "
+msgstr "Struktur permalink tersuai yang anda hendak gunakan untuk Resume permalinks. Permalinks dijana menggunakan meta nilai-nilai utama daripada penyenaraian dan semua meta kunci mesti di dalam pendakap kerinting "
+
+#: classes/output/rm.php:261
+msgid ""
+"<small>Any meta key can be used (only string value ones), including custom "
+"fields, so if your meta key is <code>candidate_state</code>, you would use "
+"<code>{candidate_state}</code>"
+msgstr "<small>Meta mana-mana kekunci boleh digunakan (hanya rentetan nilai orang-orang), termasuk bidang adat, jadi jika kekunci meta anda <code>candidate_state</code>, anda akan menggunakan <code>{candidate_state}</code>"
+
+#: classes/output/rm.php:278
+msgid "Education Placeholder"
+msgstr "Ruang letak pendidikan"
+
+#: classes/output/rm.php:279
+msgid ""
+"Select what field for Education should be replaced with a placeholder (if "
+"configured)"
+msgstr "Pilih apa bidang pendidikan harus diganti dengan sebuah ruang letak (jika dikonfigurasikan)"
+
+#: classes/output/rm.php:283
+msgid "School name"
+msgstr "Nama sekolah"
+
+#: classes/output/rm.php:284 classes/output/rm.php:301
+msgid "Qualification(s)"
+msgstr "Qualification(s)"
+
+#: classes/output/rm.php:285 classes/output/rm.php:335
+msgid "Start/end date"
+msgstr "Tarikh mula/tamat"
+
+#: classes/output/rm.php:286 classes/output/rm.php:319
+#: classes/output/rm.php:336 classes/output/rm.php:369
+msgid "Notes"
+msgstr "Nota-Nota"
+
+#: classes/output/rm.php:292
+msgid "School Name"
+msgstr "Nama sekolah"
+
+#: classes/output/rm.php:293 classes/output/rm.php:302
+#: classes/output/rm.php:311 classes/output/rm.php:320
+#: classes/output/rm.php:343 classes/output/rm.php:352
+#: classes/output/rm.php:361 classes/output/rm.php:370
+msgid "Clear"
+msgstr "Jelas"
+
+#: classes/output/rm.php:294 classes/output/rm.php:303
+#: classes/output/rm.php:312 classes/output/rm.php:321
+#: classes/output/rm.php:344 classes/output/rm.php:353
+#: classes/output/rm.php:362 classes/output/rm.php:371
+msgid ""
+"Should this field be cleared when a placeholder is used? Blank value will be"
+" used (unless selected for placeholder)"
+msgstr "Sepatutnya bidang ini dijelaskan apabila Ruang letak yang digunakan? Nilai kosong akan digunakan (kecuali dipilih untuk ruang letak)"
+
+#: classes/output/rm.php:310 classes/output/rm.php:360
+msgid "Start/End Date"
+msgstr "Tarikh mula/tamat"
+
+#: classes/output/rm.php:328
+msgid "Experience Placeholder"
+msgstr "Ruang letak pengalaman"
+
+#: classes/output/rm.php:329
+msgid ""
+"Select what field for Experience should be replaced with a placeholder (if "
+"configured)"
+msgstr "Pilih apa bidang pengalaman harus diganti dengan sebuah ruang letak (jika dikonfigurasikan)"
+
+#: classes/output/rm.php:333 classes/output/rm.php:342
+msgid "Employer"
+msgstr "Majikan"
+
+#: classes/output/rm.php:334 classes/output/rm.php:351
+msgid "Job Title"
+msgstr "Tajuk kerja"
+
+#: classes/output/rm.php:378
+msgid "Links Placeholder"
+msgstr "Ruang letak link"
+
+#: classes/output/rm.php:379
+msgid ""
+"Select what field for Links should be replaced with a placeholder (if "
+"configured)."
+msgstr "Pilih bidang apa untuk pautan harus diganti dengan sebuah ruang letak (jika dikonfigurasikan)."
+
+#: classes/output/rm.php:383 classes/output/rm.php:390
+msgid "URL"
+msgstr "URL"
+
+#: classes/output/rm.php:384
+msgid "Name"
+msgstr "Nama"
+
+#: classes/output/rm.php:391
+msgid "Replace the URL with value from below"
+msgstr "Gantikan URL dengan nilai dari bawah"
+
+#: classes/output/rm.php:392
+msgid ""
+"If Name is selected above, and this is checked, this will replace the URL in"
+" the HTML link tag with the value from below."
+msgstr "Jika nama yang dipilih di atas, dan ini ditanda, ini akan menggantikan URL dalam HTML link tag dengan nilai dari bawah."
+
+#: classes/output/rm.php:399
+msgid "URL Placeholder"
+msgstr "Ruang letak URL"
+
+#: classes/output/rm.php:401
+msgid ""
+"This value will be used instead of the actual URL if enabled (checked) above"
+" and the placeholder is set as Name"
+msgstr "Nilai ini akan digunakan sebagai ganti URL yang sebenar jika didayakan (disemak) di atas dan ruang letak yang disetkan sebagai nama"
+
+#: classes/output/rm.php:408
+msgid "URL Prepend"
+msgstr "URL menyambung"
+
+#: classes/output/rm.php:410
+msgid ""
+"If you want to prepend the URL with any value, set it here.  This will be "
+"used regardless of settings above, and only if there is a value set."
+msgstr "Jika anda ingin menyambung URL dengan apa-apa nilai, menetapkan ia di sini.  Ini akan digunakan tanpa menghiraukan seting di atas, dan hanya jika terdapat satu set nilai."
+
+#: classes/output/rm.php:461
+msgid "Candidate"
+msgstr "Calon"
+
+#: classes/roles.php:57
+msgid "Anonymous (users not logged in)"
+msgstr "Anonymous (pengguna tidak log in)"
+
+#: includes/compatibility.php:71
+msgid ""
+"Your server is using a <strong>VERY OLD, unsupported, and no longer "
+"maintained</strong> version of PHP, version 5.2 or older. <a href=\"%1$s\" "
+"target=\"_blank\">EOL (End of Life)</a> for PHP 5.2 was about <strong>%2$s "
+"ago</strong>!! This means there may be bugs, and security vulnerabilities "
+"that have not, and will never be patched for this version of PHP!<br /><br "
+"/>It is <strong>strongly</strong> recommended that you contact your web "
+"hosting provider and request to upgrade to PHP 5.4 or newer ... or <a "
+"href=\"%3$s\">Hide this Notice Forever!</a> (but don't say I didn't warn "
+"you)<br/><br /><a href=\"%4$s\" target=\"_blank\">Contact me</a> for an "
+"exclusive sMyles Plugins customer promo code discount for any shared "
+"<strong>SSD (Solid State Drive)</strong> hosting packages!  Data centers in "
+"Florida USA, Arizona USA, Montreal Canada, and France.  Your site will run "
+"faster than it ever has, or your money back!"
+msgstr "Pelayan anda menggunakan versi PHP, versi 5.2 atau lebih tua yang <strong>Sangat tua, tidak disokong, dan tidak lagi disenggarakan</strong>. <a href=\"%1$s\" target=\"_blank\"> EOL (akhir hayat)</a> untuk PHP 5.2 adalah kira-kira <strong>s $%2 yang lalu</strong>!! Ini bermakna mungkin ada bug, dan kelemahan keselamatan yang belum, dan tidak boleh dibaiki untuk versi ini PHP! < br / > < br / > ia adalah <strong>disyorkan bahawa anda menghubungi anda web hosting pembekal dan permintaan untuk menaik taraf kepada PHP 5.4 atau baru...</strong> atau <a href=\"%3$s\"> Sembunyi ini notis selama-lamanya!</a> (tetapi tidak mengatakan saya tidak memberi amaran kepada anda) <br/> < br / > <a href=\"%4$s\" target=\"_blank\"> hubungi saya</a> bagi yang eksklusif sMyles plugin Baca promo kod diskaun untuk mana-mana dikongsi <strong>JPP (pemacu keadaan pepejal)</strong> pakej hosting!  Pusat-pusat data di Florida USA, Arizona USA, Montreal Kanada dan Perancis.  Laman web anda akan berjalan lebih cepat daripada ia pernah mempunyai, atau wang anda kembali!"
+
+#: includes/compatibility.php:75
+msgid ""
+"Your server is using an <strong>OLD, unsupported, and no longer "
+"maintained</strong> version of PHP, version 5.3. <a href=\"%1$s\" "
+"target=\"_blank\">EOL (End of Life)</a> for PHP 5.3 was about <strong>%2$s "
+"ago</strong>!! This means there may be bugs, and security vulnerabilities "
+"that have not, and will never be patched for this version of PHP!<br /><br "
+"/>It is <strong>strongly</strong> recommended that you contact your web "
+"hosting provider and request to upgrade to PHP 5.4 or newer ... or <a "
+"href=\"%3$s\">Hide this Notice Forever!</a> (but don't say I didn't warn "
+"you)<br/><br /><a href=\"%4$s\" target=\"_blank\">Contact me</a> for an "
+"exclusive sMyles Plugins customer promo code discount for any shared "
+"<strong>SSD (Solid State Drive)</strong> hosting packages!  Data centers in "
+"Florida USA, Arizona USA, Montreal Canada, and France.  Your site will run "
+"faster than it ever has, or your money back!"
+msgstr "Pelayan anda menggunakan versi <strong>lama, tanpa sokongan, dan tidak lagi dijaga</strong> PHP, versi 5.3. <a href=\"%1$s\" target=\"_blank\"> EOL (akhir hayat)</a> untuk PHP 5.3 adalah kira-kira <strong>s $%2 yang lalu</strong>!! Ini bermakna mungkin ada bug, dan kelemahan keselamatan yang belum, dan tidak boleh dibaiki untuk versi ini PHP! < br / > < br / > ia adalah <strong>disyorkan bahawa anda menghubungi anda web hosting pembekal dan permintaan untuk menaik taraf kepada PHP 5.4 atau baru...</strong> atau <a href=\"%3$s\"> Sembunyi ini notis selama-lamanya!</a> (tetapi tidak mengatakan saya tidak memberi amaran kepada anda) <br/> < br / > <a href=\"%4$s\" target=\"_blank\"> hubungi saya</a> bagi yang eksklusif sMyles plugin Baca promo kod diskaun untuk mana-mana dikongsi <strong>JPP (pemacu keadaan pepejal)</strong> pakej hosting!  Pusat-pusat data di Florida USA, Arizona USA, Montreal Kanada dan Perancis.  Laman web anda akan berjalan lebih cepat daripada ia pernah mempunyai, atau wang anda kembali!"
+
+#: includes/smyles-update/class-smyles-update.php:71
+msgid "Deactivate Licence"
+msgstr "Menyahaktifkan lesen"
+
+#: includes/smyles-update/class-smyles-update.php:83
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr "Lesen anda untuk <strong>%s</strong> telah diaktifkan. Terima kasih!"
+
+#: includes/smyles-update/class-smyles-update.php:361
+msgid ""
+"A licence key for %s could not be found. Maybe you forgot to enter a licence"
+" key when setting up %s."
+msgstr "Kekunci lesen untuk %s tidak dapat ditemui. Mungkin anda terlupa untuk memasukkan kekunci lesen yang semasa menyediakan %s."
+
+#: includes/smyles-update/class-smyles-update.php:365
+msgid "Invalid update request"
+msgstr "Permintaan Kemaskini sah"
+
+#: includes/smyles-update/class-smyles-update.php:386
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr "Lesen anda untuk <strong>%s</strong> telah dinyahaktifkan."
+
+#: includes/smyles-update/class-smyles-update.php:426
+msgid "Licence"
+msgstr "Lesen"
+
+#: includes/smyles-update/class-smyles-update.php:429
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for"
+" automatic updates.  The key <strong>and email MUST</strong> match the "
+"details you can find on your <a href=\"%s\" target=\"_blank\">My Account</a>"
+" page."
+msgstr "Masukkan kunci lesen dan emel anda dan memukul kembali. Kekunci yang sah adalah diperlukan untuk pengemaskinian automatik.  Yang penting <strong>dan e-mel mesti</strong> padan dengan butir-butir yang anda boleh menemui halaman <a href=\"%s\" target=\"_blank\"> Akaun saya</a>."
+
+#: includes/smyles-update/class-smyles-update.php:450
+msgid "Hide notice"
+msgstr "Sembunyi notis"
+
+#: includes/smyles-update/class-smyles-update.php:451
+msgid ""
+"<a href=\"%s\">Please activate your licence key</a> to get updates for "
+"<strong>%s</strong>.  This ensures you have the latest features, bug fixes, "
+"and experience!"
+msgstr "<a href=\"%s\"> Sila aktifkan kunci lesen anda</a> untuk mendapatkan pengemaskinian untuk <strong>%s</strong>.  Ini memastikan anda mempunyai ciri-ciri terkini, perbaikan bug, dan pengalaman!"
+
+#: includes/smyles-update/class-smyles-update.php:452
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr "Hilang kunci? <a href=\"%s\"> dapatkan semula butiran tersebut di sini</a>."
+
+#: wp-job-manager-visibility.php:86
+msgid ""
+"WP Job Manager Visibility requires WP Job Manager Resumes 1.13.0 and above. "
+"Please upgrade as soon as possible!  Resume integration will be disabled "
+"until you upgrade to 1.13.0 or above."
+msgstr "Penglihatan WP kerja Pengurus memerlukan resume Pengurus kerja WP 1.13.0 dan ke atas. Sila upgrade secepat mungkin!  Integrasi resume akan dinyahdayakan sehingga anda upgrade ke 1.13.0 atau ke atas."
+
+#: wp-job-manager-visibility.php:112
+msgid "Translate"
+msgstr "Menterjemah"
+
+#: wp-job-manager-visibility.php:189
+msgid "Once Weekly"
+msgstr "Sekali mingguan"
+
+#: wp-job-manager-visibility.php:229 wp-job-manager-visibility.php:230
+msgid "Job"
+msgstr "Kerja"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Visibility"
+msgstr "WP kerja Pengurus - penglihatan"
+
+#. Plugin URI of the plugin/theme
+msgid "http://plugins.smyl.es/wp-job-manager-visibility"
+msgstr "http://plugins.smyl.es/WP-Job-Manager-Visibility"
+
+#. Description of the plugin/theme
+msgid ""
+"Set fields as visible or hidden (with placeholders) for WP Job Manager "
+"fields using custom groups or user configurations."
+msgstr "Menetapkan bidang sebagai kelihatan atau tersembunyi (dengan ruang letak) bagi bidang WP kerja Pengurus menggunakan Kumpulan adat atau Konfigurasi pengguna."
+
+#. Author of the plugin/theme
+msgid "Myles McNamara"
+msgstr "Myles McNamara"
+
+#. Author URI of the plugin/theme
+msgid "http://smyl.es"
+msgstr "http://smyl.es"

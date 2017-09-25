@@ -1,0 +1,19 @@
+#homepage {
+	#homepage-banner {
+		display: flex;
+		flex: 1;
+		
+		>div {
+			word-break: break-word;
+			display: flex;
+			flex: 1;
+			flex-flow: column;
+
+			>div:first-child {
+				display: flex;
+				flex: 1;
+				flex-flow: column;
+			}
+		}
+	}
+}

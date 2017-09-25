@@ -1,0 +1,1476 @@
+# Copyright (C) 2017 Myles McNamara
+# This file is distributed under the same license as the WP Job Manager - Visibility package.
+# Translators:
+# Myles McNamara <myles@smyl.es>, 2015-2016
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager Visibility\n"
+"Report-Msgid-Bugs-To: http://plugins.smyl.es\n"
+"POT-Creation-Date: 2017-01-28 00:48:45+00:00\n"
+"PO-Revision-Date: 2017-01-27 23:30+0000\n"
+"Last-Translator: Myles McNamara <myles@smyl.es>\n"
+"Language-Team: Bulgarian (http://www.transifex.com/smyles/wp-job-manager-visibility/language/bg/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bg\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+
+#: classes/admin/ajax/custom.php:15 classes/admin/ajax/default.php:15
+msgid "Unable to determine post ID!"
+msgstr "Не може да определи пост номер!"
+
+#: classes/admin/ajax/custom.php:21 classes/admin/ajax/default.php:21
+msgid "A meta key (field) is required!"
+msgstr "Meta ключ (поле) се изисква!"
+
+#: classes/admin/ajax/custom.php:50 classes/admin/ajax/default.php:51
+msgid "Error updating default configuration placeholder post meta!"
+msgstr "Грешка при актуализиране по подразбиране конфигурация контейнер пост meta!"
+
+#: classes/admin/ajax/custom.php:52 classes/admin/ajax/default.php:53
+msgid "Default configuration updated successfully!"
+msgstr "Конфигурацията по подразбиране на актуализирана успешно!"
+
+#: classes/admin/ajax/custom.php:65 classes/admin/ajax/default.php:66
+msgid "Error removing configuration!"
+msgstr "Грешка при премахване конфигурация!"
+
+#: classes/admin/ajax/custom.php:66 classes/admin/ajax/default.php:67
+msgid "Default configuration removed successfully!"
+msgstr "Конфигурацията по подразбиране успешно премахнати!"
+
+#: classes/admin/ajax.php:224
+msgid "Unable to get the POST variable"
+msgstr "Не може да получи пост променлива"
+
+#: classes/admin/assets.php:25
+msgid ""
+"If you continue receive this error, please submit a <a target=\"_blank\" "
+"href=\"%s\">support ticket</a>."
+msgstr "Ако продължавате да получавате тази грешка, моля да представи <a target=\"_blank\" href=\"%s\"> билет подкрепа</a>."
+
+#: classes/admin/assets.php:26
+msgid "This field is required!"
+msgstr "Това поле е задължително!"
+
+#: classes/admin/assets.php:27
+msgid "Yes"
+msgstr "Да"
+
+#: classes/admin/assets.php:28
+msgid "Loading"
+msgstr "Зареждане на"
+
+#: classes/admin/assets.php:29
+msgid "No"
+msgstr "Не"
+
+#: classes/admin/assets.php:30 classes/admin/views/metabox.php:68
+#: classes/admin/views/placeholders.php:49
+msgid "Cancel"
+msgstr "Отказ"
+
+#: classes/admin/assets.php:31
+msgid "Close"
+msgstr "Затвори"
+
+#: classes/admin/assets.php:32 classes/admin/settings.php:134
+#: classes/admin/settings.php:203 classes/admin/settings.php:332
+#: classes/admin/settings.php:359 classes/output/rm.php:228
+msgid "Enable"
+msgstr "Разреши"
+
+#: classes/admin/assets.php:33 classes/admin/settings.php:323
+#: classes/admin/settings.php:341 classes/admin/settings.php:350
+#: classes/admin/settings.php:368
+msgid "Disable"
+msgstr "Правя неспособен"
+
+#: classes/admin/assets.php:34
+msgid "Error"
+msgstr "Грешка"
+
+#: classes/admin/assets.php:35
+msgid "Uknown Error! Refresh the page and try again."
+msgstr "СПЛАВКОМЕРС АД грешка! Обновете страницата и опитайте отново."
+
+#: classes/admin/assets.php:36
+msgid "Success"
+msgstr "Успех"
+
+#: classes/admin/assets.php:37
+msgid "Are you sure you want to remove this configuration?"
+msgstr "Наистина ли искате да премахнете тази конфигурация?"
+
+#: classes/admin/assets.php:38
+msgid "You can't add a meta key to hide if it's set as a visible field!"
+msgstr "Не можете да добавяте мета ключ да се скрие, ако той е зададен като видимо поле!"
+
+#: classes/admin/help/default.php:23 classes/admin/help/groups.php:23
+msgid "Overview"
+msgstr "Общ преглед"
+
+#: classes/admin/help/default.php:26 classes/admin/listtable/default.php:22
+msgid "Visible Fields"
+msgstr "Видими полета"
+
+#: classes/admin/help/default.php:29 classes/admin/listtable/default.php:21
+msgid "Hidden Fields"
+msgstr "Скрити полета"
+
+#: classes/admin/help/default.php:43
+msgid ""
+"Default Visibilities are configurations you create for any user or group, "
+"that will be used for every listing on your site.  This allows you to "
+"configure fields you want visible or hidden to specific users or groups.  "
+"You can create unlimited visibility configurations to fine tweak everything "
+"exactly how you want it. Here's a few things to note:"
+msgstr "По подразбиране видимостите са конфигурации, които създавате за всеки потребител или група, която ще се използва за всеки списък на вашия сайт.  Това ви позволява да конфигурирате полета искате видими или скрити на определени потребители или групи.  Можете да създадете неограничен видимостта конфигурации да глоба ощипвам всичко точно как го искате. Ето няколко неща, за да отбележи:"
+
+#: classes/admin/help/default.php:45
+msgid ""
+"User default visibility configurations ALWAYS take priority over any group "
+"configurations"
+msgstr "Потребител по подразбиране видимостта конфигурации винаги има предимство пред всяка група конфигурации"
+
+#: classes/admin/help/default.php:46
+msgid "Group configurations are processed in order based on their priority"
+msgstr "Група конфигурации се обработват в ред, въз основа на техния приоритет"
+
+#: classes/admin/help/default.php:48
+msgid ""
+"As a quick example, if you have a default visibility configuration for the "
+"user <code>JohnSmith</code>, and you set the <code>job_description</code> "
+"field as hidden...if you also have this user in a group, that has the "
+"<code>job_description</code> visible, because user configurations take "
+"priority, that user will <strong>NOT</strong> be able to see "
+"<code>job_description</code>."
+msgstr "Като един бърз пример ако имате видимост конфигурацията по подразбиране на потребителя <code>JohnSmith</code>, и сте задали полето <code>job_description</code> като скрити... Ако имате също така този потребител в една група, която има <code>job_description</code> видими, тъй като потребителя конфигурации имат приоритет, този потребител ще <strong>няма</strong> да можете да видите <code>job_description</code>."
+
+#: classes/admin/help/default.php:55
+msgid ""
+"Visible Fields are fields that you want to be shown for this specific user "
+"or group."
+msgstr "Видими полета са полета, които искате да бъдат показани за този конкретен потребител или група."
+
+#: classes/admin/help/default.php:56
+msgid ""
+"This is useful in situations where you have a user that is, as an example, "
+"apart of two groups, one with priority of 5 and one with priority of 10. Say"
+" the group with priority of 10 has the <code>job_description</code> field "
+"hidden ... if the group with priority of 5 has that same field set as "
+"visible, because the priority is lower than the group that hides the field, "
+"the <code>job_description</code> field will be shown."
+msgstr "Това е полезно в ситуации, където имате потребител, тоест, като пример, с изключение на две групи, едната с приоритет на 5 и един с приоритет 10. Казват групата с приоритет на 10 има <code>job_description</code> полето скрити..., ако групата с приоритет 5, е че същото поле, зададено като видима, защото приоритет е по-ниска от групата която скрива поле, полето <code>job_description</code> ще бъдат показани."
+
+#: classes/admin/help/default.php:63
+msgid ""
+"Hidden Fields are fields that you do NOT want shown for a specific user or "
+"group"
+msgstr "Скрити полета са полета, които не искате показани за конкретен потребител или група"
+
+#: classes/admin/help/default.php:64
+msgid ""
+"Setting hidden fields will probably be used the most, as this allows you to "
+"set fields to hide based on the user or group.  Hidden fields support what "
+"is called a <code>placeholder</code>.  The placeholder is the value you want"
+" to be shown instead of the actual value."
+msgstr "Определяне на скрити полета вероятно ще бъде използван най-много, тъй като това ви позволява да зададете полета, за да скриете въз основа на потребител или група.  Скрити полета подкрепа, което се нарича <code>контейнер</code>.  Контейнера е стойността, която искате да се показва вместо действителната стойност."
+
+#: classes/admin/help/default.php:65
+msgid "HTML IS supported in placeholders!"
+msgstr "HTML е поддържа в контейнери!"
+
+#: classes/admin/help/default.php:66
+msgid "Specific Meta Key Information:"
+msgstr "Специфични мета ключови информация:"
+
+#: classes/admin/help/default.php:67
+msgid ""
+"Due to the way the core of WP Job Manager is coded, as well as how some meta"
+" keys are handled in templates and the core plugin, there are some caveots "
+"and neat ways that I have coded my plugin to handle specific meta keys."
+msgstr "Дължим пътя ядрото на WP работа мениджър е кодирани, както извор както как някои мета ключове се обработват в шаблони и основните плъгин има някои caveots и чист начини, които са кодирани моя плъгин да се справят с конкретни мета ключове."
+
+#: classes/admin/help/default.php:69
+msgid ""
+"If you do not enter a placeholder value, the <strong>Apply Now</strong> "
+"button will be hidden.  If you enter a placeholder, it will be shown, but "
+"when the user clicks the button, they will see your placehoolder value."
+msgstr "Ако не въведете стойност на контейнер, бутона <strong>Кандидатствай сега</strong> ще бъдат скрити.  Ако въведете контейнер, тя ще бъде показана, но когато потребителят щракне върху бутона, те ще видят вашата placehoolder стойност."
+
+#: classes/admin/help/default.php:70
+msgid ""
+"By default the placeholder value will be shown instead of actual value ... "
+"if you want to output an excerpt of this field, go to the settings and "
+"enable excerpt for this meta key.  Any placeholder value will be appended "
+"(added to the end) of the excerpt."
+msgstr "По подразбиране стойността на контейнера ще бъдат показани вместо действителната стойност..., ако искате да изходен откъс от това поле отидете в настройките и разрешите откъс за този meta ключ.  Всяка стойност, контейнер ще бъде приложена (добавен към края) на откъс."
+
+#: classes/admin/help/groups.php:26 classes/admin/listtable/default.php:20
+#: classes/admin/listtable/groups.php:19
+msgid "Priority"
+msgstr "Приоритет"
+
+#: classes/admin/help/groups.php:29 classes/admin/listtable/groups.php:20
+#: classes/admin/metaboxes/groups.php:28 classes/admin/views/metabox.php:39
+#: classes/admin/views/users.php:46
+msgid "Users"
+msgstr "Потребители"
+
+#: classes/admin/help/groups.php:32 classes/admin/listtable/groups.php:21
+#: classes/admin/metaboxes/groups.php:37 classes/admin/settings.php:280
+#: classes/admin/views/metabox.php:30 classes/admin/views/users.php:32
+#: classes/cpt.php:268
+msgid "Groups"
+msgstr "Групи"
+
+#: classes/admin/help/groups.php:35 classes/admin/listtable/groups.php:22
+#: classes/admin/metaboxes/groups.php:46 classes/admin/views/roles.php:28
+msgid "Roles"
+msgstr "Роли"
+
+#: classes/admin/help/groups.php:50
+msgid ""
+"Groups can be used to create many different setups based on your specific "
+"needs. Groups will always have a lower priority than user specific "
+"configurations, so a group will never override a specific user "
+"configuration."
+msgstr "Групи може да се използва за създаване на много различни настройки, въз основа на вашите специфични нужди. Групите винаги ще има по-нисък приоритет от потребител специфични конфигурации, така че група никога не ще замени конфигурация на конкретен потребител."
+
+#: classes/admin/help/groups.php:53
+msgid ""
+"You can include multiple users, other groups, roles, or even any other addon"
+" configurations (such as packages, etc)."
+msgstr "Можете да включите няколко потребители, други групи, роли или дори всички други Адон конфигурации (като пакети и др.)."
+
+#: classes/admin/help/groups.php:61
+msgid ""
+"Default priority is 10 (if not set).  The lower the number the higher the "
+"priority ( 1 is a higher priority than 5 )"
+msgstr "Приоритет по подразбиране е 10 (ако не зададете).  Колкото по-ниско числото по-висок приоритет (1 е по-висок приоритет от 5)"
+
+#: classes/admin/help/groups.php:64
+msgid ""
+"Priorities are specifically used for groups to determine what group should "
+"take priority whenever there is a coflict."
+msgstr "Приоритетите се използват специално за групи да се определи каква група трябва да има приоритет, когато има coflict."
+
+#: classes/admin/help/groups.php:67
+msgid ""
+"As an example, you have 2 different groups ( Employers [Priority 5], and "
+"Gold Package [Priority 1] ):"
+msgstr "Като пример имате 2 различни групи (работодателите [приоритет 5], както и Златен пакет [приоритет 1]):"
+
+#: classes/admin/help/groups.php:70
+msgid "Employer Group (Priority 5) has these fields set to hide:"
+msgstr "Работодателят група (приоритет 5) е тези полета да скрие:"
+
+#: classes/admin/help/groups.php:73
+msgid "Gold Package (Priority 1) has these fields set to show:"
+msgstr "Златен пакет (приоритет 1) е тези полета да покаже:"
+
+#: classes/admin/help/groups.php:76
+msgid ""
+"When someone visits your site and is a member of both of those groups, "
+"because Gold Package has a higher priority than Employer Group, the final "
+"result would be:"
+msgstr "Когато някой посети вашия сайт и е член на двете от тези групи, защото Златен пакет има по-висок приоритет от работодателя група, крайният резултат ще бъде:"
+
+#: classes/admin/help/groups.php:79
+msgid "Show Fields:"
+msgstr "Покажи полета:"
+
+#: classes/admin/help/groups.php:82
+msgid "Hide Fields:"
+msgstr "Скриване на полета:"
+
+#: classes/admin/help/groups.php:90
+msgid ""
+"Include as many users as you want into a group.  Even if users are included "
+"in this group, if you have any user specific configurations they will take "
+"priority over this group configuration."
+msgstr "Включи колкото се може повече потребители, колкото искате в група.  Дори ако потребителите са включени в тази група, ако имате някакви потребител специфични конфигурации те ще имат предимство пред тази група конфигурация."
+
+#: classes/admin/help/groups.php:101 classes/admin/help/settings.php:32
+msgid "Coming Soon..."
+msgstr "Скоро предстои..."
+
+#: classes/admin/help/groups.php:109
+msgid ""
+"You can include any registered roles into a group.  A special group has also"
+" been added called Anonymous which is used for any users that are not logged"
+" in."
+msgstr "Можете да включите всички роли на регистрирани в една група.  Специална група също са добавени нарича анонимен, който се използва за всички потребители, които не са влезли в."
+
+#: classes/admin/help/settings.php:24 classes/admin/settings.php:317
+msgid "Debug"
+msgstr "Отстраняване на грешки"
+
+#: classes/admin/listtable/custom.php:16
+msgid "Fields"
+msgstr "Полета"
+
+#: classes/admin/listtable/custom.php:17
+msgid "Total Fields"
+msgstr "Общите полета"
+
+#: classes/admin/listtable/custom.php:18
+#: classes/admin/listtable/default.php:24
+#: classes/admin/listtable/groups.php:24
+msgid "Actions"
+msgstr "Действия"
+
+#: classes/admin/listtable/custom.php:53
+#: classes/admin/listtable/default.php:98
+#: classes/admin/listtable/groups.php:123
+msgid "Edit"
+msgstr "Редактиране"
+
+#: classes/admin/listtable/custom.php:54
+#: classes/admin/listtable/default.php:99
+#: classes/admin/listtable/groups.php:124
+msgid "Delete"
+msgstr "Изтриване"
+
+#: classes/admin/listtable/default.php:18
+#: classes/admin/listtable/groups.php:18
+msgid "Title"
+msgstr "Заглавие"
+
+#: classes/admin/listtable/default.php:23
+#: classes/admin/listtable/groups.php:23
+msgid "Last Updated"
+msgstr "Последна актуализация"
+
+#: classes/admin/listtable/default.php:51
+msgid "n/a"
+msgstr "n/a"
+
+#: classes/admin/listtable/default.php:62
+msgid "Group"
+msgstr ""
+
+#: classes/admin/listtable/default.php:69
+msgid "User"
+msgstr ""
+
+#: classes/admin/listtable/groups.php:64
+msgid "Are you sure you want to remove the <strong>%s</strong> group?"
+msgstr "Наистина ли искате да премахнете групата <strong>%s</strong>?"
+
+#: classes/admin/listtable/groups.php:65
+msgid "This will remove any configurations you have created for this group!"
+msgstr "Това ще премахне всички конфигурации, които сте създали за тази група!"
+
+#: classes/admin/listtable/groups.php:68
+msgid ""
+"There were configurations also found with this group in them, and if you "
+"remove this group it will be removed from those group configurations."
+msgstr "Там бяха конфигурации, открити с тази група в тях, и ако можете да премахнете тази група ще бъдат премахнати от тези група конфигурации."
+
+#: classes/admin/listtable/groups.php:73
+msgid "Yes, remove the group!"
+msgstr "Да, премахнете групата!"
+
+#: classes/admin/listtable/groups.php:75
+msgid "Remove Group?"
+msgstr "Премахване на група?"
+
+#: classes/admin/metaboxes/custom.php:22 classes/admin/metaboxes/custom.php:31
+#: classes/cpt.php:315
+msgid "Custom Visibilities"
+msgstr "Видимост на потребителски"
+
+#: classes/admin/metaboxes/default.php:22
+msgid "Default Visible Fields"
+msgstr "Видими полета по подразбиране"
+
+#: classes/admin/metaboxes/default.php:31
+msgid "Default Hidden Fields"
+msgstr "Скрити полета по подразбиране"
+
+#: classes/admin/metaboxes/default.php:56
+msgid "Select a Field to Show"
+msgstr "Изберете поле за показване"
+
+#: classes/admin/metaboxes/groups.php:55
+msgid "Group Priority"
+msgstr "Група приоритет"
+
+#: classes/admin/metaboxes/groups.php:89 classes/admin/views/roles.php:12
+msgid "Select a Role"
+msgstr "Избор на роля"
+
+#: classes/admin/metaboxes/groups.php:115
+msgid "Select a User"
+msgstr "Изберете потребител"
+
+#: classes/admin/metaboxes/groups.php:140
+msgid "Select a Group"
+msgstr "Изберете група"
+
+#: classes/admin/metaboxes.php:40
+msgid "Debug Information"
+msgstr "Debug информация"
+
+#: classes/admin/settings/fields.php:68
+msgid ""
+"Please install the <a href=\"%s\" target=\"_blank\">WP Job Manager "
+"Packages</a> plugin for packages integration with this plugin."
+msgstr ""
+
+#: classes/admin/settings/fields.php:69
+msgid ""
+"The packages plugin will add the ability to configure groups based on a "
+"specific package that the user has.  These packages can be any of the "
+"Visibility Packages created with the WP Job Manager Packages plugin, or any "
+"WooCommerce Paid Listing packages as well."
+msgstr ""
+
+#: classes/admin/settings/fields.php:70
+msgid ""
+"As a special promotion, any existing clients can use the promo code "
+"<strong>visclient15offpackages</strong> to get 15% off the purchase of the "
+"packages plugin!"
+msgstr ""
+
+#: classes/admin/settings/fields.php:71
+msgid "Check out the new WP Job Manager Packages Plugin:"
+msgstr ""
+
+#: classes/admin/settings/fields.php:310
+msgid "Deactivate License"
+msgstr "Дезактивиране на лиценз"
+
+#: classes/admin/settings/handlers.php:30
+msgid ""
+"Please make sure the default groups do not already exist, or there was an "
+"error creating them."
+msgstr "Моля, уверете се, че групите по подразбиране вече не съществува или е имало грешка при създаване на тях."
+
+#: classes/admin/settings/handlers.php:33
+msgid "These default groups were added succesfully: "
+msgstr "Тези по подразбиране групи са добавени успешно: "
+
+#: classes/admin/settings/handlers.php:43
+msgid "Succesfully updated %s existing listing permalinks!"
+msgstr ""
+
+#: classes/admin/settings/handlers.php:54
+msgid "Succesfully updated %s existing resume listing permalinks!"
+msgstr ""
+
+#: classes/admin/settings/handlers.php:89
+msgid "All cache (with AND without expirations) has been purged/removed!"
+msgstr ""
+
+#: classes/admin/settings/handlers.php:95
+msgid "All user config cache has been purged/removed!"
+msgstr "Всички потребителски конфигурационен кеш е бил премахнати/отстранени!"
+
+#: classes/admin/settings/handlers.php:101
+msgid "The core WordPress cache has been flushed!"
+msgstr "Определителен член сърцевина WordPress кеш е изпразнен!"
+
+#: classes/admin/settings/handlers.php:107
+msgid "All user group config cache has been purged/removed!"
+msgstr "Всички потребителски група конфигурационен кеш е бил премахнати/отстранени!"
+
+#: classes/admin/settings.php:37 classes/cpt.php:243
+msgid "Settings"
+msgstr "Настройки"
+
+#: classes/admin/settings.php:128
+msgid "Integration"
+msgstr "Интеграция"
+
+#: classes/admin/settings.php:133
+msgid "Listings"
+msgstr "Листинги"
+
+#: classes/admin/settings.php:135
+msgid "Enable processing of visibility configurations for %s Listings"
+msgstr "Позволи обработката на видимостта конфигурации за %s списъци"
+
+#: classes/admin/settings.php:147 classes/output/rm.php:246
+msgid "Permalink"
+msgstr "Permalink"
+
+#: classes/admin/settings.php:148
+msgid "Use Custom Permalinks when Listing Created/Updated"
+msgstr ""
+
+#: classes/admin/settings.php:149
+msgid ""
+"Enable this option to use the custom permalink configuration below.  By "
+"default the core plugin creates the permalink with Company Name, Location, "
+"Type, and Job Title.  Enabling this option sets this structure when a new "
+"listing is created/updated.  To update existing listings, use the force "
+"update permalink structure below."
+msgstr ""
+
+#: classes/admin/settings.php:155 classes/output/rm.php:254
+msgid "Permalink Structure"
+msgstr "Permalink структура"
+
+#: classes/admin/settings.php:160
+msgid "The custom permalink structure you want to use for "
+msgstr "Потребителски permalink структура, която искате да използвате за "
+
+#: classes/admin/settings.php:160
+msgid ""
+" Listing permalinks. Permalinks are generated using meta key values from the"
+" listing, and all meta keys MUST be inside curly braces "
+msgstr " Списък permalinks. Permalinks се генерират използвайки мета ключови стойности от списък, и всички мета ключове трябва да бъдат вътре фигурни скоби "
+
+#: classes/admin/settings.php:160 classes/output/rm.php:259
+msgid ""
+"To prevent random value from being used when a field does not have a value, "
+"prepend the metakey with an exclamation point.  Example: "
+msgstr ""
+
+#: classes/admin/settings.php:161 classes/output/rm.php:260
+msgid "The default core values available are: "
+msgstr "Достъпни стойности на ядрото по подразбиране са: "
+
+#: classes/admin/settings.php:161 classes/output/rm.php:260
+msgid "10 random characters"
+msgstr "10 случайни знаци"
+
+#: classes/admin/settings.php:162
+msgid ""
+"<small>Any meta key can be used (only string value ones), including custom "
+"fields, so if your meta key is <code>job_info</code>, you would use "
+"<code>{job_info}</code>"
+msgstr "<small>Всички мета ключ може да се използва (само низ стойност такива), включително потребителски полета, така че ако вашият meta ключ е <code>job_info</code> трябва да използвате <code>{job_info}</code>"
+
+#: classes/admin/settings.php:163 classes/output/rm.php:262
+msgid ""
+"<small>Spaces will be automatically replaced with dash/hyphen "
+"<code>-</code>, and all values will be set to lowercase.  If values are too "
+"long, they will automatically be shortened as well. If all fields used are "
+"empty, the random string will be used.</small>"
+msgstr "<small>Помещения ще бъдат автоматично заменени с тире/тире <code>–</code>, и всички стойности ще бъдат направени в малки.  Ако стойностите са твърде дълги, те автоматично ще бъде съкратен както извор. Ако всички полета, използвани са празни, ще бъдат използвани низ.</small>"
+
+#: classes/admin/settings.php:169 classes/output/rm.php:268
+msgid "Force update existing listing permalinks"
+msgstr ""
+
+#: classes/admin/settings.php:172 classes/output/rm.php:271
+msgid "Permalink Update"
+msgstr ""
+
+#: classes/admin/settings.php:173 classes/output/rm.php:272
+msgid ""
+"If you already have existing listings and have just enabled or changed the "
+"permalink structure, you need to force update existing listings if you want "
+"them to use the new structure."
+msgstr ""
+
+#: classes/admin/settings.php:179
+msgid "Company Website"
+msgstr "Фирмен уебсайт"
+
+#: classes/admin/settings.php:180
+msgid "Remove"
+msgstr "Премахване на"
+
+#: classes/admin/settings.php:181
+msgid ""
+"By default when setting the company_website to hide, the placeholder will be"
+" used instead of the website URL.  Enable this option to completely remove "
+"the company website link from the single listing page."
+msgstr "По подразбиране при задаване на company_website да се скрие вместо на сайта URL ще се използва контейнер.  Разреши тази опция да премахнете напълно на компанията сайта връзка от страницата на една регистрация."
+
+#: classes/admin/settings.php:188
+msgid "Job Description"
+msgstr "Работа описание"
+
+#: classes/admin/settings.php:189
+msgid "Show excerpt if <code>job_description</code> meta key is hidden"
+msgstr "Покажи откъс ако <code>job_description</code> meta ключ е скрита"
+
+#: classes/admin/settings.php:190
+msgid ""
+"Enable this option to output the excerpt (first 55 words) first, then the "
+"placeholder value.  Normally, only the placeholder field would be output if "
+"the field is hidden."
+msgstr "Разреши тази опция за извеждане на откъс (първите 55 думи) първи, а след това стойността на контейнера.  Обикновено само полето контейнер ще бъде готова продукция, ако полето е скрита."
+
+#: classes/admin/settings.php:197 classes/admin/settings.php:202
+msgid "Cache"
+msgstr "Кеш"
+
+#: classes/admin/settings.php:204
+msgid ""
+"This plugin uses WordPress transients to cache user/group configs to prevent"
+" excessive, and unecessary database queries.  This will result in around a "
+"200-400% speed improvement, only disable if directed by "
+"support.<br/><strong>Cache is automatically purged and updated whenever "
+"visibility configurations are added or updated, regardless of expiration "
+"value below.</strong>"
+msgstr ""
+
+#: classes/admin/settings.php:211
+msgid "Expiration"
+msgstr "Изтичане на срока"
+
+#: classes/admin/settings.php:212
+msgid ""
+"This will be the amount of time the cache is stored before it is "
+"automatically removed and has to be regenerated.<br/>Do not set this below 1"
+" Month unless you know what you're doing, as short cache expirations will "
+"cause unecessary database queries, ultimately slowing down your site."
+msgstr ""
+
+#: classes/admin/settings.php:216
+msgid "1 Minute"
+msgstr "1 минута"
+
+#: classes/admin/settings.php:217
+msgid "5 Minutes"
+msgstr "5 минути"
+
+#: classes/admin/settings.php:218
+msgid "15 Minutes"
+msgstr "15 минути"
+
+#: classes/admin/settings.php:219
+msgid "30 Minutes"
+msgstr "30 минути"
+
+#: classes/admin/settings.php:220
+msgid "1 Hour"
+msgstr "1 час"
+
+#: classes/admin/settings.php:221
+msgid "12 Hours"
+msgstr "12 часа"
+
+#: classes/admin/settings.php:222
+msgid "24 Hours"
+msgstr "24 часа"
+
+#: classes/admin/settings.php:223
+msgid "1 Week"
+msgstr "1 седмица"
+
+#: classes/admin/settings.php:224
+msgid "2 Weeks"
+msgstr "2 седмици"
+
+#: classes/admin/settings.php:225
+msgid "1 Month"
+msgstr "1 месец"
+
+#: classes/admin/settings.php:226
+msgid "3 Months"
+msgstr "3 месеца"
+
+#: classes/admin/settings.php:227
+msgid "6 Months"
+msgstr "6 месеца"
+
+#: classes/admin/settings.php:228
+msgid "1 Year"
+msgstr "1 година"
+
+#: classes/admin/settings.php:233
+msgid "Purge All"
+msgstr "Изчисти всички"
+
+#: classes/admin/settings.php:236
+msgid "Purge"
+msgstr "Чистка"
+
+#: classes/admin/settings.php:237
+msgid ""
+"This will purge all user and group cache (with and without expirations) and "
+"require the cache to be rebuilt when the user visits the single listing page"
+" again.<br/>If the total of User Cache + Group Cache is less than all cache,"
+" you may need to use this to clear invalid cache without expirations."
+msgstr ""
+
+#: classes/admin/settings.php:243
+msgid "Purge User Cache"
+msgstr "Изчисти кеша на потребителя"
+
+#: classes/admin/settings.php:246
+msgid "Purge User"
+msgstr "Изтриване на потребител"
+
+#: classes/admin/settings.php:247
+msgid ""
+"Purge only the user configuration cache (only user specific config, does not"
+" clear user groups cache), with expirations. Cache will be rebuilt when the "
+"user visits the single listing page again."
+msgstr ""
+
+#: classes/admin/settings.php:253
+msgid "Purge Groups Cache"
+msgstr "Изчисти кеша на групи"
+
+#: classes/admin/settings.php:256
+msgid "Purge Groups"
+msgstr "Продухване на групи"
+
+#: classes/admin/settings.php:257
+msgid ""
+"Purge only the groups configuration cache (only user group config), with "
+"expirations. Cache will be rebuilt when the user visits the single listing "
+"page again."
+msgstr ""
+
+#: classes/admin/settings.php:263
+msgid "WP Cache"
+msgstr "WP Кеш"
+
+#: classes/admin/settings.php:266
+msgid "Flush Cache"
+msgstr "Flush кеш"
+
+#: classes/admin/settings.php:267
+msgid ""
+"This will flush the entire WordPress core cache.  This is useful when "
+"taxonomies, meta, or other core WordPress data is showing old data."
+msgstr "Това ще вълни на целия WordPress сърцевина кеш.  Това е полезно, когато класификации, мета или други основни WordPress данни се показва стари данни."
+
+#: classes/admin/settings.php:273
+msgid "Backup"
+msgstr "Архивиране"
+
+#: classes/admin/settings.php:277
+msgid "Download Groups Backup"
+msgstr "Изтегляне архивиране на групи"
+
+#: classes/admin/settings.php:281
+msgid "Generate and download a backup of created groups."
+msgstr "Генериране и изтегляне на резервно копие на създадените групи."
+
+#: classes/admin/settings.php:287
+msgid "Download Defaults Backup"
+msgstr "Изтегли подразбиране архивиране"
+
+#: classes/admin/settings.php:290
+msgid "Default"
+msgstr "По подразбиране"
+
+#: classes/admin/settings.php:291
+msgid "Generate and download a backup of default visibility configurations."
+msgstr "Генериране и изтегляне на резервно копие на видимостта конфигурации по подразбиране."
+
+#: classes/admin/settings.php:297
+msgid "Download Custom Visibilities Backup"
+msgstr "Изтегляне потребителски видимостите архивиране"
+
+#: classes/admin/settings.php:300
+msgid "Custom"
+msgstr "По избор"
+
+#: classes/admin/settings.php:301
+msgid "Generate and download a backup of custom visibility configurations."
+msgstr "Генериране и изтегляне на резервно копие на потребителски видимостта конфигурации."
+
+#: classes/admin/settings.php:307
+msgid "Import Backup!"
+msgstr "Внос архива!"
+
+#: classes/admin/settings.php:310
+msgid "Import Backup"
+msgstr "Внос архива"
+
+#: classes/admin/settings.php:311
+msgid ""
+"Import a previously generated backup.  This uses the default WordPress "
+"import feature, if you do not see a file upload after clicking this button, "
+"make sure to import using WordPress importer."
+msgstr "Импортиране на предварително генерирани резервно копие.  Това използва по подразбиране WordPress внос функция, ако не виждате файл качване след като щракнете върху този бутон, се уверете, че да импортирате, използвайки WordPress вносител."
+
+#: classes/admin/settings.php:322
+msgid "Disable License Deactivation"
+msgstr "Деактивиране дезактивиране на лиценз"
+
+#: classes/admin/settings.php:324
+msgid ""
+"By default when you deactivate the plugin it will also deactivate your "
+"license on the current site.  Check this box to disable the deactivation of "
+"your license when you deactivate the plugin."
+msgstr "По подразбиране когато деактивирате плъгин то ще също да деактивирате вашия лиценз на текущия сайт.  Отметнете това квадратче, за да забраните деактивиране на лиценза си, когато деактивирате плъгин."
+
+#: classes/admin/settings.php:331
+msgid "Enable Post Debug"
+msgstr "Разрешаване Debug пост"
+
+#: classes/admin/settings.php:333
+msgid ""
+"Add a debug metabox to bottom of each add/edit post page (default, custom, "
+"groups)."
+msgstr "Добавете debug МЕТАБОКС дъното на всяка добавяне/редактиране на публикация страница (подразбиране обичай, групи)."
+
+#: classes/admin/settings.php:340
+msgid "Heartbeat"
+msgstr "Сърдечен ритъм"
+
+#: classes/admin/settings.php:342
+msgid ""
+"Disables WordPress heartbeat on Job, Resume, and any other pages for this "
+"plugin (does not affect other post types)"
+msgstr "Правя неспособен WordPress сърдечен ритъм на работа, автобиография и други страници за този плъгин (не засяга другите видове пост)"
+
+#: classes/admin/settings.php:349
+msgid "Post Lock"
+msgstr "Пост заключване"
+
+#: classes/admin/settings.php:351
+msgid ""
+"Disables WordPress Post Lock on Job, Resume, and any other pages for this "
+"plugin (does not affect other post types)"
+msgstr "Правя неспособен WordPress стълб заключване на работа, автобиография и други страници за този плъгин (не засяга другите видове пост)"
+
+#: classes/admin/settings.php:358
+msgid "Show Debug in Footer"
+msgstr "Показвай Debug в долен колонтитул"
+
+#: classes/admin/settings.php:360
+msgid ""
+"<strong>ONLY</strong> enable this when you are debugging, otherwise any "
+"visitor will see ALL of your user and group config!  You can also add "
+"<em>?admin_debug</em> to the end of the URL to show debug details (will only"
+" work for admins)."
+msgstr "<strong>Само</strong> това разреши когато са грешки, в противен случай всеки посетител ще видите всички от вашия потребител и група довереник!  Можете да добавите <em>? admin_debug</em> в края на URL за шоу debug подробности (ще работи само за администратори)."
+
+#: classes/admin/settings.php:367
+msgid "Admin Exception"
+msgstr "Изключение от администратор"
+
+#: classes/admin/settings.php:369
+msgid ""
+"By default if the user is an Administrator any field visibility "
+"configuration will bypassed.  Disable Admin Exception to process "
+"configurations for admins.  You can also just add "
+"<code>?admin_exception</code> to the end of the URL to preview the listing "
+"with visibility enabled."
+msgstr "По подразбиране ако потребителят е администратор поле видимост конфигурация ще bypassed.  Правя неспособен администратор изключение към процес конфигурации за администратори.  Можете също така просто да добавите <code>? admin_exception</code> в края на URL, за да визуализирате списък с видимост активирани."
+
+#: classes/admin/settings.php:376
+msgid "Setup"
+msgstr "Настройка"
+
+#: classes/admin/settings.php:380
+msgid "Add Default Groups"
+msgstr "Добавяне на групи по подразбиране"
+
+#: classes/admin/settings.php:383
+msgid "Default Groups"
+msgstr "Групи по подразбиране"
+
+#: classes/admin/settings.php:384
+msgid ""
+"This will setup/add the Anonymous (anonymous role), Candidates (candidate "
+"role), and Employers (employer role) groups."
+msgstr "Това ще настройка/добави Anonymous (анонимни роля), кандидати (кандидат роля) и работодателите (работодател роля) групи."
+
+#: classes/admin/settings.php:390
+msgid "License"
+msgstr "Лиценз"
+
+#: classes/admin/settings.php:394
+msgid "Email"
+msgstr "Имейл"
+
+#: classes/admin/settings.php:398
+msgid ""
+"The email associated with your license key, this <strong>MUST</strong> match"
+" the email found on your <a href=\"%s\" target=\"_blank\">My Account</a> "
+"page."
+msgstr "Имейл, свързан с вашия лицензен ключ, това <strong>трябва да</strong> съответства на имейл, намерени на страницата,, <a href=\"%s\" target=\"_blank\"> Моят профил</a>."
+
+#: classes/admin/settings.php:403
+msgid "License Key"
+msgstr "Позволително ключ"
+
+#: classes/admin/settings.php:407
+msgid "The license key associated with the email above."
+msgstr "Определителен член позволително ключ, свързана с имейла по-горе."
+
+#: classes/admin/settings.php:413
+msgid "Packages"
+msgstr ""
+
+#: classes/admin/settings.php:423
+msgid "Support"
+msgstr "Поддръжка"
+
+#: classes/admin/settings.php:433
+msgid "About"
+msgstr "За"
+
+#: classes/admin/views/metabox.php:3
+msgid "Select Fields to Mask"
+msgstr "Изберете полета за маска"
+
+#: classes/admin/views/metabox.php:4 classes/admin/views/users.php:13
+msgid "Select a User or Group"
+msgstr "Изберете потребител или група"
+
+#: classes/admin/views/metabox.php:5
+msgid "Select Visibility Fields"
+msgstr "Изберете видимост на полета"
+
+#: classes/admin/views/metabox.php:17 classes/admin/views/placeholders.php:10
+msgid "Loading..."
+msgstr "Зареждане..."
+
+#: classes/admin/views/metabox.php:53
+msgid "Select Fields to Hide on Listing"
+msgstr "Изберете полета за скриване на списък"
+
+#: classes/admin/views/metabox.php:56
+msgid "Select Fields to Show on Listing"
+msgstr "Изберете полета за показване на списък"
+
+#: classes/admin/views/metabox.php:62 classes/admin/views/placeholders.php:43
+msgid "Placeholder text or HTML to use instead of actual value"
+msgstr "Текст в контейнер или HTML да се използват вместо действителната стойност"
+
+#: classes/admin/views/metabox.php:65 classes/admin/views/placeholders.php:46
+msgid "Add"
+msgstr "Добавяне"
+
+#: classes/admin/views/metakeys.php:13 classes/admin/views/select.php:13
+msgid "Select a %s"
+msgstr "Изберете %s"
+
+#: classes/admin/views/metakeys.php:21 classes/admin/views/select.php:21
+msgid "No %ss Found"
+msgstr "%СС намерени"
+
+#: classes/admin/views/ph-table.php:8 classes/admin/views/table.php:8
+msgid "Edit in Progress..."
+msgstr "Извършва се редактиране..."
+
+#: classes/admin/views/ph-table.php:14
+msgid "Field"
+msgstr "Поле"
+
+#: classes/admin/views/ph-table.php:15 classes/admin/views/table.php:16
+msgid "Placeholder"
+msgstr "Контейнер"
+
+#: classes/admin/views/ph-table.php:16 classes/admin/views/table.php:17
+msgid "Action"
+msgstr "Действие"
+
+#: classes/admin/views/ph-table.php:53 classes/admin/views/table.php:74
+msgid "No Records"
+msgstr "Няма записи"
+
+#: classes/admin/views/placeholders.php:24
+msgid "Select a field to hide"
+msgstr "Изберете поле, за да скриете"
+
+#: classes/admin/views/priority.php:10
+msgid "Priority: "
+msgstr "Приоритет: "
+
+#: classes/admin/views/priority.php:17
+msgid "Default priority is 10"
+msgstr "Приоритет по подразбиране е 10"
+
+#: classes/admin/views/priority.php:18
+msgid "Lower number equals higher priority"
+msgstr "По-ниски числа е равно по-висок приоритет"
+
+#: classes/admin/views/priority.php:19
+msgid "See the help menu in top right corner for more details on priorities."
+msgstr "Вижте менюто \"Помощ\" в горния десен ъгъл за повече подробности приоритетите."
+
+#: classes/admin/views/roles.php:19
+msgid "No Roles Found"
+msgstr "Няма роли намерени"
+
+#: classes/admin/views/table.php:14
+msgid "User or Group"
+msgstr "Потребител или група"
+
+#: classes/admin/views/table.php:15
+msgid "Show/Hide Fields"
+msgstr "Покажи/Скрий полетата"
+
+#: classes/admin/views/users.php:21
+msgid "No Groups Found"
+msgstr "Няма групи намерени"
+
+#: classes/admin/views/users.php:23
+msgid "Error getting Users!"
+msgstr "Грешка при получаване на потребителите!"
+
+#: classes/admin/views.php:70
+msgid "No array data found!"
+msgstr "Няма намерени данни за масив!"
+
+#: classes/admin.php:61
+msgid "Thanks for upgrading/installing WP Job Manager Visibility!"
+msgstr ""
+
+#: classes/admin.php:62
+msgid ""
+"Did you know this plugin (WP Job Manager Visibility) can be extended using "
+"the <a href=\"%1$s\" target=\"_blank\">WP Job Manager Packages</a> "
+"plugin?<br/> <br />The packages plugin allows you to configure groups based "
+"on Visibility Packages or WooCommerce Paid Listings packages, and TONS of "
+"other features!<br /><strong><a href=\"%2$s\">Click here for more "
+"information (and 15 percent off coupon code)</a></strong>"
+msgstr ""
+
+#: classes/admin.php:63
+msgid "Dismiss"
+msgstr ""
+
+#: classes/cpt.php:66 classes/cpt.php:67
+msgid "%s successfully updated."
+msgstr "%s е актуализирана успешно."
+
+#: classes/cpt.php:68
+msgid "%s successfully created."
+msgstr "%s е създаден успешно."
+
+#: classes/cpt.php:69
+msgid "%s successfully saved."
+msgstr "%s е успешно записан."
+
+#: classes/cpt.php:142
+msgid "Default visibility configuration"
+msgstr "Конфигурацията по подразбиране на видимост"
+
+#: classes/cpt.php:147
+msgid "Custom visibility configuration"
+msgstr "Потребителски видимост конфигурация"
+
+#: classes/cpt.php:152
+msgid "Visibility group"
+msgstr "Видимост група"
+
+#: classes/cpt.php:266
+msgid "Visibility Groups"
+msgstr "Видимост групи"
+
+#: classes/cpt.php:267
+msgid "Visibility Group"
+msgstr "Видимост група"
+
+#: classes/cpt.php:269
+msgid "Add New Visibility Group"
+msgstr "Добавяне на нова група на видимост"
+
+#: classes/cpt.php:270
+msgid "Edit Visibility Group"
+msgstr "Редактиране на група на видимост"
+
+#: classes/cpt.php:271
+msgid "New Visibility Group"
+msgstr "Нова група за видимост"
+
+#: classes/cpt.php:272
+msgid "View Visibility Group"
+msgstr "Изглед видимост група"
+
+#: classes/cpt.php:273
+msgid "Search Visibility Groups"
+msgstr "Търсене видимост групи"
+
+#: classes/cpt.php:274
+msgid "No Visibility Groups Found"
+msgstr "Няма видимост групи намерени"
+
+#: classes/cpt.php:275
+msgid "No Visibility Groups Found in Trash"
+msgstr "Няма видимост групи, открити в боклук"
+
+#: classes/cpt.php:316 classes/cpt.php:372
+msgid "Visibilities"
+msgstr "Видимост на"
+
+#: classes/cpt.php:317
+msgid "Custom Visibility"
+msgstr "Потребителски видимост"
+
+#: classes/cpt.php:318
+msgid "Add New Custom Visibility Configuration"
+msgstr "Добавяне на нов потребителски видимост конфигурация"
+
+#: classes/cpt.php:319
+msgid "Edit Custom Visibility"
+msgstr "Редактиране на потребителски видимост"
+
+#: classes/cpt.php:320
+msgid "New Custom Visibility"
+msgstr "Нов потребителски видимост"
+
+#: classes/cpt.php:321
+msgid "View Custom Visibility"
+msgstr "Изглед потребителски видимост"
+
+#: classes/cpt.php:322
+msgid "Search Custom Visibilities"
+msgstr "Търсене по избор видимостите"
+
+#: classes/cpt.php:323
+msgid "No Custom Visibilities Found"
+msgstr "Няма потребителски видимостите намерени"
+
+#: classes/cpt.php:324
+msgid "No Custom Visibilities Found in Trash"
+msgstr "Няма потребителски видимостите, открити в боклук"
+
+#: classes/cpt.php:371
+msgid "Default Visibilities"
+msgstr "Видимост по подразбиране"
+
+#: classes/cpt.php:373
+msgid "Default Visibility"
+msgstr "Видимост по подразбиране"
+
+#: classes/cpt.php:374
+msgid "Add New Default Visibility Configuration"
+msgstr "Добавяне на нова конфигурация по подразбиране видимост"
+
+#: classes/cpt.php:375
+msgid "Edit Default Visibility"
+msgstr "Редактиране на видимост по подразбиране"
+
+#: classes/cpt.php:376
+msgid "New Default Visibility"
+msgstr "Нови видимост по подразбиране"
+
+#: classes/cpt.php:377
+msgid "View Default Visibility"
+msgstr "Видимост на изглед по подразбиране"
+
+#: classes/cpt.php:378
+msgid "Search Default Visibilities"
+msgstr "Видимост на търсене по подразбиране"
+
+#: classes/cpt.php:379
+msgid "No Default Visibilities Found"
+msgstr "Няма по подразбиране видимостите намерени"
+
+#: classes/cpt.php:380
+msgid "No Default Visibilities Found in Trash"
+msgstr "Няма по подразбиране видимостите, открити в боклук"
+
+#: classes/install.php:88
+msgid "All"
+msgstr "Всички"
+
+#: classes/install.php:89
+msgid "Anonymous"
+msgstr "Анонимен"
+
+#: classes/install.php:90
+msgid "Candidates"
+msgstr "Кандидати"
+
+#: classes/install.php:91
+msgid "Employers"
+msgstr "Работодателите"
+
+#: classes/install.php:92
+msgid "Administrators"
+msgstr "Администраторите"
+
+#: classes/output/jm.php:194
+msgid "Listing"
+msgstr "Регистрация"
+
+#: classes/output/rm.php:227
+msgid "Resume Listings"
+msgstr "Възобнови листинги"
+
+#: classes/output/rm.php:229
+msgid "Enable processing of visibility configurations for Resume Manager."
+msgstr "Позволяват обработката на видимостта конфигурации за диспечера на автобиографията."
+
+#: classes/output/rm.php:241
+msgid "Resumes"
+msgstr "Автобиографии"
+
+#: classes/output/rm.php:247
+msgid "Use Custom Permalinks"
+msgstr "Използвайте потребителски Permalinks"
+
+#: classes/output/rm.php:248
+msgid ""
+"Enable this option to use the custom permalink configuration below.  By "
+"default the Resumes plugin creates the permalink with Candidate Name, Title,"
+" and Location. .  By default the core plugin creates the permalink with "
+"Company Name, Location, Type, and Job Title.  Enabling this option sets this"
+" structure when a new listing is created/updated.  To update existing "
+"listings, use the force update permalink structure below."
+msgstr ""
+
+#: classes/output/rm.php:259
+msgid ""
+"The custom permalink structure you want to use for Resume permalinks. "
+"Permalinks are generated using meta key values from the listing, and all "
+"meta keys MUST be inside curly braces "
+msgstr "Потребителски permalink структура, която искате да използвате за възобнови permalinks. Permalinks се генерират използвайки мета ключови стойности от списък, и всички мета ключове трябва да бъдат вътре фигурни скоби "
+
+#: classes/output/rm.php:261
+msgid ""
+"<small>Any meta key can be used (only string value ones), including custom "
+"fields, so if your meta key is <code>candidate_state</code>, you would use "
+"<code>{candidate_state}</code>"
+msgstr "<small>Всички мета ключ може да се използва (само низ стойност такива), включително потребителски полета, така че ако вашият meta ключ е <code>candidate_state</code> трябва да използвате <code>{candidate_state}</code>"
+
+#: classes/output/rm.php:278
+msgid "Education Placeholder"
+msgstr "Контейнер за образование"
+
+#: classes/output/rm.php:279
+msgid ""
+"Select what field for Education should be replaced with a placeholder (if "
+"configured)"
+msgstr "Изберете полето за образование трябва да бъде заменен с контейнер (ако конфигуриран)"
+
+#: classes/output/rm.php:283
+msgid "School name"
+msgstr "Име на училището"
+
+#: classes/output/rm.php:284 classes/output/rm.php:301
+msgid "Qualification(s)"
+msgstr "Диплома"
+
+#: classes/output/rm.php:285 classes/output/rm.php:335
+msgid "Start/end date"
+msgstr "Начало/крайна дата"
+
+#: classes/output/rm.php:286 classes/output/rm.php:319
+#: classes/output/rm.php:336 classes/output/rm.php:369
+msgid "Notes"
+msgstr "Бележки"
+
+#: classes/output/rm.php:292
+msgid "School Name"
+msgstr "Име на училището"
+
+#: classes/output/rm.php:293 classes/output/rm.php:302
+#: classes/output/rm.php:311 classes/output/rm.php:320
+#: classes/output/rm.php:343 classes/output/rm.php:352
+#: classes/output/rm.php:361 classes/output/rm.php:370
+msgid "Clear"
+msgstr "Изчисти"
+
+#: classes/output/rm.php:294 classes/output/rm.php:303
+#: classes/output/rm.php:312 classes/output/rm.php:321
+#: classes/output/rm.php:344 classes/output/rm.php:353
+#: classes/output/rm.php:362 classes/output/rm.php:371
+msgid ""
+"Should this field be cleared when a placeholder is used? Blank value will be"
+" used (unless selected for placeholder)"
+msgstr "Това поле се декларират само когато контейнер се използва? Празна стойност ще се използва (освен ако не е избран за контейнер)"
+
+#: classes/output/rm.php:310 classes/output/rm.php:360
+msgid "Start/End Date"
+msgstr "Начало/крайна дата"
+
+#: classes/output/rm.php:328
+msgid "Experience Placeholder"
+msgstr "Опит контейнер"
+
+#: classes/output/rm.php:329
+msgid ""
+"Select what field for Experience should be replaced with a placeholder (if "
+"configured)"
+msgstr "Изберете полето за опит трябва да бъде заменен с контейнер (ако конфигуриран)"
+
+#: classes/output/rm.php:333 classes/output/rm.php:342
+msgid "Employer"
+msgstr "Работодател"
+
+#: classes/output/rm.php:334 classes/output/rm.php:351
+msgid "Job Title"
+msgstr "Длъжност"
+
+#: classes/output/rm.php:378
+msgid "Links Placeholder"
+msgstr "Контейнер за връзки"
+
+#: classes/output/rm.php:379
+msgid ""
+"Select what field for Links should be replaced with a placeholder (if "
+"configured)."
+msgstr "Изберете полето за връзки трябва да бъде заменен с контейнер (ако конфигуриран)."
+
+#: classes/output/rm.php:383 classes/output/rm.php:390
+msgid "URL"
+msgstr "URL"
+
+#: classes/output/rm.php:384
+msgid "Name"
+msgstr "Име"
+
+#: classes/output/rm.php:391
+msgid "Replace the URL with value from below"
+msgstr "Заменете URL със стойност от по-долу"
+
+#: classes/output/rm.php:392
+msgid ""
+"If Name is selected above, and this is checked, this will replace the URL in"
+" the HTML link tag with the value from below."
+msgstr "Ако името е избран по-горе, и това е отметнато, това ще замени на URL в HTML тагове връзка със стойност от по-долу."
+
+#: classes/output/rm.php:399
+msgid "URL Placeholder"
+msgstr "URL контейнер"
+
+#: classes/output/rm.php:401
+msgid ""
+"This value will be used instead of the actual URL if enabled (checked) above"
+" and the placeholder is set as Name"
+msgstr "Тази стойност ще се използва вместо действителната URL, ако разрешена (проверява) по-горе и контейнера е настроен като име"
+
+#: classes/output/rm.php:408
+msgid "URL Prepend"
+msgstr "URL поставяне началото"
+
+#: classes/output/rm.php:410
+msgid ""
+"If you want to prepend the URL with any value, set it here.  This will be "
+"used regardless of settings above, and only if there is a value set."
+msgstr "Ако искате да поставяне началото на URL с произволни стойности, Задайте го тук.  Това ще бъде използван независимо от настройките по-горе и само ако има зададена стойност."
+
+#: classes/output/rm.php:461
+msgid "Candidate"
+msgstr "Кандидат"
+
+#: classes/roles.php:57
+msgid "Anonymous (users not logged in)"
+msgstr "Анонимен (потребители не сте влезли)"
+
+#: includes/compatibility.php:71
+msgid ""
+"Your server is using a <strong>VERY OLD, unsupported, and no longer "
+"maintained</strong> version of PHP, version 5.2 or older. <a href=\"%1$s\" "
+"target=\"_blank\">EOL (End of Life)</a> for PHP 5.2 was about <strong>%2$s "
+"ago</strong>!! This means there may be bugs, and security vulnerabilities "
+"that have not, and will never be patched for this version of PHP!<br /><br "
+"/>It is <strong>strongly</strong> recommended that you contact your web "
+"hosting provider and request to upgrade to PHP 5.4 or newer ... or <a "
+"href=\"%3$s\">Hide this Notice Forever!</a> (but don't say I didn't warn "
+"you)<br/><br /><a href=\"%4$s\" target=\"_blank\">Contact me</a> for an "
+"exclusive sMyles Plugins customer promo code discount for any shared "
+"<strong>SSD (Solid State Drive)</strong> hosting packages!  Data centers in "
+"Florida USA, Arizona USA, Montreal Canada, and France.  Your site will run "
+"faster than it ever has, or your money back!"
+msgstr "Вашият сървър е с помощта на <strong>Много стари, неподдържани и вече поддържа</strong> версия на PHP, версия 5.2 или по-големи. <a href=\"%1$s\" target=\"_blank\"> EOL (края на живота)</a> за PHP 5.2 е около <strong>%2$ s преди</strong>!! Това означава, че може да има грешки и уязвимостта на защитата, които не са и никога не ще бъде кръпка за тази версия на PHP! < br / > < br / > е <strong>силно</strong> препоръчително да се свържете с вашия уеб хостинг доставчик и искане за надстройка до PHP 5.4 или newer... или <a href=\"%3$s\"> скриете този известие завинаги!</a> (но не казвам, че не ви предупредя) <br/> < br / > <a href=\"%4$s\" target=\"_blank\"> свържете се с мен</a> за изключителна sMyles плъгини клиент промо код за отстъпка за всяка споделена <strong>SSD (твърд състояние карам)</strong> хостинг пакети!  Центрове за данни в Флорида САЩ, Аризона в САЩ, Монреал, Канада и Франция.  Вашият сайт ще работи по-бързо, отколкото тя някога има, или парите си обратно!"
+
+#: includes/compatibility.php:75
+msgid ""
+"Your server is using an <strong>OLD, unsupported, and no longer "
+"maintained</strong> version of PHP, version 5.3. <a href=\"%1$s\" "
+"target=\"_blank\">EOL (End of Life)</a> for PHP 5.3 was about <strong>%2$s "
+"ago</strong>!! This means there may be bugs, and security vulnerabilities "
+"that have not, and will never be patched for this version of PHP!<br /><br "
+"/>It is <strong>strongly</strong> recommended that you contact your web "
+"hosting provider and request to upgrade to PHP 5.4 or newer ... or <a "
+"href=\"%3$s\">Hide this Notice Forever!</a> (but don't say I didn't warn "
+"you)<br/><br /><a href=\"%4$s\" target=\"_blank\">Contact me</a> for an "
+"exclusive sMyles Plugins customer promo code discount for any shared "
+"<strong>SSD (Solid State Drive)</strong> hosting packages!  Data centers in "
+"Florida USA, Arizona USA, Montreal Canada, and France.  Your site will run "
+"faster than it ever has, or your money back!"
+msgstr "Вашият сървър е с помощта на <strong>стар, неподдържани и вече поддържа</strong> версия на PHP версия 5.3. <a href=\"%1$s\" target=\"_blank\"> EOL (края на живота)</a> за PHP 5.3 е около <strong>%2$ s преди</strong>!! Това означава, че може да има грешки и уязвимостта на защитата, които не са и никога не ще бъде кръпка за тази версия на PHP! < br / > < br / > е <strong>силно</strong> препоръчително да се свържете с вашия уеб хостинг доставчик и искане за надстройка до PHP 5.4 или newer... или <a href=\"%3$s\"> скриете този известие завинаги!</a> (но не казвам, че не ви предупредя) <br/> < br / > <a href=\"%4$s\" target=\"_blank\"> свържете се с мен</a> за изключителна sMyles плъгини клиент промо код за отстъпка за всяка споделена <strong>SSD (твърд състояние карам)</strong> хостинг пакети!  Центрове за данни в Флорида САЩ, Аризона в САЩ, Монреал, Канада и Франция.  Вашият сайт ще работи по-бързо, отколкото тя някога има, или парите си обратно!"
+
+#: includes/smyles-update/class-smyles-update.php:71
+msgid "Deactivate Licence"
+msgstr "Дезактивиране на лицензия"
+
+#: includes/smyles-update/class-smyles-update.php:83
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr "Вашият лиценз за <strong>%s</strong> е активирано. Благодаря!"
+
+#: includes/smyles-update/class-smyles-update.php:361
+msgid ""
+"A licence key for %s could not be found. Maybe you forgot to enter a licence"
+" key when setting up %s."
+msgstr "Позволение ключ за %s не можа да бъде намерен. Може би сте забравили да въведете лиценз ключ при създаването на %s."
+
+#: includes/smyles-update/class-smyles-update.php:365
+msgid "Invalid update request"
+msgstr "Невалидна актуализация заявка"
+
+#: includes/smyles-update/class-smyles-update.php:386
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr "Вашият лиценз за <strong>%s</strong> е дезактивирана."
+
+#: includes/smyles-update/class-smyles-update.php:426
+msgid "Licence"
+msgstr "Лиценз"
+
+#: includes/smyles-update/class-smyles-update.php:429
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for"
+" automatic updates.  The key <strong>and email MUST</strong> match the "
+"details you can find on your <a href=\"%s\" target=\"_blank\">My Account</a>"
+" page."
+msgstr "Въведете вашето позволение ключ и електронна поща и удар връщане. Валиден ключ е необходим за автоматични актуализации.  Ключ <strong>и електронна поща трябва да</strong> съвпадат с подробности можете да намерите на страницата,, <a href=\"%s\" target=\"_blank\"> Моят профил</a>."
+
+#: includes/smyles-update/class-smyles-update.php:450
+msgid "Hide notice"
+msgstr "Скрий известие"
+
+#: includes/smyles-update/class-smyles-update.php:451
+msgid ""
+"<a href=\"%s\">Please activate your licence key</a> to get updates for "
+"<strong>%s</strong>.  This ensures you have the latest features, bug fixes, "
+"and experience!"
+msgstr "<a href=\"%s\"> моля активирайте вашия лиценз ключ</a> за да получите актуализации за <strong>%s</strong>.  Това гарантира, имате най-новите функции, корекции на грешки и опит!"
+
+#: includes/smyles-update/class-smyles-update.php:452
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr "Загубих си ключа? <a href=\"%s\"> го извлечете тук</a>."
+
+#: wp-job-manager-visibility.php:86
+msgid ""
+"WP Job Manager Visibility requires WP Job Manager Resumes 1.13.0 and above. "
+"Please upgrade as soon as possible!  Resume integration will be disabled "
+"until you upgrade to 1.13.0 or above."
+msgstr "WP работа мениджър видимост изисква WP работа мениджър отново 1.13.0 и по-горе. Надстройте възможно най-скоро!  Възобнови интеграция ще бъде забранена, докато надградите до 1.13.0 или по-горе."
+
+#: wp-job-manager-visibility.php:112
+msgid "Translate"
+msgstr "Превод"
+
+#: wp-job-manager-visibility.php:189
+msgid "Once Weekly"
+msgstr "Веднъж седмично"
+
+#: wp-job-manager-visibility.php:229 wp-job-manager-visibility.php:230
+msgid "Job"
+msgstr "Работа"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Visibility"
+msgstr "WP работа мениджър - видимост"
+
+#. Plugin URI of the plugin/theme
+msgid "http://plugins.smyl.es/wp-job-manager-visibility"
+msgstr "http://plugins.smyl.ES/WP-Job-Manager-visibility"
+
+#. Description of the plugin/theme
+msgid ""
+"Set fields as visible or hidden (with placeholders) for WP Job Manager "
+"fields using custom groups or user configurations."
+msgstr "Задаване на полета като видима, или скрита (с контейнери) за WP работа мениджър полета, използвайки потребителски групи или потребителя конфигурации."
+
+#. Author of the plugin/theme
+msgid "Myles McNamara"
+msgstr "Майлс Макнамара"
+
+#. Author URI of the plugin/theme
+msgid "http://smyl.es"
+msgstr "http://smyl.ES"

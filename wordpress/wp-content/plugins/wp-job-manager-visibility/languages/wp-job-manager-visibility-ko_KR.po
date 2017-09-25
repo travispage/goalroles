@@ -1,0 +1,1476 @@
+# Copyright (C) 2017 Myles McNamara
+# This file is distributed under the same license as the WP Job Manager - Visibility package.
+# Translators:
+# Myles McNamara <myles@smyl.es>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager Visibility\n"
+"Report-Msgid-Bugs-To: http://plugins.smyl.es\n"
+"POT-Creation-Date: 2017-01-28 00:48:45+00:00\n"
+"PO-Revision-Date: 2017-01-27 23:29+0000\n"
+"Last-Translator: Myles McNamara <myles@smyl.es>\n"
+"Language-Team: Korean (Korea) (http://www.transifex.com/smyles/wp-job-manager-visibility/language/ko_KR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+
+#: classes/admin/ajax/custom.php:15 classes/admin/ajax/default.php:15
+msgid "Unable to determine post ID!"
+msgstr "게시물 ID를 확인할 수 없습니다!"
+
+#: classes/admin/ajax/custom.php:21 classes/admin/ajax/default.php:21
+msgid "A meta key (field) is required!"
+msgstr "메타 키 (필드)가 필요!"
+
+#: classes/admin/ajax/custom.php:50 classes/admin/ajax/default.php:51
+msgid "Error updating default configuration placeholder post meta!"
+msgstr "오류 업데이트 기본적 구성 개체 틀 메타 게시물!"
+
+#: classes/admin/ajax/custom.php:52 classes/admin/ajax/default.php:53
+msgid "Default configuration updated successfully!"
+msgstr "기본 구성 업데이트 되었습니다!"
+
+#: classes/admin/ajax/custom.php:65 classes/admin/ajax/default.php:66
+msgid "Error removing configuration!"
+msgstr "오류 제거 구성!"
+
+#: classes/admin/ajax/custom.php:66 classes/admin/ajax/default.php:67
+msgid "Default configuration removed successfully!"
+msgstr "기본 구성 성공적으로 제거!"
+
+#: classes/admin/ajax.php:224
+msgid "Unable to get the POST variable"
+msgstr "게시물 변수를 가져올 수 없습니다"
+
+#: classes/admin/assets.php:25
+msgid ""
+"If you continue receive this error, please submit a <a target=\"_blank\" "
+"href=\"%s\">support ticket</a>."
+msgstr "이 오류가 계속 되 면 <a target=\"_blank\" href=\"%s\"> 지원 티켓을</a> 제출 하시기 바랍니다."
+
+#: classes/admin/assets.php:26
+msgid "This field is required!"
+msgstr "이 필드는 필수!"
+
+#: classes/admin/assets.php:27
+msgid "Yes"
+msgstr "예"
+
+#: classes/admin/assets.php:28
+msgid "Loading"
+msgstr "로드"
+
+#: classes/admin/assets.php:29
+msgid "No"
+msgstr "없음"
+
+#: classes/admin/assets.php:30 classes/admin/views/metabox.php:68
+#: classes/admin/views/placeholders.php:49
+msgid "Cancel"
+msgstr "취소"
+
+#: classes/admin/assets.php:31
+msgid "Close"
+msgstr "닫기"
+
+#: classes/admin/assets.php:32 classes/admin/settings.php:134
+#: classes/admin/settings.php:203 classes/admin/settings.php:332
+#: classes/admin/settings.php:359 classes/output/rm.php:228
+msgid "Enable"
+msgstr "활성화"
+
+#: classes/admin/assets.php:33 classes/admin/settings.php:323
+#: classes/admin/settings.php:341 classes/admin/settings.php:350
+#: classes/admin/settings.php:368
+msgid "Disable"
+msgstr "사용 안 함"
+
+#: classes/admin/assets.php:34
+msgid "Error"
+msgstr "오류"
+
+#: classes/admin/assets.php:35
+msgid "Uknown Error! Refresh the page and try again."
+msgstr "Uknown 오류! 페이지를 새로 고침 하 고 다시 시도 하십시오."
+
+#: classes/admin/assets.php:36
+msgid "Success"
+msgstr "성공"
+
+#: classes/admin/assets.php:37
+msgid "Are you sure you want to remove this configuration?"
+msgstr "당신은이 구성을 제거 하 시겠습니까?"
+
+#: classes/admin/assets.php:38
+msgid "You can't add a meta key to hide if it's set as a visible field!"
+msgstr "표시 필드로 설정 된 경우를 숨기려고 메타 키를 추가할 수 없습니다!"
+
+#: classes/admin/help/default.php:23 classes/admin/help/groups.php:23
+msgid "Overview"
+msgstr "개요"
+
+#: classes/admin/help/default.php:26 classes/admin/listtable/default.php:22
+msgid "Visible Fields"
+msgstr "표시 필드"
+
+#: classes/admin/help/default.php:29 classes/admin/listtable/default.php:21
+msgid "Hidden Fields"
+msgstr "숨겨진된 필드"
+
+#: classes/admin/help/default.php:43
+msgid ""
+"Default Visibilities are configurations you create for any user or group, "
+"that will be used for every listing on your site.  This allows you to "
+"configure fields you want visible or hidden to specific users or groups.  "
+"You can create unlimited visibility configurations to fine tweak everything "
+"exactly how you want it. Here's a few things to note:"
+msgstr "기본 가시도 모든 사용자 또는 그룹, 모든 목록을 귀하의 사이트에 사용 될 생성 하는 구성입니다.  이 필드를 표시 하거나 특정 사용자 또는 그룹에 숨겨진 구성할 수 있습니다.  잘 팅 겨 보고 모든 원하는 얼마나에 정확 하 게 무제한 시정 구성을 만들 수 있습니다. 참고로 몇 가지는 여기 있다:"
+
+#: classes/admin/help/default.php:45
+msgid ""
+"User default visibility configurations ALWAYS take priority over any group "
+"configurations"
+msgstr "사용자 기본 가시성 구성 항상 우선 어떤 그룹 구성"
+
+#: classes/admin/help/default.php:46
+msgid "Group configurations are processed in order based on their priority"
+msgstr "그룹 구성의 우선 순위에 따라 순서 대로 처리 됩니다."
+
+#: classes/admin/help/default.php:48
+msgid ""
+"As a quick example, if you have a default visibility configuration for the "
+"user <code>JohnSmith</code>, and you set the <code>job_description</code> "
+"field as hidden...if you also have this user in a group, that has the "
+"<code>job_description</code> visible, because user configurations take "
+"priority, that user will <strong>NOT</strong> be able to see "
+"<code>job_description</code>."
+msgstr "빠른 예를 들어, 당신은 <code>JohnSmith</code>, 사용자에 대 한 기본 표시 유형 구성을 설정한 경우 <code>job_description</code> 필드 숨김으로...도 있는 경우이 사용자는 그룹, <code>job_description</code> 표시, 사용자 구성을 우선 하기 때문에, 사용자 않습니다 <strong>하지</strong> 수 <code>job_description</code>를 참조 하십시오."
+
+#: classes/admin/help/default.php:55
+msgid ""
+"Visible Fields are fields that you want to be shown for this specific user "
+"or group."
+msgstr "표시 필드에는이 특정 사용자 또는 그룹에 대 한 표시 필드입니다."
+
+#: classes/admin/help/default.php:56
+msgid ""
+"This is useful in situations where you have a user that is, as an example, "
+"apart of two groups, one with priority of 5 and one with priority of 10. Say"
+" the group with priority of 10 has the <code>job_description</code> field "
+"hidden ... if the group with priority of 5 has that same field set as "
+"visible, because the priority is lower than the group that hides the field, "
+"the <code>job_description</code> field will be shown."
+msgstr "이것은 사용자가 있는 경우에 유용 합니다, 예를 들어, 두 그룹, 5와 10의 우선 순위가 우선 순위가 떨어져. 10의 우선 순위와 그룹은 <code>job_description</code> 필드 숨겨진... 5의 우선 순위와 그룹은 그 같은 필드 표시로 설정 하는 경우, 우선 순위는 그룹 보다 더 낮기 때문에 그 분야를 숨깁니다, 그리고 <code>job_description</code> 필드에 표시 됩니다."
+
+#: classes/admin/help/default.php:63
+msgid ""
+"Hidden Fields are fields that you do NOT want shown for a specific user or "
+"group"
+msgstr "숨겨진된 필드는 특정 사용자나 그룹에 대 한 표시 하지 않을 필드"
+
+#: classes/admin/help/default.php:64
+msgid ""
+"Setting hidden fields will probably be used the most, as this allows you to "
+"set fields to hide based on the user or group.  Hidden fields support what "
+"is called a <code>placeholder</code>.  The placeholder is the value you want"
+" to be shown instead of the actual value."
+msgstr "숨겨진된 필드를 설정 합니다 아마 사용 될 가장,이 사용자 또는 그룹에 따라 숨길 필드를 설정할 수 있습니다.  숨겨진된 필드는 <code>자리 표시자</code> 라고 지원.  자리 표시자는 실제 값 대신 표시 하려는 값입니다."
+
+#: classes/admin/help/default.php:65
+msgid "HTML IS supported in placeholders!"
+msgstr "HTML 개체 틀에서 지원 되는!"
+
+#: classes/admin/help/default.php:66
+msgid "Specific Meta Key Information:"
+msgstr "특정 메타 키 정보:"
+
+#: classes/admin/help/default.php:67
+msgid ""
+"Due to the way the core of WP Job Manager is coded, as well as how some meta"
+" keys are handled in templates and the core plugin, there are some caveots "
+"and neat ways that I have coded my plugin to handle specific meta keys."
+msgstr "핵심 포스트 작업 관리자의 코딩, 뿐만 아니라 어떻게 템플릿과 코어 플러그인에서 처리 되는 몇 가지 메타 키 방식, 일부 caveots와 나 특정 메타 키를 처리 하기 위해 내 플러그인 코딩 깔끔한 방법이 있다."
+
+#: classes/admin/help/default.php:69
+msgid ""
+"If you do not enter a placeholder value, the <strong>Apply Now</strong> "
+"button will be hidden.  If you enter a placeholder, it will be shown, but "
+"when the user clicks the button, they will see your placehoolder value."
+msgstr "자리 표시자 값을 입력 하지 않으면 <strong>지금 적용</strong> 버튼이 숨겨집니다.  자리 표시자를 입력 하면 표시 됩니다, 하지만 사용자가 단추를 클릭 하면 그들은 placehoolder 값을 표시 됩니다."
+
+#: classes/admin/help/default.php:70
+msgid ""
+"By default the placeholder value will be shown instead of actual value ... "
+"if you want to output an excerpt of this field, go to the settings and "
+"enable excerpt for this meta key.  Any placeholder value will be appended "
+"(added to the end) of the excerpt."
+msgstr "자리 표시자 값 표시 됩니다 실제 값... 대신이 필드의 발췌를 출력 하려는 경우 기본적으로 설정으로 이동 하 고이 메타 키에 대 한 발췌를 사용 하도록 설정 합니다.  자리 표시자 값 (끝에 추가) 추가 됩니다 발췌의."
+
+#: classes/admin/help/groups.php:26 classes/admin/listtable/default.php:20
+#: classes/admin/listtable/groups.php:19
+msgid "Priority"
+msgstr "우선 순위"
+
+#: classes/admin/help/groups.php:29 classes/admin/listtable/groups.php:20
+#: classes/admin/metaboxes/groups.php:28 classes/admin/views/metabox.php:39
+#: classes/admin/views/users.php:46
+msgid "Users"
+msgstr "사용자"
+
+#: classes/admin/help/groups.php:32 classes/admin/listtable/groups.php:21
+#: classes/admin/metaboxes/groups.php:37 classes/admin/settings.php:280
+#: classes/admin/views/metabox.php:30 classes/admin/views/users.php:32
+#: classes/cpt.php:268
+msgid "Groups"
+msgstr "그룹"
+
+#: classes/admin/help/groups.php:35 classes/admin/listtable/groups.php:22
+#: classes/admin/metaboxes/groups.php:46 classes/admin/views/roles.php:28
+msgid "Roles"
+msgstr "역할"
+
+#: classes/admin/help/groups.php:50
+msgid ""
+"Groups can be used to create many different setups based on your specific "
+"needs. Groups will always have a lower priority than user specific "
+"configurations, so a group will never override a specific user "
+"configuration."
+msgstr "그룹은 사용자의 특정 요구에 따라 많은 다른 설정을 만드는 데 사용할 수 있습니다. 항상 그룹은 그룹 특정 사용자 구성 재정의 하지 것 이다 그래서 사용자 특정 구성, 보다 낮은 우선 순위를 해야 합니다."
+
+#: classes/admin/help/groups.php:53
+msgid ""
+"You can include multiple users, other groups, roles, or even any other addon"
+" configurations (such as packages, etc)."
+msgstr "여러 사용자, 다른 그룹, 역할, 또는 심지어 어떤 다른 addon 구성 (예: 패키지, 등)를 포함할 수 있습니다."
+
+#: classes/admin/help/groups.php:61
+msgid ""
+"Default priority is 10 (if not set).  The lower the number the higher the "
+"priority ( 1 is a higher priority than 5 )"
+msgstr "기본 우선 순위는 10 (설정 되지 않은 경우).  더 낮은 숫자는 더 높은 우선 순위 (1이 5 보다 더 높은 우선 순위)"
+
+#: classes/admin/help/groups.php:64
+msgid ""
+"Priorities are specifically used for groups to determine what group should "
+"take priority whenever there is a coflict."
+msgstr "우선순위는 coflict 있다 언제 든 지 어떤 그룹 우선 취해야 결정을 그룹 특별히 사용 됩니다."
+
+#: classes/admin/help/groups.php:67
+msgid ""
+"As an example, you have 2 different groups ( Employers [Priority 5], and "
+"Gold Package [Priority 1] ):"
+msgstr "예를 들어, 당신은 2 다른 그룹 (고용주 [우선 5], 그리고 골드 패키지 [우선 순위 1]):"
+
+#: classes/admin/help/groups.php:70
+msgid "Employer Group (Priority 5) has these fields set to hide:"
+msgstr "고용주 그룹 (우선 5) 숨기기로 설정 하는 이러한 필드는:"
+
+#: classes/admin/help/groups.php:73
+msgid "Gold Package (Priority 1) has these fields set to show:"
+msgstr "골드 패키지 (우선 순위 1)는 이러한 필드를 표시 하도록 설정:"
+
+#: classes/admin/help/groups.php:76
+msgid ""
+"When someone visits your site and is a member of both of those groups, "
+"because Gold Package has a higher priority than Employer Group, the final "
+"result would be:"
+msgstr "누군가가 귀하의 사이트를 방문 하 고 골드 패키지는 고용주 그룹 보다 더 높은 우선 순위를 때문에 해당 그룹의 구성원입니다, 최종 결과 것:"
+
+#: classes/admin/help/groups.php:79
+msgid "Show Fields:"
+msgstr "필드를 보여 줍니다."
+
+#: classes/admin/help/groups.php:82
+msgid "Hide Fields:"
+msgstr "필드 숨기기:"
+
+#: classes/admin/help/groups.php:90
+msgid ""
+"Include as many users as you want into a group.  Even if users are included "
+"in this group, if you have any user specific configurations they will take "
+"priority over this group configuration."
+msgstr "많은 사용자 그룹에 원하는 수 만큼 포함 됩니다.  어떤 사용자의 특정 구성에 있는 경우 사용자가이 그룹에 포함 하는 경우에 그들은이 그룹 구성 보다 우선 순위를 소요 됩니다."
+
+#: classes/admin/help/groups.php:101 classes/admin/help/settings.php:32
+msgid "Coming Soon..."
+msgstr "곧..."
+
+#: classes/admin/help/groups.php:109
+msgid ""
+"You can include any registered roles into a group.  A special group has also"
+" been added called Anonymous which is used for any users that are not logged"
+" in."
+msgstr "그룹으로 등록된 하는 모든 역할을 포함할 수 있습니다.  특별 한 그룹도 라는 익명 로그인 하지 않은 모든 사용자에 대해 사용 되는 추가 되었습니다."
+
+#: classes/admin/help/settings.php:24 classes/admin/settings.php:317
+msgid "Debug"
+msgstr "디버그"
+
+#: classes/admin/listtable/custom.php:16
+msgid "Fields"
+msgstr "필드"
+
+#: classes/admin/listtable/custom.php:17
+msgid "Total Fields"
+msgstr "합계 필드"
+
+#: classes/admin/listtable/custom.php:18
+#: classes/admin/listtable/default.php:24
+#: classes/admin/listtable/groups.php:24
+msgid "Actions"
+msgstr "작업"
+
+#: classes/admin/listtable/custom.php:53
+#: classes/admin/listtable/default.php:98
+#: classes/admin/listtable/groups.php:123
+msgid "Edit"
+msgstr "편집"
+
+#: classes/admin/listtable/custom.php:54
+#: classes/admin/listtable/default.php:99
+#: classes/admin/listtable/groups.php:124
+msgid "Delete"
+msgstr "삭제"
+
+#: classes/admin/listtable/default.php:18
+#: classes/admin/listtable/groups.php:18
+msgid "Title"
+msgstr "제목"
+
+#: classes/admin/listtable/default.php:23
+#: classes/admin/listtable/groups.php:23
+msgid "Last Updated"
+msgstr "최근 업데이트"
+
+#: classes/admin/listtable/default.php:51
+msgid "n/a"
+msgstr "n/a"
+
+#: classes/admin/listtable/default.php:62
+msgid "Group"
+msgstr ""
+
+#: classes/admin/listtable/default.php:69
+msgid "User"
+msgstr ""
+
+#: classes/admin/listtable/groups.php:64
+msgid "Are you sure you want to remove the <strong>%s</strong> group?"
+msgstr "<strong>%S</strong> 그룹을 제거 하려면 당신은?"
+
+#: classes/admin/listtable/groups.php:65
+msgid "This will remove any configurations you have created for this group!"
+msgstr "이것은이 그룹에 대해 만든 모든 구성 제거!"
+
+#: classes/admin/listtable/groups.php:68
+msgid ""
+"There were configurations also found with this group in them, and if you "
+"remove this group it will be removed from those group configurations."
+msgstr "거기 또한 발견이 그룹, 그들의 구성 그리고이 그룹을 제거 하면 그것이 제거 됩니다 그 그룹 구성에서."
+
+#: classes/admin/listtable/groups.php:73
+msgid "Yes, remove the group!"
+msgstr "예, 그룹을 제거!"
+
+#: classes/admin/listtable/groups.php:75
+msgid "Remove Group?"
+msgstr "그룹을 제거?"
+
+#: classes/admin/metaboxes/custom.php:22 classes/admin/metaboxes/custom.php:31
+#: classes/cpt.php:315
+msgid "Custom Visibilities"
+msgstr "사용자 지정 가시도"
+
+#: classes/admin/metaboxes/default.php:22
+msgid "Default Visible Fields"
+msgstr "기본 표시 필드"
+
+#: classes/admin/metaboxes/default.php:31
+msgid "Default Hidden Fields"
+msgstr "숨겨진된 필드를 기본"
+
+#: classes/admin/metaboxes/default.php:56
+msgid "Select a Field to Show"
+msgstr "보기에 필드 선택"
+
+#: classes/admin/metaboxes/groups.php:55
+msgid "Group Priority"
+msgstr "그룹 우선 순위"
+
+#: classes/admin/metaboxes/groups.php:89 classes/admin/views/roles.php:12
+msgid "Select a Role"
+msgstr "역할 선택"
+
+#: classes/admin/metaboxes/groups.php:115
+msgid "Select a User"
+msgstr "사용자를 선택 하십시오"
+
+#: classes/admin/metaboxes/groups.php:140
+msgid "Select a Group"
+msgstr "그룹 선택"
+
+#: classes/admin/metaboxes.php:40
+msgid "Debug Information"
+msgstr "디버그 정보"
+
+#: classes/admin/settings/fields.php:68
+msgid ""
+"Please install the <a href=\"%s\" target=\"_blank\">WP Job Manager "
+"Packages</a> plugin for packages integration with this plugin."
+msgstr ""
+
+#: classes/admin/settings/fields.php:69
+msgid ""
+"The packages plugin will add the ability to configure groups based on a "
+"specific package that the user has.  These packages can be any of the "
+"Visibility Packages created with the WP Job Manager Packages plugin, or any "
+"WooCommerce Paid Listing packages as well."
+msgstr ""
+
+#: classes/admin/settings/fields.php:70
+msgid ""
+"As a special promotion, any existing clients can use the promo code "
+"<strong>visclient15offpackages</strong> to get 15% off the purchase of the "
+"packages plugin!"
+msgstr ""
+
+#: classes/admin/settings/fields.php:71
+msgid "Check out the new WP Job Manager Packages Plugin:"
+msgstr ""
+
+#: classes/admin/settings/fields.php:310
+msgid "Deactivate License"
+msgstr "라이센스를 비활성화"
+
+#: classes/admin/settings/handlers.php:30
+msgid ""
+"Please make sure the default groups do not already exist, or there was an "
+"error creating them."
+msgstr "기본 그룹은 이미 존재 하지 않는, 또는 그들을 만드는 오류가 있는지 확인 하십시오."
+
+#: classes/admin/settings/handlers.php:33
+msgid "These default groups were added succesfully: "
+msgstr "이러한 기본 그룹은 성공적으로 추가 되었습니다. "
+
+#: classes/admin/settings/handlers.php:43
+msgid "Succesfully updated %s existing listing permalinks!"
+msgstr ""
+
+#: classes/admin/settings/handlers.php:54
+msgid "Succesfully updated %s existing resume listing permalinks!"
+msgstr ""
+
+#: classes/admin/settings/handlers.php:89
+msgid "All cache (with AND without expirations) has been purged/removed!"
+msgstr ""
+
+#: classes/admin/settings/handlers.php:95
+msgid "All user config cache has been purged/removed!"
+msgstr "모든 사용자 구성 캐시 삭제/제거 되었습니다!"
+
+#: classes/admin/settings/handlers.php:101
+msgid "The core WordPress cache has been flushed!"
+msgstr "코어 WordPress 캐시를 플러시 했습니다!"
+
+#: classes/admin/settings/handlers.php:107
+msgid "All user group config cache has been purged/removed!"
+msgstr "모든 사용자 그룹 구성 캐시 삭제/제거 되었습니다!"
+
+#: classes/admin/settings.php:37 classes/cpt.php:243
+msgid "Settings"
+msgstr "설정"
+
+#: classes/admin/settings.php:128
+msgid "Integration"
+msgstr "통합"
+
+#: classes/admin/settings.php:133
+msgid "Listings"
+msgstr "목록"
+
+#: classes/admin/settings.php:135
+msgid "Enable processing of visibility configurations for %s Listings"
+msgstr "%S 목록에 대 한 표시 구성의 처리"
+
+#: classes/admin/settings.php:147 classes/output/rm.php:246
+msgid "Permalink"
+msgstr "블로그 바로 가기"
+
+#: classes/admin/settings.php:148
+msgid "Use Custom Permalinks when Listing Created/Updated"
+msgstr ""
+
+#: classes/admin/settings.php:149
+msgid ""
+"Enable this option to use the custom permalink configuration below.  By "
+"default the core plugin creates the permalink with Company Name, Location, "
+"Type, and Job Title.  Enabling this option sets this structure when a new "
+"listing is created/updated.  To update existing listings, use the force "
+"update permalink structure below."
+msgstr ""
+
+#: classes/admin/settings.php:155 classes/output/rm.php:254
+msgid "Permalink Structure"
+msgstr "블로그 바로 가기 구조"
+
+#: classes/admin/settings.php:160
+msgid "The custom permalink structure you want to use for "
+msgstr "사용 하려는 사용자 지정 블로그 바로 가기 구조 "
+
+#: classes/admin/settings.php:160
+msgid ""
+" Listing permalinks. Permalinks are generated using meta key values from the"
+" listing, and all meta keys MUST be inside curly braces "
+msgstr " 영구를 목록입니다. 영구는 목록에서 메타 키 값을 사용 하 여 생성 되 고 모든 메타 키 중괄호 안에 있어야 "
+
+#: classes/admin/settings.php:160 classes/output/rm.php:259
+msgid ""
+"To prevent random value from being used when a field does not have a value, "
+"prepend the metakey with an exclamation point.  Example: "
+msgstr ""
+
+#: classes/admin/settings.php:161 classes/output/rm.php:260
+msgid "The default core values available are: "
+msgstr "기본 핵심 가치를 사용할 수 있습니다. "
+
+#: classes/admin/settings.php:161 classes/output/rm.php:260
+msgid "10 random characters"
+msgstr "10 임의의 문자"
+
+#: classes/admin/settings.php:162
+msgid ""
+"<small>Any meta key can be used (only string value ones), including custom "
+"fields, so if your meta key is <code>job_info</code>, you would use "
+"<code>{job_info}</code>"
+msgstr "<small>키를 수 있습니다 모든 메타 사용 (문자열 값만 것 들), 사용자 정의 필드를 포함 하 여 그래서 당신의 메타 키가 <code>job_info</code>, 사용 <code>{job_info}</code>"
+
+#: classes/admin/settings.php:163 classes/output/rm.php:262
+msgid ""
+"<small>Spaces will be automatically replaced with dash/hyphen "
+"<code>-</code>, and all values will be set to lowercase.  If values are too "
+"long, they will automatically be shortened as well. If all fields used are "
+"empty, the random string will be used.</small>"
+msgstr "<small>공간 대시/하이픈 <code>-</code>, 자동으로 교체 될 것 이다 하 고 모든 값이 소문자로 설정 됩니다.  값이 너무 오래, 그들은 것입니다 자동으로 단축 될 뿐만 아니라. 사용 되는 모든 필드는 빈, 임의의 문자열이 사용 됩니다.</small>"
+
+#: classes/admin/settings.php:169 classes/output/rm.php:268
+msgid "Force update existing listing permalinks"
+msgstr ""
+
+#: classes/admin/settings.php:172 classes/output/rm.php:271
+msgid "Permalink Update"
+msgstr ""
+
+#: classes/admin/settings.php:173 classes/output/rm.php:272
+msgid ""
+"If you already have existing listings and have just enabled or changed the "
+"permalink structure, you need to force update existing listings if you want "
+"them to use the new structure."
+msgstr ""
+
+#: classes/admin/settings.php:179
+msgid "Company Website"
+msgstr "회사 웹사이트"
+
+#: classes/admin/settings.php:180
+msgid "Remove"
+msgstr "제거"
+
+#: classes/admin/settings.php:181
+msgid ""
+"By default when setting the company_website to hide, the placeholder will be"
+" used instead of the website URL.  Enable this option to completely remove "
+"the company website link from the single listing page."
+msgstr "숨기려고 company_website를 설정할 때 기본적으로 자리 표시자는 웹 사이트 URL 대신 사용 됩니다.  단일 목록 페이지에서 회사 웹사이트 링크를 완전히 제거 하려면이 옵션을 사용 합니다."
+
+#: classes/admin/settings.php:188
+msgid "Job Description"
+msgstr "작업 설명"
+
+#: classes/admin/settings.php:189
+msgid "Show excerpt if <code>job_description</code> meta key is hidden"
+msgstr "<code>Job_description</code> 메타 키 숨겨진 경우 발췌를 표시"
+
+#: classes/admin/settings.php:190
+msgid ""
+"Enable this option to output the excerpt (first 55 words) first, then the "
+"placeholder value.  Normally, only the placeholder field would be output if "
+"the field is hidden."
+msgstr "발췌 (처음 55 단어)를 출력 하려면이 옵션을 사용 첫 번째, 다음 자리 표시자 값.  일반적으로, 개체 틀 필드만 것 출력 필드가 숨겨집니다."
+
+#: classes/admin/settings.php:197 classes/admin/settings.php:202
+msgid "Cache"
+msgstr "캐시"
+
+#: classes/admin/settings.php:204
+msgid ""
+"This plugin uses WordPress transients to cache user/group configs to prevent"
+" excessive, and unecessary database queries.  This will result in around a "
+"200-400% speed improvement, only disable if directed by "
+"support.<br/><strong>Cache is automatically purged and updated whenever "
+"visibility configurations are added or updated, regardless of expiration "
+"value below.</strong>"
+msgstr ""
+
+#: classes/admin/settings.php:211
+msgid "Expiration"
+msgstr "만료"
+
+#: classes/admin/settings.php:212
+msgid ""
+"This will be the amount of time the cache is stored before it is "
+"automatically removed and has to be regenerated.<br/>Do not set this below 1"
+" Month unless you know what you're doing, as short cache expirations will "
+"cause unecessary database queries, ultimately slowing down your site."
+msgstr ""
+
+#: classes/admin/settings.php:216
+msgid "1 Minute"
+msgstr "1 분"
+
+#: classes/admin/settings.php:217
+msgid "5 Minutes"
+msgstr "5 분"
+
+#: classes/admin/settings.php:218
+msgid "15 Minutes"
+msgstr "15 분"
+
+#: classes/admin/settings.php:219
+msgid "30 Minutes"
+msgstr "30 분"
+
+#: classes/admin/settings.php:220
+msgid "1 Hour"
+msgstr "1 시간"
+
+#: classes/admin/settings.php:221
+msgid "12 Hours"
+msgstr "12 시간"
+
+#: classes/admin/settings.php:222
+msgid "24 Hours"
+msgstr "24 시간"
+
+#: classes/admin/settings.php:223
+msgid "1 Week"
+msgstr "1 주"
+
+#: classes/admin/settings.php:224
+msgid "2 Weeks"
+msgstr "2 주"
+
+#: classes/admin/settings.php:225
+msgid "1 Month"
+msgstr "1 개월"
+
+#: classes/admin/settings.php:226
+msgid "3 Months"
+msgstr "3 개월"
+
+#: classes/admin/settings.php:227
+msgid "6 Months"
+msgstr "6 개월"
+
+#: classes/admin/settings.php:228
+msgid "1 Year"
+msgstr "1 년"
+
+#: classes/admin/settings.php:233
+msgid "Purge All"
+msgstr "모두 제거"
+
+#: classes/admin/settings.php:236
+msgid "Purge"
+msgstr "지우기"
+
+#: classes/admin/settings.php:237
+msgid ""
+"This will purge all user and group cache (with and without expirations) and "
+"require the cache to be rebuilt when the user visits the single listing page"
+" again.<br/>If the total of User Cache + Group Cache is less than all cache,"
+" you may need to use this to clear invalid cache without expirations."
+msgstr ""
+
+#: classes/admin/settings.php:243
+msgid "Purge User Cache"
+msgstr "사용자 캐시 지우기"
+
+#: classes/admin/settings.php:246
+msgid "Purge User"
+msgstr "사용자 제거"
+
+#: classes/admin/settings.php:247
+msgid ""
+"Purge only the user configuration cache (only user specific config, does not"
+" clear user groups cache), with expirations. Cache will be rebuilt when the "
+"user visits the single listing page again."
+msgstr ""
+
+#: classes/admin/settings.php:253
+msgid "Purge Groups Cache"
+msgstr "그룹 캐시 지우기"
+
+#: classes/admin/settings.php:256
+msgid "Purge Groups"
+msgstr "그룹 제거"
+
+#: classes/admin/settings.php:257
+msgid ""
+"Purge only the groups configuration cache (only user group config), with "
+"expirations. Cache will be rebuilt when the user visits the single listing "
+"page again."
+msgstr ""
+
+#: classes/admin/settings.php:263
+msgid "WP Cache"
+msgstr "WP 캐시"
+
+#: classes/admin/settings.php:266
+msgid "Flush Cache"
+msgstr "캐시 플러시"
+
+#: classes/admin/settings.php:267
+msgid ""
+"This will flush the entire WordPress core cache.  This is useful when "
+"taxonomies, meta, or other core WordPress data is showing old data."
+msgstr "이 전체 WordPress 코어 캐시를 플러시합니다.  이 분류, 메타, 또는 다른 코어 WordPress 데이터는 오래 된 데이터를 표시 하는 경우에 유용 합니다."
+
+#: classes/admin/settings.php:273
+msgid "Backup"
+msgstr "백업"
+
+#: classes/admin/settings.php:277
+msgid "Download Groups Backup"
+msgstr "그룹 백업 다운로드"
+
+#: classes/admin/settings.php:281
+msgid "Generate and download a backup of created groups."
+msgstr "생성 하 고 생성된 된 그룹의 백업을 다운로드 해 라."
+
+#: classes/admin/settings.php:287
+msgid "Download Defaults Backup"
+msgstr "기본 백업 다운로드"
+
+#: classes/admin/settings.php:290
+msgid "Default"
+msgstr "기본"
+
+#: classes/admin/settings.php:291
+msgid "Generate and download a backup of default visibility configurations."
+msgstr "생성 하 고 기본 가시성 구성의 백업을 다운로드 해 라."
+
+#: classes/admin/settings.php:297
+msgid "Download Custom Visibilities Backup"
+msgstr "사용자 지정 가시도 백업 다운로드"
+
+#: classes/admin/settings.php:300
+msgid "Custom"
+msgstr "사용자 정의"
+
+#: classes/admin/settings.php:301
+msgid "Generate and download a backup of custom visibility configurations."
+msgstr "생성 하 고 사용자 지정 표시 구성의 백업을 다운로드 해 라."
+
+#: classes/admin/settings.php:307
+msgid "Import Backup!"
+msgstr "가져오기 백업!"
+
+#: classes/admin/settings.php:310
+msgid "Import Backup"
+msgstr "가져오기 백업"
+
+#: classes/admin/settings.php:311
+msgid ""
+"Import a previously generated backup.  This uses the default WordPress "
+"import feature, if you do not see a file upload after clicking this button, "
+"make sure to import using WordPress importer."
+msgstr "이전에 생성 된 백업 가져오기.  파일 업로드이 버튼을 클릭 후, WordPress 가져오기 도구를 사용 하 여 가져올 확인 표시 되지 않으면 기본 WordPress의 가져오기 기능을 사용 합니다."
+
+#: classes/admin/settings.php:322
+msgid "Disable License Deactivation"
+msgstr "라이센스 비활성화를 사용 안 함"
+
+#: classes/admin/settings.php:324
+msgid ""
+"By default when you deactivate the plugin it will also deactivate your "
+"license on the current site.  Check this box to disable the deactivation of "
+"your license when you deactivate the plugin."
+msgstr "기본적으로 플러그인을 비활성화 하면 그것 또한 비활성화 됩니다 현재 사이트에 라이센스.  플러그인을 비활성화 하면 라이선스의 비활성화 하지 않으려면이 상자를 확인 하십시오."
+
+#: classes/admin/settings.php:331
+msgid "Enable Post Debug"
+msgstr "게시물 디버그를 사용 하도록 설정"
+
+#: classes/admin/settings.php:333
+msgid ""
+"Add a debug metabox to bottom of each add/edit post page (default, custom, "
+"groups)."
+msgstr "각 추가/편집 포스트 페이지 (기본, 사용자 지정, 그룹)의 하단에 디버그 metabox를 추가 합니다."
+
+#: classes/admin/settings.php:340
+msgid "Heartbeat"
+msgstr "하트 비트"
+
+#: classes/admin/settings.php:342
+msgid ""
+"Disables WordPress heartbeat on Job, Resume, and any other pages for this "
+"plugin (does not affect other post types)"
+msgstr "작업, 이력서, 그리고이 플러그인 (영향을 주지 않습니다 다른 게시물 형식)에 대 한 어떤 다른 페이지 든 지에 하트 비트 워드 프레스를 사용 하지 않도록 설정"
+
+#: classes/admin/settings.php:349
+msgid "Post Lock"
+msgstr "게시물 잠금"
+
+#: classes/admin/settings.php:351
+msgid ""
+"Disables WordPress Post Lock on Job, Resume, and any other pages for this "
+"plugin (does not affect other post types)"
+msgstr "작업, 이력서, 그리고이 플러그인 (영향을 주지 않습니다 다른 게시물 형식)에 대 한 어떤 다른 페이지 든 지에 WordPress 게시물 잠금 해제"
+
+#: classes/admin/settings.php:358
+msgid "Show Debug in Footer"
+msgstr "바닥글에 표시 디버그"
+
+#: classes/admin/settings.php:360
+msgid ""
+"<strong>ONLY</strong> enable this when you are debugging, otherwise any "
+"visitor will see ALL of your user and group config!  You can also add "
+"<em>?admin_debug</em> to the end of the URL to show debug details (will only"
+" work for admins)."
+msgstr "디버깅할 때 <strong>만</strong>이 사용, 그렇지 않으면 모든 방문자는 모든 사용자 및 그룹 설정을 볼 것 이다!  또한 추가할 수 있습니다 <em>? admin_debug</em> (만 작동 합니다 관리자에 대 한) 디버그 정보를 보기 위해 URL의 끝에."
+
+#: classes/admin/settings.php:367
+msgid "Admin Exception"
+msgstr "관리 예외"
+
+#: classes/admin/settings.php:369
+msgid ""
+"By default if the user is an Administrator any field visibility "
+"configuration will bypassed.  Disable Admin Exception to process "
+"configurations for admins.  You can also just add "
+"<code>?admin_exception</code> to the end of the URL to preview the listing "
+"with visibility enabled."
+msgstr "기본적으로 사용자가 관리자가 어떤 우회 표시 구성 됩니다 필드.  관리자를 위한 프로세스 구성 관리자 예외를 비활성화 합니다.  또한 추가할 수 있습니다 <code>? admin_exception</code> 가시성 설정 목록을 미리 URL의 끝에."
+
+#: classes/admin/settings.php:376
+msgid "Setup"
+msgstr "설치"
+
+#: classes/admin/settings.php:380
+msgid "Add Default Groups"
+msgstr "기본 그룹 추가"
+
+#: classes/admin/settings.php:383
+msgid "Default Groups"
+msgstr "기본 그룹"
+
+#: classes/admin/settings.php:384
+msgid ""
+"This will setup/add the Anonymous (anonymous role), Candidates (candidate "
+"role), and Employers (employer role) groups."
+msgstr "이 설정/추가 합니다 익명 (익명 역할), 후보자 (후보자 역할), 및 고용주 (고용주 역할) 그룹."
+
+#: classes/admin/settings.php:390
+msgid "License"
+msgstr "라이센스"
+
+#: classes/admin/settings.php:394
+msgid "Email"
+msgstr "메일 주소"
+
+#: classes/admin/settings.php:398
+msgid ""
+"The email associated with your license key, this <strong>MUST</strong> match"
+" the email found on your <a href=\"%s\" target=\"_blank\">My Account</a> "
+"page."
+msgstr "라이센스 키와 관련 된 이메일은 <a href=\"%s\" target=\"_blank\"> 내 계정</a> 페이지에 이메일을 일치이 <strong>해야 합니다</strong>."
+
+#: classes/admin/settings.php:403
+msgid "License Key"
+msgstr "라이센스 키"
+
+#: classes/admin/settings.php:407
+msgid "The license key associated with the email above."
+msgstr "위의 이메일와 관련 된 라이센스 키입니다."
+
+#: classes/admin/settings.php:413
+msgid "Packages"
+msgstr ""
+
+#: classes/admin/settings.php:423
+msgid "Support"
+msgstr "지원"
+
+#: classes/admin/settings.php:433
+msgid "About"
+msgstr "에 대 한"
+
+#: classes/admin/views/metabox.php:3
+msgid "Select Fields to Mask"
+msgstr "마스크 필드 선택"
+
+#: classes/admin/views/metabox.php:4 classes/admin/views/users.php:13
+msgid "Select a User or Group"
+msgstr "사용자 또는 그룹 선택"
+
+#: classes/admin/views/metabox.php:5
+msgid "Select Visibility Fields"
+msgstr "표시 필드 선택"
+
+#: classes/admin/views/metabox.php:17 classes/admin/views/placeholders.php:10
+msgid "Loading..."
+msgstr "로드 중입니다..."
+
+#: classes/admin/views/metabox.php:53
+msgid "Select Fields to Hide on Listing"
+msgstr "필드 목록에서 숨기기를 선택"
+
+#: classes/admin/views/metabox.php:56
+msgid "Select Fields to Show on Listing"
+msgstr "필드 목록에서 보기를 선택"
+
+#: classes/admin/views/metabox.php:62 classes/admin/views/placeholders.php:43
+msgid "Placeholder text or HTML to use instead of actual value"
+msgstr "개체 틀 텍스트 또는 실제 값 대신 사용 하는 HTML"
+
+#: classes/admin/views/metabox.php:65 classes/admin/views/placeholders.php:46
+msgid "Add"
+msgstr "추가"
+
+#: classes/admin/views/metakeys.php:13 classes/admin/views/select.php:13
+msgid "Select a %s"
+msgstr "선택 된 %s"
+
+#: classes/admin/views/metakeys.php:21 classes/admin/views/select.php:21
+msgid "No %ss Found"
+msgstr "찾을 수 없음 %ss"
+
+#: classes/admin/views/ph-table.php:8 classes/admin/views/table.php:8
+msgid "Edit in Progress..."
+msgstr "진행 중인 편집..."
+
+#: classes/admin/views/ph-table.php:14
+msgid "Field"
+msgstr "필드"
+
+#: classes/admin/views/ph-table.php:15 classes/admin/views/table.php:16
+msgid "Placeholder"
+msgstr "개체 틀"
+
+#: classes/admin/views/ph-table.php:16 classes/admin/views/table.php:17
+msgid "Action"
+msgstr "액션"
+
+#: classes/admin/views/ph-table.php:53 classes/admin/views/table.php:74
+msgid "No Records"
+msgstr "없음 레코드"
+
+#: classes/admin/views/placeholders.php:24
+msgid "Select a field to hide"
+msgstr "숨길 필드 선택"
+
+#: classes/admin/views/priority.php:10
+msgid "Priority: "
+msgstr "우선 순위: "
+
+#: classes/admin/views/priority.php:17
+msgid "Default priority is 10"
+msgstr "기본 우선 순위는 10"
+
+#: classes/admin/views/priority.php:18
+msgid "Lower number equals higher priority"
+msgstr "낮은 번호 같음 더 높은 우선 순위"
+
+#: classes/admin/views/priority.php:19
+msgid "See the help menu in top right corner for more details on priorities."
+msgstr "우선 순위에 대 한 자세한 내용은 오른쪽 상단에 도움말 메뉴를 참조 하십시오."
+
+#: classes/admin/views/roles.php:19
+msgid "No Roles Found"
+msgstr "아무 역할 발견"
+
+#: classes/admin/views/table.php:14
+msgid "User or Group"
+msgstr "사용자 또는 그룹"
+
+#: classes/admin/views/table.php:15
+msgid "Show/Hide Fields"
+msgstr "필드 표시/숨기기"
+
+#: classes/admin/views/users.php:21
+msgid "No Groups Found"
+msgstr "아니 그룹 발견"
+
+#: classes/admin/views/users.php:23
+msgid "Error getting Users!"
+msgstr "점점 사용자가 하는 중 오류가 발생 했습니다!"
+
+#: classes/admin/views.php:70
+msgid "No array data found!"
+msgstr "배열 데이터를 발견!"
+
+#: classes/admin.php:61
+msgid "Thanks for upgrading/installing WP Job Manager Visibility!"
+msgstr ""
+
+#: classes/admin.php:62
+msgid ""
+"Did you know this plugin (WP Job Manager Visibility) can be extended using "
+"the <a href=\"%1$s\" target=\"_blank\">WP Job Manager Packages</a> "
+"plugin?<br/> <br />The packages plugin allows you to configure groups based "
+"on Visibility Packages or WooCommerce Paid Listings packages, and TONS of "
+"other features!<br /><strong><a href=\"%2$s\">Click here for more "
+"information (and 15 percent off coupon code)</a></strong>"
+msgstr ""
+
+#: classes/admin.php:63
+msgid "Dismiss"
+msgstr ""
+
+#: classes/cpt.php:66 classes/cpt.php:67
+msgid "%s successfully updated."
+msgstr "%s 업데이트입니다."
+
+#: classes/cpt.php:68
+msgid "%s successfully created."
+msgstr "%s 만듦입니다."
+
+#: classes/cpt.php:69
+msgid "%s successfully saved."
+msgstr "%s 성공적으로 저장입니다."
+
+#: classes/cpt.php:142
+msgid "Default visibility configuration"
+msgstr "기본 표시 유형 구성"
+
+#: classes/cpt.php:147
+msgid "Custom visibility configuration"
+msgstr "사용자 지정 표시 유형 구성"
+
+#: classes/cpt.php:152
+msgid "Visibility group"
+msgstr "표시 그룹"
+
+#: classes/cpt.php:266
+msgid "Visibility Groups"
+msgstr "표시 그룹"
+
+#: classes/cpt.php:267
+msgid "Visibility Group"
+msgstr "표시 그룹"
+
+#: classes/cpt.php:269
+msgid "Add New Visibility Group"
+msgstr "새 표시 그룹을 추가"
+
+#: classes/cpt.php:270
+msgid "Edit Visibility Group"
+msgstr "표시 그룹 편집"
+
+#: classes/cpt.php:271
+msgid "New Visibility Group"
+msgstr "새 표시 그룹"
+
+#: classes/cpt.php:272
+msgid "View Visibility Group"
+msgstr "보기 표시 그룹"
+
+#: classes/cpt.php:273
+msgid "Search Visibility Groups"
+msgstr "검색 표시 그룹"
+
+#: classes/cpt.php:274
+msgid "No Visibility Groups Found"
+msgstr "발견 없음 표시 그룹"
+
+#: classes/cpt.php:275
+msgid "No Visibility Groups Found in Trash"
+msgstr "휴지통에서 발견 없음 표시 그룹"
+
+#: classes/cpt.php:316 classes/cpt.php:372
+msgid "Visibilities"
+msgstr "가시도"
+
+#: classes/cpt.php:317
+msgid "Custom Visibility"
+msgstr "사용자 지정 표시"
+
+#: classes/cpt.php:318
+msgid "Add New Custom Visibility Configuration"
+msgstr "추가 새 사용자 지정 표시 유형 구성"
+
+#: classes/cpt.php:319
+msgid "Edit Custom Visibility"
+msgstr "사용자 지정 표시 편집"
+
+#: classes/cpt.php:320
+msgid "New Custom Visibility"
+msgstr "새 사용자 지정 표시"
+
+#: classes/cpt.php:321
+msgid "View Custom Visibility"
+msgstr "보기 사용자 지정 표시"
+
+#: classes/cpt.php:322
+msgid "Search Custom Visibilities"
+msgstr "검색 사용자 지정 가시도"
+
+#: classes/cpt.php:323
+msgid "No Custom Visibilities Found"
+msgstr "없음 사용자 지정 가시도 발견"
+
+#: classes/cpt.php:324
+msgid "No Custom Visibilities Found in Trash"
+msgstr "없음 사용자 지정 가시도 휴지통에서 발견"
+
+#: classes/cpt.php:371
+msgid "Default Visibilities"
+msgstr "기본 가시도"
+
+#: classes/cpt.php:373
+msgid "Default Visibility"
+msgstr "기본 표시"
+
+#: classes/cpt.php:374
+msgid "Add New Default Visibility Configuration"
+msgstr "새 기본 표시 유형 구성 추가"
+
+#: classes/cpt.php:375
+msgid "Edit Default Visibility"
+msgstr "기본 표시 편집"
+
+#: classes/cpt.php:376
+msgid "New Default Visibility"
+msgstr "새로운 기본 가시성"
+
+#: classes/cpt.php:377
+msgid "View Default Visibility"
+msgstr "보기 기본 가시성"
+
+#: classes/cpt.php:378
+msgid "Search Default Visibilities"
+msgstr "검색 기본 가시도"
+
+#: classes/cpt.php:379
+msgid "No Default Visibilities Found"
+msgstr "없음 기본 가시도 발견"
+
+#: classes/cpt.php:380
+msgid "No Default Visibilities Found in Trash"
+msgstr "없음 기본 가시도 휴지통에서 발견"
+
+#: classes/install.php:88
+msgid "All"
+msgstr "모든"
+
+#: classes/install.php:89
+msgid "Anonymous"
+msgstr "익명"
+
+#: classes/install.php:90
+msgid "Candidates"
+msgstr "후보"
+
+#: classes/install.php:91
+msgid "Employers"
+msgstr "고용주"
+
+#: classes/install.php:92
+msgid "Administrators"
+msgstr "관리자"
+
+#: classes/output/jm.php:194
+msgid "Listing"
+msgstr "목록"
+
+#: classes/output/rm.php:227
+msgid "Resume Listings"
+msgstr "이력서 목록"
+
+#: classes/output/rm.php:229
+msgid "Enable processing of visibility configurations for Resume Manager."
+msgstr "표시 구성 다시 시작 관리자에 대 한 처리를 사용 합니다."
+
+#: classes/output/rm.php:241
+msgid "Resumes"
+msgstr "이력서"
+
+#: classes/output/rm.php:247
+msgid "Use Custom Permalinks"
+msgstr "사용자 지정 Permalink를 사용 하 여"
+
+#: classes/output/rm.php:248
+msgid ""
+"Enable this option to use the custom permalink configuration below.  By "
+"default the Resumes plugin creates the permalink with Candidate Name, Title,"
+" and Location. .  By default the core plugin creates the permalink with "
+"Company Name, Location, Type, and Job Title.  Enabling this option sets this"
+" structure when a new listing is created/updated.  To update existing "
+"listings, use the force update permalink structure below."
+msgstr ""
+
+#: classes/output/rm.php:259
+msgid ""
+"The custom permalink structure you want to use for Resume permalinks. "
+"Permalinks are generated using meta key values from the listing, and all "
+"meta keys MUST be inside curly braces "
+msgstr "이력서 영구에 대 한 사용 하려는 사용자 지정 블로그 바로 가기 구조. 영구는 목록에서 메타 키 값을 사용 하 여 생성 되 고 모든 메타 키 중괄호 안에 있어야 "
+
+#: classes/output/rm.php:261
+msgid ""
+"<small>Any meta key can be used (only string value ones), including custom "
+"fields, so if your meta key is <code>candidate_state</code>, you would use "
+"<code>{candidate_state}</code>"
+msgstr "<small>키를 수 있습니다 모든 메타 사용 (문자열 값만 것 들), 사용자 정의 필드를 포함 하 여 그래서 당신의 메타 키가 <code>candidate_state</code>, 사용 <code>{candidate_state}</code>"
+
+#: classes/output/rm.php:278
+msgid "Education Placeholder"
+msgstr "교육 개체 틀"
+
+#: classes/output/rm.php:279
+msgid ""
+"Select what field for Education should be replaced with a placeholder (if "
+"configured)"
+msgstr "교육에 대 한 어떤 필드는 자리 표시자로 대체 되어야 한다 (구성 된 경우)을 선택"
+
+#: classes/output/rm.php:283
+msgid "School name"
+msgstr "학교 이름"
+
+#: classes/output/rm.php:284 classes/output/rm.php:301
+msgid "Qualification(s)"
+msgstr "Qualification(s)"
+
+#: classes/output/rm.php:285 classes/output/rm.php:335
+msgid "Start/end date"
+msgstr "시작/끝 날짜"
+
+#: classes/output/rm.php:286 classes/output/rm.php:319
+#: classes/output/rm.php:336 classes/output/rm.php:369
+msgid "Notes"
+msgstr "노트"
+
+#: classes/output/rm.php:292
+msgid "School Name"
+msgstr "학교 이름"
+
+#: classes/output/rm.php:293 classes/output/rm.php:302
+#: classes/output/rm.php:311 classes/output/rm.php:320
+#: classes/output/rm.php:343 classes/output/rm.php:352
+#: classes/output/rm.php:361 classes/output/rm.php:370
+msgid "Clear"
+msgstr "지우기"
+
+#: classes/output/rm.php:294 classes/output/rm.php:303
+#: classes/output/rm.php:312 classes/output/rm.php:321
+#: classes/output/rm.php:344 classes/output/rm.php:353
+#: classes/output/rm.php:362 classes/output/rm.php:371
+msgid ""
+"Should this field be cleared when a placeholder is used? Blank value will be"
+" used (unless selected for placeholder)"
+msgstr "이 필드 지워져야 자리 표시자를 사용 하는 경우? (자리 표시자에 대 한 선택) 하지 않으면 빈 값이 사용 됩니다."
+
+#: classes/output/rm.php:310 classes/output/rm.php:360
+msgid "Start/End Date"
+msgstr "시작/끝 날짜"
+
+#: classes/output/rm.php:328
+msgid "Experience Placeholder"
+msgstr "경험 개체 틀"
+
+#: classes/output/rm.php:329
+msgid ""
+"Select what field for Experience should be replaced with a placeholder (if "
+"configured)"
+msgstr "경험에 대 한 어떤 필드는 자리 표시자로 대체 되어야 한다 (구성 된 경우)을 선택"
+
+#: classes/output/rm.php:333 classes/output/rm.php:342
+msgid "Employer"
+msgstr "고용주"
+
+#: classes/output/rm.php:334 classes/output/rm.php:351
+msgid "Job Title"
+msgstr "직함"
+
+#: classes/output/rm.php:378
+msgid "Links Placeholder"
+msgstr "링크 개체 틀"
+
+#: classes/output/rm.php:379
+msgid ""
+"Select what field for Links should be replaced with a placeholder (if "
+"configured)."
+msgstr "링크에 대 한 어떤 필드는 자리 표시자로 대체 되어야 한다 (구성 된 경우)을 선택 합니다."
+
+#: classes/output/rm.php:383 classes/output/rm.php:390
+msgid "URL"
+msgstr "URL"
+
+#: classes/output/rm.php:384
+msgid "Name"
+msgstr "이름"
+
+#: classes/output/rm.php:391
+msgid "Replace the URL with value from below"
+msgstr "아래에서 URL 값으로 대체"
+
+#: classes/output/rm.php:392
+msgid ""
+"If Name is selected above, and this is checked, this will replace the URL in"
+" the HTML link tag with the value from below."
+msgstr "이름 위에 선택 되 고 선택이,이 아래에서 값을 HTML 링크 태그에 URL를 대체 합니다."
+
+#: classes/output/rm.php:399
+msgid "URL Placeholder"
+msgstr "URL 자리 표시자"
+
+#: classes/output/rm.php:401
+msgid ""
+"This value will be used instead of the actual URL if enabled (checked) above"
+" and the placeholder is set as Name"
+msgstr "이 값은 사용 하는 경우 실제 URL 대신 사용 됩니다 (선택) 위의 자리 표시자 이름으로 설정 됩니다"
+
+#: classes/output/rm.php:408
+msgid "URL Prepend"
+msgstr "URL 추가"
+
+#: classes/output/rm.php:410
+msgid ""
+"If you want to prepend the URL with any value, set it here.  This will be "
+"used regardless of settings above, and only if there is a value set."
+msgstr "URL 값을 추가 하려면 여기 설정 합니다.  이 설정 되어 경우에 위의 설정에 사용 됩니다."
+
+#: classes/output/rm.php:461
+msgid "Candidate"
+msgstr "후보"
+
+#: classes/roles.php:57
+msgid "Anonymous (users not logged in)"
+msgstr "익명 (사용자 로그인 하지 않은 사용자)"
+
+#: includes/compatibility.php:71
+msgid ""
+"Your server is using a <strong>VERY OLD, unsupported, and no longer "
+"maintained</strong> version of PHP, version 5.2 or older. <a href=\"%1$s\" "
+"target=\"_blank\">EOL (End of Life)</a> for PHP 5.2 was about <strong>%2$s "
+"ago</strong>!! This means there may be bugs, and security vulnerabilities "
+"that have not, and will never be patched for this version of PHP!<br /><br "
+"/>It is <strong>strongly</strong> recommended that you contact your web "
+"hosting provider and request to upgrade to PHP 5.4 or newer ... or <a "
+"href=\"%3$s\">Hide this Notice Forever!</a> (but don't say I didn't warn "
+"you)<br/><br /><a href=\"%4$s\" target=\"_blank\">Contact me</a> for an "
+"exclusive sMyles Plugins customer promo code discount for any shared "
+"<strong>SSD (Solid State Drive)</strong> hosting packages!  Data centers in "
+"Florida USA, Arizona USA, Montreal Canada, and France.  Your site will run "
+"faster than it ever has, or your money back!"
+msgstr "서버는 PHP 5.2 이상 버전의 <strong>아주 오래 된, 지원, 그리고 더 이상 유지 관리</strong> 버전을 사용 하 고. <a href=\"%1$s\" target=\"_blank\"> EOL (단종)</a> PHP 5.2 <strong>%2$ s 전</strong> 였습니다! 즉, 버그 및 보안 취약점을, 그리고 결코 PHP의이 버전에 대 한 패치가 될 것 이다 있을 수 있습니다! < br / > < br / > 그것은 <strong>당신의 웹 호스팅 공급자 및... PHP 5.4를 또는 최신 업그레이드 요청을 문의 하는 것이 좋습니다</strong> 또는 <a href=\"%3$s\">이 통지에 영원히 숨길!</a> (하지만 난 당신을 경고 하지 않았다 말을 하지 않습니다) <br/> < br / > <strong>SSD (솔리드 스테이트 드라이브)</strong> 패키지를 호스팅 공유에 대 한 독점적인 sMyles 플러그인 고객 프로 모션 코드 할인 <a href=\"%4$s\" target=\"_blank\"> 저에 게 연락</a>!  미국 플로리다, 애리조나 미국, 캐나다, 몬트리올 그리고 프랑스에 데이터 센터.  귀하의 사이트도 있다, 또는 당신의 돈을 돌려 보다 더 빠르게 실행 됩니다!"
+
+#: includes/compatibility.php:75
+msgid ""
+"Your server is using an <strong>OLD, unsupported, and no longer "
+"maintained</strong> version of PHP, version 5.3. <a href=\"%1$s\" "
+"target=\"_blank\">EOL (End of Life)</a> for PHP 5.3 was about <strong>%2$s "
+"ago</strong>!! This means there may be bugs, and security vulnerabilities "
+"that have not, and will never be patched for this version of PHP!<br /><br "
+"/>It is <strong>strongly</strong> recommended that you contact your web "
+"hosting provider and request to upgrade to PHP 5.4 or newer ... or <a "
+"href=\"%3$s\">Hide this Notice Forever!</a> (but don't say I didn't warn "
+"you)<br/><br /><a href=\"%4$s\" target=\"_blank\">Contact me</a> for an "
+"exclusive sMyles Plugins customer promo code discount for any shared "
+"<strong>SSD (Solid State Drive)</strong> hosting packages!  Data centers in "
+"Florida USA, Arizona USA, Montreal Canada, and France.  Your site will run "
+"faster than it ever has, or your money back!"
+msgstr "서버는 PHP 버전 5.3의 <strong>오래 되 고, 지원 되지 않는, 더 이상 유지</strong> 버전 사용 하는. <a href=\"%1$s\" target=\"_blank\"> EOL (단종)</a> PHP 5.3 <strong>%2$ s 전</strong> 였습니다! 즉, 버그 및 보안 취약점을, 그리고 결코 PHP의이 버전에 대 한 패치가 될 것 이다 있을 수 있습니다! < br / > < br / > 그것은 <strong>당신의 웹 호스팅 공급자 및... PHP 5.4를 또는 최신 업그레이드 요청을 문의 하는 것이 좋습니다</strong> 또는 <a href=\"%3$s\">이 통지에 영원히 숨길!</a> (하지만 난 당신을 경고 하지 않았다 말을 하지 않습니다) <br/> < br / > <strong>SSD (솔리드 스테이트 드라이브)</strong> 패키지를 호스팅 공유에 대 한 독점적인 sMyles 플러그인 고객 프로 모션 코드 할인 <a href=\"%4$s\" target=\"_blank\"> 저에 게 연락</a>!  미국 플로리다, 애리조나 미국, 캐나다, 몬트리올 그리고 프랑스에 데이터 센터.  귀하의 사이트도 있다, 또는 당신의 돈을 돌려 보다 더 빠르게 실행 됩니다!"
+
+#: includes/smyles-update/class-smyles-update.php:71
+msgid "Deactivate Licence"
+msgstr "라이센스를 비활성화"
+
+#: includes/smyles-update/class-smyles-update.php:83
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr "<strong>%S</strong>에 대 한 라이센스 활성화 되었습니다. 감사!"
+
+#: includes/smyles-update/class-smyles-update.php:361
+msgid ""
+"A licence key for %s could not be found. Maybe you forgot to enter a licence"
+" key when setting up %s."
+msgstr "%S 대 한 라이센스 키를 찾을 수 없습니다. %S 설정할 때 라이센스 키를 입력 하는 아마."
+
+#: includes/smyles-update/class-smyles-update.php:365
+msgid "Invalid update request"
+msgstr "잘못 된 업데이트 요청"
+
+#: includes/smyles-update/class-smyles-update.php:386
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr "<strong>%S</strong>에 대 한 라이센스 비활성화 되었습니다."
+
+#: includes/smyles-update/class-smyles-update.php:426
+msgid "Licence"
+msgstr "라이센스"
+
+#: includes/smyles-update/class-smyles-update.php:429
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for"
+" automatic updates.  The key <strong>and email MUST</strong> match the "
+"details you can find on your <a href=\"%s\" target=\"_blank\">My Account</a>"
+" page."
+msgstr "라이센스 키와 이메일을 입력 하 고 반환 했다. 유효한 키가 자동 업데이트를 위해 필요 합니다.  키 <strong>이메일 해야 합니다</strong> 일치 정보 <a href=\"%s\" target=\"_blank\"> 내 계정</a> 페이지에서 찾을 수 있습니다."
+
+#: includes/smyles-update/class-smyles-update.php:450
+msgid "Hide notice"
+msgstr "통지를 숨기기"
+
+#: includes/smyles-update/class-smyles-update.php:451
+msgid ""
+"<a href=\"%s\">Please activate your licence key</a> to get updates for "
+"<strong>%s</strong>.  This ensures you have the latest features, bug fixes, "
+"and experience!"
+msgstr "<strong>%s</strong>에 대 한 업데이 트를 <a href=\"%s\"> 하시기 바랍니다 당신의 라이센스 키를 활성화</a> 합니다.  이렇게 하면 최신 기능, 버그 수정, 그리고 경험!"
+
+#: includes/smyles-update/class-smyles-update.php:452
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr "키를 분실? <a href=\"%s\"> 여기에 그것을 검색</a> 합니다."
+
+#: wp-job-manager-visibility.php:86
+msgid ""
+"WP Job Manager Visibility requires WP Job Manager Resumes 1.13.0 and above. "
+"Please upgrade as soon as possible!  Resume integration will be disabled "
+"until you upgrade to 1.13.0 or above."
+msgstr "포스트 작업 관리자 표시 포스트 작업 관리자 이력서 1.13.0 필요 이상. 최대한 빨리 업그레이드 하십시오!  이력서 통합 1.13.0 이상 업그레이드 될 때까지 비활성화 됩니다."
+
+#: wp-job-manager-visibility.php:112
+msgid "Translate"
+msgstr "번역하기"
+
+#: wp-job-manager-visibility.php:189
+msgid "Once Weekly"
+msgstr "일단 주간"
+
+#: wp-job-manager-visibility.php:229 wp-job-manager-visibility.php:230
+msgid "Job"
+msgstr "작업"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Visibility"
+msgstr "포스트 작업 관리자-가시성"
+
+#. Plugin URI of the plugin/theme
+msgid "http://plugins.smyl.es/wp-job-manager-visibility"
+msgstr "http://plugins.smyl.es/wp-job-manager-visibility"
+
+#. Description of the plugin/theme
+msgid ""
+"Set fields as visible or hidden (with placeholders) for WP Job Manager "
+"fields using custom groups or user configurations."
+msgstr "표시 또는 (자리 표시자)와 숨겨진 필드를 설정 사용자 지정 그룹 또는 사용자 구성을 사용 하 여 포스트 작업 관리자 필드에 대 한."
+
+#. Author of the plugin/theme
+msgid "Myles McNamara"
+msgstr "마일스 맥 나 마라"
+
+#. Author URI of the plugin/theme
+msgid "http://smyl.es"
+msgstr "http://smyl.es"

@@ -1,0 +1,40 @@
+{
+  "name": "jobify",
+  "title": "Jobify",
+  "version": "3.8.0",
+  "description": "Your beautiful handcrafted digital marketplace.",
+  "homepage": "https://github.com/Astoundify/jobify",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-checktextdomain": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-cssjanus": "^0.4.0",
+    "grunt-exec": "^3.0.0",
+    "grunt-glotpress": "^0.2.2",
+    "grunt-jsonlint": "^1.1.0",
+    "grunt-potomo": "^3.5.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-shell": "^2.1.0",
+    "grunt-wp-i18n": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Astoundify/jobify.git"
+  },
+  "author": "Spencer Finnell",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/Astoundify/jobify/issues"
+  }
+}

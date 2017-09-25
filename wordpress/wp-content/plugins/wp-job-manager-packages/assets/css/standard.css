@@ -1,0 +1,95 @@
+
+.job_listing_packages, .resume_packages {
+	border: 5px solid #eee;
+	padding: 0;
+}
+
+.job_listing_packages ul.job_packages, .job_listing_packages ul.resume_packages, .resume_packages ul.job_packages, .resume_packages ul.resume_packages {
+	list-style: outside none none;
+	margin: 0;
+	padding: 0;
+}
+
+.job_listing_packages ul.job_packages li, .job_listing_packages ul.resume_packages li, .resume_packages ul.job_packages li, .resume_packages ul.resume_packages li {
+	border-bottom: 1px dotted #eee;
+	list-style: outside none none;
+	margin: 0;
+	padding: 1em;
+}
+
+.job_listing_packages ul.job_packages li label, .job_listing_packages ul.resume_packages li label, .resume_packages ul.job_packages li label, .resume_packages ul.resume_packages li label {
+	cursor: pointer;
+	font-weight: 700;
+	padding-left: 5px;
+}
+
+.job_listing_packages ul.job_packages li:last-child, .job_listing_packages ul.resume_packages li:last-child, .resume_packages ul.job_packages li:last-child, .resume_packages ul.resume_packages li:last-child {
+	border-bottom: 0 none;
+}
+
+.job_listing_packages ul.job_packages li.user-job-package, .job_listing_packages ul.job_packages li.user-resume-package, .job_listing_packages ul.resume_packages li.user-job-package, .job_listing_packages ul.resume_packages li.user-resume-package, .resume_packages ul.job_packages li.user-job-package, .resume_packages ul.job_packages li.user-resume-package, .resume_packages ul.resume_packages li.user-job-package, .resume_packages ul.resume_packages li.user-resume-package {
+	background: #fefee5 none repeat scroll 0 0;
+}
+
+.job_listing_packages ul.job_packages .package-section, .job_listing_packages ul.resume_packages .package-section, .resume_packages ul.job_packages .package-section, .resume_packages ul.resume_packages .package-section {
+	font-weight: 700;
+}
+
+.job_listing_packages_title, .resume_packages_title {
+	background: #eee none repeat scroll 0 0;
+	padding: 0.5em 1em;
+	position: relative;
+	vertical-align: middle;
+}
+
+.entry-content .job_listing_packages_title h2, .entry-content .resume_packages_title h2, .job_listing_packages_title h2, .resume_packages_title h2 {
+	clear: none;
+	margin: 0;
+}
+
+.entry-content .job_listing_packages_title .button, .entry-content .resume_packages_title .button, .job_listing_packages_title .button, .resume_packages_title .button {
+	float: right;
+	margin-left: 0.25em;
+}
+
+/* Start Jobify Custom Form CSS */
+.ui.popup .job_manager_packages_jobify_form .job_manager_visibility_packages_title .button {
+	padding: 5px;
+	font-size: 12px;
+}
+
+.ui.popup .job_manager_packages_jobify_form h2 {
+	font-size: 18px;
+}
+
+.job_manager_packages_jobify_form .job_listing_packages ul.job_packages, .job_manager_packages_jobify_form .job_listing_packages ul.resume_packages {
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	padding: 0;
+	background: 0 0
+}
+
+.job_manager_packages_jobify_form .job_listing_packages ul.job_packages li.job-package, .job_manager_packages_jobify_form .job_listing_packages ul.resume_packages li.resume-package, .job_manager_packages_jobify_form .job_listing_packages ul.job_packages li.package-section, .job_manager_packages_jobify_form .job_listing_packages ul.resume_packages li.package-section {
+	font-weight: 400;
+	border-bottom: 1px solid #ccc;
+	margin: 0;
+	padding: 1em
+}
+
+.job_manager_packages_jobify_form .job_listing_packages ul.job_packages li.job-package:last-child, .job_manager_packages_jobify_form .job_listing_packages ul.job_packages li.package-section:last-child {
+	border-bottom: 0
+}
+
+.job_manager_packages_jobify_form .job_listing_packages_title {
+	background: 0 0;
+	padding: 0;
+	margin-bottom: 2em
+}
+
+.job_manager_packages_jobify_form .job_listing_packages {
+	border: 0 none;
+}
+
+.modal .job_manager_packages_jobify_form .job_listing_packages {
+	border: 5px solid #eee;
+}

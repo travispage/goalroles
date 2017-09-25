@@ -1,0 +1,2074 @@
+# Copyright (C) 2017 Myles McNamara
+# This file is distributed under the GPLv3.
+# Translators:
+# Myles McNamara <myles@smyl.es>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - Packages 1.0.0\n"
+"Report-Msgid-Bugs-To: http://plugins.smyl.es\n"
+"POT-Creation-Date: 2017-01-26 22:53:07+00:00\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Myles McNamara <myles@smyl.es>, 2017\n"
+"Language-Team: Turkish (https://www.transifex.com/smyles/teams/24600/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: includes/admin/listtable/addpackage.php:72
+msgid "Package Type"
+msgstr "Paket türü"
+
+#: includes/admin/listtable/addpackage.php:76
+#: includes/admin/listtable/addpackage.php:77
+msgid "%s Package"
+msgstr "%s paketi"
+
+#: includes/admin/listtable/addpackage.php:92
+#: includes/admin/listtable/addpackage.php:166
+#: includes/admin/wc/views/html-view-job-package-data.php:35
+msgid "Allow %s?"
+msgstr "%S için izin?"
+
+#: includes/admin/listtable/addpackage.php:93
+#: includes/admin/listtable/addpackage.php:167
+msgid "Whether or not this user package supports this feature"
+msgstr "Olsun veya olmasın bu özelliği bu kullanıcı paket destekler"
+
+#: includes/admin/listtable/addpackage.php:104
+#: includes/admin/listtable/addpackage.php:178
+msgid "%s Limit"
+msgstr "%s sınırı"
+
+#: includes/admin/listtable/addpackage.php:105
+#: includes/admin/listtable/addpackage.php:179
+msgid "Set specific package limit (Use 0 for unlimited)"
+msgstr "Küme belirli paket sınırı (kullanım 0 için sınırsız)"
+
+#: includes/admin/listtable/addpackage.php:108
+#: includes/admin/listtable/addpackage.php:182 includes/admin/listtable.php:70
+#: includes/admin/listtable.php:105 includes/admin/listtable.php:157
+#: includes/admin/wc/views/html-view-job-package-data.php:17
+#: includes/admin/wc/views/html-view-job-package-data.php:45
+#: includes/admin/wc/views/html-view-resume-package-data.php:14
+#: includes/admin/wc/views/html-view-resume-package-data.php:42
+#: includes/admin/wc/views/html-view-resume-package-data.php:70
+msgid "Unlimited"
+msgstr "Sınırsız"
+
+#: includes/admin/listtable/addpackage.php:113
+#: includes/admin/listtable/addpackage.php:187 includes/admin/listtable.php:75
+#: includes/admin/listtable.php:110 includes/admin/listtable.php:157
+msgid "%s Used"
+msgstr "kullanılan %s"
+
+#: includes/admin/listtable/addpackage.php:114
+#: includes/admin/listtable/addpackage.php:188
+msgid "Set the total used out of limit available in package"
+msgstr "Sınırı paketinde kullanılabilir dışında kullanılan toplam ayarla"
+
+#: includes/admin/listtable/addpackage.php:122
+#: includes/admin/listtable/addpackage.php:196
+msgid "%s Posts"
+msgstr "%s mesaj"
+
+#: includes/admin/listtable/addpackage.php:123
+#: includes/admin/listtable/addpackage.php:197
+msgid "CSV (Comma Separated Value) of Post IDs used"
+msgstr "CSV (virgülle ayrılmış değer) sonrası kullanılan kimlik"
+
+#: includes/admin/listtable/addpackage.php:126
+#: includes/admin/listtable/addpackage.php:200
+msgid "Used posts &hellip;"
+msgstr "Mesajını kullanılan &hellip;"
+
+#: includes/admin/listtable/addpackage.php:231
+#: includes/admin/listtable.php:182
+msgid "User"
+msgstr "Kullanıcı"
+
+#: includes/admin/listtable/addpackage.php:234
+msgid "Guest"
+msgstr "Konuk"
+
+#: includes/admin/listtable/addpackage.php:239
+#: includes/admin/listtable.php:185
+msgid "Product"
+msgstr "Ürün"
+
+#: includes/admin/listtable/addpackage.php:240
+msgid "Optionally link this package to a product."
+msgstr "İsteğe bağlı olarak bu paketi bir ürüne bağlayın."
+
+#: includes/admin/listtable/addpackage.php:243
+msgid "Choose a product&hellip;"
+msgstr "Bir ürün seçmek &hellip;"
+
+#: includes/admin/listtable/addpackage.php:278
+#: includes/admin/listtable.php:184
+msgid "Status"
+msgstr "Durumu"
+
+#: includes/admin/listtable/addpackage.php:279
+msgid ""
+"Current status of the package.  Package must be active to show in user "
+"account and available to the user.  On-hold status normally means it's a "
+"subscription pending renewal payment."
+msgstr ""
+"Paketin geçerli durumu.  Paket kullanıcı hesabında göstermek için etkin ve "
+"kullanıcı için kullanılabilir durumda olmalıdır.  Üzerinde ayrı tutma durumu"
+" normal bir abonelik yenileme ödeme bekleyen olduğu anlamına gelir."
+
+#: includes/admin/listtable/addpackage.php:282
+msgid "Choose a status&hellip;"
+msgstr "Bir durum seçin &hellip;"
+
+#: includes/admin/listtable/addpackage.php:297
+#: includes/admin/listtable.php:187
+msgid "Order ID"
+msgstr "Sipariş No"
+
+#: includes/admin/listtable/addpackage.php:298
+msgid "Optionally link this package to an order."
+msgstr "İsteğe bağlı olarak bu paket siparişe bağlantı."
+
+#: includes/admin/listtable/addpackage.php:301
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/admin/listtable/addpackage.php:307
+msgid "Save Package"
+msgstr "Paketini kaydetmek"
+
+#: includes/admin/listtable/addpackage.php:329
+msgid ""
+"Please select a user from the dropdown to associate this user package with."
+msgstr ""
+"Lütfen bir kullanıcı bu kullanıcı paket ile ilişkilendirmek için açılan "
+"seçin."
+
+#: includes/admin/listtable/addpackage.php:332
+msgid ""
+"A status is required for a package, please select one from the dropdown "
+"(must be active to show in user account)"
+msgstr ""
+"Bir paket için gerekli bir durumdur, (kullanıcı hesabında göstermek için "
+"etkin olmalıdır) açılan lütfen birini"
+
+#: includes/admin/listtable/addpackage.php:425
+msgid "Package successfully saved"
+msgstr "Paket başarıyla kaydedildi"
+
+#: includes/admin/listtable.php:143 includes/admin/listtable.php:150
+#: includes/admin/listtable.php:155
+msgid "n/a"
+msgstr "n/a"
+
+#: includes/admin/listtable.php:160
+msgid "Subscription"
+msgstr "Abonelik"
+
+#: includes/admin/listtable.php:162
+msgid "Package"
+msgstr "Paket"
+
+#: includes/admin/listtable.php:165
+msgid "Edit"
+msgstr "Düzenle"
+
+#: includes/admin/listtable.php:166
+msgid "Delete"
+msgstr "Sil"
+
+#: includes/admin/listtable.php:183
+msgid "Type"
+msgstr "Türü"
+
+#: includes/admin/listtable.php:186
+msgid "Limits"
+msgstr "Sınırları"
+
+#: includes/admin/listtable.php:188
+msgid "Actions"
+msgstr "Eylemler"
+
+#: includes/admin/plugins/visibility/views/packages.php:19
+msgid "No Packages Found"
+msgstr "Hiçbir paketleri bulundu"
+
+#: includes/admin/plugins/visibility/views/packages.php:25
+msgid "Select a Package"
+msgstr "Bir paket seçin"
+
+#: includes/admin/plugins/visibility/views/packages.php:29
+#: includes/admin/plugins/visibility/views/packages.php:43
+msgid "%s Packages"
+msgstr "%s paketleri"
+
+#: includes/admin/plugins/visibility/views/packages.php:57
+#: includes/admin/plugins/visibility/views/packages.php:71
+msgid "WC Paid Listings %s Packages"
+msgstr "Listeleri %s paketleri ödenen WC"
+
+#: includes/admin/plugins/visibility.php:94
+#: includes/admin/plugins/visibility.php:182
+msgid "Packages"
+msgstr "Paketleri"
+
+#: includes/admin/settings/job.php:42 includes/functions.php:61
+#: includes/wc/job.php:38
+msgid "Job"
+msgstr "İş"
+
+#: includes/admin/settings/job.php:43
+msgid "Jobs"
+msgstr "İşleri"
+
+#: includes/admin/settings/job.php:51 includes/admin/settings/job.php:60
+#: includes/admin/settings/resume.php:68 includes/admin/settings/resume.php:77
+msgid "View %s"
+msgstr "%S göster"
+
+#: includes/admin/settings/job.php:61 includes/admin/settings/resume.php:78
+msgid "Require %1$s package to view a single %1$s"
+msgstr "Bir tek %1$ s görüntülemek için %1$ s paketi gerektirir"
+
+#: includes/admin/settings/job.php:62 includes/admin/settings/resume.php:79
+msgid ""
+"If enabled, visitors will be required to have a %s package with view "
+"permissions, to view any single listing page."
+msgstr ""
+"Etkinleştirilirse, ziyaretçi olarak belirlenmiş bir %s paketi herhangi bir "
+"tek liste sayfa görüntülemek için görünüm izinlere sahip olacaktır."
+
+#: includes/admin/settings/job.php:71 includes/admin/settings/job.php:80
+#: includes/admin/settings/resume.php:88 includes/admin/settings/resume.php:97
+msgid "Browse %s"
+msgstr "%S göz atın"
+
+#: includes/admin/settings/job.php:81 includes/admin/settings/resume.php:98
+msgid "Require %s package to browse listings"
+msgstr "%S paketi listesine Gözat gerektirir"
+
+#: includes/admin/settings/job.php:82 includes/admin/settings/resume.php:99
+msgid ""
+"If enabled, visitors will be required to have a package with browse "
+"permissions, to view the listing summary on the browse/list/search page."
+msgstr ""
+"Etkinleştirilirse, ziyaretçi olarak belirlenmiş bir paket listesi Özeti "
+"Gözat/liste/arama sayfası üzerinde görüntülemek için Gözat izinlere sahip "
+"olacaktır."
+
+#: includes/admin/settings/job.php:90 includes/admin/settings/job.php:99
+msgid "%1$s %2$s"
+msgstr "%1$ s %2$ s"
+
+#: includes/admin/settings/job.php:100
+msgid "Require %1$s package to %2$s a %1$s"
+msgstr "%1$ s paket için %2$ s %1$ s gerektirir"
+
+#: includes/admin/settings/job.php:101
+msgid ""
+"If enabled, visitors will be required to have a %1$s package with %2$s "
+"permissions, to %3$s a listing."
+msgstr ""
+"Etkinleştirilirse, ziyaretçi bir %1$ s paket %3$ s bir liste için %2$ s "
+"izinlere sahip olması gerekir."
+
+#: includes/admin/settings/job.php:111 includes/admin/settings/resume.php:128
+msgid "Type Colors"
+msgstr "Türü renkler"
+
+#: includes/admin/settings/job.php:120 includes/admin/settings/resume.php:137
+msgid "Customize Type Colors"
+msgstr "Türü renkleri özelleştirmek"
+
+#: includes/admin/settings/job.php:121 includes/admin/settings/resume.php:138
+msgid "Yes, enable custom type colors settings"
+msgstr "Evet, özel tür renk ayarlarını etkinleştir"
+
+#: includes/admin/settings/job.php:122 includes/admin/settings/resume.php:139
+msgid "Enable to customize the type colors."
+msgstr "Türü renklerini özelleştirmek için etkinleştirin."
+
+#: includes/admin/settings/job.php:130 includes/admin/settings/resume.php:156
+msgid "View Color"
+msgstr "Görünüm renk"
+
+#: includes/admin/settings/job.php:131 includes/admin/settings/resume.php:157
+msgid "Customize color to use for the the view type"
+msgstr "Özelleştirmek için rengi görünüm türü"
+
+#: includes/admin/settings/job.php:139 includes/admin/settings/resume.php:147
+msgid "Browse Color"
+msgstr "Renk göz atın"
+
+#: includes/admin/settings/job.php:140 includes/admin/settings/resume.php:148
+msgid "Customize color to use for the the browse type"
+msgstr "Özelleştirmek için rengi Gözat türü"
+
+#: includes/admin/settings/job.php:148
+msgid "%s Color"
+msgstr "%s renk"
+
+#: includes/admin/settings/job.php:149
+msgid "Customize color to use for the the %1$s type"
+msgstr "Özelleştirmek için rengi %1$ s tipi"
+
+#: includes/admin/settings/job.php:157
+msgid "%s Visibility"
+msgstr "%s görünürlük"
+
+#: includes/admin/settings/job.php:166 includes/admin/settings/resume.php:231
+msgid "%1$s Visibility Pages"
+msgstr "%1$ s görünürlük sayfa"
+
+#: includes/admin/settings/job.php:173 includes/admin/settings/resume.php:238
+msgid "Select Package Form Page"
+msgstr "Paket Form sayfası seçin"
+
+#: includes/admin/settings/job.php:174
+msgid ""
+"Select the page where you have placed the "
+"<code>[job_visibility_packages]</code> shortcode. This lets the plugin know "
+"where the form is located."
+msgstr ""
+"<code>[Job_visibility_packages]</code> kusur yerleştirildiği sayfa seçin. Bu"
+" formu nerede biliyor eklenti sağlar."
+
+#: includes/admin/settings/job.php:180 includes/admin/settings/resume.php:245
+msgid "Browse Package Page"
+msgstr "Paket sayfasına göz"
+
+#: includes/admin/settings/job.php:181
+msgid ""
+"Select the page where you have placed the <code>[browse_job_packages]</code>"
+" shortcode, <strong>if you plan to use custom select browse package form "
+"page (optional).</strong>"
+msgstr ""
+"Nerede <code>[browse_job_packages]</code> kusur yer sayfa seçin <strong>özel"
+" kullanmayı planlıyorsanız seçin paketi form sayfası (isteğe bağlı) göz "
+"atın.</strong>"
+
+#: includes/admin/settings/job.php:187 includes/admin/settings/resume.php:252
+msgid "View Package Page"
+msgstr "Görünüm paketi sayfası"
+
+#: includes/admin/settings/job.php:188
+msgid ""
+"Select the page where you have placed the <code>[view_job_packages]</code> "
+"shortcode, <strong>if you plan to use custom select view package form page "
+"(optional).</strong>"
+msgstr ""
+"Nerede <code>[view_job_packages]</code> kusur yer sayfa seçin <strong>özel "
+"seçin Görünüm paketi form sayfası (isteğe bağlı) kullanmayı "
+"planlıyorsanız,.</strong>"
+
+#: includes/admin/settings/job.php:194
+msgid "%s Package Page"
+msgstr "%s paketi sayfa"
+
+#: includes/admin/settings/job.php:195
+msgid ""
+"Select the page where you have placed the <code>[apply_job_packages]</code> "
+"shortcode, <strong>if you plan to use custom select %s package form page "
+"(optional).</strong>"
+msgstr ""
+"Nerede <code>[apply_job_packages]</code> kusur yer sayfa seçin <strong>özel "
+"seçin %s paketi form sayfası (isteğe bağlı) kullanmayı "
+"planlıyorsanız,.</strong>"
+
+#: includes/admin/settings/resume.php:42 includes/functions.php:118
+#: includes/wc/resume.php:39
+msgid "Resume"
+msgstr "Özgeçmiş"
+
+#: includes/admin/settings/resume.php:43
+msgid "Resumes"
+msgstr "Devam eder"
+
+#: includes/admin/settings/resume.php:45
+msgid "To override any package configuration above ... "
+msgstr ""
+"Yukarıdaki herhangi bir paketi yapılandırması geçersiz kılmak için... "
+
+#: includes/admin/settings/resume.php:50
+msgid "View %s Name"
+msgstr "Görünüm %s adı"
+
+#: includes/admin/settings/resume.php:59
+msgid "View Name Package"
+msgstr "Görünüm adı paket"
+
+#: includes/admin/settings/resume.php:60
+msgid "Require %s package to view resumes names"
+msgstr "Özgeçmişler adlarını görüntülemek için %s paketi gerektirir"
+
+#: includes/admin/settings/resume.php:61
+msgid ""
+"If enabled, visitors will be required to have a %1$s package with view names"
+" permissions, for %1$s names to be visible."
+msgstr ""
+"Etkinleştirilirse, ziyaretçi bir %1$ s paketi %1$ s adları görünür olmak "
+"için Görünüm adları izinlerine sahip olması gerekir."
+
+#: includes/admin/settings/resume.php:107
+#: includes/admin/settings/resume.php:116
+msgid "Contact %1$s"
+msgstr "%1$ s başvurun"
+
+#: includes/admin/settings/resume.php:117
+msgid "Require contact package to contact a %1$s"
+msgstr "%1$ s iletişim için iletişim paketi gerektirir"
+
+#: includes/admin/settings/resume.php:118
+msgid ""
+"If enabled, visitors will be required to have a %1$s package with contact "
+"permissions, to contact any single %1$s."
+msgstr ""
+"Etkinleştirilirse, ziyaretçi %1$ s paketiyle herhangi bir tek %1$ s "
+"bağlanmak için iletişim izinlerinizin olması gerekir."
+
+#: includes/admin/settings/resume.php:165
+msgid "View Name Color"
+msgstr "Görünüm adı renk"
+
+#: includes/admin/settings/resume.php:166
+msgid "Customize color to use for the the view name type"
+msgstr "Özelleştirmek için rengi görünüm adı türü"
+
+#: includes/admin/settings/resume.php:174
+msgid "Contact Color"
+msgstr "Renk başvurun"
+
+#: includes/admin/settings/resume.php:175
+msgid "Customize color to use for the the contact type"
+msgstr "Özelleştirmek için rengi ilgili kişi türü"
+
+#: includes/admin/settings/resume.php:187
+msgid "Capability Override Settings"
+msgstr "Özelliği geçersiz kılma ayarları"
+
+#: includes/admin/settings/resume.php:194
+msgid "View Resume name Capability"
+msgstr "Görünüm özgeçmiş adı özelliği"
+
+#: includes/admin/settings/resume.php:196
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view resumes "
+"names. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Özgeçmişler adlarını görüntülemek için gerekli <a href=\"%s\"> yetenek</a> "
+"girin. Roller/yetenekleri, virgülle ayrılmış listesini destekler."
+
+#: includes/admin/settings/resume.php:201
+msgid "Browse Resume Capability"
+msgstr "Devam etme yeteneği göz atın"
+
+#: includes/admin/settings/resume.php:203
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to browse resumes."
+" Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Özgeçmişler gözatmadan gerekli <a href=\"%s\"> yetenek</a> girin. "
+"Roller/yetenekleri, virgülle ayrılmış listesini destekler."
+
+#: includes/admin/settings/resume.php:208
+msgid "View Resume Capability"
+msgstr "Görünüm devam etme yeteneği"
+
+#: includes/admin/settings/resume.php:210
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view a single "
+"resume. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Tek bir özgeçmiş görüntülemek için gerekli <a href=\"%s\"> yetenek</a> "
+"girin. Roller/yetenekleri, virgülle ayrılmış listesini destekler."
+
+#: includes/admin/settings/resume.php:215
+msgid "Contact Details Capability"
+msgstr "İletişim bilgileri yeteneği"
+
+#: includes/admin/settings/resume.php:217
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view contact "
+"details on a resume. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Bir özgeçmiş üzerinde iletişim bilgilerini görüntülemek için gerekli <a "
+"href=\"%s\"> yetenek</a> girin. Roller/yetenekleri, virgülle ayrılmış "
+"listesini destekler."
+
+#: includes/admin/settings/resume.php:222
+msgid "Resume Visibility"
+msgstr "Görünürlük devam"
+
+#: includes/admin/settings/resume.php:239
+msgid ""
+"Select the page where you have placed the "
+"<code>[resume_visibility_packages]</code> shortcode. This lets the plugin "
+"know where the form is located."
+msgstr ""
+"<code>[Resume_visibility_packages]</code> kusur yerleştirildiği sayfa seçin."
+" Bu formu nerede biliyor eklenti sağlar."
+
+#: includes/admin/settings/resume.php:246
+msgid ""
+"Select the page where you have placed the "
+"<code>[browse_resume_packages]</code> shortcode, <strong>if you plan to use "
+"custom select browse package form page (optional).</strong>"
+msgstr ""
+"Nerede <code>[browse_resume_packages]</code> kusur yer sayfa seçin "
+"<strong>özel kullanmayı planlıyorsanız seçin paketi form sayfası (isteğe "
+"bağlı) göz atın.</strong>"
+
+#: includes/admin/settings/resume.php:253
+msgid ""
+"Select the page where you have placed the "
+"<code>[view_resume_packages]</code> shortcode, <strong>if you plan to use "
+"custom select view package form page (optional).</strong>"
+msgstr ""
+"Nerede <code>[view_resume_packages]</code> kusur yer sayfa seçin "
+"<strong>özel seçin Görünüm paketi form sayfası (isteğe bağlı) kullanmayı "
+"planlıyorsanız,.</strong>"
+
+#: includes/admin/settings/resume.php:259
+msgid "View Name Package Page"
+msgstr "Görünüm adı paket sayfası"
+
+#: includes/admin/settings/resume.php:260
+msgid ""
+"Select the page where you have placed the "
+"<code>[view_name_resume_packages]</code> shortcode, <strong>if you plan to "
+"use custom select view name package form page (optional).</strong>"
+msgstr ""
+"Nerede <code>[view_name_resume_packages]</code> kusur yer sayfa seçin "
+"<strong>özel seçin görünüm adı paket form sayfası (isteğe bağlı) kullanmayı "
+"planladığınız.</strong>"
+
+#: includes/admin/settings/resume.php:266
+msgid "Contact Package Page"
+msgstr "Paket sayfa iletişim"
+
+#: includes/admin/settings/resume.php:267
+msgid ""
+"Select the page where you have placed the "
+"<code>[contact_resume_packages]</code> shortcode, <strong>if you plan to use"
+" custom select contact package form page (optional).</strong>"
+msgstr ""
+"Nerede <code>[contact_resume_packages]</code> kusur yer sayfa seçin "
+"<strong>özel kullanmayı planlıyorsanız seçin paketi form sayfası (isteğe "
+"bağlı) başvurun.</strong>"
+
+#: includes/admin/settings.php:131
+msgid ", or use a"
+msgstr ", veya bir"
+
+#: includes/admin/settings.php:131
+msgid "<a href=\"%2$s\" target=\"_blank\">Template Override</a>: <code>%1$s</code>."
+msgstr "<a href=\"%2$s\" target=\"_blank\"> şablonu geçersiz</a>: <code>%1$ s</code>."
+
+#: includes/admin/settings.php:181
+msgid "None"
+msgstr "Hiçbiri"
+
+#: includes/admin/settings.php:182
+msgid "Red"
+msgstr "Kırmızı"
+
+#: includes/admin/settings.php:183
+msgid "Orange"
+msgstr "Turuncu"
+
+#: includes/admin/settings.php:184
+msgid "Yellow"
+msgstr "Sarı"
+
+#: includes/admin/settings.php:185
+msgid "Olive"
+msgstr "Zeytin"
+
+#: includes/admin/settings.php:186
+msgid "Green"
+msgstr "Yeşil"
+
+#: includes/admin/settings.php:187
+msgid "Teal"
+msgstr "Deniz mavisi"
+
+#: includes/admin/settings.php:188
+msgid "Blue"
+msgstr "Mavi"
+
+#: includes/admin/settings.php:189
+msgid "Violet"
+msgstr "Menekşe"
+
+#: includes/admin/settings.php:190
+msgid "Purple"
+msgstr "Mor"
+
+#: includes/admin/settings.php:191
+msgid "Pink"
+msgstr "Pembe"
+
+#: includes/admin/settings.php:192
+msgid "Grey"
+msgstr "Gri"
+
+#: includes/admin/settings.php:193
+msgid "Black"
+msgstr "Siyah"
+
+#: includes/admin/settings.php:214
+msgid "Redirects"
+msgstr "Yeniden yönlendirmeler"
+
+#: includes/admin/settings.php:223
+msgid "Customize Redirect"
+msgstr "Yönlendirme özelleştirmek"
+
+#: includes/admin/settings.php:224
+msgid "Yes, enable custom redirect settings"
+msgstr "Evet, özel yönlendirme ayarlarını etkinleştir"
+
+#: includes/admin/settings.php:225
+msgid "Enable to customize the redirect settings and configuration."
+msgstr ""
+"Yeniden yönlendirme ayarlarını ve yapılandırmasını değiştirmenizi sağlar."
+
+#: includes/admin/settings.php:233
+msgid "Wait Time"
+msgstr "Bekleme süresi"
+
+#: includes/admin/settings.php:234
+msgid ""
+"Amount of time (in seconds) to wait before executing redirect.  Set to 0 "
+"(zero) to immediately redirect."
+msgstr ""
+"Süreyi (saniye cinsinden) yönlendirme çalıştırmadan önce beklenecek.  Hemen "
+"yeniden yönlendirmek için 0 (sıfır) olarak ayarlayın."
+
+#: includes/admin/settings.php:241
+msgid "Hide All"
+msgstr "Tümünü Gizle"
+
+#: includes/admin/settings.php:242
+msgid "Yes, hide all page contents while showing the dimmer."
+msgstr "Evet, tüm sayfa içeriği dimmer gösterilen süre gizlemek."
+
+#: includes/admin/settings.php:243
+msgid ""
+"By default, when a redirect is enabled, a dimmer will be shown that covers "
+"the entire page contents with a loading icon in the middle, and notice text "
+"below it.  Enable this option to hide all content behind the dimmer (to only"
+" show loader and notice text)."
+msgstr ""
+"Bu yükleme simgesini orta ve bildirim metni altındaki tüm sayfa içeriğiyle "
+"özetliyor bir yönlendirme etkinleştirildiğinde, varsayılan olarak, bir "
+"dimmer gösterilecek.  (Yalnızca yükleyici ve bildirimi metnini göster için) "
+"dimmer arkasında tüm içeriği gizlemek için bu seçeneği etkinleştirin."
+
+#: includes/admin/settings.php:251
+msgid "White Dimmer"
+msgstr "Beyaz Dimmer"
+
+#: includes/admin/settings.php:252
+msgid "Yes, use the white (inverted) dimmer color."
+msgstr "Evet, beyaz (ters) dimmer renk kullanın."
+
+#: includes/admin/settings.php:253
+msgid ""
+"By default, the standard dimmer color is black, enable this setting to use "
+"the inverted color, white."
+msgstr ""
+"Varsayılan olarak, standart dimmer renk siyahtır, ters renk beyaz kullanmak "
+"bu ayarı etkinleştirin."
+
+#: includes/admin/settings.php:278 includes/admin/settings.php:287
+msgid "Semantic UI"
+msgstr "Anlamsal UI"
+
+#: includes/admin/settings.php:288
+msgid "Yes, enable <a href=\"%s\" target=\"_blank\">Semantic UI</a>"
+msgstr ""
+"Evet, <a href=\"%s\" target=\"_blank\"> Anlamsal kullanıcı Arabirimi</a> "
+"etkinleştir"
+
+#: includes/admin/settings.php:289
+msgid "Enable this to use and customize the Semantic UI styling."
+msgstr "Bu semantik UI stil özelleştirmek ve kullanmak etkinleştirin."
+
+#: includes/admin/settings.php:296
+msgid "Table Style"
+msgstr "Tablo stili"
+
+#: includes/admin/settings.php:297
+msgid ""
+"Yes, enable <a href=\"%s\" target=\"_blank\">Semantic UI</a> table styling "
+"for the My Packages list"
+msgstr ""
+"Evet, <a href=\"%s\" target=\"_blank\"> Anlamsal UI</a> tablo için My "
+"paketleri listesi styling etkinleştir"
+
+#: includes/admin/settings.php:298
+msgid ""
+"If enabled, the frontend user package list tables will use the Semantic UI "
+"styling."
+msgstr ""
+"Etkinleştirilirse, frontend kullanıcı paketi listede tablolar ve anlamsal UI"
+" stil kullanın."
+
+#: includes/admin/settings.php:306
+msgid "Table Color"
+msgstr "Tablo rengi"
+
+#: includes/admin/settings.php:307
+msgid "Customize color to use for the the table"
+msgstr "Özelleştirmek için kullanılacak renk tablosu"
+
+#: includes/admin/settings.php:343 includes/admin/wc.php:63
+msgid "Available Shortcodes:"
+msgstr "Kullanılabilir Shortcodes:"
+
+#: includes/admin/settings.php:375
+msgid "%1$s %2$s Placeholder"
+msgstr "%1$ s %2$ s yer tutucu"
+
+#: includes/admin/settings.php:376
+msgid ""
+"The content above will be shown when the user does not have permissions and "
+"a package is required"
+msgstr ""
+"İçeriği yukarıda-ecek var olmak göstermek ne zaman kullanıcı izinleri yok ve"
+" bir paket gereklidir"
+
+#: includes/admin/settings.php:404
+msgid "%1$s %2$s Redirect"
+msgstr "%1$ s %2$ s yeniden yönlendirme"
+
+#: includes/admin/settings.php:405
+msgid "Yes, redirect to the %1$s %2$s package select page"
+msgstr "Evet, %1$ s %2$ s paketi seçin sayfasına yönlendirme"
+
+#: includes/admin/settings.php:406
+msgid ""
+"If enabled, users without permissions will be redirected to the page "
+"(configured in Pages tab) to purchase or select package to use."
+msgstr ""
+"Etkinleştirilirse, erişim izinleri olmayan kullanıcılar sayfa (Sayfa "
+"sekmesinde yapılandırılmış) satın almak veya kullanmak için paket seçin "
+"yönlendirilecektir."
+
+#: includes/admin/settings.php:435
+msgid "%1$s %2$s Admin"
+msgstr "%1$ s %2$ s Admin"
+
+#: includes/admin/settings.php:436
+msgid "Yes, require administrators to have package"
+msgstr "Evet, paket Yöneticiler gerektirir"
+
+#: includes/admin/settings.php:437
+msgid ""
+"If enabled, administrators will be required to have a package with "
+"permissions for this type."
+msgstr ""
+"Etkinleştirilirse, yöneticiler bir paket bu türü için gerekli izinlere sahip"
+" olması gerekir."
+
+#: includes/admin/settings.php:466
+msgid "%1$s %2$s Redirect Notice"
+msgstr "%1$ s %2$ s yönlendirme bildirimi"
+
+#: includes/admin/settings.php:467
+msgid "Yes, use the %1$s %2$s placeholder as redirect notice"
+msgstr ""
+"Evet, sıra bildirimi yeniden yönlendirmek %1$ s %2$ s yer tutucu kullan"
+
+#: includes/admin/settings.php:468
+msgid ""
+"If enabled, the placeholder value will be used as the notice shown before "
+"redirecting (instead of default one)."
+msgstr ""
+"Etkinleştirilirse, yer tutucu değeri (varsayılan yerine) yeniden "
+"yönlendirmeden önce gösterilen uyarı olarak kullanılır."
+
+#: includes/admin/setup.php:34
+msgid "Setup"
+msgstr "Kurulum"
+
+#: includes/admin/setup.php:178 includes/admin/setup.php:223
+msgid "Starter Package"
+msgstr "Başlangıç paketi"
+
+#: includes/admin/setup.php:180
+msgid "View 1 Full Listing<br/>Browse All Listings"
+msgstr "1 tam listesi görüntülemek <br/> tüm listesine Gözat"
+
+#: includes/admin/setup.php:188 includes/admin/setup.php:233
+msgid "Plus Package"
+msgstr "Plus paketi"
+
+#: includes/admin/setup.php:190
+msgid ""
+"View 10 Full Listings<br/>Apply/Contact 5 Listings<br/>Browse All Listings"
+msgstr ""
+"10 tam listeleri görüntülemek <br/> 5 listeleri uygulamak/iletişim <br/> tüm"
+" listesine Gözat"
+
+#: includes/admin/setup.php:200 includes/admin/setup.php:247
+msgid "Premium Package"
+msgstr "Premium Paket"
+
+#: includes/admin/setup.php:202
+msgid ""
+"View Unlimited Full Listings<br/>Apply/Contact 10 Listings<br/>Browse All "
+"Listings"
+msgstr ""
+"Sınırsız tam listeleri görüntülemek <br/> 10 giriş uygulamak/iletişim <br/> "
+"tüm listesine Gözat"
+
+#: includes/admin/setup.php:212 includes/admin/setup.php:261
+msgid "Single Application/Contact"
+msgstr "Tek uygulama/iletişim"
+
+#: includes/admin/setup.php:214
+msgid "Apply/Contact 1 Listing"
+msgstr "1 listesi geçerli/iletişim"
+
+#: includes/admin/setup.php:225
+msgid "View 1 Full Resume<br/>Browse All Resumes"
+msgstr "1 tam özgeçmiş görüntülemek <br/> tüm Özgeçmişler göz atın"
+
+#: includes/admin/setup.php:235
+msgid ""
+"View 10 Full Resumes<br/>View 5 Candidate Full Names<br/>Contact 5 "
+"Candidates<br/>Browse All Resumes"
+msgstr ""
+"10 tam özgeçmiş görüntülemek <br/> 5 aday tam isimlerini <br/> 5 aday "
+"başvurun <br/> tüm Özgeçmişler göz atın"
+
+#: includes/admin/setup.php:249
+msgid ""
+"View Unlimited Full Resumes<br/>View Unlimited Candidate Full "
+"Names<br/>Contact 10 Candidates<br/>Browse All Resumes"
+msgstr ""
+"Sınırsız tam özgeçmiş görüntülemek <br/> sınırsız aday tam isimlerini <br/> "
+"10 adayı başvurun <br/> tüm Özgeçmişler göz atın"
+
+#: includes/admin/setup.php:263
+msgid "Contact 1 Candidate"
+msgstr "1 aday başvurun"
+
+#: includes/admin/setup.php:270
+msgid "Silver Full Name Package"
+msgstr "Gümüş tam adı paket"
+
+#: includes/admin/setup.php:272
+msgid "View 5 Candidate Full Names"
+msgstr "5 aday tam adları göster"
+
+#: includes/admin/setup.php:312
+msgid "A total of %d pages were successfully created!"
+msgstr "%D sayfa toplam başarıyla oluşturuldu!"
+
+#: includes/admin/setup.php:343
+msgid "A total of %d packages were successfully created!"
+msgstr "Toplam %d paketleri başarıyla oluşturuldu!"
+
+#: includes/admin/setup.php:350
+msgid "Job Manager Packages Setup"
+msgstr "İş Yöneticisi paketleri Kur"
+
+#: includes/admin/setup.php:353
+msgid "1. Introduction"
+msgstr "1. giriş"
+
+#: includes/admin/setup.php:354
+msgid "2. Page Setup"
+msgstr "2. sayfa yapısı"
+
+#: includes/admin/setup.php:357
+msgid "3. Resume Page Setup"
+msgstr "3. sayfa Kur'a devam et"
+
+#: includes/admin/setup.php:358
+msgid "4. Packages Setup"
+msgstr "4. paketleri Kurulum"
+
+#: includes/admin/setup.php:359
+msgid "5. Done"
+msgstr "5. bitti"
+
+#: includes/admin/setup.php:361
+msgid "3. Packages Setup"
+msgstr "3. paketleri Kurulum"
+
+#: includes/admin/setup.php:362
+msgid "4. Done"
+msgstr "4. bitti"
+
+#: includes/admin/setup.php:369
+msgid "Setup Wizard Introduction"
+msgstr "Kur Sihirbazı giriş"
+
+#: includes/admin/setup.php:371
+msgid "Thanks for installing <em>WP Job Manager Packages</em>!"
+msgstr "<em>WP iş Yöneticisi paketleri</em> yüklemek için teşekkürler!"
+
+#: includes/admin/setup.php:372
+msgid ""
+"This setup wizard will help you get started by creating the pages for "
+"package selection, and configuring those values in the settings for you."
+msgstr ""
+"Bu Kurulum Sihirbazı'nı paket seçimi için sayfaları oluşturma ve bu değerler"
+" sizin için ayarları yapılandırarak başlamanıza yardımcı olacaktır."
+
+#: includes/admin/setup.php:373
+msgid ""
+"If you want to skip the wizard and setup the pages and shortcodes yourself "
+"manually, you can do so very easily using any of the available shortcodes. "
+"Refer to the %sdocumentation%s for help."
+msgstr ""
+"Sihirbaz atlamak ve kendiniz el ile kurulum sayfaları ve shortcodes "
+"istiyorsanız, o kadar çok kolay kullanılabilir shortcodes birini kullanarak "
+"yapabilirsiniz. Yardım için % sdocumentation %s bakın."
+
+#: includes/admin/setup.php:378 includes/admin/setup.php:569
+msgid "WooCommerce Was Not Detected"
+msgstr "WooCommerce algılanmadı"
+
+#: includes/admin/setup.php:379 includes/admin/setup.php:570
+msgid ""
+"Currently the only integration available with WP Job Manager Packages, is "
+"through WooCommerce (although others will be added later). WooCommerce was "
+"not detected as being activated on your site."
+msgstr ""
+"Şu anda (diğerleri daha sonra eklenir rağmen) tek entegrasyon WP iş "
+"Yöneticisi paketleri ile WooCommerce ile. WooCommerce sitenizde aktif olarak"
+" algılanmadı."
+
+#: includes/admin/setup.php:380 includes/admin/setup.php:572
+msgid "Click Here to Active/Install WooCommerce"
+msgstr "Etkin/Install WooCommerce için tıklayınız"
+
+#: includes/admin/setup.php:382
+msgid ""
+"Once you have installed/activated, refresh this page, or click below to "
+"continue setup."
+msgstr ""
+"Sen yüklü/harekete geçirmek bir kez, bu sayfayı yenileyin veya kuruluma "
+"devam etmek için tıklayınız."
+
+#: includes/admin/setup.php:388
+msgid "Continue to page setup"
+msgstr "Sayfa yapısı için devam"
+
+#: includes/admin/setup.php:389
+msgid "Skip setup. I will setup the plugin manually"
+msgstr "Kurulum atlayın. El ile eklenti Kurulum"
+
+#: includes/admin/setup.php:395
+msgid "Page Setup"
+msgstr "Sayfa yapısı"
+
+#: includes/admin/setup.php:397 includes/admin/setup.php:477
+msgid ""
+"<em>WP Job Manager Packages</em> includes %1$sshortcodes%2$s which can be "
+"used within your %3$spages%2$s to output content. These can be created for "
+"you below. For more information on the available shortcodes, view the "
+"%4$sshortcode documentation%2$s."
+msgstr ""
+"<em>WP iş Yöneticisi paketleri</em>, %3$ spages %2$ s içinde içerik çıkış "
+"için kullanılabilir %1$ sshortcodes %2$ s içerir. Bunlar senin için "
+"aşağıdaki oluşturulabilir. Kullanılabilir shortcodes hakkında daha fazla "
+"bilgi için %4$ sshortcode belgelerine %2$ s görüntüleyin."
+
+#: includes/admin/setup.php:406 includes/admin/setup.php:484
+msgid "Page Title"
+msgstr "Sayfa başlığı"
+
+#: includes/admin/setup.php:407 includes/admin/setup.php:485
+msgid "Page Description"
+msgstr "Sayfa açıklaması"
+
+#: includes/admin/setup.php:408 includes/admin/setup.php:486
+msgid "Content Shortcode"
+msgstr "İçerik kusur"
+
+#: includes/admin/setup.php:416 includes/admin/setup.php:494
+msgid ""
+"This page will be used as the default page for package selection, and works "
+"for any of the package types (view, browse, etc)."
+msgstr ""
+"Bu sayfa için paket seçimi ve çalışır herhangi bir paket türleri (görünüm, "
+"Gözat, vb) için varsayılan sayfa olarak kullanılacaktır."
+
+#: includes/admin/setup.php:418 includes/admin/setup.php:496
+msgid ""
+"If you do not plan to use the specific package type shortcodes (for separate"
+" pages), you need to make sure this page exists as it will be used as the "
+"fallback page if the type specific pages do not exist (or are not configured"
+" in settings)."
+msgstr ""
+"(İçin ayrı sayfalar) belirli paket türü shortcodes kullanmayı "
+"düşünmüyorsanız, Bu sayfa türü belirli sayfalarda mevcut olmayan (veya "
+"ayarlarında yapılandırılmamış olan varsa) geri dönüş sayfası olarak "
+"kullanılacak gibi olduğundan emin olun gerekir."
+
+#: includes/admin/setup.php:426 includes/admin/setup.php:504
+msgid "This page will be used only for browse packages (not required)."
+msgstr ""
+"Bu sayfa yalnızca (gerekli değil) Gözat paketleri için kullanılacaktır."
+
+#: includes/admin/setup.php:428 includes/admin/setup.php:506
+msgid ""
+"This page is useful if you wish to customize the browse package selection "
+"page, separate from the standard one above."
+msgstr ""
+"Bu sayfa Gözat paket seçimi sayfası, standart diskten yukarıdaki ayrı "
+"özelleştirmek isterseniz yararlı olur."
+
+#: includes/admin/setup.php:436 includes/admin/setup.php:514
+msgid "This page will be used only for apply/contact packages (not required)."
+msgstr ""
+"Bu sayfa yalnızca için geçerlidir/iletişim paketleri (gerekli değil) "
+"kullanılır."
+
+#: includes/admin/setup.php:438 includes/admin/setup.php:516
+msgid ""
+"This page is useful if you wish to customize the apply/contact package "
+"selection page, separate from the standard one above."
+msgstr ""
+"Bu sayfa uygula/iletişim paket seçimi sayfası, standart diskten yukarıdaki "
+"ayrı özelleştirmek isterseniz yararlı olur."
+
+#: includes/admin/setup.php:446 includes/admin/setup.php:524
+msgid "This page will be used only for view listing packages (not required)."
+msgstr ""
+"Bu sayfa yalnızca (gerekli değil) paketleri liste görünümü için kullanılır."
+
+#: includes/admin/setup.php:448 includes/admin/setup.php:526
+#: includes/admin/setup.php:536
+msgid ""
+"This page is useful if you wish to customize the view listing package "
+"selection page, separate from the standard one above."
+msgstr ""
+"Bu sayfa standart diskten yukarıdaki ayrı görünümü liste paket seçimi sayfa "
+"özelleştirmek isterseniz yararlı olur."
+
+#: includes/admin/setup.php:457 includes/admin/setup.php:545
+#: includes/admin/setup.php:625
+msgid "Skip this step"
+msgstr "Bu adımı atla"
+
+#: includes/admin/setup.php:475
+msgid "Resume Page Setup"
+msgstr "Sayfa Kur'a devam et"
+
+#: includes/admin/setup.php:476
+msgid ""
+"It looks like you have WP Job Manager Resumes installed/activated, so let's "
+"setup those pages as well!"
+msgstr ""
+"Kurulum bu sayfaları yüklü /, o zaman harekete geçirmek WP iş Yöneticisi "
+"devam eder var gibi görünüyor!"
+
+#: includes/admin/setup.php:534
+msgid ""
+"This page will be used only for view name listing packages (not required)."
+msgstr ""
+"Bu sayfa yalnızca için Görünüm adı liste paketleri (gerekli değil) "
+"kullanılır."
+
+#: includes/admin/setup.php:563
+msgid "Package Setup"
+msgstr "Paket kurulum"
+
+#: includes/admin/setup.php:564
+msgid ""
+"If you would like, we can also setup <strong>DEMO</strong> packages for you "
+"to use.  This is not required, and is provided for demonstration purposes "
+"only, you will still need to customize the packages to suit your needs."
+msgstr ""
+"Eğer isterseniz, biz de <strong>DEMO</strong> paketleri kullanmak için "
+"kurulum olabilir.  Bu gerekli değildir ve yalnızca gösterim amacıyla hala "
+"sizin ihtiyaçlarınıza uygun paketleri özelleştirmek gerekir sağlanır."
+
+#: includes/admin/setup.php:571
+msgid ""
+"DO NOT proceed with this step before installing and activating WooCommerce!"
+"  WooCommerce must be installed and activated before adding packages!"
+msgstr ""
+"Yükleme ve etkinleştirme WooCommerce önce bu adımı ile devam etmeyin!  "
+"WooCommerce yüklü ve paketleri eklemeden önce harekete geçirmek gerekir!"
+
+#: includes/admin/setup.php:574
+msgid ""
+"Once you have installed AND activated, refresh this page, or click below to "
+"continue setup."
+msgstr ""
+"Bir kez sen-si olmak installed ve harekete geçirmek, bu sayfayı yenileyin ya"
+" da Kuruluma devam etmek için tıklayınız."
+
+#: includes/admin/setup.php:584
+msgid "Package Title"
+msgstr "Paket başlığı"
+
+#: includes/admin/setup.php:585
+msgid "Package Price"
+msgstr "Paket Fiyatı"
+
+#: includes/admin/setup.php:586
+msgid "Package Description"
+msgstr "Paket açıklaması"
+
+#: includes/admin/setup.php:592
+msgid "Listing Packages"
+msgstr "Liste paketleri"
+
+#: includes/admin/setup.php:607
+msgid "Resume Packages"
+msgstr "Özgeçmiş paketleri"
+
+#: includes/admin/setup.php:624
+msgid "Create Selected Packages"
+msgstr "Seçili paketleri oluşturmak"
+
+#: includes/admin/setup.php:643
+msgid "All Done!"
+msgstr "Hepsi bitti!"
+
+#: includes/admin/setup.php:645
+msgid ""
+"Looks like you're all set to start using the plugin. In case you're "
+"wondering where to go next:"
+msgstr ""
+"Görünüşe göre eklenti kullanmaya başlamak için hazırsınız. Nereye sonraki "
+"merak ediyorsanız durumda:"
+
+#: includes/admin/setup.php:648
+msgid "Tweak Visibility Settings"
+msgstr "Görünürlük ayarlarını tweak"
+
+#: includes/admin/setup.php:650
+msgid "Tweak Resume Visibility Settings"
+msgstr "Özgeçmiş görünürlük ayarlarını tweak"
+
+#: includes/admin/setup.php:652
+msgid "Add a new Product/Package"
+msgstr "Yeni ürün/paket ekleme"
+
+#: includes/admin/setup.php:655
+msgid ""
+"And don't forget, if you need any more help using <em>WP Job Manager "
+"Packages</em> you can consult the %1$sdocumentation%2$s or %3$scontact me "
+"via the support area%2$s!"
+msgstr ""
+"Ve unutma, <em>WP iş Yöneticisi paketleri</em> kullanarak daha fazla yardım "
+"gerekirse sen %1$ sdocumentation %2$ s veya %3$ scontact bana destek alan "
+"%2$ s ile danışabilirsiniz."
+
+#: includes/admin/setup.php:657
+msgid "Flow Process:"
+msgstr "Akış süreci:"
+
+#: includes/admin/setup.php:658
+msgid ""
+"To give you an understanding of how this plugin works, below is the flow "
+"process with examples. Examples below assume you have configured packages "
+"required for browse, view, and contact/apply.  This also assumes you have "
+"used the shortcode to output the form either on a page created in a previous"
+" setup step, or placed the shortcode inside the placeholder editor (in "
+"settings)."
+msgstr ""
+"Sen nasıl bu eklenti çalışır bir anlayış, aşağıda akış süreci örneklerle "
+"vermektir. Aşağıdaki örnekler Gözat, görünümü ve iletişim/uygulamak için "
+"gerekli paketleri yapılandırmış olduğunuz varsayıyorum.  Bu da Eğer kusur "
+"formu ya bir önceki kurulum adımda oluşturduğunuz bir sayfada çıkış için "
+"kullanılan veya yer tutucu Düzenleyicisi içinde kusur (ayarlar) "
+"yerleştirilen varsayar."
+
+#: includes/admin/setup.php:661
+msgid ""
+"User visits Listings page and is either redirected to package form page, or "
+"shown the package selection form."
+msgstr ""
+"Kullanıcı listeleri sayfasını ziyaret ve paket form sayfasına "
+"yönlendiriliyorsunuz veya paket seçimi formu gösterilmiştir."
+
+#: includes/admin/setup.php:664
+msgid ""
+"User selects a package, and is redirected to checkout page to complete "
+"purchase."
+msgstr ""
+"Kullanıcı bir paket seçer ve satın alma işlemini tamamlamak için ödeme "
+"sayfasına yönlendirilir."
+
+#: includes/admin/setup.php:667
+msgid ""
+"After purchase is complete, notification is shown with link to return to "
+"page user was previously viewing."
+msgstr ""
+"Satın alma tamamlandıktan sonra bildirim gösterilir sayfasına geri dönmek "
+"için bağlantı içeren kullanıcı önce görüntülemekte."
+
+#: includes/admin/setup.php:670
+msgid ""
+"When user selects a listing, they will be shown the listing like normal (if "
+"they have unlimited package), otherwise they are either redirected or shown "
+"the package form page (like above)."
+msgstr ""
+"Kullanıcı listesini seçtiğinde, bunlar normal gibi liste gösterilir (eğer "
+"onlar-si olmak sınırsız paket), aksi takdirde onlar yönlendirildi veya paket"
+" form sayfası (like yukarıda) gösterilen."
+
+#: includes/admin/setup.php:673
+msgid ""
+"User will be able to select an existing package from the package form to use"
+" (or they can select one to purchase).  Once they submit the form, they are "
+"redirected back to the listing to view like normal."
+msgstr ""
+"Kullanıcı-ecek muktedir kullanmak için paket formdan varolan bir paket seçin"
+" (ya da onlar satın almak için seçebilirsiniz).  Formu göndermeden sonra "
+"normal bir şekilde görüntülemek için listenin geri yönlendirilir."
+
+#: includes/admin/setup.php:676
+msgid "Few key points:"
+msgstr "Birkaç önemli noktaları:"
+
+#: includes/admin/setup.php:678
+msgid ""
+"If the user has an unlimited package, they will immediately be able to view,"
+" contact, etc.  Only packages with limits will require them to select a "
+"package to use."
+msgstr ""
+"Kullanıcı sınırsız paket varsa, onlar hemen görüntülemek, iletişim, vb "
+"mümkün olacak.  Sadece paketleri sınırları ile kullanmak için bir paket "
+"seçin etmelerini gerektirir."
+
+#: includes/admin/setup.php:679
+msgid ""
+"All current user packages can be viewed (along with associated listings) on "
+"the My Account page."
+msgstr ""
+"Tüm geçerli kullanıcı paketleri (yanı sıra ilişkili listelerinin) Hesabım "
+"sayfasında görüntülenebilir."
+
+#: includes/admin/setup.php:681
+msgid ""
+"Administrators are not required to have packages, make sure to use a "
+"separate user account to test with."
+msgstr ""
+"Yönetici olarak belirlenmiş paketleri ile test etmek için ayrı bir kullanıcı"
+" hesabı kullanmak emin olun, olmayan."
+
+#: includes/admin/setup.php:684
+msgid ""
+"This plugin has been tested with Listify, Jobify, Listable, Pet Sitter, and "
+"Babysitter themes ... if you have issues, or your theme is not compatible, "
+"please let me know!"
+msgstr ""
+"Bu eklenti Listify, Jobify, Listable, evde beslenen hayvan poz veren kimse "
+"ve çocuk bakıcısı Temalar... ile ilgili sorunların var veya temanızı uyumlu "
+"değilse test edilmiştir, lütfen bana bildirin!"
+
+#: includes/admin/setup.php:687
+msgid ""
+"To use a template override, make sure you place the file in the "
+"<code>jm_packages</code> directory/folder, in your child theme's "
+"directory/folder."
+msgstr ""
+"Bir şablonu geçersiz kullanmak için çocuk tema 's müdür/ağıl içinde "
+"<code>jm_packages</code> müdür/ağıl, belgili tanımlık eğe yer emin olun."
+
+#: includes/admin/setup.php:690
+msgid "Listable currently only supports the redirect feature."
+msgstr "Listable şu anda yalnızca yeniden yönlendirme özelliğini destekler."
+
+#: includes/admin/setup.php:693
+msgid "Subscriptions will be included in one of the next releases!"
+msgstr "Abonelikleri bir sonraki sürümleri dahil edilecek!"
+
+#: includes/admin/setup.php:696
+msgid ""
+"Currently WooCommerce is the only support backend payment/cart/e-commerce "
+"system.  Let me know if there's another one you would like integrated."
+msgstr ""
+"Şu anda WooCommerce tek destek backend ödeme/sepeti/e-ticaret sistemi "
+"çalışıyor.  Bana başka bir tane istiyorum entegre olup olmadığını bildirin."
+
+#: includes/admin/setup.php:699
+msgid "This plugin is full documented, check out the source code!"
+msgstr "Bu eklenti belgelenen, kontrol kaynak kodu dolu!"
+
+#: includes/admin/setup.php:704
+msgid "Support the Ongoing Development of the core plugin, WP Job Manager"
+msgstr "Çekirdek tapa, WP iş Yöneticisi devam eden gelişimini desteklemek"
+
+#: includes/admin/setup.php:705
+msgid ""
+"There are many ways to support open-source projects such as WP Job Manager, "
+"for example code contribution, translation, or even telling your friends how"
+" awesome the plugin (hopefully) is. Thanks in advance for your support - it "
+"is much appreciated!"
+msgstr ""
+"Açık kaynak projeleri WP iş Yöneticisi gibi örneğin kod katkı, çeviri, "
+"desteklemek için birçok yol vardır veya hatta arkadaşların nasıl korku veren"
+" tapa (umarım) söylüyor. Desteğiniz için şimdiden teşekkür ederiz - çok "
+"takdir etmek!"
+
+#: includes/admin/setup.php:707
+msgid "Leave a positive review"
+msgstr "Olumlu bir yorum bırakın"
+
+#: includes/admin/setup.php:708
+msgid "Contribute a localization"
+msgstr "Bir yerelleştirme katkıda"
+
+#: includes/admin/setup.php:709
+msgid "Contribute code or report a bug"
+msgstr "Kod katkıda bulunmak veya bir hata raporu"
+
+#: includes/admin/setup.php:710
+msgid "Help other users on the forums"
+msgstr "Diğer kullanıcıların forum yardım"
+
+#: includes/admin/wc/job.php:55 includes/admin/wc/resume.php:56
+msgid "Output price (cost) of package (you MUST include this!)"
+msgstr "Çıkış fiyatı (maliyet) paketi (Bu eklemeniz gerekir!)"
+
+#: includes/admin/wc/job.php:58 includes/admin/wc/resume.php:59
+msgid ""
+"Output package limit set for View (will output number or unlimited based on "
+"config)"
+msgstr ""
+"Çıkış paket sınırı (sayı veya sınırsız konfig temel çıktısı) görünüm için "
+"ayarla"
+
+#: includes/admin/wc/job.php:61 includes/admin/wc/resume.php:65
+msgid ""
+"Output package limit set for %s (will output number or unlimited based on "
+"config)"
+msgstr ""
+"Çıkış paket sınırı (sayı ya da sınırsız temel alınarak config çıktısı) %s "
+"için ayarla"
+
+#: includes/admin/wc/resume.php:62
+msgid ""
+"Output package limit set for View Name (will output number or unlimited "
+"based on config)"
+msgstr ""
+"Görünüm (sayı veya sınırsız temel alınarak config çıktısı) adı için "
+"ayarlanan çıkış paket sınırını"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:8
+#: includes/admin/wc/views/html-view-resume-package-data.php:4
+msgid "View %s?"
+msgstr "%S görünümünü?"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:9
+#: includes/admin/wc/views/html-view-resume-package-data.php:5
+msgid ""
+"Allow to view single listings with this package (if package required in "
+"settings)."
+msgstr ""
+"(Paket ayarlarında gerekirse) bu paket ile tek listeleri görüntülemek için "
+"izin verir."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:14
+#: includes/admin/wc/views/html-view-resume-package-data.php:11
+msgid "View %s limit"
+msgstr "Görünümü %s sınırı"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:15
+#: includes/admin/wc/views/html-view-resume-package-data.php:12
+msgid ""
+"The number of listings a user can view with this package.  Leave blank to "
+"allow unlimited."
+msgstr ""
+"Bir kullanıcı bu paketle birlikte görüntüleyebilirsiniz döküm sayısı.  İzin "
+"vermek için boş bırakın sınırsız."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:28
+#: includes/admin/wc/views/html-view-resume-package-data.php:25
+msgid "View Rollover?"
+msgstr "Görünümü Rollover?"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:29
+#: includes/admin/wc/views/html-view-job-package-data.php:57
+#: includes/admin/wc/views/html-view-resume-package-data.php:26
+#: includes/admin/wc/views/html-view-resume-package-data.php:54
+#: includes/admin/wc/views/html-view-resume-package-data.php:82
+msgid "Rollover (Add) unused credits to package when subscription is renewed."
+msgstr ""
+"Abonelik yenilendiğinde rollover (Ekle) kullanılmayan paket için kredi."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:36
+msgid ""
+"Allow to %s listings with this package (if package required in settings)."
+msgstr ""
+"(Paket ayarlarında gerekirse) %s listeleri bu paket ile olanak sağlar."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:42
+msgid "%1$s %2$s limit"
+msgstr "%1$ s %2$ s sınırı"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:43
+msgid ""
+"The number of listings a user can %s with this package. Leave blank to allow"
+" unlimited."
+msgstr ""
+"Döküm kullanıcı sayısı %s Bu paket ile olabilir. İzin vermek için boş "
+"bırakın sınırsız."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:56
+msgid "%1$s Rollover?"
+msgstr "%1$ s Rollover?"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:62
+#: includes/admin/wc/views/html-view-resume-package-data.php:88
+msgid "Allow Browsing?"
+msgstr "Tarama izin verilsin mi?"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:63
+#: includes/admin/wc/views/html-view-resume-package-data.php:89
+msgid ""
+"Allow to browse listings with this package (if package required in "
+"settings)."
+msgstr ""
+"(Paket ayarlarında gerekirse) bu paket ile listeleri taramak için izin "
+"verir."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:69
+#: includes/admin/wc/views/html-view-resume-package-data.php:95
+msgid "Use Short Description"
+msgstr "Kullanım Özeti"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:70
+#: includes/admin/wc/views/html-view-resume-package-data.php:96
+msgid ""
+"Enable this to use the short description for your own custom wording on the "
+"package selection form for listings."
+msgstr ""
+"Bu paket seçimi formunda listeleri için kendi özel ifadeler için kısa "
+"açıklama kullanmak etkinleştirin."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:32
+msgid "View %s Name?"
+msgstr "Görünüm %s adı?"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:33
+msgid ""
+"Allow to view %s name with this package (if package required in settings)."
+msgstr ""
+"%S adı ile bu paket (paket ayarlarında gerekirse) görüntülemek için izin "
+"verir."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:39
+msgid "View %s Name limit"
+msgstr "Görünümü %s adı sınırı"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:40
+msgid ""
+"The number of %s names a user can view with this package.  Leave blank to "
+"allow unlimited."
+msgstr ""
+"Bir kullanıcı bu paketle birlikte görüntüleyebilirsiniz %s adları sayısı.  "
+"İzin vermek için boş bırakın sınırsız."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:53
+msgid "View Name Rollover?"
+msgstr "Görünüm adı Rollover?"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:60
+msgid "Allow Contact?"
+msgstr "Temas izin verilsin mi?"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:61
+msgid ""
+"Allow to contact listing with this package (if package required in "
+"settings)."
+msgstr ""
+"(Paket ayarlarında gerekirse) ile bu paket listeleme başvurun olanak sağlar."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:67
+msgid "Contact %s limit"
+msgstr "İletişim %s sınırı"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:68
+msgid ""
+"The number of %s a user can contact with this package. Leave blank to allow "
+"unlimited."
+msgstr ""
+"%S bir kullanıcı sayısı bu paket ile irtibata geçebilirsiniz. İzin vermek "
+"için boş bırakın sınırsız."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:81
+msgid "Contact Rollover?"
+msgstr "Rollover iletişim?"
+
+#: includes/admin/wc.php:95
+msgid "%s Visibility Package"
+msgstr "%s görünürlük paketi"
+
+#: includes/admin/wc.php:98
+msgid "%s Visibility Subscription"
+msgstr "%s görünürlük abonelik"
+
+#: includes/admin/wc.php:203
+msgid "Fields"
+msgstr "Alanları"
+
+#: includes/admin.php:45 includes/admin.php:81
+msgid "Visibility Packages"
+msgstr "Görünürlük paketleri"
+
+#: includes/admin.php:68
+msgid "Package successfully deleted"
+msgstr "Paketi başarıyla silindi"
+
+#: includes/admin.php:82 includes/admin.php:105
+msgid "Add User Package"
+msgstr "Kullanıcı paket ekleme"
+
+#: includes/admin.php:150
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/form.php:114
+msgid "You can now %s this listing"
+msgstr "Bu liste şimdi %s olabilir"
+
+#: includes/functions.php:18
+msgid "Apply"
+msgstr "Uygula"
+
+#: includes/install.php:99
+msgid ""
+"A <a href=\"%s\">package</a> is required to browse listings, please select "
+"one from below."
+msgstr ""
+"Bir <a href=\"%s\"> paket</a> listesine Gözat, lütfen aşağıdan seçiniz için "
+"gereklidir."
+
+#: includes/install.php:102
+msgid "Please <a href=\"%s\">select a package</a> to browse resumes."
+msgstr "Lütfen gözatmak için <a href=\"%s\"> bir paket seçin</a> devam ettirir."
+
+#: includes/install.php:104
+msgid ""
+"Please select a <a href=\"%s\">package</a> to view the full candidate name."
+msgstr ""
+"Lütfen bir <a href=\"%s\"> paket</a> tam aday adını görüntülemek için seçin."
+
+#: includes/integration/job.php:241 includes/integration/resume.php:307
+msgid "Please <a href=\"%s\">select a package</a> to browse listings."
+msgstr "Listeleri gözatmak için <a href=\"%s\"> bir paket seçin</a> lütfen."
+
+#: includes/integration/job.php:255 includes/integration/resume.php:321
+msgid "Please <a href=\"%s\">select a package</a> to view this listing's details."
+msgstr ""
+"Bu liste'nın ayrıntılarını görüntülemek için <a href=\"%s\"> bir paket "
+"seçin</a> lütfen."
+
+#: includes/integration/job.php:269 includes/integration/resume.php:398
+msgid "Please <a href=\"%1$s\">select a package</a> to %2$s this listing."
+msgstr "%2$ s için <a href=\"%1$s\"> bir paket seçin</a> bu liste lütfen."
+
+#: includes/integration/resume.php:77
+msgid ""
+"A <a href=\"%s\">package</a> is required to view the full name on this "
+"listing."
+msgstr ""
+"Bir <a href=\"%s\"> paket</a> tam adı bu listeyi görüntülemek için "
+"gereklidir."
+
+#: includes/integration.php:74
+msgid ""
+"This page should redirect in <span class=\"jmpack_redirect_in\">%1$d</span> "
+"seconds, if not, please <a href=\"%2$s\">click here</a>."
+msgstr ""
+"Bu sayfa <span class=\"jmpack_redirect_in\"> %1$ d</span> saniye içinde "
+"yeniden yönlendirmek, eğer değilse, lütfen <a href=\"%2$s\"> buraya "
+"tıklayın</a>."
+
+#: includes/packages/job.php:53 includes/packages/resume.php:55
+msgid "Browse"
+msgstr "Gözat"
+
+#: includes/packages/job.php:59 includes/packages/resume.php:61
+msgid "View"
+msgstr "Görünüm"
+
+#: includes/packages/job.php:71
+msgid "apply to"
+msgstr "uygulamak"
+
+#: includes/packages/job.php:91 includes/packages/resume.php:94
+msgid "%s to "
+msgstr "%s için "
+
+#: includes/packages/job.php:95 includes/packages/resume.php:98
+msgid "view %s single listing"
+msgid_plural "view %s single listings"
+msgstr[0] "%s tek liste görüntüleme"
+msgstr[1] "%s tek listeleri görüntülemek"
+
+#: includes/packages/job.php:95 includes/packages/job.php:107
+#: includes/packages/resume.php:98 includes/packages/resume.php:109
+#: includes/packages/resume.php:121 includes/packages.php:69
+#: templates/my-packages.php:64
+msgid "unlimited"
+msgstr "sınırsız"
+
+#: includes/packages/job.php:107 includes/packages/resume.php:121
+msgid "%s %s listing"
+msgid_plural "%s %s listings"
+msgstr[0] "%s %s listeleme"
+msgstr[1] "%s %s listeleri"
+
+#: includes/packages/job.php:113 includes/packages/resume.php:127
+msgid ", and "
+msgstr ", ve "
+
+#: includes/packages/job.php:115 includes/packages/resume.php:129
+msgid "browse all listings"
+msgstr "tüm listesine Gözat"
+
+#: includes/packages/resume.php:67
+msgid "View Name"
+msgstr "Görünüm adı"
+
+#: includes/packages/resume.php:73 includes/themes/listify.php:49
+#: templates/access-denied-contact-details.php:6
+#: templates/jobify/access-denied-contact-details.php:6
+#: templates/jobify/access-denied-contact-details.php:11
+msgid "Contact"
+msgstr "İlgili kişi"
+
+#: includes/packages/resume.php:109
+msgid "view %s single listing name"
+msgid_plural "view %s single listing names"
+msgstr[0] "Görünüm %s tek liste adı"
+msgstr[1] "görünümü %s adlarını listeleyen tek"
+
+#: includes/shortcodes/job.php:71 includes/shortcodes/resume.php:54
+msgid "Select Browse Package"
+msgstr "Gözat paketi seçin"
+
+#: includes/shortcodes/job.php:72 includes/shortcodes/resume.php:55
+msgid "Choose a Browse Package"
+msgstr "Bir Gözat seçin"
+
+#: includes/shortcodes/job.php:113 includes/shortcodes/resume.php:96
+msgid "Select a View Package"
+msgstr "Bir görünüm paketi seçin"
+
+#: includes/shortcodes/job.php:114 includes/shortcodes/resume.php:97
+msgid "Choose a View Package"
+msgstr "Bir görünüm seçin"
+
+#: includes/shortcodes/job.php:137
+msgid "Select %s Package"
+msgstr "%S paketi seçin"
+
+#: includes/shortcodes/job.php:138
+msgid "Choose %s Package"
+msgstr "%S paketi seçin"
+
+#: includes/shortcodes/resume.php:120
+msgid "Select a View Name Package"
+msgstr "Bir görünüm adı paket seçin"
+
+#: includes/shortcodes/resume.php:121
+msgid "Choose a View Name Package"
+msgstr "Bir görünüm adı seçin"
+
+#: includes/shortcodes/resume.php:144
+msgid "Select Contact Package"
+msgstr "İletişim paketi seçin"
+
+#: includes/shortcodes/resume.php:145
+msgid "Choose Contact Package"
+msgstr "İletişim paketi seçin"
+
+#: includes/shortcodes.php:100 templates/listable/package-selection.php:72
+msgid "Select Package"
+msgstr "Paketi seçin"
+
+#: includes/shortcodes.php:101
+msgid "Choose a Package"
+msgstr "Bir paket seçin"
+
+#: includes/updater/smyles-updater-licenses.php:105
+#: includes/updater/smyles-updater-licenses.php:199
+msgid "Error"
+msgstr "Hata"
+
+#: includes/updater/smyles-updater-licenses.php:105
+msgid "Unable to determine slug to deactivate license."
+msgstr "Lisans devre dışı bırakmak için slug belirlenemiyor."
+
+#: includes/updater/smyles-updater-licenses.php:119
+msgid "Error determining the plugin Product ID."
+msgstr "Ürün kimliği eklenti saptama hatası"
+
+#: includes/updater/smyles-updater-licenses.php:123
+msgid "Error pulling the license key from option data."
+msgstr "Hata seçeneği veri--dan belgili tanımlık ruhsat anahtar çekerek."
+
+#: includes/updater/smyles-updater-licenses.php:127
+msgid ""
+"Error pulling the email associated with the license key from option data."
+msgstr ""
+"Hata seçeneği veri--dan belgili tanımlık ruhsat anahtar ile ilişkili e-posta"
+" çekmek."
+
+#: includes/updater/smyles-updater-licenses.php:131
+msgid ""
+"Error pulling the instance ID associated with the license key from option "
+"data."
+msgstr ""
+"Hata seçeneği veri--dan belgili tanımlık ruhsat anahtar ile ilişkili örnek "
+"Kımlığı çekerek."
+
+#: includes/updater/smyles-updater-licenses.php:144
+msgid ""
+"Connection failed to the License Key API server - possible server issue."
+msgstr ""
+"Bağlantı lisans anahtarı API sunucu - sunucusu olası sorunu başarısız oldu."
+
+#: includes/updater/smyles-updater-licenses.php:151
+msgid " Successfully Deactivated!"
+msgstr " Başarılı bir şekilde devre dışı!"
+
+#: includes/updater/smyles-updater-licenses.php:152
+msgid "You have successfully deactivated the %s license."
+msgstr "%S Lisans başarıyla sesli aramalar."
+
+#: includes/updater/smyles-updater-licenses.php:164
+#: includes/updater/smyles-updater-licenses.php:274
+msgid "Error!"
+msgstr "Hata!"
+
+#: includes/updater/smyles-updater-licenses.php:164
+msgid ""
+"The license has been successfully deactivated locally, but please visit your"
+" sMyles Plugins <a href=\"%s\" target=\"_blank\">My Account</a> page to "
+"verify this activation has been removed from our server.  There was an error"
+" automatically removing it, and chances are that is because it was already "
+"removed via your <a href=\"%s\" target=\"_blank\">My Account</a> page "
+"already.."
+msgstr ""
+"Lisans başarıyla yerel olarak devre dışı bırakıldı ama bu harekete geçirmek "
+"bizim sunucudan kaldırıldı doğrulamak için sMyles eklentileri <a href=\"%s\""
+" target=\"_blank\"> Hesabım</a> sayfasını ziyaret edin.  Otomatik olarak "
+"kaldırılırken bir hata oluştu, ve şansını zaten <a href=\"%s\" "
+"target=\"_blank\"> Hesap</a> sayfam zaten kaldırıldı çünkü..."
+
+#: includes/updater/smyles-updater-licenses.php:200
+msgid ""
+"Unable to determine slug, license key, and/or email to activate license, "
+"contact support."
+msgstr ""
+"Sülük, ruhsat anahtar ve/veya lisans etkinleştirmek, bize ulaşın e-posta "
+"belirlenemiyor."
+
+#: includes/updater/smyles-updater-licenses.php:259
+msgid " Successfully Activated!"
+msgstr " Muvaffakiyetli harekete geçirmek!"
+
+#: includes/updater/smyles-updater-licenses.php:259
+msgid ""
+"You have successfully activated the %s license, and will now be able to "
+"automatically upgrade this plugin through WordPress when an update is "
+"available."
+msgstr ""
+"%S Lisans başarıyla etkinleştirdiniz ve şimdi bir güncelleştirme "
+"kullanılabilir olduğunda otomatik olarak bu eklenti ile WordPress yükseltme "
+"mümkün olacak."
+
+#: includes/updater/smyles-updater-licenses.php:362
+msgid "Deactivate the %s License?"
+msgstr "%S Lisans devre dışı bırakmak?"
+
+#: includes/updater/smyles-updater-licenses.php:367
+msgid "No"
+msgstr "Hayır"
+
+#: includes/updater/smyles-updater-licenses.php:371
+msgid "Yes"
+msgstr "Evet"
+
+#: includes/updater/smyles-updater-licenses.php:377
+msgid "sMyles Plugins Licensing"
+msgstr "sMyles eklentileri lisans"
+
+#: includes/updater/smyles-updater-licenses.php:380
+msgid "Plugins"
+msgstr "Eklentileri"
+
+#: includes/updater/views/html-key-input.php:5
+msgid "License"
+msgstr "Lisans"
+
+#: includes/updater/views/html-key-input.php:8
+msgid ""
+"Enter your license key and email and hit return. A valid key is required for"
+" updates."
+msgstr ""
+"Lisans anahtarı ve e-posta girin ve vurmak dönmek. Bir sağlam temele "
+"oturtulmuş anahtar için güncelleştirmeler gereklidir."
+
+#: includes/updater/views/html-key-notice.php:6
+msgid "Hide notice"
+msgstr "Dikkat gizle"
+
+#: includes/updater/views/html-key-notice.php:7
+msgid ""
+"<a href=\"%1$s\">Please activate your license key</a> in order to receive "
+"updates and support for \"%2$s\"."
+msgstr ""
+"güncellemeleri almak ve \"%2$ s için\" destek için <a href=\"%1$s\"> lütfen "
+"harekete geçirmek ruhsat anahtar</a>."
+
+#: includes/updater/views/html-license-activate.php:3
+msgid "Activating ..."
+msgstr "Aktive..."
+
+#: includes/updater/views/html-license-activate.php:6
+#: includes/updater/views/html-license-deactivate.php:6
+msgid "Plugin Not Found"
+msgstr "Eklentisi bulunamadı"
+
+#: includes/updater/views/html-license-activate.php:18
+#: includes/updater/views/html-license-deactivate.php:20
+msgid "Details"
+msgstr "Ayrıntılar"
+
+#: includes/updater/views/html-license-activate.php:33
+#: includes/updater/views/html-license-deactivate.php:35
+msgid "Installed Version:"
+msgstr "Yüklü sürümü:"
+
+#: includes/updater/views/html-license-activate.php:54
+msgid "Activate License"
+msgstr "Lisans Etkinleştirme"
+
+#: includes/updater/views/html-license-deactivate.php:3
+msgid "Deactivating ..."
+msgstr "Devre dışı bırakma..."
+
+#: includes/updater/views/html-license-deactivate.php:43
+msgid "Activated:"
+msgstr "Aktif:"
+
+#: includes/updater/views/html-license-deactivate.php:64
+msgid "Deactivate License"
+msgstr "Lisans devre dışı bırakma"
+
+#: includes/updater/views/html-ms-update.php:6
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr ""
+"%1$ s yeni bir sürümü kullanılabilir. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\"> sürüm %3$ s ayrıntılarını görüntüleme</a> "
+"veya <a href=\"%4$s\"> Şimdi Güncelleştir</a>."
+
+#: includes/user.php:52
+msgid "This is not a valid package, or is an unlimited package."
+msgstr "Bu geçerli bir paket değildir, ya da sınırsız paket."
+
+#: includes/wc/wcp-job-visibility-package.php:58
+#: includes/wc/wcp-resume-visibility-package.php:61
+msgid "Add to cart"
+msgstr "Sepete Ekle"
+
+#: includes/wc/wcp-job-visibility-package.php:58
+#: includes/wc/wcp-resume-visibility-package.php:61
+msgid "Read More"
+msgstr "Daha fazla bilgi edinin"
+
+#: includes/wc.php:397 includes/wc.php:404
+msgid "page"
+msgstr "sayfa"
+
+#: includes/wc.php:402
+msgid "listing"
+msgstr "listeleme"
+
+#: includes/wc.php:412
+msgid ""
+"To go back to the %1$s you were previously viewing, <a href=\"%2$s\">click "
+"here</a>."
+msgstr ""
+"%1$ s için dönmek vardı önce görüntülemekte, <a href=\"%2$s\"> buraya "
+"tıklayın</a>."
+
+#: templates/jobify/job-application.php:8
+#: templates/jobify/job-application.php:13
+msgid "Apply for job"
+msgstr "İş başvurusu"
+
+#: templates/listable/package-selection.php:51
+msgid "Your packages"
+msgstr "Kendi paketleri"
+
+#: templates/listable/package-selection.php:65
+#: templates/package-selection.php:34
+msgid "%1$s out of %2$d available %3$s used"
+msgstr "%1$ s dışında kullanılan %2$ d kullanılabilir %3$ s"
+
+#: templates/listable/package-selection.php:80
+msgid "Purchase packages"
+msgstr "Paketleri satın almak"
+
+#: templates/listable/package-selection.php:105
+msgid "Free"
+msgstr "Ücretsiz"
+
+#: templates/listable/package-selection.php:141
+msgid "Get Started"
+msgstr "Başlamak"
+
+#: templates/listable/package-selection.php:150
+#: templates/package-selection.php:78
+msgid "No packages found"
+msgstr "Hiçbir paketleri bulundu"
+
+#: templates/my-packages-limit-details.php:5
+msgid "Feature"
+msgstr "Özelliği"
+
+#: templates/my-packages-limit-details.php:6
+msgid "Remaining"
+msgstr "Kalan"
+
+#: templates/my-packages-limit-details.php:7
+msgid "Used"
+msgstr "Kullanılan"
+
+#: templates/my-packages-limit-details.php:8
+msgid "Limit"
+msgstr "Sınırı"
+
+#: templates/my-packages-limit-details.php:29
+msgid "Listings"
+msgstr "Listeleri"
+
+#: templates/my-packages.php:18
+msgid "My %s Visibility Packages"
+msgstr "%S görünürlük paketlerimi"
+
+#: templates/my-packages.php:23
+msgid "Package Name"
+msgstr "Paket adı"
+
+#: templates/my-packages.php:24
+msgid "Package Features"
+msgstr "Paket özellikleri"
+
+#: templates/my-packages.php:66
+msgid "of"
+msgstr "in"
+
+#: templates/package-selection.php:22
+msgid "Your Packages:"
+msgstr "Kendi paketleri:"
+
+#: templates/package-selection.php:43
+msgid "Purchase Package:"
+msgstr "Satınalma paket:"
+
+#: wp-job-manager-packages.php:255
+msgid ""
+"WP Job Manager Packages requires WooCommerce Subscriptions 2.0 and above. "
+"Please upgrade as soon as possible!"
+msgstr ""
+"WP iş Yöneticisi paketleri gerektirir WooCommerce abonelikleri 2.0 ve üzeri."
+" Lütfen en kısa zamanda yükseltme!"
+
+#: wp-job-manager-packages.php:401
+msgid ""
+"WP Job Manager - Packages is missing requirements and has been <a "
+"href=\"%s\">deactivated</a>. Please make sure all requirements are "
+"available."
+msgstr ""
+"WP iş Yöneticisi - paketleri gereksinimleri eksiktir ve <a href=\"%s\"> "
+"devre dışı</a> oldu. Lütfen tüm gereksinimleri kullanılabilir olduğundan "
+"emin olun."
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Packages"
+msgstr "WP iş Yöneticisi - paketleri"
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.smyl.es/wp-job-manager-packages"
+msgstr "https://plugins.smyl.es/WP-Job-Manager-Packages"
+
+#. Description of the plugin/theme
+msgid ""
+"Create and configure custom Visibility Packages for WP Job Manager and WP "
+"Resume Manager to require visitors to purchase a package to view, apply, "
+"contact, browse, and more!"
+msgstr ""
+"Oluşturma ve özel görünürlük paketleri yapılandırma WP iş Yöneticisi ve WP "
+"özgeçmiş görüntülemek, uygulamak, temas, göz atmak için bir paketi satın "
+"almak ziyaret edenler gerektirecek şekilde Yöneticisi ve daha fazlası için!"
+
+#. Author of the plugin/theme
+msgid "Myles McNamara"
+msgstr "Myles McNamara"
+
+#. Author URI of the plugin/theme
+msgid "https://smyl.es"
+msgstr "https://smyl.es"
+
+#: includes/admin/setup.php:414
+msgctxt "Default page title (wizard)"
+msgid "Visibility Packages"
+msgstr "Görünürlük paketleri"
+
+#: includes/admin/setup.php:424
+msgctxt "Default page title (wizard)"
+msgid "Browse Packages"
+msgstr "Paketler Gözat"
+
+#: includes/admin/setup.php:434
+msgctxt "Default page title (wizard)"
+msgid "Apply/Contact Packages"
+msgstr "Paketleri uygulamak/iletişim"
+
+#: includes/admin/setup.php:444
+msgctxt "Default page title (wizard)"
+msgid "View Packages"
+msgstr "Görünümü paketleri"
+
+#: includes/admin/setup.php:492
+msgctxt "Default page title (wizard)"
+msgid "Resume Visibility Packages"
+msgstr "Görünürlük paketleri devam"
+
+#: includes/admin/setup.php:502
+msgctxt "Default page title (wizard)"
+msgid "Browse Resume Packages"
+msgstr "Özgeçmiş paketler Gözat"
+
+#: includes/admin/setup.php:512
+msgctxt "Default page title (wizard)"
+msgid "Resume Contact Packages"
+msgstr "İletişim paketleri devam"
+
+#: includes/admin/setup.php:522
+msgctxt "Default page title (wizard)"
+msgid "View Resume Packages"
+msgstr "Özgeçmiş paketler görünümü"
+
+#: includes/admin/setup.php:532
+msgctxt "Default page title (wizard)"
+msgid "View Name Resume Packages"
+msgstr "Görünüm adı özgeçmiş paketleri"

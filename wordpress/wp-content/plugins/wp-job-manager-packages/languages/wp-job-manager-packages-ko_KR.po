@@ -1,0 +1,1917 @@
+# Copyright (C) 2017 Myles McNamara
+# This file is distributed under the GPLv3.
+# Translators:
+# Myles McNamara <myles@smyl.es>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - Packages 1.0.0\n"
+"Report-Msgid-Bugs-To: http://plugins.smyl.es\n"
+"POT-Creation-Date: 2017-01-26 22:53:07+00:00\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Myles McNamara <myles@smyl.es>, 2017\n"
+"Language-Team: Korean (Korea) (https://www.transifex.com/smyles/teams/24600/ko_KR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: includes/admin/listtable/addpackage.php:72
+msgid "Package Type"
+msgstr "패키지 유형"
+
+#: includes/admin/listtable/addpackage.php:76
+#: includes/admin/listtable/addpackage.php:77
+msgid "%s Package"
+msgstr "%s 패키지"
+
+#: includes/admin/listtable/addpackage.php:92
+#: includes/admin/listtable/addpackage.php:166
+#: includes/admin/wc/views/html-view-job-package-data.php:35
+msgid "Allow %s?"
+msgstr "%S 허용?"
+
+#: includes/admin/listtable/addpackage.php:93
+#: includes/admin/listtable/addpackage.php:167
+msgid "Whether or not this user package supports this feature"
+msgstr "이 사용자 패키지는이 기능 지원 여부"
+
+#: includes/admin/listtable/addpackage.php:104
+#: includes/admin/listtable/addpackage.php:178
+msgid "%s Limit"
+msgstr "%s 제한"
+
+#: includes/admin/listtable/addpackage.php:105
+#: includes/admin/listtable/addpackage.php:179
+msgid "Set specific package limit (Use 0 for unlimited)"
+msgstr "설정된 패키지 제한 (0 사용 무제한)"
+
+#: includes/admin/listtable/addpackage.php:108
+#: includes/admin/listtable/addpackage.php:182 includes/admin/listtable.php:70
+#: includes/admin/listtable.php:105 includes/admin/listtable.php:157
+#: includes/admin/wc/views/html-view-job-package-data.php:17
+#: includes/admin/wc/views/html-view-job-package-data.php:45
+#: includes/admin/wc/views/html-view-resume-package-data.php:14
+#: includes/admin/wc/views/html-view-resume-package-data.php:42
+#: includes/admin/wc/views/html-view-resume-package-data.php:70
+msgid "Unlimited"
+msgstr "무제한"
+
+#: includes/admin/listtable/addpackage.php:113
+#: includes/admin/listtable/addpackage.php:187 includes/admin/listtable.php:75
+#: includes/admin/listtable.php:110 includes/admin/listtable.php:157
+msgid "%s Used"
+msgstr "%s 사용"
+
+#: includes/admin/listtable/addpackage.php:114
+#: includes/admin/listtable/addpackage.php:188
+msgid "Set the total used out of limit available in package"
+msgstr "총 패키지에서 사용할 수 있는 제한 사용 설정"
+
+#: includes/admin/listtable/addpackage.php:122
+#: includes/admin/listtable/addpackage.php:196
+msgid "%s Posts"
+msgstr "%s 게시물"
+
+#: includes/admin/listtable/addpackage.php:123
+#: includes/admin/listtable/addpackage.php:197
+msgid "CSV (Comma Separated Value) of Post IDs used"
+msgstr "게시물 Id 사용의 CSV (쉼표로 구분 된 값)"
+
+#: includes/admin/listtable/addpackage.php:126
+#: includes/admin/listtable/addpackage.php:200
+msgid "Used posts &hellip;"
+msgstr "게시물을 사용 &hellip;"
+
+#: includes/admin/listtable/addpackage.php:231
+#: includes/admin/listtable.php:182
+msgid "User"
+msgstr "사용자"
+
+#: includes/admin/listtable/addpackage.php:234
+msgid "Guest"
+msgstr "게스트"
+
+#: includes/admin/listtable/addpackage.php:239
+#: includes/admin/listtable.php:185
+msgid "Product"
+msgstr "제품"
+
+#: includes/admin/listtable/addpackage.php:240
+msgid "Optionally link this package to a product."
+msgstr "선택적으로이 패키지 제품 링크."
+
+#: includes/admin/listtable/addpackage.php:243
+msgid "Choose a product&hellip;"
+msgstr "제품을 선택 &hellip;"
+
+#: includes/admin/listtable/addpackage.php:278
+#: includes/admin/listtable.php:184
+msgid "Status"
+msgstr "상태"
+
+#: includes/admin/listtable/addpackage.php:279
+msgid ""
+"Current status of the package.  Package must be active to show in user "
+"account and available to the user.  On-hold status normally means it's a "
+"subscription pending renewal payment."
+msgstr ""
+"패키지의 현재 상태입니다.  패키지는 사용자 계정에 표시 되어 사용자에 게 제공 해야 합니다.  대기 상태는 일반적으로 그것은 갱신 지불"
+" 보류 구독 다는 것을 의미 합니다."
+
+#: includes/admin/listtable/addpackage.php:282
+msgid "Choose a status&hellip;"
+msgstr "상태를 선택 &hellip;"
+
+#: includes/admin/listtable/addpackage.php:297
+#: includes/admin/listtable.php:187
+msgid "Order ID"
+msgstr "주문 번호"
+
+#: includes/admin/listtable/addpackage.php:298
+msgid "Optionally link this package to an order."
+msgstr "필요에 따라 주문에이 패키지를 링크."
+
+#: includes/admin/listtable/addpackage.php:301
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/admin/listtable/addpackage.php:307
+msgid "Save Package"
+msgstr "패키지 저장"
+
+#: includes/admin/listtable/addpackage.php:329
+msgid ""
+"Please select a user from the dropdown to associate this user package with."
+msgstr "이 사용자 패키지 된 연결 드롭다운 목록에서 사용자를 선택 하십시오."
+
+#: includes/admin/listtable/addpackage.php:332
+msgid ""
+"A status is required for a package, please select one from the dropdown "
+"(must be active to show in user account)"
+msgstr "상태는 패키지에 대 한 필요, (사용자 계정에 표시를 활성화 해야 함)에서 하나를 선택 하십시오"
+
+#: includes/admin/listtable/addpackage.php:425
+msgid "Package successfully saved"
+msgstr "성공적으로 저장 된 패키지"
+
+#: includes/admin/listtable.php:143 includes/admin/listtable.php:150
+#: includes/admin/listtable.php:155
+msgid "n/a"
+msgstr "n/a"
+
+#: includes/admin/listtable.php:160
+msgid "Subscription"
+msgstr "구독"
+
+#: includes/admin/listtable.php:162
+msgid "Package"
+msgstr "패키지"
+
+#: includes/admin/listtable.php:165
+msgid "Edit"
+msgstr "편집"
+
+#: includes/admin/listtable.php:166
+msgid "Delete"
+msgstr "삭제"
+
+#: includes/admin/listtable.php:183
+msgid "Type"
+msgstr "유형"
+
+#: includes/admin/listtable.php:186
+msgid "Limits"
+msgstr "제한"
+
+#: includes/admin/listtable.php:188
+msgid "Actions"
+msgstr "작업"
+
+#: includes/admin/plugins/visibility/views/packages.php:19
+msgid "No Packages Found"
+msgstr "찾을 수 없는 패키지 않습니다"
+
+#: includes/admin/plugins/visibility/views/packages.php:25
+msgid "Select a Package"
+msgstr "패키지 선택"
+
+#: includes/admin/plugins/visibility/views/packages.php:29
+#: includes/admin/plugins/visibility/views/packages.php:43
+msgid "%s Packages"
+msgstr "%s 패키지"
+
+#: includes/admin/plugins/visibility/views/packages.php:57
+#: includes/admin/plugins/visibility/views/packages.php:71
+msgid "WC Paid Listings %s Packages"
+msgstr "화장실 목록 %s 패키지를 지불"
+
+#: includes/admin/plugins/visibility.php:94
+#: includes/admin/plugins/visibility.php:182
+msgid "Packages"
+msgstr "패키지"
+
+#: includes/admin/settings/job.php:42 includes/functions.php:61
+#: includes/wc/job.php:38
+msgid "Job"
+msgstr "작업"
+
+#: includes/admin/settings/job.php:43
+msgid "Jobs"
+msgstr "채용 정보"
+
+#: includes/admin/settings/job.php:51 includes/admin/settings/job.php:60
+#: includes/admin/settings/resume.php:68 includes/admin/settings/resume.php:77
+msgid "View %s"
+msgstr "뷰 %s"
+
+#: includes/admin/settings/job.php:61 includes/admin/settings/resume.php:78
+msgid "Require %1$s package to view a single %1$s"
+msgstr "%1 $의 패키지를 단일 %1$ s를 볼 필요"
+
+#: includes/admin/settings/job.php:62 includes/admin/settings/resume.php:79
+msgid ""
+"If enabled, visitors will be required to have a %s package with view "
+"permissions, to view any single listing page."
+msgstr "사용 하면 방문자가 어떤 단일 목록 페이지를 보려면 보기 권한이 %s 패키지를가지고 하는 데 필요한 것입니다."
+
+#: includes/admin/settings/job.php:71 includes/admin/settings/job.php:80
+#: includes/admin/settings/resume.php:88 includes/admin/settings/resume.php:97
+msgid "Browse %s"
+msgstr "%S 검색"
+
+#: includes/admin/settings/job.php:81 includes/admin/settings/resume.php:98
+msgid "Require %s package to browse listings"
+msgstr "%S 패키지가 목록 클릭 하 여 검색"
+
+#: includes/admin/settings/job.php:82 includes/admin/settings/resume.php:99
+msgid ""
+"If enabled, visitors will be required to have a package with browse "
+"permissions, to view the listing summary on the browse/list/search page."
+msgstr "사용 하면 방문자가 찾아보기/목록/검색 페이지에 목록을 요약을 보려면 찾아보기 권한으로 패키지 하는 데 필요한 것입니다."
+
+#: includes/admin/settings/job.php:90 includes/admin/settings/job.php:99
+msgid "%1$s %2$s"
+msgstr "%1$ s %2$ s"
+
+#: includes/admin/settings/job.php:100
+msgid "Require %1$s package to %2$s a %1$s"
+msgstr "%1 $의 패키지 %2$ s %1$ s 필요"
+
+#: includes/admin/settings/job.php:101
+msgid ""
+"If enabled, visitors will be required to have a %1$s package with %2$s "
+"permissions, to %3$s a listing."
+msgstr "사용 하는 경우 방문자는 $의 권한 %2, %3$ s는 목록에 포함 된 %1 $의 패키지를 해야 합니다."
+
+#: includes/admin/settings/job.php:111 includes/admin/settings/resume.php:128
+msgid "Type Colors"
+msgstr "종류 색상"
+
+#: includes/admin/settings/job.php:120 includes/admin/settings/resume.php:137
+msgid "Customize Type Colors"
+msgstr "사용자 지정 유형 색상"
+
+#: includes/admin/settings/job.php:121 includes/admin/settings/resume.php:138
+msgid "Yes, enable custom type colors settings"
+msgstr "네, 사용자 정의 유형 색상 설정 사용"
+
+#: includes/admin/settings/job.php:122 includes/admin/settings/resume.php:139
+msgid "Enable to customize the type colors."
+msgstr "종류 색상을 사용자 지정 하려면 사용 합니다."
+
+#: includes/admin/settings/job.php:130 includes/admin/settings/resume.php:156
+msgid "View Color"
+msgstr "보기 색"
+
+#: includes/admin/settings/job.php:131 includes/admin/settings/resume.php:157
+msgid "Customize color to use for the the view type"
+msgstr "사용할 색을 사용자 지정 된 뷰 형식"
+
+#: includes/admin/settings/job.php:139 includes/admin/settings/resume.php:147
+msgid "Browse Color"
+msgstr "색상 검색"
+
+#: includes/admin/settings/job.php:140 includes/admin/settings/resume.php:148
+msgid "Customize color to use for the the browse type"
+msgstr "사용할 색을 사용자 지정 된 탐색 유형"
+
+#: includes/admin/settings/job.php:148
+msgid "%s Color"
+msgstr "%s 색상"
+
+#: includes/admin/settings/job.php:149
+msgid "Customize color to use for the the %1$s type"
+msgstr "사용할 색을 사용자 지정 된 %1 $의 타입"
+
+#: includes/admin/settings/job.php:157
+msgid "%s Visibility"
+msgstr "%s 표시"
+
+#: includes/admin/settings/job.php:166 includes/admin/settings/resume.php:231
+msgid "%1$s Visibility Pages"
+msgstr "%1 $의 표시 페이지"
+
+#: includes/admin/settings/job.php:173 includes/admin/settings/resume.php:238
+msgid "Select Package Form Page"
+msgstr "선택 패키지 양식 페이지"
+
+#: includes/admin/settings/job.php:174
+msgid ""
+"Select the page where you have placed the "
+"<code>[job_visibility_packages]</code> shortcode. This lets the plugin know "
+"where the form is located."
+msgstr ""
+"<code>[Job_visibility_packages]</code> 단축을 배치 하는 페이지를 선택 합니다. 플러그인을 형태로 위치 "
+"알고 있습니다."
+
+#: includes/admin/settings/job.php:180 includes/admin/settings/resume.php:245
+msgid "Browse Package Page"
+msgstr "패키지 페이지 찾아보기"
+
+#: includes/admin/settings/job.php:181
+msgid ""
+"Select the page where you have placed the <code>[browse_job_packages]</code>"
+" shortcode, <strong>if you plan to use custom select browse package form "
+"page (optional).</strong>"
+msgstr ""
+"<code>[Browse_job_packages]</code> 단축을 배치 하는 페이지 선택 <strong>선택 검색 (선택 사항) "
+"패키지 양식 페이지 사용자 지정을 사용 하려는 경우.</strong>"
+
+#: includes/admin/settings/job.php:187 includes/admin/settings/resume.php:252
+msgid "View Package Page"
+msgstr "패키지 페이지 보기"
+
+#: includes/admin/settings/job.php:188
+msgid ""
+"Select the page where you have placed the <code>[view_job_packages]</code> "
+"shortcode, <strong>if you plan to use custom select view package form page "
+"(optional).</strong>"
+msgstr ""
+"<code>[View_job_packages]</code> 단축을 배치 하는 페이지 선택 <strong>(옵션) 사용자 지정 보기 선택 "
+"패키지 양식 페이지를 사용 하려는 경우.</strong>"
+
+#: includes/admin/settings/job.php:194
+msgid "%s Package Page"
+msgstr "%s 패키지 페이지"
+
+#: includes/admin/settings/job.php:195
+msgid ""
+"Select the page where you have placed the <code>[apply_job_packages]</code> "
+"shortcode, <strong>if you plan to use custom select %s package form page "
+"(optional).</strong>"
+msgstr ""
+"<code>[Apply_job_packages]</code> 단축을 배치 하는 페이지 선택 <strong>사용자 지정 선택 %s 패키지 "
+"양식 페이지 (옵션)을 사용 하려는 경우.</strong>"
+
+#: includes/admin/settings/resume.php:42 includes/functions.php:118
+#: includes/wc/resume.php:39
+msgid "Resume"
+msgstr "이력서"
+
+#: includes/admin/settings/resume.php:43
+msgid "Resumes"
+msgstr "이력서"
+
+#: includes/admin/settings/resume.php:45
+msgid "To override any package configuration above ... "
+msgstr "위의 모든 패키지 구성을 재정의 하... "
+
+#: includes/admin/settings/resume.php:50
+msgid "View %s Name"
+msgstr "뷰 %s 이름"
+
+#: includes/admin/settings/resume.php:59
+msgid "View Name Package"
+msgstr "보기 이름 패키지"
+
+#: includes/admin/settings/resume.php:60
+msgid "Require %s package to view resumes names"
+msgstr "%S 패키지가 이력서 이름을 보려면"
+
+#: includes/admin/settings/resume.php:61
+msgid ""
+"If enabled, visitors will be required to have a %1$s package with view names"
+" permissions, for %1$s names to be visible."
+msgstr "사용 하는 경우, %1 $의 이름 볼 수 있도록 보기 이름 권한을 %1$ s 패키지에 방문자를 해야 합니다."
+
+#: includes/admin/settings/resume.php:107
+#: includes/admin/settings/resume.php:116
+msgid "Contact %1$s"
+msgstr "%1$ s 문의"
+
+#: includes/admin/settings/resume.php:117
+msgid "Require contact package to contact a %1$s"
+msgstr "%1$ s에 연결할 연락처 패키지가"
+
+#: includes/admin/settings/resume.php:118
+msgid ""
+"If enabled, visitors will be required to have a %1$s package with contact "
+"permissions, to contact any single %1$s."
+msgstr "사용 하면 방문자가 어떤 단일 %1$ s에 연결할 연락처 권한 가진 %1$ s 패키지 하는 데 필요한 것입니다."
+
+#: includes/admin/settings/resume.php:165
+msgid "View Name Color"
+msgstr "보기 이름 색상"
+
+#: includes/admin/settings/resume.php:166
+msgid "Customize color to use for the the view name type"
+msgstr "사용할 색을 사용자 지정 된 보기 이름 형식"
+
+#: includes/admin/settings/resume.php:174
+msgid "Contact Color"
+msgstr "색상 문의"
+
+#: includes/admin/settings/resume.php:175
+msgid "Customize color to use for the the contact type"
+msgstr "사용할 색을 사용자 지정 된 연락처 유형"
+
+#: includes/admin/settings/resume.php:187
+msgid "Capability Override Settings"
+msgstr "기능 재정의 설정"
+
+#: includes/admin/settings/resume.php:194
+msgid "View Resume name Capability"
+msgstr "보기 이력서 이름 기능"
+
+#: includes/admin/settings/resume.php:196
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view resumes "
+"names. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"이력서 이름을 보려면 하는 데 필요한 <a href=\"%s\"> 기능</a>을 입력 합니다. 쉼표로 구분 된 목록이 역할/기능을 "
+"지원합니다."
+
+#: includes/admin/settings/resume.php:201
+msgid "Browse Resume Capability"
+msgstr "이력서 기능 찾아보기"
+
+#: includes/admin/settings/resume.php:203
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to browse resumes."
+" Supports a comma separated list of roles/capabilities."
+msgstr ""
+"이력서를 검색 하는 데 필요한 <a href=\"%s\"> 기능</a>을 입력 합니다. 쉼표로 구분 된 목록이 역할/기능을 지원합니다."
+
+#: includes/admin/settings/resume.php:208
+msgid "View Resume Capability"
+msgstr "보기 이력서 기능"
+
+#: includes/admin/settings/resume.php:210
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view a single "
+"resume. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"하나의 이력서를 보고 하는 데 필요한 <a href=\"%s\"> 기능</a>을 입력 합니다. 쉼표로 구분 된 목록이 역할/기능을 "
+"지원합니다."
+
+#: includes/admin/settings/resume.php:215
+msgid "Contact Details Capability"
+msgstr "연락처 기능"
+
+#: includes/admin/settings/resume.php:217
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view contact "
+"details on a resume. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"이력서에 연락처를 확인 하는 데 필요한 <a href=\"%s\"> 기능</a>을 입력 합니다. 쉼표로 구분 된 목록이 역할/기능을 "
+"지원합니다."
+
+#: includes/admin/settings/resume.php:222
+msgid "Resume Visibility"
+msgstr "표시를 다시 시작"
+
+#: includes/admin/settings/resume.php:239
+msgid ""
+"Select the page where you have placed the "
+"<code>[resume_visibility_packages]</code> shortcode. This lets the plugin "
+"know where the form is located."
+msgstr ""
+"<code>[Resume_visibility_packages]</code> 단축을 배치 하는 페이지를 선택 합니다. 플러그인을 형태로 "
+"위치 알고 있습니다."
+
+#: includes/admin/settings/resume.php:246
+msgid ""
+"Select the page where you have placed the "
+"<code>[browse_resume_packages]</code> shortcode, <strong>if you plan to use "
+"custom select browse package form page (optional).</strong>"
+msgstr ""
+"<code>[Browse_resume_packages]</code> 단축을 배치 하는 페이지 선택 <strong>선택 검색 (선택 사항)"
+" 패키지 양식 페이지 사용자 지정을 사용 하려는 경우.</strong>"
+
+#: includes/admin/settings/resume.php:253
+msgid ""
+"Select the page where you have placed the "
+"<code>[view_resume_packages]</code> shortcode, <strong>if you plan to use "
+"custom select view package form page (optional).</strong>"
+msgstr ""
+"<code>[View_resume_packages]</code> 단축을 배치 하는 페이지 선택 <strong>(옵션) 사용자 지정 보기 "
+"선택 패키지 양식 페이지를 사용 하려는 경우.</strong>"
+
+#: includes/admin/settings/resume.php:259
+msgid "View Name Package Page"
+msgstr "보기 이름 패키지 페이지"
+
+#: includes/admin/settings/resume.php:260
+msgid ""
+"Select the page where you have placed the "
+"<code>[view_name_resume_packages]</code> shortcode, <strong>if you plan to "
+"use custom select view name package form page (optional).</strong>"
+msgstr ""
+"<code>[View_name_resume_packages]</code> 단축을 배치 하는 페이지 선택 <strong>이름 패키지 양식 "
+"페이지 사용자 지정 보기 선택 (선택 사항)을 사용 하려는 경우.</strong>"
+
+#: includes/admin/settings/resume.php:266
+msgid "Contact Package Page"
+msgstr "패키지 페이지 문의"
+
+#: includes/admin/settings/resume.php:267
+msgid ""
+"Select the page where you have placed the "
+"<code>[contact_resume_packages]</code> shortcode, <strong>if you plan to use"
+" custom select contact package form page (optional).</strong>"
+msgstr ""
+"<code>[Contact_resume_packages]</code> 단축을 배치 하는 페이지 선택 <strong>선택 연락처 (선택 "
+"사항) 패키지 양식 페이지 사용자 지정을 사용 하려는 경우.</strong>"
+
+#: includes/admin/settings.php:131
+msgid ", or use a"
+msgstr "또는 사용 하는"
+
+#: includes/admin/settings.php:131
+msgid "<a href=\"%2$s\" target=\"_blank\">Template Override</a>: <code>%1$s</code>."
+msgstr "<a href=\"%2$s\" target=\"_blank\"> 서식 파일 재정의</a>: <code>%1$ s</code>."
+
+#: includes/admin/settings.php:181
+msgid "None"
+msgstr "없음"
+
+#: includes/admin/settings.php:182
+msgid "Red"
+msgstr "레드"
+
+#: includes/admin/settings.php:183
+msgid "Orange"
+msgstr "오렌지"
+
+#: includes/admin/settings.php:184
+msgid "Yellow"
+msgstr "노란색"
+
+#: includes/admin/settings.php:185
+msgid "Olive"
+msgstr "올리브"
+
+#: includes/admin/settings.php:186
+msgid "Green"
+msgstr "그린"
+
+#: includes/admin/settings.php:187
+msgid "Teal"
+msgstr "청록"
+
+#: includes/admin/settings.php:188
+msgid "Blue"
+msgstr "블루"
+
+#: includes/admin/settings.php:189
+msgid "Violet"
+msgstr "바이올렛"
+
+#: includes/admin/settings.php:190
+msgid "Purple"
+msgstr "보라색"
+
+#: includes/admin/settings.php:191
+msgid "Pink"
+msgstr "핑크"
+
+#: includes/admin/settings.php:192
+msgid "Grey"
+msgstr "그레이"
+
+#: includes/admin/settings.php:193
+msgid "Black"
+msgstr "블랙"
+
+#: includes/admin/settings.php:214
+msgid "Redirects"
+msgstr "리디렉션"
+
+#: includes/admin/settings.php:223
+msgid "Customize Redirect"
+msgstr "리디렉션을 사용자 지정"
+
+#: includes/admin/settings.php:224
+msgid "Yes, enable custom redirect settings"
+msgstr "예, 사용자 지정 리디렉션 설정"
+
+#: includes/admin/settings.php:225
+msgid "Enable to customize the redirect settings and configuration."
+msgstr "리디렉션 설정 및 구성 사용자 지정을 사용 합니다."
+
+#: includes/admin/settings.php:233
+msgid "Wait Time"
+msgstr "대기 시간"
+
+#: includes/admin/settings.php:234
+msgid ""
+"Amount of time (in seconds) to wait before executing redirect.  Set to 0 "
+"(zero) to immediately redirect."
+msgstr "시간 (초)에 리디렉션 실행 하기 전에 기다려야.  즉시를 0 (영)으로 설정 합니다."
+
+#: includes/admin/settings.php:241
+msgid "Hide All"
+msgstr "모두 숨기기"
+
+#: includes/admin/settings.php:242
+msgid "Yes, hide all page contents while showing the dimmer."
+msgstr "네, 제 광 기를 보여주는 하는 동안 모든 페이지 내용을 숨깁니다."
+
+#: includes/admin/settings.php:243
+msgid ""
+"By default, when a redirect is enabled, a dimmer will be shown that covers "
+"the entire page contents with a loading icon in the middle, and notice text "
+"below it.  Enable this option to hide all content behind the dimmer (to only"
+" show loader and notice text)."
+msgstr ""
+"기본적으로 리디렉션을 사용 하면 주차 표시 됩니다 그 중간, 아래 공지 텍스트에 로딩 아이콘이 전체 페이지 내용을 다룹니다.  주차 (만"
+" 보기 로더 및 통지 텍스트에) 뒤에 모든 콘텐츠를 숨기려면이 옵션을 사용 합니다."
+
+#: includes/admin/settings.php:251
+msgid "White Dimmer"
+msgstr "흰색 주차"
+
+#: includes/admin/settings.php:252
+msgid "Yes, use the white (inverted) dimmer color."
+msgstr "네, 화이트 (반전된) 주차 색상을 사용 합니다."
+
+#: includes/admin/settings.php:253
+msgid ""
+"By default, the standard dimmer color is black, enable this setting to use "
+"the inverted color, white."
+msgstr "기본적으로 표준 주차 색상은 검은색, 반전된 색상, 흰색을 사용 하 여이 설정을 활성화."
+
+#: includes/admin/settings.php:278 includes/admin/settings.php:287
+msgid "Semantic UI"
+msgstr "의미 체계 UI"
+
+#: includes/admin/settings.php:288
+msgid "Yes, enable <a href=\"%s\" target=\"_blank\">Semantic UI</a>"
+msgstr "네, <a href=\"%s\" target=\"_blank\"> 의미 UI</a> 활성화"
+
+#: includes/admin/settings.php:289
+msgid "Enable this to use and customize the Semantic UI styling."
+msgstr "사용 하 고 의미 체계 UI 스타일을 사용자 지정이 가능"
+
+#: includes/admin/settings.php:296
+msgid "Table Style"
+msgstr "표 스타일"
+
+#: includes/admin/settings.php:297
+msgid ""
+"Yes, enable <a href=\"%s\" target=\"_blank\">Semantic UI</a> table styling "
+"for the My Packages list"
+msgstr ""
+"네, <a href=\"%s\" target=\"_blank\"> 의미 UI</a> 테이블 내 패키지 목록에 대 한 스타일을 사용 하도록"
+" 설정"
+
+#: includes/admin/settings.php:298
+msgid ""
+"If enabled, the frontend user package list tables will use the Semantic UI "
+"styling."
+msgstr "사용 하는 경우 프런트 엔드 사용자 패키지 목록 테이블 의미 UI 스타일을 사용 합니다."
+
+#: includes/admin/settings.php:306
+msgid "Table Color"
+msgstr "테이블 색상"
+
+#: includes/admin/settings.php:307
+msgid "Customize color to use for the the table"
+msgstr "사용할 색을 사용자 지정 된 테이블"
+
+#: includes/admin/settings.php:343 includes/admin/wc.php:63
+msgid "Available Shortcodes:"
+msgstr "사용할 수 있는 단축:"
+
+#: includes/admin/settings.php:375
+msgid "%1$s %2$s Placeholder"
+msgstr "%1$ s %2$ s 개체 틀"
+
+#: includes/admin/settings.php:376
+msgid ""
+"The content above will be shown when the user does not have permissions and "
+"a package is required"
+msgstr "사용자 권한이 없는 패키지는 필요한 때에 위의 콘텐츠를 나타납니다."
+
+#: includes/admin/settings.php:404
+msgid "%1$s %2$s Redirect"
+msgstr "%1$ s %2$ s 리디렉션"
+
+#: includes/admin/settings.php:405
+msgid "Yes, redirect to the %1$s %2$s package select page"
+msgstr "%1$ s %2 $의 패키지 선택 페이지에서 예, 이동"
+
+#: includes/admin/settings.php:406
+msgid ""
+"If enabled, users without permissions will be redirected to the page "
+"(configured in Pages tab) to purchase or select package to use."
+msgstr ""
+"사용 하는 경우 권한이 없는 사용자가 리디렉션됩니다 페이지 (페이지 탭에서 구성)에 구입 하거나 사용 하는 패키지를 선택 하."
+
+#: includes/admin/settings.php:435
+msgid "%1$s %2$s Admin"
+msgstr "%1$ s %2 $의 관리"
+
+#: includes/admin/settings.php:436
+msgid "Yes, require administrators to have package"
+msgstr "예, 관리자가 패키지 필요로"
+
+#: includes/admin/settings.php:437
+msgid ""
+"If enabled, administrators will be required to have a package with "
+"permissions for this type."
+msgstr "사용 하는 경우 관리자는이 유형에 대 한 사용 권한 가진 패키지를 해야 합니다."
+
+#: includes/admin/settings.php:466
+msgid "%1$s %2$s Redirect Notice"
+msgstr "%1$ s %2 $의 이동 공지"
+
+#: includes/admin/settings.php:467
+msgid "Yes, use the %1$s %2$s placeholder as redirect notice"
+msgstr "예, %1$ s %2$ s 개체 틀으로 이동 통지를 사용 하 여"
+
+#: includes/admin/settings.php:468
+msgid ""
+"If enabled, the placeholder value will be used as the notice shown before "
+"redirecting (instead of default one)."
+msgstr "사용 하는 경우 자리 표시자 값 표시 (기본) 대신 리디렉션하기 전에 통지로 사용 됩니다."
+
+#: includes/admin/setup.php:34
+msgid "Setup"
+msgstr "설치"
+
+#: includes/admin/setup.php:178 includes/admin/setup.php:223
+msgid "Starter Package"
+msgstr "스타터 패키지"
+
+#: includes/admin/setup.php:180
+msgid "View 1 Full Listing<br/>Browse All Listings"
+msgstr "1 전체 목록 보기 <br/> 모든 목록 찾아보기"
+
+#: includes/admin/setup.php:188 includes/admin/setup.php:233
+msgid "Plus Package"
+msgstr "플러스 패키지"
+
+#: includes/admin/setup.php:190
+msgid ""
+"View 10 Full Listings<br/>Apply/Contact 5 Listings<br/>Browse All Listings"
+msgstr "10 전체 목록 보기 <br/> 5 목록 적용/연락처 <br/> 모든 목록 찾아보기"
+
+#: includes/admin/setup.php:200 includes/admin/setup.php:247
+msgid "Premium Package"
+msgstr "프리미엄 패키지"
+
+#: includes/admin/setup.php:202
+msgid ""
+"View Unlimited Full Listings<br/>Apply/Contact 10 Listings<br/>Browse All "
+"Listings"
+msgstr "무제한 전체 목록 보기 <br/> 10 목록 적용/연락처 <br/> 모든 목록 찾아보기"
+
+#: includes/admin/setup.php:212 includes/admin/setup.php:261
+msgid "Single Application/Contact"
+msgstr "단일 응용 프로그램/연락처"
+
+#: includes/admin/setup.php:214
+msgid "Apply/Contact 1 Listing"
+msgstr "1 목록 적용/연락처"
+
+#: includes/admin/setup.php:225
+msgid "View 1 Full Resume<br/>Browse All Resumes"
+msgstr "1 전체 이력서 보기 <br/> 모든 이력서 검색"
+
+#: includes/admin/setup.php:235
+msgid ""
+"View 10 Full Resumes<br/>View 5 Candidate Full Names<br/>Contact 5 "
+"Candidates<br/>Browse All Resumes"
+msgstr "10 전체 이력서 보기 <br/> 5 후보 전체 이름을 보려면 <br/> 문의 5 후보자 <br/> 모든 이력서 검색"
+
+#: includes/admin/setup.php:249
+msgid ""
+"View Unlimited Full Resumes<br/>View Unlimited Candidate Full "
+"Names<br/>Contact 10 Candidates<br/>Browse All Resumes"
+msgstr ""
+"무제한 전체 이력서 보기 <br/> 무제한 후보 전체 이름을 보려면 <br/> 10 후보자를 문의 <br/> 모든 이력서 검색"
+
+#: includes/admin/setup.php:263
+msgid "Contact 1 Candidate"
+msgstr "연락처 1 후보"
+
+#: includes/admin/setup.php:270
+msgid "Silver Full Name Package"
+msgstr "전체 이름 패키지"
+
+#: includes/admin/setup.php:272
+msgid "View 5 Candidate Full Names"
+msgstr "보기 5 후보자 성명"
+
+#: includes/admin/setup.php:312
+msgid "A total of %d pages were successfully created!"
+msgstr "%D 페이지의 총 성공적으로 만들어졌습니다!"
+
+#: includes/admin/setup.php:343
+msgid "A total of %d packages were successfully created!"
+msgstr "총 %d 패키지 성공적으로 만들어졌습니다!"
+
+#: includes/admin/setup.php:350
+msgid "Job Manager Packages Setup"
+msgstr "작업 관리자 패키지 설치"
+
+#: includes/admin/setup.php:353
+msgid "1. Introduction"
+msgstr "1입니다. 소개"
+
+#: includes/admin/setup.php:354
+msgid "2. Page Setup"
+msgstr "2. 페이지 설정"
+
+#: includes/admin/setup.php:357
+msgid "3. Resume Page Setup"
+msgstr "3. 이력서 페이지 설정"
+
+#: includes/admin/setup.php:358
+msgid "4. Packages Setup"
+msgstr "4. 패키지 설치"
+
+#: includes/admin/setup.php:359
+msgid "5. Done"
+msgstr "5. 완료"
+
+#: includes/admin/setup.php:361
+msgid "3. Packages Setup"
+msgstr "3. 패키지 설치"
+
+#: includes/admin/setup.php:362
+msgid "4. Done"
+msgstr "4. 완료"
+
+#: includes/admin/setup.php:369
+msgid "Setup Wizard Introduction"
+msgstr "설치 마법사 소개"
+
+#: includes/admin/setup.php:371
+msgid "Thanks for installing <em>WP Job Manager Packages</em>!"
+msgstr "<em>포스트 작업 관리자 패키지</em>를 설치 하기 위한 감사!"
+
+#: includes/admin/setup.php:372
+msgid ""
+"This setup wizard will help you get started by creating the pages for "
+"package selection, and configuring those values in the settings for you."
+msgstr ""
+"이 설치 마법사는 패키지 선택에 대 한 페이지를 생성 하 고 당신을 위해 설정에서 해당 값을 구성 하 여 시작 얻을 데 도움이 됩니다."
+
+#: includes/admin/setup.php:373
+msgid ""
+"If you want to skip the wizard and setup the pages and shortcodes yourself "
+"manually, you can do so very easily using any of the available shortcodes. "
+"Refer to the %sdocumentation%s for help."
+msgstr ""
+"마법사를 건너뛰고 설치 페이지와 단축 자신 수동으로 하려면 매우 쉽게 사용할 수 있는 단축의 사용을 할 수 있습니다. % "
+"Sdocumentation %s 대 한 도움말을 참조 하십시오."
+
+#: includes/admin/setup.php:378 includes/admin/setup.php:569
+msgid "WooCommerce Was Not Detected"
+msgstr "WooCommerce 검색 되지 않습니다."
+
+#: includes/admin/setup.php:379 includes/admin/setup.php:570
+msgid ""
+"Currently the only integration available with WP Job Manager Packages, is "
+"through WooCommerce (although others will be added later). WooCommerce was "
+"not detected as being activated on your site."
+msgstr ""
+"(비록 다른 나중에 추가 될 것입니다) 현재 포스트 작업 관리자 패키지와 함께 사용할 수 있는 유일한 통합 WooCommerce 통해 "
+"이다. WooCommerce 하지 귀하의 사이트에 활성화 되 고로 발견 되었다."
+
+#: includes/admin/setup.php:380 includes/admin/setup.php:572
+msgid "Click Here to Active/Install WooCommerce"
+msgstr "액티브/설치 WooCommerce를 여기를 클릭 하십시오."
+
+#: includes/admin/setup.php:382
+msgid ""
+"Once you have installed/activated, refresh this page, or click below to "
+"continue setup."
+msgstr "일단 당신이 설치/활성화,이 페이지를 새로 고침 하거나 설치를 계속 하려면 아래를 클릭 합니다."
+
+#: includes/admin/setup.php:388
+msgid "Continue to page setup"
+msgstr "페이지 설정 계속"
+
+#: includes/admin/setup.php:389
+msgid "Skip setup. I will setup the plugin manually"
+msgstr "설치를 건너뜁니다. 내가 수동으로 플러그인을 설치 됩니다."
+
+#: includes/admin/setup.php:395
+msgid "Page Setup"
+msgstr "페이지 설정"
+
+#: includes/admin/setup.php:397 includes/admin/setup.php:477
+msgid ""
+"<em>WP Job Manager Packages</em> includes %1$sshortcodes%2$s which can be "
+"used within your %3$spages%2$s to output content. These can be created for "
+"you below. For more information on the available shortcodes, view the "
+"%4$sshortcode documentation%2$s."
+msgstr ""
+"<em>포스트 작업 관리자 패키지</em> %1$ sshortcodes %2 $의 콘텐츠를 출력 하 여 %3$ spages %2$ s "
+"내에서 사용할 수 있는 포함 되어 있습니다. 이 만들 수 있습니다 당신을 위해 아래. 에 대 한 자세한 내용은 사용 가능한 단축, %4$"
+" sshortcode 문서 %2$ s 보기."
+
+#: includes/admin/setup.php:406 includes/admin/setup.php:484
+msgid "Page Title"
+msgstr "페이지 제목"
+
+#: includes/admin/setup.php:407 includes/admin/setup.php:485
+msgid "Page Description"
+msgstr "페이지 설명"
+
+#: includes/admin/setup.php:408 includes/admin/setup.php:486
+msgid "Content Shortcode"
+msgstr "콘텐츠 단축"
+
+#: includes/admin/setup.php:416 includes/admin/setup.php:494
+msgid ""
+"This page will be used as the default page for package selection, and works "
+"for any of the package types (view, browse, etc)."
+msgstr "이 페이지는 패키지 선택 및 패키지 유형 (보기, 검색, 등)에 대 한 작품에 대 한 기본 페이지로 사용 됩니다."
+
+#: includes/admin/setup.php:418 includes/admin/setup.php:496
+msgid ""
+"If you do not plan to use the specific package type shortcodes (for separate"
+" pages), you need to make sure this page exists as it will be used as the "
+"fallback page if the type specific pages do not exist (or are not configured"
+" in settings)."
+msgstr ""
+"(별도 페이지)에 대 한 특정 패키지 유형 단축 코드를 사용 하려면이 페이지 유형 특정 페이지 (또는 설정에서 구성 되지 않은) 존재 "
+"하지 않는 경우 대체 페이지로 사용 될 것입니다 있는지 확인 해야 합니다."
+
+#: includes/admin/setup.php:426 includes/admin/setup.php:504
+msgid "This page will be used only for browse packages (not required)."
+msgstr "이 페이지는 찾아보기 패키지 (선택)에 사용 됩니다."
+
+#: includes/admin/setup.php:428 includes/admin/setup.php:506
+msgid ""
+"This page is useful if you wish to customize the browse package selection "
+"page, separate from the standard one above."
+msgstr "이 페이지는 위의 표준에서 별도 검색 패키지 선택 페이지, 사용자 지정 하려는 경우에 유용 합니다."
+
+#: includes/admin/setup.php:436 includes/admin/setup.php:514
+msgid "This page will be used only for apply/contact packages (not required)."
+msgstr "이 페이지는 (필요 없음) 적용/연락처 패키지에 대해서만 사용 됩니다."
+
+#: includes/admin/setup.php:438 includes/admin/setup.php:516
+msgid ""
+"This page is useful if you wish to customize the apply/contact package "
+"selection page, separate from the standard one above."
+msgstr "이 페이지는 위의 표준에서 별도 적용/연락처 패키지 선택 페이지, 사용자 지정 하려는 경우에 유용 합니다."
+
+#: includes/admin/setup.php:446 includes/admin/setup.php:524
+msgid "This page will be used only for view listing packages (not required)."
+msgstr "이 페이지 보기 (선택) 패키지에 대해서만 사용 됩니다."
+
+#: includes/admin/setup.php:448 includes/admin/setup.php:526
+#: includes/admin/setup.php:536
+msgid ""
+"This page is useful if you wish to customize the view listing package "
+"selection page, separate from the standard one above."
+msgstr "이 페이지는 페이지를 사용자 지정 보기 목록 패키지 선택, 위의 표준 하나에서 분리 하려는 경우에 유용 합니다."
+
+#: includes/admin/setup.php:457 includes/admin/setup.php:545
+#: includes/admin/setup.php:625
+msgid "Skip this step"
+msgstr "이 단계를 건너뛰고"
+
+#: includes/admin/setup.php:475
+msgid "Resume Page Setup"
+msgstr "이력서 페이지 설정"
+
+#: includes/admin/setup.php:476
+msgid ""
+"It looks like you have WP Job Manager Resumes installed/activated, so let's "
+"setup those pages as well!"
+msgstr "포스트 작업 관리자 이력서 설치/활성화, 그래서 그 페이지를 또한 설치를 것 같습니다!"
+
+#: includes/admin/setup.php:534
+msgid ""
+"This page will be used only for view name listing packages (not required)."
+msgstr "이 페이지는 보기 이름 목록 패키지 (선택)에 사용 됩니다."
+
+#: includes/admin/setup.php:563
+msgid "Package Setup"
+msgstr "패키지 설치"
+
+#: includes/admin/setup.php:564
+msgid ""
+"If you would like, we can also setup <strong>DEMO</strong> packages for you "
+"to use.  This is not required, and is provided for demonstration purposes "
+"only, you will still need to customize the packages to suit your needs."
+msgstr ""
+"원하시면, 우리 또한 사용할 수에 대 한 <strong>데모</strong> 패키지를 설치할 수 있다.  이 필요 하지 않습니다 이며 "
+"데모 용도로, 여전히 해야 합니다 필요에 맞게 패키지를 사용자 지정 제공."
+
+#: includes/admin/setup.php:571
+msgid ""
+"DO NOT proceed with this step before installing and activating WooCommerce!"
+"  WooCommerce must be installed and activated before adding packages!"
+msgstr ""
+"설치 하 고 WooCommerce를 활성화 하기 전에이 단계를 진행 하지 마십시오!  WooCommerce 설치 하 고 패키지를 추가 "
+"하기 전에 활성화 해야 합니다!"
+
+#: includes/admin/setup.php:574
+msgid ""
+"Once you have installed AND activated, refresh this page, or click below to "
+"continue setup."
+msgstr "일단 당신이 설치 하 고 활성화,이 페이지를 새로 고침 하거나 설치를 계속 하려면 아래를 클릭 하십시오."
+
+#: includes/admin/setup.php:584
+msgid "Package Title"
+msgstr "패키지 제목"
+
+#: includes/admin/setup.php:585
+msgid "Package Price"
+msgstr "패키지 가격"
+
+#: includes/admin/setup.php:586
+msgid "Package Description"
+msgstr "패키지 설명"
+
+#: includes/admin/setup.php:592
+msgid "Listing Packages"
+msgstr "패키지 목록"
+
+#: includes/admin/setup.php:607
+msgid "Resume Packages"
+msgstr "패키지 다시 시작"
+
+#: includes/admin/setup.php:624
+msgid "Create Selected Packages"
+msgstr "선택한 패키지를 만들"
+
+#: includes/admin/setup.php:643
+msgid "All Done!"
+msgstr "모두 완료!"
+
+#: includes/admin/setup.php:645
+msgid ""
+"Looks like you're all set to start using the plugin. In case you're "
+"wondering where to go next:"
+msgstr "마치 모든 플러그인을 사용 하 여 시작 하도록 설정 되어있어. 경우에 다음에 어디 갈 궁금 합니다."
+
+#: includes/admin/setup.php:648
+msgid "Tweak Visibility Settings"
+msgstr "가시성 설정을 조정하시오"
+
+#: includes/admin/setup.php:650
+msgid "Tweak Resume Visibility Settings"
+msgstr "이력서 가시성 설정을 조정하시오"
+
+#: includes/admin/setup.php:652
+msgid "Add a new Product/Package"
+msgstr "새 제품/패키지 추가"
+
+#: includes/admin/setup.php:655
+msgid ""
+"And don't forget, if you need any more help using <em>WP Job Manager "
+"Packages</em> you can consult the %1$sdocumentation%2$s or %3$scontact me "
+"via the support area%2$s!"
+msgstr ""
+"그리고, <em>포스트 작업 관리자 패키지</em>를 사용 하 여 더 많은 도움이 필요한 경우를 참조 수 있습니다 있는 %1$ "
+"sdocumentation %2$ s 또는 %3$ scontact 나 지원 영역 %2$ s를 통해 잊지 마세요!"
+
+#: includes/admin/setup.php:657
+msgid "Flow Process:"
+msgstr "흐름 프로세스:"
+
+#: includes/admin/setup.php:658
+msgid ""
+"To give you an understanding of how this plugin works, below is the flow "
+"process with examples. Examples below assume you have configured packages "
+"required for browse, view, and contact/apply.  This also assumes you have "
+"used the shortcode to output the form either on a page created in a previous"
+" setup step, or placed the shortcode inside the placeholder editor (in "
+"settings)."
+msgstr ""
+"당신에 게이 플러그인이 작동 하는 방법에 대 한 이해, 아래 예제와 함께 흐름 프로세스가입니다. 다음 예제에서는 찾아보기, 보기, 및 "
+"연락처/적용에 필요한 패키지를 구성 했습니다 가정 합니다.  이 또한 이전 설치 단계에서 만든 페이지에 폼을 출력 하기 위해 사용 하는 "
+"단축 또는 (설정)에서 자리 표시자 편집기 내부 단축 배치를 가정 합니다."
+
+#: includes/admin/setup.php:661
+msgid ""
+"User visits Listings page and is either redirected to package form page, or "
+"shown the package selection form."
+msgstr "사용자 목록 페이지를 방문 하 고는 중 패키지 양식 페이지로 또는 패키지 선택 폼을 표시."
+
+#: includes/admin/setup.php:664
+msgid ""
+"User selects a package, and is redirected to checkout page to complete "
+"purchase."
+msgstr "사용자는 패키지를 선택 하 고 구매를 완료 하려면 체크 아웃 페이지로 리디렉션됩니다."
+
+#: includes/admin/setup.php:667
+msgid ""
+"After purchase is complete, notification is shown with link to return to "
+"page user was previously viewing."
+msgstr "알림 표시 됩니다 구매를 완료 한 후 페이지에 링크와 함께 사용자 보기 이전 했다."
+
+#: includes/admin/setup.php:670
+msgid ""
+"When user selects a listing, they will be shown the listing like normal (if "
+"they have unlimited package), otherwise they are either redirected or shown "
+"the package form page (like above)."
+msgstr ""
+"사용자가 목록을 선택 하면, 그들은 표준 처럼 목록 표시 됩니다 (있는 경우 무제한 패키지), 그렇지 않으면 그들은 이동 되거나 패키지 "
+"양식 페이지 (위 처럼) 표시."
+
+#: includes/admin/setup.php:673
+msgid ""
+"User will be able to select an existing package from the package form to use"
+" (or they can select one to purchase).  Once they submit the form, they are "
+"redirected back to the listing to view like normal."
+msgstr ""
+"사용자 사용 하 여 패키지 양식에서 기존 패키지를 선택할 수 있을 것입니다 (또는 하나 구매를 선택할 수 있습니다).  그들은 양식을 "
+"제출, 일단 그들은 평상시 처럼 볼 목록에 다시 리디렉션됩니다."
+
+#: includes/admin/setup.php:676
+msgid "Few key points:"
+msgstr "몇 가지 핵심 포인트:"
+
+#: includes/admin/setup.php:678
+msgid ""
+"If the user has an unlimited package, they will immediately be able to view,"
+" contact, etc.  Only packages with limits will require them to select a "
+"package to use."
+msgstr ""
+"사용자는 무제한 패키지에, 그들은 즉시 보기, 연락처, 등등 수 있을.  한계와 패키지만 사용 하 여 패키지를 선택 하도록 요구할 것 "
+"이다."
+
+#: includes/admin/setup.php:679
+msgid ""
+"All current user packages can be viewed (along with associated listings) on "
+"the My Account page."
+msgstr "모든 현재 사용자 패키지 내 계정 페이지에 (연결 된 목록)를 함께 볼 수 있습니다."
+
+#: includes/admin/setup.php:681
+msgid ""
+"Administrators are not required to have packages, make sure to use a "
+"separate user account to test with."
+msgstr "관리자 패키지를 테스트 하는 별도 사용자 계정을 사용할 수 있는지 확인 필요 하지 않습니다."
+
+#: includes/admin/setup.php:684
+msgid ""
+"This plugin has been tested with Listify, Jobify, Listable, Pet Sitter, and "
+"Babysitter themes ... if you have issues, or your theme is not compatible, "
+"please let me know!"
+msgstr ""
+"만약 당신이 문제가 있는 경우, 또는 귀하의 테마는 호환 되지 않습니다와 Listify, Jobify, Listable, 애완 동물 보 "
+"모, 베이비 시 터 테마... 테스트 되었습니다이 플러그인, 알려주시기 바랍니다!"
+
+#: includes/admin/setup.php:687
+msgid ""
+"To use a template override, make sure you place the file in the "
+"<code>jm_packages</code> directory/folder, in your child theme's "
+"directory/folder."
+msgstr ""
+"템플릿 재정의 사용 하려면 <code>jm_packages</code> 디렉토리/폴더, 어린이 테마 디렉토리/폴더에서에 파일을 배치 해야"
+" 합니다."
+
+#: includes/admin/setup.php:690
+msgid "Listable currently only supports the redirect feature."
+msgstr "Listable 현재만 리디렉션 기능을 지원합니다."
+
+#: includes/admin/setup.php:693
+msgid "Subscriptions will be included in one of the next releases!"
+msgstr "구독 다음 릴리스 중 하나에 포함 될 것입니다!"
+
+#: includes/admin/setup.php:696
+msgid ""
+"Currently WooCommerce is the only support backend payment/cart/e-commerce "
+"system.  Let me know if there's another one you would like integrated."
+msgstr "현재 WooCommerce만 지원 백엔드 지불/카트/전자 상거래 시스템입니다.  다른 통합 같은 것 하나는 알려 줘."
+
+#: includes/admin/setup.php:699
+msgid "This plugin is full documented, check out the source code!"
+msgstr "이 플러그인은 전체 문서화, 소스 코드 체크!"
+
+#: includes/admin/setup.php:704
+msgid "Support the Ongoing Development of the core plugin, WP Job Manager"
+msgstr "코어 플러그 접속식, 포스트 작업 관리자의 지속적인 개발을 지원"
+
+#: includes/admin/setup.php:705
+msgid ""
+"There are many ways to support open-source projects such as WP Job Manager, "
+"for example code contribution, translation, or even telling your friends how"
+" awesome the plugin (hopefully) is. Thanks in advance for your support - it "
+"is much appreciated!"
+msgstr ""
+"여러 가지 오픈 소스 프로젝트 등 포스트 작업 관리자, 예를 들어 코드 기여, 번역, 또는 심지어 당신의 친구 이야기 얼마나 멋진 "
+"플러그인 (잘하면). 당신의 지원 위한 미리 감사 합니다-그것은 많은 감사!"
+
+#: includes/admin/setup.php:707
+msgid "Leave a positive review"
+msgstr "긍정적인 리뷰를 남겨 주세요"
+
+#: includes/admin/setup.php:708
+msgid "Contribute a localization"
+msgstr "기여는 지역화"
+
+#: includes/admin/setup.php:709
+msgid "Contribute code or report a bug"
+msgstr "코드 기여 또는 버그를 보고"
+
+#: includes/admin/setup.php:710
+msgid "Help other users on the forums"
+msgstr "다른 사용자가 포럼에"
+
+#: includes/admin/wc/job.php:55 includes/admin/wc/resume.php:56
+msgid "Output price (cost) of package (you MUST include this!)"
+msgstr "출력 가격 (비용) 패키지 (이 포함 해야 합니다!)"
+
+#: includes/admin/wc/job.php:58 includes/admin/wc/resume.php:59
+msgid ""
+"Output package limit set for View (will output number or unlimited based on "
+"config)"
+msgstr "출력 패키지 제한 설정 보기 (숫자 또는 무제한 설정에 따라 출력 됩니다)"
+
+#: includes/admin/wc/job.php:61 includes/admin/wc/resume.php:65
+msgid ""
+"Output package limit set for %s (will output number or unlimited based on "
+"config)"
+msgstr "출력 패키지 제한 (숫자 또는 무제한에 따라 구성 출력) %s 대 한 설정"
+
+#: includes/admin/wc/resume.php:62
+msgid ""
+"Output package limit set for View Name (will output number or unlimited "
+"based on config)"
+msgstr "뷰 이름 (숫자 또는 무제한에 따라 설정 출력)에 대 한 설정 출력 패키지 제한"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:8
+#: includes/admin/wc/views/html-view-resume-package-data.php:4
+msgid "View %s?"
+msgstr "뷰 %s?"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:9
+#: includes/admin/wc/views/html-view-resume-package-data.php:5
+msgid ""
+"Allow to view single listings with this package (if package required in "
+"settings)."
+msgstr "(해당 되는 경우 패키지 설정에 필요한)이이 패키지와 함께 단일 목록을 볼 수 있습니다."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:14
+#: includes/admin/wc/views/html-view-resume-package-data.php:11
+msgid "View %s limit"
+msgstr "뷰 %s 제한"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:15
+#: includes/admin/wc/views/html-view-resume-package-data.php:12
+msgid ""
+"The number of listings a user can view with this package.  Leave blank to "
+"allow unlimited."
+msgstr "사용자는 명부 작성의 수는이 패키지와 함께 볼 수 있습니다.  수 있도록 비워 무제한."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:28
+#: includes/admin/wc/views/html-view-resume-package-data.php:25
+msgid "View Rollover?"
+msgstr "보기 롤오버?"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:29
+#: includes/admin/wc/views/html-view-job-package-data.php:57
+#: includes/admin/wc/views/html-view-resume-package-data.php:26
+#: includes/admin/wc/views/html-view-resume-package-data.php:54
+#: includes/admin/wc/views/html-view-resume-package-data.php:82
+msgid "Rollover (Add) unused credits to package when subscription is renewed."
+msgstr "구독 갱신 때 롤오버 (추가) 사용 하지 않는 패키지를 신용 한다."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:36
+msgid ""
+"Allow to %s listings with this package (if package required in settings)."
+msgstr "이 패키지와 함께 %s 목록에 허용 (패키지 필요한 경우에 설정)."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:42
+msgid "%1$s %2$s limit"
+msgstr "%1$ s %2 $의 제한"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:43
+msgid ""
+"The number of listings a user can %s with this package. Leave blank to allow"
+" unlimited."
+msgstr "사용자는 명부 작성의 수는 %s이 패키지와 함께 수 있습니다. 수 있도록 비워 무제한."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:56
+msgid "%1$s Rollover?"
+msgstr "%1 $의 롤오버?"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:62
+#: includes/admin/wc/views/html-view-resume-package-data.php:88
+msgid "Allow Browsing?"
+msgstr "검색 허용?"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:63
+#: includes/admin/wc/views/html-view-resume-package-data.php:89
+msgid ""
+"Allow to browse listings with this package (if package required in "
+"settings)."
+msgstr "(패키지 설정에 필요한) 경우이 패키지 목록을 클릭 하 여 검색 하실 수 있습니다."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:69
+#: includes/admin/wc/views/html-view-resume-package-data.php:95
+msgid "Use Short Description"
+msgstr "사용 짧은 설명"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:70
+#: includes/admin/wc/views/html-view-resume-package-data.php:96
+msgid ""
+"Enable this to use the short description for your own custom wording on the "
+"package selection form for listings."
+msgstr "패키지 선택 폼 목록에 자신의 사용자 지정 문구에 대 한 간단한 설명을 사용 하 여이 사용 합니다."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:32
+msgid "View %s Name?"
+msgstr "뷰 %s 이름?"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:33
+msgid ""
+"Allow to view %s name with this package (if package required in settings)."
+msgstr "(해당 되는 경우 패키지 설정에 필요한)이이 패키지 이름 %s 볼 수 있습니다."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:39
+msgid "View %s Name limit"
+msgstr "뷰 %s 이름 제한"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:40
+msgid ""
+"The number of %s names a user can view with this package.  Leave blank to "
+"allow unlimited."
+msgstr "사용자 %s 이름 수가이 패키지와 함께 볼 수 있습니다.  수 있도록 비워 무제한."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:53
+msgid "View Name Rollover?"
+msgstr "보기 이름 롤오버?"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:60
+msgid "Allow Contact?"
+msgstr "연락처를 허용?"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:61
+msgid ""
+"Allow to contact listing with this package (if package required in "
+"settings)."
+msgstr "(해당 되는 경우 패키지 설정에 필요한)이이 패키지와 함께 목록에 연결할 수 있습니다."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:67
+msgid "Contact %s limit"
+msgstr "%S 연락처 제한"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:68
+msgid ""
+"The number of %s a user can contact with this package. Leave blank to allow "
+"unlimited."
+msgstr "%S 사용자의 수는이 패키지와 함께 문의하실 수 있습니다. 수 있도록 비워 무제한."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:81
+msgid "Contact Rollover?"
+msgstr "롤오버 문의?"
+
+#: includes/admin/wc.php:95
+msgid "%s Visibility Package"
+msgstr "%s 표시 패키지"
+
+#: includes/admin/wc.php:98
+msgid "%s Visibility Subscription"
+msgstr "%s 표시 구독"
+
+#: includes/admin/wc.php:203
+msgid "Fields"
+msgstr "필드"
+
+#: includes/admin.php:45 includes/admin.php:81
+msgid "Visibility Packages"
+msgstr "시정 패키지"
+
+#: includes/admin.php:68
+msgid "Package successfully deleted"
+msgstr "성공적으로 삭제 하는 패키지"
+
+#: includes/admin.php:82 includes/admin.php:105
+msgid "Add User Package"
+msgstr "사용자 패키지 추가"
+
+#: includes/admin.php:150
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/form.php:114
+msgid "You can now %s this listing"
+msgstr "지금 %s이 목록 수"
+
+#: includes/functions.php:18
+msgid "Apply"
+msgstr "적용"
+
+#: includes/install.php:99
+msgid ""
+"A <a href=\"%s\">package</a> is required to browse listings, please select "
+"one from below."
+msgstr "<a href=\"%s\"> 패키지</a>는 목록, 아래에서 하나를 선택 합니다."
+
+#: includes/install.php:102
+msgid "Please <a href=\"%s\">select a package</a> to browse resumes."
+msgstr "제발 검색 <a href=\"%s\"> 패키지 선택</a> 다시 시작 합니다."
+
+#: includes/install.php:104
+msgid ""
+"Please select a <a href=\"%s\">package</a> to view the full candidate name."
+msgstr "전체 후보 이름을 보려면 <a href=\"%s\"> 패키지</a>를 선택 하십시오."
+
+#: includes/integration/job.php:241 includes/integration/resume.php:307
+msgid "Please <a href=\"%s\">select a package</a> to browse listings."
+msgstr "<a href=\"%s\"> 패키지 선택</a> 목록을 클릭 하 여 검색 하시기 바랍니다."
+
+#: includes/integration/job.php:255 includes/integration/resume.php:321
+msgid "Please <a href=\"%s\">select a package</a> to view this listing's details."
+msgstr "이 리스트의 세부이 정보를 보려면 <a href=\"%s\"> 패키지를 선택</a> 하십시오."
+
+#: includes/integration/job.php:269 includes/integration/resume.php:398
+msgid "Please <a href=\"%1$s\">select a package</a> to %2$s this listing."
+msgstr "%2$ s <a href=\"%1$s\"> 패키지 선택</a>이 목록을 하십시오."
+
+#: includes/integration/resume.php:77
+msgid ""
+"A <a href=\"%s\">package</a> is required to view the full name on this "
+"listing."
+msgstr "<a href=\"%s\"> 패키지</a>는이 목록에는 전체 이름을 볼 필요 합니다."
+
+#: includes/integration.php:74
+msgid ""
+"This page should redirect in <span class=\"jmpack_redirect_in\">%1$d</span> "
+"seconds, if not, please <a href=\"%2$s\">click here</a>."
+msgstr ""
+"이 페이지 해야 리디렉션 <span class=\"jmpack_redirect_in\"> %1$ d</span> 초, 그렇지 않다면, "
+"<a href=\"%2$s\"> 여기를 클릭</a> 하시기 바랍니다."
+
+#: includes/packages/job.php:53 includes/packages/resume.php:55
+msgid "Browse"
+msgstr "찾아보기"
+
+#: includes/packages/job.php:59 includes/packages/resume.php:61
+msgid "View"
+msgstr "보기"
+
+#: includes/packages/job.php:71
+msgid "apply to"
+msgstr "에 적용"
+
+#: includes/packages/job.php:91 includes/packages/resume.php:94
+msgid "%s to "
+msgstr "%s "
+
+#: includes/packages/job.php:95 includes/packages/resume.php:98
+msgid "view %s single listing"
+msgid_plural "view %s single listings"
+msgstr[0] "%s 단일 목록 보기"
+msgstr[1] "%s 단일 목록 보기"
+
+#: includes/packages/job.php:95 includes/packages/job.php:107
+#: includes/packages/resume.php:98 includes/packages/resume.php:109
+#: includes/packages/resume.php:121 includes/packages.php:69
+#: templates/my-packages.php:64
+msgid "unlimited"
+msgstr "무제한"
+
+#: includes/packages/job.php:107 includes/packages/resume.php:121
+msgid "%s %s listing"
+msgid_plural "%s %s listings"
+msgstr[0] "%s% s 목록"
+msgstr[1] "%s% s 목록"
+
+#: includes/packages/job.php:113 includes/packages/resume.php:127
+msgid ", and "
+msgstr "그리고 "
+
+#: includes/packages/job.php:115 includes/packages/resume.php:129
+msgid "browse all listings"
+msgstr "모든 목록 찾아보기"
+
+#: includes/packages/resume.php:67
+msgid "View Name"
+msgstr "뷰 이름"
+
+#: includes/packages/resume.php:73 includes/themes/listify.php:49
+#: templates/access-denied-contact-details.php:6
+#: templates/jobify/access-denied-contact-details.php:6
+#: templates/jobify/access-denied-contact-details.php:11
+msgid "Contact"
+msgstr "연락처"
+
+#: includes/packages/resume.php:109
+msgid "view %s single listing name"
+msgid_plural "view %s single listing names"
+msgstr[0] "뷰 %s 단일 목록 이름"
+msgstr[1] "%s 단일 이름 목록 보기"
+
+#: includes/shortcodes/job.php:71 includes/shortcodes/resume.php:54
+msgid "Select Browse Package"
+msgstr "찾아보기 패키지 선택"
+
+#: includes/shortcodes/job.php:72 includes/shortcodes/resume.php:55
+msgid "Choose a Browse Package"
+msgstr "찾아보기 패키지 선택"
+
+#: includes/shortcodes/job.php:113 includes/shortcodes/resume.php:96
+msgid "Select a View Package"
+msgstr "보기 패키지 선택"
+
+#: includes/shortcodes/job.php:114 includes/shortcodes/resume.php:97
+msgid "Choose a View Package"
+msgstr "보기 패키지 선택"
+
+#: includes/shortcodes/job.php:137
+msgid "Select %s Package"
+msgstr "%S 패키지 선택"
+
+#: includes/shortcodes/job.php:138
+msgid "Choose %s Package"
+msgstr "%S 패키지를 선택 하십시오"
+
+#: includes/shortcodes/resume.php:120
+msgid "Select a View Name Package"
+msgstr "보기 이름 패키지 선택"
+
+#: includes/shortcodes/resume.php:121
+msgid "Choose a View Name Package"
+msgstr "보기 이름 패키지 선택"
+
+#: includes/shortcodes/resume.php:144
+msgid "Select Contact Package"
+msgstr "연락처 패키지 선택"
+
+#: includes/shortcodes/resume.php:145
+msgid "Choose Contact Package"
+msgstr "연락처 패키지 선택"
+
+#: includes/shortcodes.php:100 templates/listable/package-selection.php:72
+msgid "Select Package"
+msgstr "패키지 선택"
+
+#: includes/shortcodes.php:101
+msgid "Choose a Package"
+msgstr "패키지 선택"
+
+#: includes/updater/smyles-updater-licenses.php:105
+#: includes/updater/smyles-updater-licenses.php:199
+msgid "Error"
+msgstr "오류"
+
+#: includes/updater/smyles-updater-licenses.php:105
+msgid "Unable to determine slug to deactivate license."
+msgstr "라이센스를 비활성화 하려면 슬러그를 확인할 수 없습니다."
+
+#: includes/updater/smyles-updater-licenses.php:119
+msgid "Error determining the plugin Product ID."
+msgstr "오류 확인 플러그인 제품 id입니다."
+
+#: includes/updater/smyles-updater-licenses.php:123
+msgid "Error pulling the license key from option data."
+msgstr "옵션 데이터에서 라이센스 키를 철수 하는 중 오류가 발생 했습니다."
+
+#: includes/updater/smyles-updater-licenses.php:127
+msgid ""
+"Error pulling the email associated with the license key from option data."
+msgstr "옵션 데이터에서 라이센스 키와 관련 된 이메일을 철수 하는 중 오류가 발생 했습니다."
+
+#: includes/updater/smyles-updater-licenses.php:131
+msgid ""
+"Error pulling the instance ID associated with the license key from option "
+"data."
+msgstr "옵션 데이터에서 라이센스 키와 연결 된 인스턴스 ID를 철수 하는 중 오류가 발생 했습니다."
+
+#: includes/updater/smyles-updater-licenses.php:144
+msgid ""
+"Connection failed to the License Key API server - possible server issue."
+msgstr "라이센스 키 API 서버-서버 발생 가능한 문제에 연결 하지 못했습니다."
+
+#: includes/updater/smyles-updater-licenses.php:151
+msgid " Successfully Deactivated!"
+msgstr " 성공적으로 비활성화!"
+
+#: includes/updater/smyles-updater-licenses.php:152
+msgid "You have successfully deactivated the %s license."
+msgstr "성공적으로 %s 사용권을 비활성화 했습니다."
+
+#: includes/updater/smyles-updater-licenses.php:164
+#: includes/updater/smyles-updater-licenses.php:274
+msgid "Error!"
+msgstr "오류!"
+
+#: includes/updater/smyles-updater-licenses.php:164
+msgid ""
+"The license has been successfully deactivated locally, but please visit your"
+" sMyles Plugins <a href=\"%s\" target=\"_blank\">My Account</a> page to "
+"verify this activation has been removed from our server.  There was an error"
+" automatically removing it, and chances are that is because it was already "
+"removed via your <a href=\"%s\" target=\"_blank\">My Account</a> page "
+"already.."
+msgstr ""
+"라이센스가 성공적으로 비활성화 되었습니다, 하지만이 활성화 우리의 서버에서 제거 되었는지 확인을 sMyles 플러그인 <a "
+"href=\"%s\" target=\"_blank\"> 내 계정</a> 페이지를 방문 하시기 바랍니다.  오류가 자동으로 제거 하 고 "
+"그것은 이미 <a href=\"%s\" target=\"_blank\"> 내 계정</a> 페이지를 통해 이미 제거이 되었다 때문에 "
+"기회는..."
+
+#: includes/updater/smyles-updater-licenses.php:200
+msgid ""
+"Unable to determine slug, license key, and/or email to activate license, "
+"contact support."
+msgstr "민 달팽이, 라이센스 키 또는 라이센스 활성화, 기술 지원부에 문의 하는 이메일을 확인할 수 없습니다."
+
+#: includes/updater/smyles-updater-licenses.php:259
+msgid " Successfully Activated!"
+msgstr " 성공적으로 활성화!"
+
+#: includes/updater/smyles-updater-licenses.php:259
+msgid ""
+"You have successfully activated the %s license, and will now be able to "
+"automatically upgrade this plugin through WordPress when an update is "
+"available."
+msgstr ""
+"당신은 성공적으로 %s 라이센스를 활성화 하 고 지금 업데이트 사용할 수 있는 경우 자동으로 워드 프레스를 통해이 플러그인을 업그레이 "
+"드를 수 있을 것입니다."
+
+#: includes/updater/smyles-updater-licenses.php:362
+msgid "Deactivate the %s License?"
+msgstr "%S 라이센스를 비활성화?"
+
+#: includes/updater/smyles-updater-licenses.php:367
+msgid "No"
+msgstr "없음"
+
+#: includes/updater/smyles-updater-licenses.php:371
+msgid "Yes"
+msgstr "예"
+
+#: includes/updater/smyles-updater-licenses.php:377
+msgid "sMyles Plugins Licensing"
+msgstr "sMyles 플러그인 라이센스"
+
+#: includes/updater/smyles-updater-licenses.php:380
+msgid "Plugins"
+msgstr "플러그인"
+
+#: includes/updater/views/html-key-input.php:5
+msgid "License"
+msgstr "라이센스"
+
+#: includes/updater/views/html-key-input.php:8
+msgid ""
+"Enter your license key and email and hit return. A valid key is required for"
+" updates."
+msgstr "라이센스 키와 이메일을 입력 하 고 return을 누르십시오. 유효한 키가 업데이 트에 대 한 필요 합니다."
+
+#: includes/updater/views/html-key-notice.php:6
+msgid "Hide notice"
+msgstr "통지를 숨기기"
+
+#: includes/updater/views/html-key-notice.php:7
+msgid ""
+"<a href=\"%1$s\">Please activate your license key</a> in order to receive "
+"updates and support for \"%2$s\"."
+msgstr "업데이트 하 고 \"%2$ s\"에 대 한 지원 <a href=\"%1$s\"> 하십시오 당신의 라이센스 키를 활성화</a> 합니다."
+
+#: includes/updater/views/html-license-activate.php:3
+msgid "Activating ..."
+msgstr "활성화..."
+
+#: includes/updater/views/html-license-activate.php:6
+#: includes/updater/views/html-license-deactivate.php:6
+msgid "Plugin Not Found"
+msgstr "플러그인을 찾을 수 없습니다"
+
+#: includes/updater/views/html-license-activate.php:18
+#: includes/updater/views/html-license-deactivate.php:20
+msgid "Details"
+msgstr "세부 정보"
+
+#: includes/updater/views/html-license-activate.php:33
+#: includes/updater/views/html-license-deactivate.php:35
+msgid "Installed Version:"
+msgstr "설치 된 버전:"
+
+#: includes/updater/views/html-license-activate.php:54
+msgid "Activate License"
+msgstr "라이센스 활성화"
+
+#: includes/updater/views/html-license-deactivate.php:3
+msgid "Deactivating ..."
+msgstr "비활성화..."
+
+#: includes/updater/views/html-license-deactivate.php:43
+msgid "Activated:"
+msgstr "활성화:"
+
+#: includes/updater/views/html-license-deactivate.php:64
+msgid "Deactivate License"
+msgstr "라이센스를 비활성화"
+
+#: includes/updater/views/html-ms-update.php:6
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr ""
+"사용할 수 있는 %1$ s의 새로운 버전이입니다. <a target=\"_blank\" class=\"thickbox\" "
+"href=\"%2$s\"> 세부 정보 보기 버전 %3$ s</a> 또는 <a href=\"%4$s\"> 지금 업데이트</a> 합니다."
+
+#: includes/user.php:52
+msgid "This is not a valid package, or is an unlimited package."
+msgstr "이것은 유효한 패키지 또는 무제한 패키지입니다."
+
+#: includes/wc/wcp-job-visibility-package.php:58
+#: includes/wc/wcp-resume-visibility-package.php:61
+msgid "Add to cart"
+msgstr "장바구니에 추가"
+
+#: includes/wc/wcp-job-visibility-package.php:58
+#: includes/wc/wcp-resume-visibility-package.php:61
+msgid "Read More"
+msgstr "더 읽기"
+
+#: includes/wc.php:397 includes/wc.php:404
+msgid "page"
+msgstr "페이지"
+
+#: includes/wc.php:402
+msgid "listing"
+msgstr "목록"
+
+#: includes/wc.php:412
+msgid ""
+"To go back to the %1$s you were previously viewing, <a href=\"%2$s\">click "
+"here</a>."
+msgstr "%1$ s 다시가 야 했다 이전 보고 있습니다, <a href=\"%2$s\"> 여기를 클릭 하십시오</a>."
+
+#: templates/jobify/job-application.php:8
+#: templates/jobify/job-application.php:13
+msgid "Apply for job"
+msgstr "작업에 대 한 적용"
+
+#: templates/listable/package-selection.php:51
+msgid "Your packages"
+msgstr "패키지"
+
+#: templates/listable/package-selection.php:65
+#: templates/package-selection.php:34
+msgid "%1$s out of %2$d available %3$s used"
+msgstr "%2$ d 사용할 수 있는 %3$ s 사용에서 %1$ s"
+
+#: templates/listable/package-selection.php:80
+msgid "Purchase packages"
+msgstr "패키지 구매"
+
+#: templates/listable/package-selection.php:105
+msgid "Free"
+msgstr "무료"
+
+#: templates/listable/package-selection.php:141
+msgid "Get Started"
+msgstr "시작"
+
+#: templates/listable/package-selection.php:150
+#: templates/package-selection.php:78
+msgid "No packages found"
+msgstr "찾을 수 없는 패키지 않습니다"
+
+#: templates/my-packages-limit-details.php:5
+msgid "Feature"
+msgstr "기능"
+
+#: templates/my-packages-limit-details.php:6
+msgid "Remaining"
+msgstr "남은"
+
+#: templates/my-packages-limit-details.php:7
+msgid "Used"
+msgstr "사용"
+
+#: templates/my-packages-limit-details.php:8
+msgid "Limit"
+msgstr "제한"
+
+#: templates/my-packages-limit-details.php:29
+msgid "Listings"
+msgstr "목록"
+
+#: templates/my-packages.php:18
+msgid "My %s Visibility Packages"
+msgstr "내 %s 표시 패키지"
+
+#: templates/my-packages.php:23
+msgid "Package Name"
+msgstr "패키지 이름"
+
+#: templates/my-packages.php:24
+msgid "Package Features"
+msgstr "패키지 기능"
+
+#: templates/my-packages.php:66
+msgid "of"
+msgstr "의"
+
+#: templates/package-selection.php:22
+msgid "Your Packages:"
+msgstr "패키지:"
+
+#: templates/package-selection.php:43
+msgid "Purchase Package:"
+msgstr "패키지를 구입:"
+
+#: wp-job-manager-packages.php:255
+msgid ""
+"WP Job Manager Packages requires WooCommerce Subscriptions 2.0 and above. "
+"Please upgrade as soon as possible!"
+msgstr "포스트 작업 관리자 패키지 WooCommerce 구독 2.0 필요 이상. 최대한 빨리 업그레이드 하십시오!"
+
+#: wp-job-manager-packages.php:401
+msgid ""
+"WP Job Manager - Packages is missing requirements and has been <a "
+"href=\"%s\">deactivated</a>. Please make sure all requirements are "
+"available."
+msgstr ""
+"포스트 작업 관리자-패키지 요구 사항 누락 및 <a href=\"%s\"> 비활성화</a> 되었습니다. 모든 요구 사항을 사용할 수 "
+"있는지 확인 하십시오."
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Packages"
+msgstr "포스트 작업 관리자-패키지"
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.smyl.es/wp-job-manager-packages"
+msgstr "https://plugins.smyl.es/wp-job-manager-packages"
+
+#. Description of the plugin/theme
+msgid ""
+"Create and configure custom Visibility Packages for WP Job Manager and WP "
+"Resume Manager to require visitors to purchase a package to view, apply, "
+"contact, browse, and more!"
+msgstr ""
+"만들기 및 포스트 작업 관리자와 방문자 확인, 적용, 문의 검색, 패키지 구매를 요구 하도록 포스트 이력서 관리자 등에 대 한 사용자 "
+"지정 표시 패키지 구성!"
+
+#. Author of the plugin/theme
+msgid "Myles McNamara"
+msgstr "마일스 맥 나 마라"
+
+#. Author URI of the plugin/theme
+msgid "https://smyl.es"
+msgstr "https://smyl.es"
+
+#: includes/admin/setup.php:414
+msgctxt "Default page title (wizard)"
+msgid "Visibility Packages"
+msgstr "시정 패키지"
+
+#: includes/admin/setup.php:424
+msgctxt "Default page title (wizard)"
+msgid "Browse Packages"
+msgstr "패키지 검색"
+
+#: includes/admin/setup.php:434
+msgctxt "Default page title (wizard)"
+msgid "Apply/Contact Packages"
+msgstr "패키지 적용/연락처"
+
+#: includes/admin/setup.php:444
+msgctxt "Default page title (wizard)"
+msgid "View Packages"
+msgstr "보기 패키지"
+
+#: includes/admin/setup.php:492
+msgctxt "Default page title (wizard)"
+msgid "Resume Visibility Packages"
+msgstr "표시 유형 패키지 다시 시작"
+
+#: includes/admin/setup.php:502
+msgctxt "Default page title (wizard)"
+msgid "Browse Resume Packages"
+msgstr "이력서 패키지 검색"
+
+#: includes/admin/setup.php:512
+msgctxt "Default page title (wizard)"
+msgid "Resume Contact Packages"
+msgstr "이력서 연락처 패키지"
+
+#: includes/admin/setup.php:522
+msgctxt "Default page title (wizard)"
+msgid "View Resume Packages"
+msgstr "보기 이력서 패키지"
+
+#: includes/admin/setup.php:532
+msgctxt "Default page title (wizard)"
+msgid "View Name Resume Packages"
+msgstr "보기 이름 이력서 패키지"

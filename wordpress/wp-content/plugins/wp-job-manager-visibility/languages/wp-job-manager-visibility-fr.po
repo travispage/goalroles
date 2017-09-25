@@ -1,0 +1,1476 @@
+# Copyright (C) 2017 Myles McNamara
+# This file is distributed under the same license as the WP Job Manager - Visibility package.
+# Translators:
+# Myles McNamara <myles@smyl.es>, 2015-2016
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager Visibility\n"
+"Report-Msgid-Bugs-To: http://plugins.smyl.es\n"
+"POT-Creation-Date: 2017-01-28 00:48:45+00:00\n"
+"PO-Revision-Date: 2017-01-27 23:29+0000\n"
+"Last-Translator: Myles McNamara <myles@smyl.es>\n"
+"Language-Team: French (http://www.transifex.com/smyles/wp-job-manager-visibility/language/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+
+#: classes/admin/ajax/custom.php:15 classes/admin/ajax/default.php:15
+msgid "Unable to determine post ID!"
+msgstr "Impossible de déterminer l'ID du message !"
+
+#: classes/admin/ajax/custom.php:21 classes/admin/ajax/default.php:21
+msgid "A meta key (field) is required!"
+msgstr "Il faut une clé meta (champ) !"
+
+#: classes/admin/ajax/custom.php:50 classes/admin/ajax/default.php:51
+msgid "Error updating default configuration placeholder post meta!"
+msgstr "Espace réservé par défaut de configuration mise à jour erreur après meta !"
+
+#: classes/admin/ajax/custom.php:52 classes/admin/ajax/default.php:53
+msgid "Default configuration updated successfully!"
+msgstr "Configuration par défaut mis à jour avec succès !"
+
+#: classes/admin/ajax/custom.php:65 classes/admin/ajax/default.php:66
+msgid "Error removing configuration!"
+msgstr "Configuration d'erreur suppression !"
+
+#: classes/admin/ajax/custom.php:66 classes/admin/ajax/default.php:67
+msgid "Default configuration removed successfully!"
+msgstr "Configuration par défaut est supprimée avec succès !"
+
+#: classes/admin/ajax.php:224
+msgid "Unable to get the POST variable"
+msgstr "Impossible d'obtenir la variable POST"
+
+#: classes/admin/assets.php:25
+msgid ""
+"If you continue receive this error, please submit a <a target=\"_blank\" "
+"href=\"%s\">support ticket</a>."
+msgstr "Si vous continuez à recevoir cette erreur, veuillez soumettre un <a target=\"_blank\" href=\"%s\"> ticket de support</a>."
+
+#: classes/admin/assets.php:26
+msgid "This field is required!"
+msgstr "Ce champ est obligatoire !"
+
+#: classes/admin/assets.php:27
+msgid "Yes"
+msgstr "Oui"
+
+#: classes/admin/assets.php:28
+msgid "Loading"
+msgstr "Chargement"
+
+#: classes/admin/assets.php:29
+msgid "No"
+msgstr "Non"
+
+#: classes/admin/assets.php:30 classes/admin/views/metabox.php:68
+#: classes/admin/views/placeholders.php:49
+msgid "Cancel"
+msgstr "Annuler"
+
+#: classes/admin/assets.php:31
+msgid "Close"
+msgstr "Fermer"
+
+#: classes/admin/assets.php:32 classes/admin/settings.php:134
+#: classes/admin/settings.php:203 classes/admin/settings.php:332
+#: classes/admin/settings.php:359 classes/output/rm.php:228
+msgid "Enable"
+msgstr "Enable"
+
+#: classes/admin/assets.php:33 classes/admin/settings.php:323
+#: classes/admin/settings.php:341 classes/admin/settings.php:350
+#: classes/admin/settings.php:368
+msgid "Disable"
+msgstr "Disable"
+
+#: classes/admin/assets.php:34
+msgid "Error"
+msgstr "Erreur"
+
+#: classes/admin/assets.php:35
+msgid "Uknown Error! Refresh the page and try again."
+msgstr "Uknown erreur ! Actualisez la page et essayez à nouveau."
+
+#: classes/admin/assets.php:36
+msgid "Success"
+msgstr "Succès"
+
+#: classes/admin/assets.php:37
+msgid "Are you sure you want to remove this configuration?"
+msgstr "Êtes-vous sûr de que vouloir supprimer cette configuration ?"
+
+#: classes/admin/assets.php:38
+msgid "You can't add a meta key to hide if it's set as a visible field!"
+msgstr "Vous ne pouvez pas ajouter une clé meta se cacher s'il est défini comme un champ affiché !"
+
+#: classes/admin/help/default.php:23 classes/admin/help/groups.php:23
+msgid "Overview"
+msgstr "Vue d'ensemble"
+
+#: classes/admin/help/default.php:26 classes/admin/listtable/default.php:22
+msgid "Visible Fields"
+msgstr "Champs visibles"
+
+#: classes/admin/help/default.php:29 classes/admin/listtable/default.php:21
+msgid "Hidden Fields"
+msgstr "Champs cachés"
+
+#: classes/admin/help/default.php:43
+msgid ""
+"Default Visibilities are configurations you create for any user or group, "
+"that will be used for every listing on your site.  This allows you to "
+"configure fields you want visible or hidden to specific users or groups.  "
+"You can create unlimited visibility configurations to fine tweak everything "
+"exactly how you want it. Here's a few things to note:"
+msgstr "Visibilité par défaut est les configurations que vous créez pour n'importe quel utilisateur ou groupe, qui sera utilisée pour chaque inscription sur votre site.  Cela vous permet de configurer les champs souhaités visibles ou masquées à certains utilisateurs ou groupes.  Vous pouvez créer des configurations de visibilité illimitée pour bien peaufiner tout exactement comment vous le voulez. Voici quelques petites choses à noter :"
+
+#: classes/admin/help/default.php:45
+msgid ""
+"User default visibility configurations ALWAYS take priority over any group "
+"configurations"
+msgstr "Configurations de visibilité par défaut utilisateur toujours priment sur les configurations de groupe"
+
+#: classes/admin/help/default.php:46
+msgid "Group configurations are processed in order based on their priority"
+msgstr "Configurations de groupe sont traitées dans l'ordre, que se basant sur leurs priorités"
+
+#: classes/admin/help/default.php:48
+msgid ""
+"As a quick example, if you have a default visibility configuration for the "
+"user <code>JohnSmith</code>, and you set the <code>job_description</code> "
+"field as hidden...if you also have this user in a group, that has the "
+"<code>job_description</code> visible, because user configurations take "
+"priority, that user will <strong>NOT</strong> be able to see "
+"<code>job_description</code>."
+msgstr "Comme un petit exemple, si vous avez une configuration par défaut de visibilité pour l'utilisateur <code>JohnSmith</code>, et que vous définissez le champ <code>job_description</code> comme masquée... Si vous avez aussi cet utilisateur dans un groupe, qui a la <code>job_description</code> visible, parce que les configurations des utilisateurs sont prioritaires, cette volonté d'utilisateur <strong>pas</strong> pouvoir voir <code>job_description</code>."
+
+#: classes/admin/help/default.php:55
+msgid ""
+"Visible Fields are fields that you want to be shown for this specific user "
+"or group."
+msgstr "Champs visibles sont des champs que vous voulez montré pour cet utilisateur ou ce groupe."
+
+#: classes/admin/help/default.php:56
+msgid ""
+"This is useful in situations where you have a user that is, as an example, "
+"apart of two groups, one with priority of 5 and one with priority of 10. Say"
+" the group with priority of 10 has the <code>job_description</code> field "
+"hidden ... if the group with priority of 5 has that same field set as "
+"visible, because the priority is lower than the group that hides the field, "
+"the <code>job_description</code> field will be shown."
+msgstr "Ceci est utile dans les situations où vous avez un utilisateur qui est, à titre d'exemple, à part de deux groupes, l'un avec une priorité de 5 et l'autre avec priorité de 10. Dire le groupe avec priorité de 10 a la <code>job_description</code> champ caché... Si le groupe avec priorité de 5 a ce même champ défini comme visible, car la priorité est plus faible que le groupe qui masque le champ, le champ <code>job_description</code> sera montré."
+
+#: classes/admin/help/default.php:63
+msgid ""
+"Hidden Fields are fields that you do NOT want shown for a specific user or "
+"group"
+msgstr "Les champs masqués sont les champs que vous ne voulez pas indiqué pour un utilisateur spécifique ou un groupe"
+
+#: classes/admin/help/default.php:64
+msgid ""
+"Setting hidden fields will probably be used the most, as this allows you to "
+"set fields to hide based on the user or group.  Hidden fields support what "
+"is called a <code>placeholder</code>.  The placeholder is the value you want"
+" to be shown instead of the actual value."
+msgstr "Définition de champs masqués sera probablement utilisée le plus, car cela vous permet de définir des champs pour masquer basée sur l'utilisateur ou le groupe.  Les champs masqués prennent en charge ce qu'on appelle un <code>espace réservé</code>.  L'espace réservé est la valeur que vous voulez montré au lieu de la valeur réelle."
+
+#: classes/admin/help/default.php:65
+msgid "HTML IS supported in placeholders!"
+msgstr "HTML est pris en charge dans les espaces réservés !"
+
+#: classes/admin/help/default.php:66
+msgid "Specific Meta Key Information:"
+msgstr "Informations clés Meta spécifique :"
+
+#: classes/admin/help/default.php:67
+msgid ""
+"Due to the way the core of WP Job Manager is coded, as well as how some meta"
+" keys are handled in templates and the core plugin, there are some caveots "
+"and neat ways that I have coded my plugin to handle specific meta keys."
+msgstr "En raison de la façon dont le noyau de WP Job Manager est codé, ainsi que la façon dont quelques touches meta sont gérées dans les modèles et le plugin de base, il y a quelques caveots et soignée façons que j'ai codé mon plugin pour gérer les touches spécifiques de meta."
+
+#: classes/admin/help/default.php:69
+msgid ""
+"If you do not enter a placeholder value, the <strong>Apply Now</strong> "
+"button will be hidden.  If you enter a placeholder, it will be shown, but "
+"when the user clicks the button, they will see your placehoolder value."
+msgstr "Si vous n'entrez pas une valeur d'espace réservé, le bouton <strong>Apply Now</strong> sera masqué.  Si vous entrez un espace réservé, il sera démontré, mais lorsque l'utilisateur clique sur le bouton, ils verront votre valeur placehoolder."
+
+#: classes/admin/help/default.php:70
+msgid ""
+"By default the placeholder value will be shown instead of actual value ... "
+"if you want to output an excerpt of this field, go to the settings and "
+"enable excerpt for this meta key.  Any placeholder value will be appended "
+"(added to the end) of the excerpt."
+msgstr "Par défaut, que la valeur d'espace réservé sera montrée au lieu de la valeur réelle... Si vous voulez produire un extrait de ce champ, allez dans les paramètres et activer extrait pour cette clé meta.  N'importe quelle valeur d'espace réservé sera ajoutée (ajouté à la fin) de l'extrait."
+
+#: classes/admin/help/groups.php:26 classes/admin/listtable/default.php:20
+#: classes/admin/listtable/groups.php:19
+msgid "Priority"
+msgstr "Priorité"
+
+#: classes/admin/help/groups.php:29 classes/admin/listtable/groups.php:20
+#: classes/admin/metaboxes/groups.php:28 classes/admin/views/metabox.php:39
+#: classes/admin/views/users.php:46
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: classes/admin/help/groups.php:32 classes/admin/listtable/groups.php:21
+#: classes/admin/metaboxes/groups.php:37 classes/admin/settings.php:280
+#: classes/admin/views/metabox.php:30 classes/admin/views/users.php:32
+#: classes/cpt.php:268
+msgid "Groups"
+msgstr "Groupes"
+
+#: classes/admin/help/groups.php:35 classes/admin/listtable/groups.php:22
+#: classes/admin/metaboxes/groups.php:46 classes/admin/views/roles.php:28
+msgid "Roles"
+msgstr "Rôles"
+
+#: classes/admin/help/groups.php:50
+msgid ""
+"Groups can be used to create many different setups based on your specific "
+"needs. Groups will always have a lower priority than user specific "
+"configurations, so a group will never override a specific user "
+"configuration."
+msgstr "Groupes peuvent être utilisés pour créer de nombreuses configurations différentes selon vos besoins spécifiques. Les groupes ont toujours une priorité inférieure à celle des configurations spécifiques de l'utilisateur, donc un groupe ne remplacera jamais une configuration utilisateur spécifique."
+
+#: classes/admin/help/groups.php:53
+msgid ""
+"You can include multiple users, other groups, roles, or even any other addon"
+" configurations (such as packages, etc)."
+msgstr "Vous pouvez inclure plusieurs utilisateurs, groupes, rôles ou même toute autre configuration de l'addon (tels que les paquets, etc.)."
+
+#: classes/admin/help/groups.php:61
+msgid ""
+"Default priority is 10 (if not set).  The lower the number the higher the "
+"priority ( 1 is a higher priority than 5 )"
+msgstr "Priorité par défaut est 10 (si non définie).  Plus le nombre plus la priorité (1 est une priorité supérieure à 5)"
+
+#: classes/admin/help/groups.php:64
+msgid ""
+"Priorities are specifically used for groups to determine what group should "
+"take priority whenever there is a coflict."
+msgstr "Priorités sont spécifiquement utilisées pour groupes pour déterminer quel groupe doit avoir la priorité lorsqu'il y a un coflict."
+
+#: classes/admin/help/groups.php:67
+msgid ""
+"As an example, you have 2 different groups ( Employers [Priority 5], and "
+"Gold Package [Priority 1] ):"
+msgstr "Par exemple, vous avez 2 différents groupes (employeurs [priorité 5] et Gold Package [priorité 1]) :"
+
+#: classes/admin/help/groups.php:70
+msgid "Employer Group (Priority 5) has these fields set to hide:"
+msgstr "Groupe des employeurs (priorité 5) a ces champs pour masquer la valeur :"
+
+#: classes/admin/help/groups.php:73
+msgid "Gold Package (Priority 1) has these fields set to show:"
+msgstr "Forfait or (priorité 1) a ces champs définis pour afficher :"
+
+#: classes/admin/help/groups.php:76
+msgid ""
+"When someone visits your site and is a member of both of those groups, "
+"because Gold Package has a higher priority than Employer Group, the final "
+"result would be:"
+msgstr "Lorsque quelqu'un visite votre site et il est membre des deux de ces groupes, parce que le paquet de l'or a une priorité plus élevée que le groupe employeur, le résultat final serait :"
+
+#: classes/admin/help/groups.php:79
+msgid "Show Fields:"
+msgstr "Afficher les champs :"
+
+#: classes/admin/help/groups.php:82
+msgid "Hide Fields:"
+msgstr "Masquer les champs :"
+
+#: classes/admin/help/groups.php:90
+msgid ""
+"Include as many users as you want into a group.  Even if users are included "
+"in this group, if you have any user specific configurations they will take "
+"priority over this group configuration."
+msgstr "Inclure autant d'utilisateurs que vous le souhaitez dans un groupe.  Même si les utilisateurs sont inclus dans ce groupe, si vous avez des configurations spécifiques de l'utilisateur qu'ils aura la priorité sur cette configuration de groupe."
+
+#: classes/admin/help/groups.php:101 classes/admin/help/settings.php:32
+msgid "Coming Soon..."
+msgstr "À venir..."
+
+#: classes/admin/help/groups.php:109
+msgid ""
+"You can include any registered roles into a group.  A special group has also"
+" been added called Anonymous which is used for any users that are not logged"
+" in."
+msgstr "Vous pouvez inclure n'importe quel rôle inscrit dans un groupe.  Un groupe spécial a également été ajouté appelé anonyme qui est utilisé pour tous les utilisateurs qui ne sont pas connectés."
+
+#: classes/admin/help/settings.php:24 classes/admin/settings.php:317
+msgid "Debug"
+msgstr "Débogage"
+
+#: classes/admin/listtable/custom.php:16
+msgid "Fields"
+msgstr "Champs"
+
+#: classes/admin/listtable/custom.php:17
+msgid "Total Fields"
+msgstr "Champs de totaux"
+
+#: classes/admin/listtable/custom.php:18
+#: classes/admin/listtable/default.php:24
+#: classes/admin/listtable/groups.php:24
+msgid "Actions"
+msgstr "Actions"
+
+#: classes/admin/listtable/custom.php:53
+#: classes/admin/listtable/default.php:98
+#: classes/admin/listtable/groups.php:123
+msgid "Edit"
+msgstr "Edit"
+
+#: classes/admin/listtable/custom.php:54
+#: classes/admin/listtable/default.php:99
+#: classes/admin/listtable/groups.php:124
+msgid "Delete"
+msgstr "Supprimer"
+
+#: classes/admin/listtable/default.php:18
+#: classes/admin/listtable/groups.php:18
+msgid "Title"
+msgstr "Titre"
+
+#: classes/admin/listtable/default.php:23
+#: classes/admin/listtable/groups.php:23
+msgid "Last Updated"
+msgstr "Dernière mise à jour"
+
+#: classes/admin/listtable/default.php:51
+msgid "n/a"
+msgstr "n/a"
+
+#: classes/admin/listtable/default.php:62
+msgid "Group"
+msgstr ""
+
+#: classes/admin/listtable/default.php:69
+msgid "User"
+msgstr ""
+
+#: classes/admin/listtable/groups.php:64
+msgid "Are you sure you want to remove the <strong>%s</strong> group?"
+msgstr "Êtes-vous sûr de que vouloir supprimer le groupe <strong>%s</strong> ?"
+
+#: classes/admin/listtable/groups.php:65
+msgid "This will remove any configurations you have created for this group!"
+msgstr "Ceci supprimera toutes les configurations que vous avez créé pour ce groupe !"
+
+#: classes/admin/listtable/groups.php:68
+msgid ""
+"There were configurations also found with this group in them, and if you "
+"remove this group it will be removed from those group configurations."
+msgstr "Il ont également trouvées avec ce groupe en eux des configurations, et si vous supprimez ce groupe il sera supprimé de ces configurations de groupe."
+
+#: classes/admin/listtable/groups.php:73
+msgid "Yes, remove the group!"
+msgstr "Oui, supprimer le groupe !"
+
+#: classes/admin/listtable/groups.php:75
+msgid "Remove Group?"
+msgstr "Supprimer le groupe ?"
+
+#: classes/admin/metaboxes/custom.php:22 classes/admin/metaboxes/custom.php:31
+#: classes/cpt.php:315
+msgid "Custom Visibilities"
+msgstr "Visibilités personnalisées"
+
+#: classes/admin/metaboxes/default.php:22
+msgid "Default Visible Fields"
+msgstr "Par défaut les champs visibles"
+
+#: classes/admin/metaboxes/default.php:31
+msgid "Default Hidden Fields"
+msgstr "Par défaut les champs cachés"
+
+#: classes/admin/metaboxes/default.php:56
+msgid "Select a Field to Show"
+msgstr "Sélectionnez un champ pour voir la"
+
+#: classes/admin/metaboxes/groups.php:55
+msgid "Group Priority"
+msgstr "Priorité du groupe"
+
+#: classes/admin/metaboxes/groups.php:89 classes/admin/views/roles.php:12
+msgid "Select a Role"
+msgstr "Sélectionnez un rôle"
+
+#: classes/admin/metaboxes/groups.php:115
+msgid "Select a User"
+msgstr "Sélectionnez un utilisateur"
+
+#: classes/admin/metaboxes/groups.php:140
+msgid "Select a Group"
+msgstr "Sélectionnez un groupe"
+
+#: classes/admin/metaboxes.php:40
+msgid "Debug Information"
+msgstr "Des informations de débogage"
+
+#: classes/admin/settings/fields.php:68
+msgid ""
+"Please install the <a href=\"%s\" target=\"_blank\">WP Job Manager "
+"Packages</a> plugin for packages integration with this plugin."
+msgstr ""
+
+#: classes/admin/settings/fields.php:69
+msgid ""
+"The packages plugin will add the ability to configure groups based on a "
+"specific package that the user has.  These packages can be any of the "
+"Visibility Packages created with the WP Job Manager Packages plugin, or any "
+"WooCommerce Paid Listing packages as well."
+msgstr ""
+
+#: classes/admin/settings/fields.php:70
+msgid ""
+"As a special promotion, any existing clients can use the promo code "
+"<strong>visclient15offpackages</strong> to get 15% off the purchase of the "
+"packages plugin!"
+msgstr ""
+
+#: classes/admin/settings/fields.php:71
+msgid "Check out the new WP Job Manager Packages Plugin:"
+msgstr ""
+
+#: classes/admin/settings/fields.php:310
+msgid "Deactivate License"
+msgstr "Désactiver la licence"
+
+#: classes/admin/settings/handlers.php:30
+msgid ""
+"Please make sure the default groups do not already exist, or there was an "
+"error creating them."
+msgstr "Veuillez vous assurer que les groupes par défaut n'existent pas déjà, ou il y avait une erreur de les créer."
+
+#: classes/admin/settings/handlers.php:33
+msgid "These default groups were added succesfully: "
+msgstr "Ces groupes par défaut ont été ajoutés avec succès : "
+
+#: classes/admin/settings/handlers.php:43
+msgid "Succesfully updated %s existing listing permalinks!"
+msgstr ""
+
+#: classes/admin/settings/handlers.php:54
+msgid "Succesfully updated %s existing resume listing permalinks!"
+msgstr ""
+
+#: classes/admin/settings/handlers.php:89
+msgid "All cache (with AND without expirations) has been purged/removed!"
+msgstr ""
+
+#: classes/admin/settings/handlers.php:95
+msgid "All user config cache has been purged/removed!"
+msgstr "Tous les cache de configuration d'utilisateur a été purgé/supprimé !"
+
+#: classes/admin/settings/handlers.php:101
+msgid "The core WordPress cache has been flushed!"
+msgstr "Le noyau cache de WordPress a été vidé !"
+
+#: classes/admin/settings/handlers.php:107
+msgid "All user group config cache has been purged/removed!"
+msgstr "Tous les cache de configuration de groupe utilisateur a été purgé/supprimé !"
+
+#: classes/admin/settings.php:37 classes/cpt.php:243
+msgid "Settings"
+msgstr "Paramètres"
+
+#: classes/admin/settings.php:128
+msgid "Integration"
+msgstr "Intégration"
+
+#: classes/admin/settings.php:133
+msgid "Listings"
+msgstr "Annonces"
+
+#: classes/admin/settings.php:135
+msgid "Enable processing of visibility configurations for %s Listings"
+msgstr "Activer le traitement des configurations de visibilité pour %s annonces"
+
+#: classes/admin/settings.php:147 classes/output/rm.php:246
+msgid "Permalink"
+msgstr "Lien permanent"
+
+#: classes/admin/settings.php:148
+msgid "Use Custom Permalinks when Listing Created/Updated"
+msgstr ""
+
+#: classes/admin/settings.php:149
+msgid ""
+"Enable this option to use the custom permalink configuration below.  By "
+"default the core plugin creates the permalink with Company Name, Location, "
+"Type, and Job Title.  Enabling this option sets this structure when a new "
+"listing is created/updated.  To update existing listings, use the force "
+"update permalink structure below."
+msgstr ""
+
+#: classes/admin/settings.php:155 classes/output/rm.php:254
+msgid "Permalink Structure"
+msgstr "Structure des permaliens"
+
+#: classes/admin/settings.php:160
+msgid "The custom permalink structure you want to use for "
+msgstr "La structure des permaliens personnalisée à utiliser pour "
+
+#: classes/admin/settings.php:160
+msgid ""
+" Listing permalinks. Permalinks are generated using meta key values from the"
+" listing, and all meta keys MUST be inside curly braces "
+msgstr " Liste des permaliens. Permalinks sont générés à l'aide de valeurs de clé meta dans la liste, et toutes les clés meta doivent être à l'intérieur des accolades "
+
+#: classes/admin/settings.php:160 classes/output/rm.php:259
+msgid ""
+"To prevent random value from being used when a field does not have a value, "
+"prepend the metakey with an exclamation point.  Example: "
+msgstr ""
+
+#: classes/admin/settings.php:161 classes/output/rm.php:260
+msgid "The default core values available are: "
+msgstr "Les valeurs par défaut disponibles sont : "
+
+#: classes/admin/settings.php:161 classes/output/rm.php:260
+msgid "10 random characters"
+msgstr "10 caractères aléatoires"
+
+#: classes/admin/settings.php:162
+msgid ""
+"<small>Any meta key can be used (only string value ones), including custom "
+"fields, so if your meta key is <code>job_info</code>, you would use "
+"<code>{job_info}</code>"
+msgstr "<small>Tout méta clé peut être utilisé (seulement valeur de chaîne ones), y compris les champs personnalisés, donc si votre clé meta est <code>job_info</code>, vous devriez utiliser <code>{job_info}</code>"
+
+#: classes/admin/settings.php:163 classes/output/rm.php:262
+msgid ""
+"<small>Spaces will be automatically replaced with dash/hyphen "
+"<code>-</code>, and all values will be set to lowercase.  If values are too "
+"long, they will automatically be shortened as well. If all fields used are "
+"empty, the random string will be used.</small>"
+msgstr "Espaces <small>seront automatiquement remplacés par dash/tiret <code>-</code>, et toutes les valeurs seront définies en minuscules.  Si les valeurs sont trop longs, ils seront automatiquement réduites aussi bien. Si tous les champs sont vides, la chaîne aléatoire sera utilisée.</small>"
+
+#: classes/admin/settings.php:169 classes/output/rm.php:268
+msgid "Force update existing listing permalinks"
+msgstr ""
+
+#: classes/admin/settings.php:172 classes/output/rm.php:271
+msgid "Permalink Update"
+msgstr ""
+
+#: classes/admin/settings.php:173 classes/output/rm.php:272
+msgid ""
+"If you already have existing listings and have just enabled or changed the "
+"permalink structure, you need to force update existing listings if you want "
+"them to use the new structure."
+msgstr ""
+
+#: classes/admin/settings.php:179
+msgid "Company Website"
+msgstr "Site Web de compagnie"
+
+#: classes/admin/settings.php:180
+msgid "Remove"
+msgstr "Supprimer"
+
+#: classes/admin/settings.php:181
+msgid ""
+"By default when setting the company_website to hide, the placeholder will be"
+" used instead of the website URL.  Enable this option to completely remove "
+"the company website link from the single listing page."
+msgstr "Par défaut lorsque vous installez le company_website se cacher, l'espace réservé servira au lieu de l'URL du site Web.  Activez cette option pour supprimer complètement le lien de site Web d'entreprise de la page de liste unique."
+
+#: classes/admin/settings.php:188
+msgid "Job Description"
+msgstr "Description de poste"
+
+#: classes/admin/settings.php:189
+msgid "Show excerpt if <code>job_description</code> meta key is hidden"
+msgstr "Voir l'établissement extrait si touche meta <code>job_description</code> est masqué"
+
+#: classes/admin/settings.php:190
+msgid ""
+"Enable this option to output the excerpt (first 55 words) first, then the "
+"placeholder value.  Normally, only the placeholder field would be output if "
+"the field is hidden."
+msgstr "Activez cette option produire l'extrait (première 55 mots) première, puis la valeur d'espace réservé.  Normalement, seul le champ de l'espace réservé serait sortie si le champ est masqué."
+
+#: classes/admin/settings.php:197 classes/admin/settings.php:202
+msgid "Cache"
+msgstr "Cache"
+
+#: classes/admin/settings.php:204
+msgid ""
+"This plugin uses WordPress transients to cache user/group configs to prevent"
+" excessive, and unecessary database queries.  This will result in around a "
+"200-400% speed improvement, only disable if directed by "
+"support.<br/><strong>Cache is automatically purged and updated whenever "
+"visibility configurations are added or updated, regardless of expiration "
+"value below.</strong>"
+msgstr ""
+
+#: classes/admin/settings.php:211
+msgid "Expiration"
+msgstr "Expiration"
+
+#: classes/admin/settings.php:212
+msgid ""
+"This will be the amount of time the cache is stored before it is "
+"automatically removed and has to be regenerated.<br/>Do not set this below 1"
+" Month unless you know what you're doing, as short cache expirations will "
+"cause unecessary database queries, ultimately slowing down your site."
+msgstr ""
+
+#: classes/admin/settings.php:216
+msgid "1 Minute"
+msgstr "1 minute"
+
+#: classes/admin/settings.php:217
+msgid "5 Minutes"
+msgstr "5 minutes"
+
+#: classes/admin/settings.php:218
+msgid "15 Minutes"
+msgstr "15 minutes"
+
+#: classes/admin/settings.php:219
+msgid "30 Minutes"
+msgstr "30 minutes"
+
+#: classes/admin/settings.php:220
+msgid "1 Hour"
+msgstr "1 heure"
+
+#: classes/admin/settings.php:221
+msgid "12 Hours"
+msgstr "12 heures"
+
+#: classes/admin/settings.php:222
+msgid "24 Hours"
+msgstr "24 heures"
+
+#: classes/admin/settings.php:223
+msgid "1 Week"
+msgstr "1 semaine"
+
+#: classes/admin/settings.php:224
+msgid "2 Weeks"
+msgstr "2 semaines"
+
+#: classes/admin/settings.php:225
+msgid "1 Month"
+msgstr "1 mois"
+
+#: classes/admin/settings.php:226
+msgid "3 Months"
+msgstr "3 mois"
+
+#: classes/admin/settings.php:227
+msgid "6 Months"
+msgstr "6 mois"
+
+#: classes/admin/settings.php:228
+msgid "1 Year"
+msgstr "1 an"
+
+#: classes/admin/settings.php:233
+msgid "Purge All"
+msgstr "Purger tous"
+
+#: classes/admin/settings.php:236
+msgid "Purge"
+msgstr "Purge"
+
+#: classes/admin/settings.php:237
+msgid ""
+"This will purge all user and group cache (with and without expirations) and "
+"require the cache to be rebuilt when the user visits the single listing page"
+" again.<br/>If the total of User Cache + Group Cache is less than all cache,"
+" you may need to use this to clear invalid cache without expirations."
+msgstr ""
+
+#: classes/admin/settings.php:243
+msgid "Purge User Cache"
+msgstr "Purger le Cache de l'utilisateur"
+
+#: classes/admin/settings.php:246
+msgid "Purge User"
+msgstr "Purge de l'utilisateur"
+
+#: classes/admin/settings.php:247
+msgid ""
+"Purge only the user configuration cache (only user specific config, does not"
+" clear user groups cache), with expirations. Cache will be rebuilt when the "
+"user visits the single listing page again."
+msgstr ""
+
+#: classes/admin/settings.php:253
+msgid "Purge Groups Cache"
+msgstr "Purger le Cache de groupes"
+
+#: classes/admin/settings.php:256
+msgid "Purge Groups"
+msgstr "Purge des groupes"
+
+#: classes/admin/settings.php:257
+msgid ""
+"Purge only the groups configuration cache (only user group config), with "
+"expirations. Cache will be rebuilt when the user visits the single listing "
+"page again."
+msgstr ""
+
+#: classes/admin/settings.php:263
+msgid "WP Cache"
+msgstr "WP Cache"
+
+#: classes/admin/settings.php:266
+msgid "Flush Cache"
+msgstr "Vider Cache"
+
+#: classes/admin/settings.php:267
+msgid ""
+"This will flush the entire WordPress core cache.  This is useful when "
+"taxonomies, meta, or other core WordPress data is showing old data."
+msgstr "Cela effacera tout le cache de base de WordPress.  Cela est utile lorsque des taxonomies, méta ou autre base de données de WordPress est montrant les anciennes données."
+
+#: classes/admin/settings.php:273
+msgid "Backup"
+msgstr "Sauvegarde"
+
+#: classes/admin/settings.php:277
+msgid "Download Groups Backup"
+msgstr "Télécharger Backup de groupes"
+
+#: classes/admin/settings.php:281
+msgid "Generate and download a backup of created groups."
+msgstr "Générer et télécharger une sauvegarde de groupes créés."
+
+#: classes/admin/settings.php:287
+msgid "Download Defaults Backup"
+msgstr "Télécharger Backup par défaut"
+
+#: classes/admin/settings.php:290
+msgid "Default"
+msgstr "Par défaut"
+
+#: classes/admin/settings.php:291
+msgid "Generate and download a backup of default visibility configurations."
+msgstr "Générer et télécharger une copie de sauvegarde de configurations de visibilité par défaut."
+
+#: classes/admin/settings.php:297
+msgid "Download Custom Visibilities Backup"
+msgstr "Télécharger Backup de visibilités personnalisé"
+
+#: classes/admin/settings.php:300
+msgid "Custom"
+msgstr "Custom"
+
+#: classes/admin/settings.php:301
+msgid "Generate and download a backup of custom visibility configurations."
+msgstr "Générer et télécharger une sauvegarde de configurations personnalisées de visibilité."
+
+#: classes/admin/settings.php:307
+msgid "Import Backup!"
+msgstr "Importer la sauvegarde !"
+
+#: classes/admin/settings.php:310
+msgid "Import Backup"
+msgstr "Sauvegarde d'importation"
+
+#: classes/admin/settings.php:311
+msgid ""
+"Import a previously generated backup.  This uses the default WordPress "
+"import feature, if you do not see a file upload after clicking this button, "
+"make sure to import using WordPress importer."
+msgstr "Importer une sauvegarde préalablement générée.  Cet exemple utilise la valeur par défaut que WordPress importer fonctionnalité, si vous ne voyez pas un fichier Télécharger après avoir cliqué sur ce bouton, n'oubliez pas d'importer à l'aide de WordPress importateur."
+
+#: classes/admin/settings.php:322
+msgid "Disable License Deactivation"
+msgstr "Désactiver la désactivation de la licence"
+
+#: classes/admin/settings.php:324
+msgid ""
+"By default when you deactivate the plugin it will also deactivate your "
+"license on the current site.  Check this box to disable the deactivation of "
+"your license when you deactivate the plugin."
+msgstr "Par défaut lorsque vous désactivez le plugin il désactivera également votre licence sur le site actuel.  Cochez cette case pour désactiver la désactivation de votre licence lorsque vous désactivez le plugin."
+
+#: classes/admin/settings.php:331
+msgid "Enable Post Debug"
+msgstr "Activez le débogage Post"
+
+#: classes/admin/settings.php:333
+msgid ""
+"Add a debug metabox to bottom of each add/edit post page (default, custom, "
+"groups)."
+msgstr "Ajouter un metabox debug en bas de chaque page de post d'ajouter/modifier (groupes personnalisés, par défaut,)."
+
+#: classes/admin/settings.php:340
+msgid "Heartbeat"
+msgstr "Battement de coeur"
+
+#: classes/admin/settings.php:342
+msgid ""
+"Disables WordPress heartbeat on Job, Resume, and any other pages for this "
+"plugin (does not affect other post types)"
+msgstr "Désactive la pulsation de WordPress sur Job, CV et toutes les autres pages de ce plugin (n'affecte pas les autres types de poste)"
+
+#: classes/admin/settings.php:349
+msgid "Post Lock"
+msgstr "Verrouillage de poste"
+
+#: classes/admin/settings.php:351
+msgid ""
+"Disables WordPress Post Lock on Job, Resume, and any other pages for this "
+"plugin (does not affect other post types)"
+msgstr "Désactive le verrouillage de WordPress Post sur Job, CV et toutes les autres pages de ce plugin (n'affecte pas les autres types de poste)"
+
+#: classes/admin/settings.php:358
+msgid "Show Debug in Footer"
+msgstr "Voir la Debug en pied de page"
+
+#: classes/admin/settings.php:360
+msgid ""
+"<strong>ONLY</strong> enable this when you are debugging, otherwise any "
+"visitor will see ALL of your user and group config!  You can also add "
+"<em>?admin_debug</em> to the end of the URL to show debug details (will only"
+" work for admins)."
+msgstr "<strong>Seulement</strong> permettre cela lorsque vous déboguez, autrement n'importe quel visiteur verra tous votre config utilisateur et de groupe !  Vous pouvez également ajouter des <em>? admin_debug</em> à la fin de l'URL pour afficher les détails de débogage (ne marche que pour les admins)."
+
+#: classes/admin/settings.php:367
+msgid "Admin Exception"
+msgstr "Exception de admin"
+
+#: classes/admin/settings.php:369
+msgid ""
+"By default if the user is an Administrator any field visibility "
+"configuration will bypassed.  Disable Admin Exception to process "
+"configurations for admins.  You can also just add "
+"<code>?admin_exception</code> to the end of the URL to preview the listing "
+"with visibility enabled."
+msgstr "Par défaut si l'utilisateur est un administrateur, un champ volonté de configuration visibilité contournée.  Désactiver Admin Exception aux configurations de processus pour les admins.  Vous pouvez aussi ajouter <code>? admin_exception</code> à la fin de l'URL pour afficher un aperçu de la liste avec une visibilité activée."
+
+#: classes/admin/settings.php:376
+msgid "Setup"
+msgstr "Programme d'installation"
+
+#: classes/admin/settings.php:380
+msgid "Add Default Groups"
+msgstr "Ajouter les groupes par défaut"
+
+#: classes/admin/settings.php:383
+msgid "Default Groups"
+msgstr "Groupes par défaut"
+
+#: classes/admin/settings.php:384
+msgid ""
+"This will setup/add the Anonymous (anonymous role), Candidates (candidate "
+"role), and Employers (employer role) groups."
+msgstr "Cela va d'installation/ajouter l'anonyme (rôle anonyme), candidats (rôle de candidat) et les groupes d'employeurs (rôle de l'employeur)."
+
+#: classes/admin/settings.php:390
+msgid "License"
+msgstr "Licence"
+
+#: classes/admin/settings.php:394
+msgid "Email"
+msgstr "Messagerie"
+
+#: classes/admin/settings.php:398
+msgid ""
+"The email associated with your license key, this <strong>MUST</strong> match"
+" the email found on your <a href=\"%s\" target=\"_blank\">My Account</a> "
+"page."
+msgstr "L'email associé à votre clé de licence, ce <strong>doit</strong> correspondre à l'e-mail sur votre page <a href=\"%s\" target=\"_blank\"> Mon compte</a>."
+
+#: classes/admin/settings.php:403
+msgid "License Key"
+msgstr "Clé de licence"
+
+#: classes/admin/settings.php:407
+msgid "The license key associated with the email above."
+msgstr "La clé de licence associée à l'email ci-dessus."
+
+#: classes/admin/settings.php:413
+msgid "Packages"
+msgstr ""
+
+#: classes/admin/settings.php:423
+msgid "Support"
+msgstr "Prise en charge"
+
+#: classes/admin/settings.php:433
+msgid "About"
+msgstr "Sur"
+
+#: classes/admin/views/metabox.php:3
+msgid "Select Fields to Mask"
+msgstr "Sélectionnez les champs à masque"
+
+#: classes/admin/views/metabox.php:4 classes/admin/views/users.php:13
+msgid "Select a User or Group"
+msgstr "Sélectionnez un utilisateur ou un groupe"
+
+#: classes/admin/views/metabox.php:5
+msgid "Select Visibility Fields"
+msgstr "Sélectionnez les champs de visibilité"
+
+#: classes/admin/views/metabox.php:17 classes/admin/views/placeholders.php:10
+msgid "Loading..."
+msgstr "Chargement..."
+
+#: classes/admin/views/metabox.php:53
+msgid "Select Fields to Hide on Listing"
+msgstr "Sélectionnez les champs à masquer sur inscription"
+
+#: classes/admin/views/metabox.php:56
+msgid "Select Fields to Show on Listing"
+msgstr "Sélectionnez les champs à afficher sur la liste"
+
+#: classes/admin/views/metabox.php:62 classes/admin/views/placeholders.php:43
+msgid "Placeholder text or HTML to use instead of actual value"
+msgstr "Texte d'espace réservé ou HTML à utiliser au lieu de la valeur réelle"
+
+#: classes/admin/views/metabox.php:65 classes/admin/views/placeholders.php:46
+msgid "Add"
+msgstr "Ajouter"
+
+#: classes/admin/views/metakeys.php:13 classes/admin/views/select.php:13
+msgid "Select a %s"
+msgstr "Sélectionnez un %s"
+
+#: classes/admin/views/metakeys.php:21 classes/admin/views/select.php:21
+msgid "No %ss Found"
+msgstr "Pas trouvé de l'art %"
+
+#: classes/admin/views/ph-table.php:8 classes/admin/views/table.php:8
+msgid "Edit in Progress..."
+msgstr "Modifier en cours..."
+
+#: classes/admin/views/ph-table.php:14
+msgid "Field"
+msgstr "Domaine"
+
+#: classes/admin/views/ph-table.php:15 classes/admin/views/table.php:16
+msgid "Placeholder"
+msgstr "Espace réservé"
+
+#: classes/admin/views/ph-table.php:16 classes/admin/views/table.php:17
+msgid "Action"
+msgstr "Action"
+
+#: classes/admin/views/ph-table.php:53 classes/admin/views/table.php:74
+msgid "No Records"
+msgstr "Aucun enregistrement"
+
+#: classes/admin/views/placeholders.php:24
+msgid "Select a field to hide"
+msgstr "Sélectionnez un champ pour cacher"
+
+#: classes/admin/views/priority.php:10
+msgid "Priority: "
+msgstr "Priorité : "
+
+#: classes/admin/views/priority.php:17
+msgid "Default priority is 10"
+msgstr "Priorité par défaut est 10"
+
+#: classes/admin/views/priority.php:18
+msgid "Lower number equals higher priority"
+msgstr "Plus faible numéro correspond à une priorité plus élevée"
+
+#: classes/admin/views/priority.php:19
+msgid "See the help menu in top right corner for more details on priorities."
+msgstr "Consultez le menu d'aide en haut à droite pour plus de détails sur les priorités."
+
+#: classes/admin/views/roles.php:19
+msgid "No Roles Found"
+msgstr "Pas trouvés de rôles"
+
+#: classes/admin/views/table.php:14
+msgid "User or Group"
+msgstr "Utilisateur ou groupe"
+
+#: classes/admin/views/table.php:15
+msgid "Show/Hide Fields"
+msgstr "Afficher/masquer les champs"
+
+#: classes/admin/views/users.php:21
+msgid "No Groups Found"
+msgstr "Pas trouvés de groupes"
+
+#: classes/admin/views/users.php:23
+msgid "Error getting Users!"
+msgstr "Erreur d'obtention des utilisateurs !"
+
+#: classes/admin/views.php:70
+msgid "No array data found!"
+msgstr "Aucune donnée de tableau trouvée !"
+
+#: classes/admin.php:61
+msgid "Thanks for upgrading/installing WP Job Manager Visibility!"
+msgstr ""
+
+#: classes/admin.php:62
+msgid ""
+"Did you know this plugin (WP Job Manager Visibility) can be extended using "
+"the <a href=\"%1$s\" target=\"_blank\">WP Job Manager Packages</a> "
+"plugin?<br/> <br />The packages plugin allows you to configure groups based "
+"on Visibility Packages or WooCommerce Paid Listings packages, and TONS of "
+"other features!<br /><strong><a href=\"%2$s\">Click here for more "
+"information (and 15 percent off coupon code)</a></strong>"
+msgstr ""
+
+#: classes/admin.php:63
+msgid "Dismiss"
+msgstr ""
+
+#: classes/cpt.php:66 classes/cpt.php:67
+msgid "%s successfully updated."
+msgstr "%s mis à jour."
+
+#: classes/cpt.php:68
+msgid "%s successfully created."
+msgstr "%s a été correctement créé."
+
+#: classes/cpt.php:69
+msgid "%s successfully saved."
+msgstr "%s enregistrés avec succès."
+
+#: classes/cpt.php:142
+msgid "Default visibility configuration"
+msgstr "Configuration de visibilité par défaut"
+
+#: classes/cpt.php:147
+msgid "Custom visibility configuration"
+msgstr "Configuration de la visibilité personnalisé"
+
+#: classes/cpt.php:152
+msgid "Visibility group"
+msgstr "Groupe de visibilité"
+
+#: classes/cpt.php:266
+msgid "Visibility Groups"
+msgstr "Groupes de visibilité"
+
+#: classes/cpt.php:267
+msgid "Visibility Group"
+msgstr "Groupe de visibilité"
+
+#: classes/cpt.php:269
+msgid "Add New Visibility Group"
+msgstr "Ajouter le nouveau groupe de visibilité"
+
+#: classes/cpt.php:270
+msgid "Edit Visibility Group"
+msgstr "Modifier un groupe visibilité"
+
+#: classes/cpt.php:271
+msgid "New Visibility Group"
+msgstr "Nouveau groupe de visibilité"
+
+#: classes/cpt.php:272
+msgid "View Visibility Group"
+msgstr "Groupe de visibilité d'affichage"
+
+#: classes/cpt.php:273
+msgid "Search Visibility Groups"
+msgstr "Recherche groupes de visibilité"
+
+#: classes/cpt.php:274
+msgid "No Visibility Groups Found"
+msgstr "Aucune visibilité des groupes trouvés"
+
+#: classes/cpt.php:275
+msgid "No Visibility Groups Found in Trash"
+msgstr "Aucun groupe de visibilité dans la corbeille"
+
+#: classes/cpt.php:316 classes/cpt.php:372
+msgid "Visibilities"
+msgstr "Visibilités"
+
+#: classes/cpt.php:317
+msgid "Custom Visibility"
+msgstr "Visibilité personnalisée"
+
+#: classes/cpt.php:318
+msgid "Add New Custom Visibility Configuration"
+msgstr "Ajouter Nouvelle Configuration personnalisée de visibilité"
+
+#: classes/cpt.php:319
+msgid "Edit Custom Visibility"
+msgstr "Modifier la visibilité personnalisée"
+
+#: classes/cpt.php:320
+msgid "New Custom Visibility"
+msgstr "Nouvelle visibilité personnalisée"
+
+#: classes/cpt.php:321
+msgid "View Custom Visibility"
+msgstr "Vue personnalisée visibilité"
+
+#: classes/cpt.php:322
+msgid "Search Custom Visibilities"
+msgstr "Recherche personnalisée visibilités"
+
+#: classes/cpt.php:323
+msgid "No Custom Visibilities Found"
+msgstr "Aucune visibilité personnalisée trouvée"
+
+#: classes/cpt.php:324
+msgid "No Custom Visibilities Found in Trash"
+msgstr "Aucune visibilité personnalisée trouvée dans la poubelle"
+
+#: classes/cpt.php:371
+msgid "Default Visibilities"
+msgstr "Visibilité par défaut"
+
+#: classes/cpt.php:373
+msgid "Default Visibility"
+msgstr "Visibilité par défaut"
+
+#: classes/cpt.php:374
+msgid "Add New Default Visibility Configuration"
+msgstr "Ajouter la nouvelle Configuration de visibilité par défaut"
+
+#: classes/cpt.php:375
+msgid "Edit Default Visibility"
+msgstr "Modifier la visibilité par défaut"
+
+#: classes/cpt.php:376
+msgid "New Default Visibility"
+msgstr "Nouvelle visibilité par défaut"
+
+#: classes/cpt.php:377
+msgid "View Default Visibility"
+msgstr "Visibilité de vue par défaut"
+
+#: classes/cpt.php:378
+msgid "Search Default Visibilities"
+msgstr "Recherche la visibilité par défaut"
+
+#: classes/cpt.php:379
+msgid "No Default Visibilities Found"
+msgstr "Aucune visibilité par défaut trouvée"
+
+#: classes/cpt.php:380
+msgid "No Default Visibilities Found in Trash"
+msgstr "Aucune visibilité par défaut trouvée dans la poubelle"
+
+#: classes/install.php:88
+msgid "All"
+msgstr "Tous les"
+
+#: classes/install.php:89
+msgid "Anonymous"
+msgstr "Anonyme"
+
+#: classes/install.php:90
+msgid "Candidates"
+msgstr "Candidats"
+
+#: classes/install.php:91
+msgid "Employers"
+msgstr "Employeurs"
+
+#: classes/install.php:92
+msgid "Administrators"
+msgstr "Administrateurs"
+
+#: classes/output/jm.php:194
+msgid "Listing"
+msgstr "Liste"
+
+#: classes/output/rm.php:227
+msgid "Resume Listings"
+msgstr "Reprise des inscriptions"
+
+#: classes/output/rm.php:229
+msgid "Enable processing of visibility configurations for Resume Manager."
+msgstr "Activer le traitement des configurations de visibilité pour le gestionnaire de CV."
+
+#: classes/output/rm.php:241
+msgid "Resumes"
+msgstr "Curriculum vitae"
+
+#: classes/output/rm.php:247
+msgid "Use Custom Permalinks"
+msgstr "Utiliser les permaliens personnalisés"
+
+#: classes/output/rm.php:248
+msgid ""
+"Enable this option to use the custom permalink configuration below.  By "
+"default the Resumes plugin creates the permalink with Candidate Name, Title,"
+" and Location. .  By default the core plugin creates the permalink with "
+"Company Name, Location, Type, and Job Title.  Enabling this option sets this"
+" structure when a new listing is created/updated.  To update existing "
+"listings, use the force update permalink structure below."
+msgstr ""
+
+#: classes/output/rm.php:259
+msgid ""
+"The custom permalink structure you want to use for Resume permalinks. "
+"Permalinks are generated using meta key values from the listing, and all "
+"meta keys MUST be inside curly braces "
+msgstr "La structure des permaliens personnalisé à utiliser pour les permaliens de curriculum vitae. Permalinks sont générés à l'aide de valeurs de clé meta dans la liste, et toutes les clés meta doivent être à l'intérieur des accolades "
+
+#: classes/output/rm.php:261
+msgid ""
+"<small>Any meta key can be used (only string value ones), including custom "
+"fields, so if your meta key is <code>candidate_state</code>, you would use "
+"<code>{candidate_state}</code>"
+msgstr "<small>Tout méta clé peut être utilisé (seulement valeur de chaîne ones), y compris les champs personnalisés, donc si votre clé meta est <code>candidate_state</code>, vous devriez utiliser <code>{candidate_state}</code>"
+
+#: classes/output/rm.php:278
+msgid "Education Placeholder"
+msgstr "L'éducation espace réservé"
+
+#: classes/output/rm.php:279
+msgid ""
+"Select what field for Education should be replaced with a placeholder (if "
+"configured)"
+msgstr "Sélectionnez le champ de l'éducation devrait être remplacé par un espace réservé (si configuré)"
+
+#: classes/output/rm.php:283
+msgid "School name"
+msgstr "Nom de l'école"
+
+#: classes/output/rm.php:284 classes/output/rm.php:301
+msgid "Qualification(s)"
+msgstr "Ou qualités"
+
+#: classes/output/rm.php:285 classes/output/rm.php:335
+msgid "Start/end date"
+msgstr "Date de début et de fin"
+
+#: classes/output/rm.php:286 classes/output/rm.php:319
+#: classes/output/rm.php:336 classes/output/rm.php:369
+msgid "Notes"
+msgstr "Notes"
+
+#: classes/output/rm.php:292
+msgid "School Name"
+msgstr "Nom de l'école"
+
+#: classes/output/rm.php:293 classes/output/rm.php:302
+#: classes/output/rm.php:311 classes/output/rm.php:320
+#: classes/output/rm.php:343 classes/output/rm.php:352
+#: classes/output/rm.php:361 classes/output/rm.php:370
+msgid "Clear"
+msgstr "Claire"
+
+#: classes/output/rm.php:294 classes/output/rm.php:303
+#: classes/output/rm.php:312 classes/output/rm.php:321
+#: classes/output/rm.php:344 classes/output/rm.php:353
+#: classes/output/rm.php:362 classes/output/rm.php:371
+msgid ""
+"Should this field be cleared when a placeholder is used? Blank value will be"
+" used (unless selected for placeholder)"
+msgstr "Si ce champ être effacé lorsqu'un espace réservé est utilisé ? Une valeur vide sera utilisée (sauf s'il est sélectionné pour l'espace réservé)"
+
+#: classes/output/rm.php:310 classes/output/rm.php:360
+msgid "Start/End Date"
+msgstr "Date de début et de fin"
+
+#: classes/output/rm.php:328
+msgid "Experience Placeholder"
+msgstr "Espace réservé expérience"
+
+#: classes/output/rm.php:329
+msgid ""
+"Select what field for Experience should be replaced with a placeholder (if "
+"configured)"
+msgstr "Sélectionnez ce champ d'expérience devrait être remplacé par un espace réservé (si configuré)"
+
+#: classes/output/rm.php:333 classes/output/rm.php:342
+msgid "Employer"
+msgstr "Employeur"
+
+#: classes/output/rm.php:334 classes/output/rm.php:351
+msgid "Job Title"
+msgstr "Titre du poste"
+
+#: classes/output/rm.php:378
+msgid "Links Placeholder"
+msgstr "Liens espace réservé"
+
+#: classes/output/rm.php:379
+msgid ""
+"Select what field for Links should be replaced with a placeholder (if "
+"configured)."
+msgstr "Sélectionnez ce champ pour les liens devrait être remplacé par un espace réservé (si configuré)."
+
+#: classes/output/rm.php:383 classes/output/rm.php:390
+msgid "URL"
+msgstr "URL"
+
+#: classes/output/rm.php:384
+msgid "Name"
+msgstr "Nom"
+
+#: classes/output/rm.php:391
+msgid "Replace the URL with value from below"
+msgstr "Remplacez l'URL par valeur par en dessous"
+
+#: classes/output/rm.php:392
+msgid ""
+"If Name is selected above, and this is checked, this will replace the URL in"
+" the HTML link tag with the value from below."
+msgstr "Si le nom est sélectionné ci-dessus, et cette option est cochée, cela remplacera l'URL dans la balise de lien HTML avec la valeur par le bas."
+
+#: classes/output/rm.php:399
+msgid "URL Placeholder"
+msgstr "Espace réservé URL"
+
+#: classes/output/rm.php:401
+msgid ""
+"This value will be used instead of the actual URL if enabled (checked) above"
+" and the placeholder is set as Name"
+msgstr "Cette valeur sera utilisée au lieu de l'URL réelle si activée (cochée) ci-dessus et l'espace réservé est définie comme nom"
+
+#: classes/output/rm.php:408
+msgid "URL Prepend"
+msgstr "Préfixe d'URL"
+
+#: classes/output/rm.php:410
+msgid ""
+"If you want to prepend the URL with any value, set it here.  This will be "
+"used regardless of settings above, and only if there is a value set."
+msgstr "Si vous souhaitez ajouter l'URL avec n'importe quelle valeur, réglez-le ici.  Ce sera utilisés indépendamment des paramètres ci-dessus et seulement si il existe un ensemble de valeur."
+
+#: classes/output/rm.php:461
+msgid "Candidate"
+msgstr "Candidat"
+
+#: classes/roles.php:57
+msgid "Anonymous (users not logged in)"
+msgstr "Anonyme (utilisateurs non connectés)"
+
+#: includes/compatibility.php:71
+msgid ""
+"Your server is using a <strong>VERY OLD, unsupported, and no longer "
+"maintained</strong> version of PHP, version 5.2 or older. <a href=\"%1$s\" "
+"target=\"_blank\">EOL (End of Life)</a> for PHP 5.2 was about <strong>%2$s "
+"ago</strong>!! This means there may be bugs, and security vulnerabilities "
+"that have not, and will never be patched for this version of PHP!<br /><br "
+"/>It is <strong>strongly</strong> recommended that you contact your web "
+"hosting provider and request to upgrade to PHP 5.4 or newer ... or <a "
+"href=\"%3$s\">Hide this Notice Forever!</a> (but don't say I didn't warn "
+"you)<br/><br /><a href=\"%4$s\" target=\"_blank\">Contact me</a> for an "
+"exclusive sMyles Plugins customer promo code discount for any shared "
+"<strong>SSD (Solid State Drive)</strong> hosting packages!  Data centers in "
+"Florida USA, Arizona USA, Montreal Canada, and France.  Your site will run "
+"faster than it ever has, or your money back!"
+msgstr "Votre serveur utilise une version <strong>Très ancienne, non pris en charge et n'est plus maintenu</strong> de PHP, version 5.2 ou plus âgée. <a href=\"%1$s\" target=\"_blank\"> EOL (End of Life)</a> pour PHP 5.2 parlait de <strong>%2$ s'il y a</strong>!! Autrement dit, il peut y avoir des bogues et des failles de sécurité qui n'ont pas et ne seront jamais être patchés pour cette version de PHP! < br / > < br / > il est <strong>fortement</strong> recommandé de contacter votre fournisseur et demande de mettre à niveau vers PHP 5.4 ou plus récent... d'hébergement web ou <a href=\"%3$s\"> se cacher cet avis jamais!</a> (mais ne dites pas je ne vous préviens) <br/> < br / &gt; <a href=\"%4$s\" target=\"_blank\"> me contacter</a> pour une remise de code promo exclusif sMyles Plugins client pour tout partagé <strong>SSD (Solid State Drive)</strong>, forfaits d'hébergement !  Les centres de données en Floride USA, Arizona, États-Unis, Montréal Canada et en France.  Votre site s'exécutera plus vite qu'il n'a jamais, ou remboursé !"
+
+#: includes/compatibility.php:75
+msgid ""
+"Your server is using an <strong>OLD, unsupported, and no longer "
+"maintained</strong> version of PHP, version 5.3. <a href=\"%1$s\" "
+"target=\"_blank\">EOL (End of Life)</a> for PHP 5.3 was about <strong>%2$s "
+"ago</strong>!! This means there may be bugs, and security vulnerabilities "
+"that have not, and will never be patched for this version of PHP!<br /><br "
+"/>It is <strong>strongly</strong> recommended that you contact your web "
+"hosting provider and request to upgrade to PHP 5.4 or newer ... or <a "
+"href=\"%3$s\">Hide this Notice Forever!</a> (but don't say I didn't warn "
+"you)<br/><br /><a href=\"%4$s\" target=\"_blank\">Contact me</a> for an "
+"exclusive sMyles Plugins customer promo code discount for any shared "
+"<strong>SSD (Solid State Drive)</strong> hosting packages!  Data centers in "
+"Florida USA, Arizona USA, Montreal Canada, and France.  Your site will run "
+"faster than it ever has, or your money back!"
+msgstr "Votre serveur utilise une version <strong>ancienne, non pris en charge et n'est plus entretenue</strong> de PHP, version 5.3. <a href=\"%1$s\" target=\"_blank\"> EOL (End of Life)</a> pour PHP 5.3 parlait de <strong>%2$ s'il y a</strong>!! Autrement dit, il peut y avoir des bogues et des failles de sécurité qui n'ont pas et ne seront jamais être patchés pour cette version de PHP! < br / > < br / > il est <strong>fortement</strong> recommandé de contacter votre fournisseur et demande de mettre à niveau vers PHP 5.4 ou plus récent... d'hébergement web ou <a href=\"%3$s\"> se cacher cet avis jamais!</a> (mais ne dites pas je ne vous préviens) <br/> < br / &gt; <a href=\"%4$s\" target=\"_blank\"> me contacter</a> pour une remise de code promo exclusif sMyles Plugins client pour tout partagé <strong>SSD (Solid State Drive)</strong>, forfaits d'hébergement !  Les centres de données en Floride USA, Arizona, États-Unis, Montréal Canada et en France.  Votre site s'exécutera plus vite qu'il n'a jamais, ou remboursé !"
+
+#: includes/smyles-update/class-smyles-update.php:71
+msgid "Deactivate Licence"
+msgstr "Désactiver la Licence"
+
+#: includes/smyles-update/class-smyles-update.php:83
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr "Votre permis de conduire pour <strong>%s</strong> a été activé. Merci !"
+
+#: includes/smyles-update/class-smyles-update.php:361
+msgid ""
+"A licence key for %s could not be found. Maybe you forgot to enter a licence"
+" key when setting up %s."
+msgstr "Une clé de licence pour %s introuvable. Vous avez peut-être oublié d'entrer une clé de licence lors du paramétrage de %s."
+
+#: includes/smyles-update/class-smyles-update.php:365
+msgid "Invalid update request"
+msgstr "Demande de mise à jour non valide"
+
+#: includes/smyles-update/class-smyles-update.php:386
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr "Votre permis de conduire pour <strong>%s</strong> a été désactivée."
+
+#: includes/smyles-update/class-smyles-update.php:426
+msgid "Licence"
+msgstr "Licence"
+
+#: includes/smyles-update/class-smyles-update.php:429
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for"
+" automatic updates.  The key <strong>and email MUST</strong> match the "
+"details you can find on your <a href=\"%s\" target=\"_blank\">My Account</a>"
+" page."
+msgstr "Entrez votre clé de licence et votre email et appuyez sur retour. Une clé valide est requise pour les mises à jour automatiques.  La clé <strong>et le courrier électronique doit</strong> correspondre les détails que vous trouverez sur la page <a href=\"%s\" target=\"_blank\"> Mon compte</a>."
+
+#: includes/smyles-update/class-smyles-update.php:450
+msgid "Hide notice"
+msgstr "Cacher les avis"
+
+#: includes/smyles-update/class-smyles-update.php:451
+msgid ""
+"<a href=\"%s\">Please activate your licence key</a> to get updates for "
+"<strong>%s</strong>.  This ensures you have the latest features, bug fixes, "
+"and experience!"
+msgstr "<a href=\"%s\"> s'il vous plaît activer votre clé de licence</a> pour obtenir les mises à jour pour <strong>%s</strong>.  Cela garantit que vous avez les dernières fonctionnalités, corrections de bugs et l'expérience !"
+
+#: includes/smyles-update/class-smyles-update.php:452
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr "Vous avez perdu votre clé ? <a href=\"%s\"> récupérez-le ici</a>."
+
+#: wp-job-manager-visibility.php:86
+msgid ""
+"WP Job Manager Visibility requires WP Job Manager Resumes 1.13.0 and above. "
+"Please upgrade as soon as possible!  Resume integration will be disabled "
+"until you upgrade to 1.13.0 or above."
+msgstr "Visibilité de WP Job Manager nécessite WP Job Manager reprend 1.13.0 et ci-dessus. S'il vous plaît mettez à jour dès que possible !  Intégration de curriculum vitae sera désactivée jusqu'à ce que vous mettez à niveau 1.13.0 ou supérieur."
+
+#: wp-job-manager-visibility.php:112
+msgid "Translate"
+msgstr "Traduire"
+
+#: wp-job-manager-visibility.php:189
+msgid "Once Weekly"
+msgstr "Une fois par semaine"
+
+#: wp-job-manager-visibility.php:229 wp-job-manager-visibility.php:230
+msgid "Job"
+msgstr "Job"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Visibility"
+msgstr "Gestionnaire de tâches de WP - visibilité"
+
+#. Plugin URI of the plugin/theme
+msgid "http://plugins.smyl.es/wp-job-manager-visibility"
+msgstr "http://plugins.Smyl.es/WP-Job-Manager-Visibility"
+
+#. Description of the plugin/theme
+msgid ""
+"Set fields as visible or hidden (with placeholders) for WP Job Manager "
+"fields using custom groups or user configurations."
+msgstr "Définissez les champs comme visible ou masqué (avec espaces réservés) pour les champs de WP Job Manager à l'aide de groupes personnalisés ou les configurations des utilisateurs."
+
+#. Author of the plugin/theme
+msgid "Myles McNamara"
+msgstr "Myles McNamara"
+
+#. Author URI of the plugin/theme
+msgid "http://smyl.es"
+msgstr "http://Smyl.es"

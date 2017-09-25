@@ -1,0 +1,11 @@
+#myaccount {
+	.col-sm-6 {
+		&:first-child {
+			padding-top: 15px;
+
+			.row {
+				padding-bottom: 25px;
+			}
+		}		
+	}
+}

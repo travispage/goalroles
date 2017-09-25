@@ -1,0 +1,2134 @@
+# Copyright (C) 2017 Myles McNamara
+# This file is distributed under the GPLv3.
+# Translators:
+# Myles McNamara <myles@smyl.es>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - Packages 1.0.0\n"
+"Report-Msgid-Bugs-To: http://plugins.smyl.es\n"
+"POT-Creation-Date: 2017-01-26 22:53:07+00:00\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Myles McNamara <myles@smyl.es>, 2017\n"
+"Language-Team: Greek (https://www.transifex.com/smyles/teams/24600/el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: includes/admin/listtable/addpackage.php:72
+msgid "Package Type"
+msgstr "Τύπος πακέτου"
+
+#: includes/admin/listtable/addpackage.php:76
+#: includes/admin/listtable/addpackage.php:77
+msgid "%s Package"
+msgstr "πακέτου %s"
+
+#: includes/admin/listtable/addpackage.php:92
+#: includes/admin/listtable/addpackage.php:166
+#: includes/admin/wc/views/html-view-job-package-data.php:35
+msgid "Allow %s?"
+msgstr "Επιτρέπουν %s;"
+
+#: includes/admin/listtable/addpackage.php:93
+#: includes/admin/listtable/addpackage.php:167
+msgid "Whether or not this user package supports this feature"
+msgstr ""
+"Κατά πόσον ή όχι αυτό το πακέτο χρήστη υποστηρίζει αυτήν τη δυνατότητα"
+
+#: includes/admin/listtable/addpackage.php:104
+#: includes/admin/listtable/addpackage.php:178
+msgid "%s Limit"
+msgstr "όριο %s"
+
+#: includes/admin/listtable/addpackage.php:105
+#: includes/admin/listtable/addpackage.php:179
+msgid "Set specific package limit (Use 0 for unlimited)"
+msgstr "Ορισμός ειδικού πακέτου όριο (χρήση 0 για απεριόριστο)"
+
+#: includes/admin/listtable/addpackage.php:108
+#: includes/admin/listtable/addpackage.php:182 includes/admin/listtable.php:70
+#: includes/admin/listtable.php:105 includes/admin/listtable.php:157
+#: includes/admin/wc/views/html-view-job-package-data.php:17
+#: includes/admin/wc/views/html-view-job-package-data.php:45
+#: includes/admin/wc/views/html-view-resume-package-data.php:14
+#: includes/admin/wc/views/html-view-resume-package-data.php:42
+#: includes/admin/wc/views/html-view-resume-package-data.php:70
+msgid "Unlimited"
+msgstr "Απεριόριστη"
+
+#: includes/admin/listtable/addpackage.php:113
+#: includes/admin/listtable/addpackage.php:187 includes/admin/listtable.php:75
+#: includes/admin/listtable.php:110 includes/admin/listtable.php:157
+msgid "%s Used"
+msgstr "%s χρησιμοποιείται"
+
+#: includes/admin/listtable/addpackage.php:114
+#: includes/admin/listtable/addpackage.php:188
+msgid "Set the total used out of limit available in package"
+msgstr "Ορίστε το σύνολο χρησιμοποιείται εκτός ορίων διατίθεται σε πακέτο"
+
+#: includes/admin/listtable/addpackage.php:122
+#: includes/admin/listtable/addpackage.php:196
+msgid "%s Posts"
+msgstr "%s θέσεις"
+
+#: includes/admin/listtable/addpackage.php:123
+#: includes/admin/listtable/addpackage.php:197
+msgid "CSV (Comma Separated Value) of Post IDs used"
+msgstr ""
+"CSV (τιμές διαχωρισμένες με κόμμα) των ταχυδρομείων αναγνωριστικά "
+"χρησιμοποιούνται"
+
+#: includes/admin/listtable/addpackage.php:126
+#: includes/admin/listtable/addpackage.php:200
+msgid "Used posts &hellip;"
+msgstr "Χρησιμοποιούνται θέσεις &hellip;"
+
+#: includes/admin/listtable/addpackage.php:231
+#: includes/admin/listtable.php:182
+msgid "User"
+msgstr "Χρήστης"
+
+#: includes/admin/listtable/addpackage.php:234
+msgid "Guest"
+msgstr "Πελατών"
+
+#: includes/admin/listtable/addpackage.php:239
+#: includes/admin/listtable.php:185
+msgid "Product"
+msgstr "Προϊόντος"
+
+#: includes/admin/listtable/addpackage.php:240
+msgid "Optionally link this package to a product."
+msgstr "Προαιρετικά μπορείτε να συνδέσετε αυτό το πακέτο σε ένα προϊόν."
+
+#: includes/admin/listtable/addpackage.php:243
+msgid "Choose a product&hellip;"
+msgstr "Επιλέξτε ένα προϊόν &hellip;"
+
+#: includes/admin/listtable/addpackage.php:278
+#: includes/admin/listtable.php:184
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: includes/admin/listtable/addpackage.php:279
+msgid ""
+"Current status of the package.  Package must be active to show in user "
+"account and available to the user.  On-hold status normally means it's a "
+"subscription pending renewal payment."
+msgstr ""
+"Τρέχουσα κατάσταση του πακέτου.  Το πακέτο πρέπει να είναι ενεργό για να "
+"δείξει στο λογαριασμό χρήστη και διαθέσιμες στο χρήστη.  Κατάσταση σε "
+"αναμονή συνήθως σημαίνει ότι είναι μια συνδρομή εκκρεμείς πληρωμές "
+"ανανέωσης."
+
+#: includes/admin/listtable/addpackage.php:282
+msgid "Choose a status&hellip;"
+msgstr "Επιλέξτε μια κατάσταση &hellip;"
+
+#: includes/admin/listtable/addpackage.php:297
+#: includes/admin/listtable.php:187
+msgid "Order ID"
+msgstr "ID παραγγελίας"
+
+#: includes/admin/listtable/addpackage.php:298
+msgid "Optionally link this package to an order."
+msgstr "Προαιρετικά μπορείτε να συνδέσετε αυτό το πακέτο σε μια παραγγελία."
+
+#: includes/admin/listtable/addpackage.php:301
+msgid "N/A"
+msgstr "Δ/Υ"
+
+#: includes/admin/listtable/addpackage.php:307
+msgid "Save Package"
+msgstr "Αποθηκεύστε το πακέτο"
+
+#: includes/admin/listtable/addpackage.php:329
+msgid ""
+"Please select a user from the dropdown to associate this user package with."
+msgstr ""
+"Παρακαλώ επιλέξτε ένα χρήστη από την αναπτυσσόμενη λίστα για να συσχετίσετε "
+"το χρήστη πακέτο με."
+
+#: includes/admin/listtable/addpackage.php:332
+msgid ""
+"A status is required for a package, please select one from the dropdown "
+"(must be active to show in user account)"
+msgstr ""
+"Κατάσταση είναι απαραίτητη για ένα πακέτο, παρακαλούμε επιλέξτε μία από το "
+"αναπτυσσόμενο μενού (πρέπει να είναι ενεργό για να δείξει στον λογαριασμό "
+"χρήστη)"
+
+#: includes/admin/listtable/addpackage.php:425
+msgid "Package successfully saved"
+msgstr "Αποθηκεύτηκε σε με επιτυχία το πακέτο"
+
+#: includes/admin/listtable.php:143 includes/admin/listtable.php:150
+#: includes/admin/listtable.php:155
+msgid "n/a"
+msgstr "δ/υ"
+
+#: includes/admin/listtable.php:160
+msgid "Subscription"
+msgstr "Συνδρομή"
+
+#: includes/admin/listtable.php:162
+msgid "Package"
+msgstr "Πακέτο"
+
+#: includes/admin/listtable.php:165
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: includes/admin/listtable.php:166
+msgid "Delete"
+msgstr "Διαγραφή του"
+
+#: includes/admin/listtable.php:183
+msgid "Type"
+msgstr "Τύπος"
+
+#: includes/admin/listtable.php:186
+msgid "Limits"
+msgstr "Όρια"
+
+#: includes/admin/listtable.php:188
+msgid "Actions"
+msgstr "Δράσεις"
+
+#: includes/admin/plugins/visibility/views/packages.php:19
+msgid "No Packages Found"
+msgstr "Υπάρχουν πακέτα που βρέθηκαν"
+
+#: includes/admin/plugins/visibility/views/packages.php:25
+msgid "Select a Package"
+msgstr "Επιλέξτε ένα πακέτο"
+
+#: includes/admin/plugins/visibility/views/packages.php:29
+#: includes/admin/plugins/visibility/views/packages.php:43
+msgid "%s Packages"
+msgstr "πακέτα %s"
+
+#: includes/admin/plugins/visibility/views/packages.php:57
+#: includes/admin/plugins/visibility/views/packages.php:71
+msgid "WC Paid Listings %s Packages"
+msgstr "WC καταβάλλονται καταχωρήσεις %s πακέτα"
+
+#: includes/admin/plugins/visibility.php:94
+#: includes/admin/plugins/visibility.php:182
+msgid "Packages"
+msgstr "Πακέτα διακοπών"
+
+#: includes/admin/settings/job.php:42 includes/functions.php:61
+#: includes/wc/job.php:38
+msgid "Job"
+msgstr "Εργασία"
+
+#: includes/admin/settings/job.php:43
+msgid "Jobs"
+msgstr "Θέσεις εργασίας"
+
+#: includes/admin/settings/job.php:51 includes/admin/settings/job.php:60
+#: includes/admin/settings/resume.php:68 includes/admin/settings/resume.php:77
+msgid "View %s"
+msgstr "Προβολή %s"
+
+#: includes/admin/settings/job.php:61 includes/admin/settings/resume.php:78
+msgid "Require %1$s package to view a single %1$s"
+msgstr "Απαιτούν %1$ s πακέτο για να δείτε ένα ενιαίο %1$ s"
+
+#: includes/admin/settings/job.php:62 includes/admin/settings/resume.php:79
+msgid ""
+"If enabled, visitors will be required to have a %s package with view "
+"permissions, to view any single listing page."
+msgstr ""
+"Εάν ενεργοποιηθεί, οι επισκέπτες θα πρέπει να έχουν ένα πακέτο %s με "
+"δικαιώματα προβολής, για να προβάλετε οποιαδήποτε σελίδα μία καταχώριση."
+
+#: includes/admin/settings/job.php:71 includes/admin/settings/job.php:80
+#: includes/admin/settings/resume.php:88 includes/admin/settings/resume.php:97
+msgid "Browse %s"
+msgstr "Περιηγηθείτε σε %s"
+
+#: includes/admin/settings/job.php:81 includes/admin/settings/resume.php:98
+msgid "Require %s package to browse listings"
+msgstr "Απαιτούν πακέτου %s για να βρείτε καταχωρήσεις"
+
+#: includes/admin/settings/job.php:82 includes/admin/settings/resume.php:99
+msgid ""
+"If enabled, visitors will be required to have a package with browse "
+"permissions, to view the listing summary on the browse/list/search page."
+msgstr ""
+"Εάν ενεργοποιηθεί, οι επισκέπτες θα πρέπει να έχετε ένα πακέτο με αναζήτηση "
+"δικαιώματα, για να προβάλετε την περίληψη καταχώρησης στη "
+"σελίδα/Κατάλογος/Αναζήτηση."
+
+#: includes/admin/settings/job.php:90 includes/admin/settings/job.php:99
+msgid "%1$s %2$s"
+msgstr "%1$ s %2$ s"
+
+#: includes/admin/settings/job.php:100
+msgid "Require %1$s package to %2$s a %1$s"
+msgstr "Απαιτούν πακέτο s $ %1 σε %2$ s. ένα %1$ s"
+
+#: includes/admin/settings/job.php:101
+msgid ""
+"If enabled, visitors will be required to have a %1$s package with %2$s "
+"permissions, to %3$s a listing."
+msgstr ""
+"Εάν ενεργοποιηθεί, οι επισκέπτες θα πρέπει να έχουν %1$ s πακέτο με %2$ s "
+"δικαιώματα, να %3$ s μια λίστα."
+
+#: includes/admin/settings/job.php:111 includes/admin/settings/resume.php:128
+msgid "Type Colors"
+msgstr "Ο τύπος χρωμάτων"
+
+#: includes/admin/settings/job.php:120 includes/admin/settings/resume.php:137
+msgid "Customize Type Colors"
+msgstr "Προσαρμόσετε τα χρώματα τύπου"
+
+#: includes/admin/settings/job.php:121 includes/admin/settings/resume.php:138
+msgid "Yes, enable custom type colors settings"
+msgstr "Ναι, ενεργοποίηση προσαρμοσμένο τύπο ρυθμίσεων χρωμάτων"
+
+#: includes/admin/settings/job.php:122 includes/admin/settings/resume.php:139
+msgid "Enable to customize the type colors."
+msgstr "Επιτρέπουν να προσαρμόσετε τα χρώματα τύπου."
+
+#: includes/admin/settings/job.php:130 includes/admin/settings/resume.php:156
+msgid "View Color"
+msgstr "Προβολή χρωμάτων"
+
+#: includes/admin/settings/job.php:131 includes/admin/settings/resume.php:157
+msgid "Customize color to use for the the view type"
+msgstr ""
+"Χρώμα για να το χρησιμοποιήσετε για να προσαρμόσετε το τον τύπο προβολής"
+
+#: includes/admin/settings/job.php:139 includes/admin/settings/resume.php:147
+msgid "Browse Color"
+msgstr "Αναζήτηση χρώματος"
+
+#: includes/admin/settings/job.php:140 includes/admin/settings/resume.php:148
+msgid "Customize color to use for the the browse type"
+msgstr ""
+"Χρώμα για να το χρησιμοποιήσετε για να προσαρμόσετε την περιήγηση τύπου"
+
+#: includes/admin/settings/job.php:148
+msgid "%s Color"
+msgstr "%s χρώμα"
+
+#: includes/admin/settings/job.php:149
+msgid "Customize color to use for the the %1$s type"
+msgstr "Προσαρμόσετε το χρώμα που χρησιμοποιεί για το %1$ s τύπου"
+
+#: includes/admin/settings/job.php:157
+msgid "%s Visibility"
+msgstr "%s ορατότητα"
+
+#: includes/admin/settings/job.php:166 includes/admin/settings/resume.php:231
+msgid "%1$s Visibility Pages"
+msgstr "%1$ s ορατότητα σελίδες"
+
+#: includes/admin/settings/job.php:173 includes/admin/settings/resume.php:238
+msgid "Select Package Form Page"
+msgstr "Επιλέξτε πακέτο σελίδα φόρμας"
+
+#: includes/admin/settings/job.php:174
+msgid ""
+"Select the page where you have placed the "
+"<code>[job_visibility_packages]</code> shortcode. This lets the plugin know "
+"where the form is located."
+msgstr ""
+"Επιλέξτε τη σελίδα όπου έχετε τοποθετήσει το shortcode "
+"<code>[job_visibility_packages]</code>. Αυτό σας επιτρέπει να το plugin "
+"γνωρίζουν πού βρίσκεται η φόρμα."
+
+#: includes/admin/settings/job.php:180 includes/admin/settings/resume.php:245
+msgid "Browse Package Page"
+msgstr "Περιηγηθείτε σελίδα πακέτο"
+
+#: includes/admin/settings/job.php:181
+msgid ""
+"Select the page where you have placed the <code>[browse_job_packages]</code>"
+" shortcode, <strong>if you plan to use custom select browse package form "
+"page (optional).</strong>"
+msgstr ""
+"Επιλέξτε τη σελίδα όπου έχετε τοποθετήσει το shortcode "
+"<code>[browse_job_packages]</code>, <strong>αν σκοπεύετε να χρησιμοποιήσετε "
+"προσαρμοσμένο επιλέξτε Αναζήτηση πακέτο σελίδα φόρμας "
+"(προαιρετικό).</strong>"
+
+#: includes/admin/settings/job.php:187 includes/admin/settings/resume.php:252
+msgid "View Package Page"
+msgstr "Σελίδα πακέτο προβολής"
+
+#: includes/admin/settings/job.php:188
+msgid ""
+"Select the page where you have placed the <code>[view_job_packages]</code> "
+"shortcode, <strong>if you plan to use custom select view package form page "
+"(optional).</strong>"
+msgstr ""
+"Επιλέξτε τη σελίδα όπου έχετε τοποθετήσει το shortcode "
+"<code>[view_job_packages]</code>, <strong>αν σκοπεύετε να χρησιμοποιήσετε "
+"προσαρμοσμένη προβολή Επιλέξτε πακέτο σελίδα φόρμας (προαιρετικό).</strong>"
+
+#: includes/admin/settings/job.php:194
+msgid "%s Package Page"
+msgstr "Σελίδα πακέτο %s"
+
+#: includes/admin/settings/job.php:195
+msgid ""
+"Select the page where you have placed the <code>[apply_job_packages]</code> "
+"shortcode, <strong>if you plan to use custom select %s package form page "
+"(optional).</strong>"
+msgstr ""
+"Επιλέξτε τη σελίδα όπου έχετε τοποθετήσει το shortcode "
+"<code>[apply_job_packages]</code>, <strong>αν σκοπεύετε να χρησιμοποιήσετε "
+"προσαρμοσμένη επιλογή %s πακέτο σελίδα φόρμας (προαιρετικό).</strong>"
+
+#: includes/admin/settings/resume.php:42 includes/functions.php:118
+#: includes/wc/resume.php:39
+msgid "Resume"
+msgstr "Βιογραφικό"
+
+#: includes/admin/settings/resume.php:43
+msgid "Resumes"
+msgstr "Βιογραφικά σημειώματα"
+
+#: includes/admin/settings/resume.php:45
+msgid "To override any package configuration above ... "
+msgstr ""
+"Για να παρακάμψετε οποιαδήποτε ρύθμιση παραμέτρων του πακέτου παραπάνω... "
+
+#: includes/admin/settings/resume.php:50
+msgid "View %s Name"
+msgstr "Όνομα προβολής %s"
+
+#: includes/admin/settings/resume.php:59
+msgid "View Name Package"
+msgstr "Όνομα πακέτου"
+
+#: includes/admin/settings/resume.php:60
+msgid "Require %s package to view resumes names"
+msgstr "Απαιτούν πακέτου %s για να δείτε τα ονόματα βιογραφικά"
+
+#: includes/admin/settings/resume.php:61
+msgid ""
+"If enabled, visitors will be required to have a %1$s package with view names"
+" permissions, for %1$s names to be visible."
+msgstr ""
+"Εάν ενεργοποιηθεί, οι επισκέπτες θα πρέπει να έχουν %1$ s πακέτο με "
+"δικαιώματα προβολής ονόματα, για %1$ s ονόματα να είναι ορατή."
+
+#: includes/admin/settings/resume.php:107
+#: includes/admin/settings/resume.php:116
+msgid "Contact %1$s"
+msgstr "Επαφή %1$ s"
+
+#: includes/admin/settings/resume.php:117
+msgid "Require contact package to contact a %1$s"
+msgstr "Απαιτούν επαφή πακέτο να επικοινωνήσετε με ένα %1$ s"
+
+#: includes/admin/settings/resume.php:118
+msgid ""
+"If enabled, visitors will be required to have a %1$s package with contact "
+"permissions, to contact any single %1$s."
+msgstr ""
+"Εάν ενεργοποιηθεί, οι επισκέπτες θα πρέπει να έχουν %1$ s πακέτο με "
+"δικαιώματα επικοινωνίας, να επικοινωνήσετε με οποιοδήποτε ενιαίο %1$ s."
+
+#: includes/admin/settings/resume.php:165
+msgid "View Name Color"
+msgstr "Προβολή χρώμα όνομα"
+
+#: includes/admin/settings/resume.php:166
+msgid "Customize color to use for the the view name type"
+msgstr ""
+"Χρώμα για να το χρησιμοποιήσετε για να προσαρμόσετε το τον τύπο το όνομα "
+"προβολής"
+
+#: includes/admin/settings/resume.php:174
+msgid "Contact Color"
+msgstr "Επικοινωνήστε με χρώμα"
+
+#: includes/admin/settings/resume.php:175
+msgid "Customize color to use for the the contact type"
+msgstr ""
+"Χρώμα για να το χρησιμοποιήσετε για να προσαρμόσετε το επικοινωνίας τύπου"
+
+#: includes/admin/settings/resume.php:187
+msgid "Capability Override Settings"
+msgstr "Δυνατότητα παράκαμψης ρυθμίσεις"
+
+#: includes/admin/settings/resume.php:194
+msgid "View Resume name Capability"
+msgstr "Δείτε το βιογραφικό όνομα ικανότητα"
+
+#: includes/admin/settings/resume.php:196
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view resumes "
+"names. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Εισάγετε την <a href=\"%s\"> ικανότητα</a> που απαιτείται προκειμένου να "
+"προβάλετε βιογραφικά ονόματα. Υποστηρίζει έναs κόμμα χωρίζω λίστα "
+"ρόλων/δυνατοτήτων."
+
+#: includes/admin/settings/resume.php:201
+msgid "Browse Resume Capability"
+msgstr "Αναζήτηση ανακεφαλαιώνω ικανότητα"
+
+#: includes/admin/settings/resume.php:203
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to browse resumes."
+" Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Εισάγετε την <a href=\"%s\"> ικανότητα</a> που απαιτείται για να αναζητήσετε"
+" βιογραφικά. Υποστηρίζει έναs κόμμα χωρίζω λίστα ρόλων/δυνατοτήτων."
+
+#: includes/admin/settings/resume.php:208
+msgid "View Resume Capability"
+msgstr "Προβολή ανακεφαλαιώνω ικανότητα"
+
+#: includes/admin/settings/resume.php:210
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view a single "
+"resume. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Εισάγετε την <a href=\"%s\"> ικανότητα</a> που απαιτείται για να δείτε ένα "
+"ενιαίο βιογραφικό. Υποστηρίζει έναs κόμμα χωρίζω λίστα ρόλων/δυνατοτήτων."
+
+#: includes/admin/settings/resume.php:215
+msgid "Contact Details Capability"
+msgstr "Στοιχεία επικοινωνίας ικανότητα"
+
+#: includes/admin/settings/resume.php:217
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view contact "
+"details on a resume. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Εισάγετε την <a href=\"%s\"> ικανότητα</a> που απαιτείται για να δείτε τα "
+"στοιχεία επικοινωνίας σε ένα βιογραφικό. Υποστηρίζει έναs κόμμα χωρίζω λίστα"
+" ρόλων/δυνατοτήτων."
+
+#: includes/admin/settings/resume.php:222
+msgid "Resume Visibility"
+msgstr "Συνέχιση ορατότητα"
+
+#: includes/admin/settings/resume.php:239
+msgid ""
+"Select the page where you have placed the "
+"<code>[resume_visibility_packages]</code> shortcode. This lets the plugin "
+"know where the form is located."
+msgstr ""
+"Επιλέξτε τη σελίδα όπου έχετε τοποθετήσει το shortcode "
+"<code>[resume_visibility_packages]</code>. Αυτό σας επιτρέπει να το plugin "
+"γνωρίζουν πού βρίσκεται η φόρμα."
+
+#: includes/admin/settings/resume.php:246
+msgid ""
+"Select the page where you have placed the "
+"<code>[browse_resume_packages]</code> shortcode, <strong>if you plan to use "
+"custom select browse package form page (optional).</strong>"
+msgstr ""
+"Επιλέξτε τη σελίδα όπου έχετε τοποθετήσει το shortcode "
+"<code>[browse_resume_packages]</code>, <strong>αν σκοπεύετε να "
+"χρησιμοποιήσετε προσαρμοσμένο επιλέξτε Αναζήτηση πακέτο σελίδα φόρμας "
+"(προαιρετικό).</strong>"
+
+#: includes/admin/settings/resume.php:253
+msgid ""
+"Select the page where you have placed the "
+"<code>[view_resume_packages]</code> shortcode, <strong>if you plan to use "
+"custom select view package form page (optional).</strong>"
+msgstr ""
+"Επιλέξτε τη σελίδα όπου έχετε τοποθετήσει το shortcode "
+"<code>[view_resume_packages]</code>, <strong>αν σκοπεύετε να χρησιμοποιήσετε"
+" προσαρμοσμένη προβολή Επιλέξτε πακέτο σελίδα φόρμας (προαιρετικό).</strong>"
+
+#: includes/admin/settings/resume.php:259
+msgid "View Name Package Page"
+msgstr "Σελίδα πακέτο όνομα προβολής"
+
+#: includes/admin/settings/resume.php:260
+msgid ""
+"Select the page where you have placed the "
+"<code>[view_name_resume_packages]</code> shortcode, <strong>if you plan to "
+"use custom select view name package form page (optional).</strong>"
+msgstr ""
+"Επιλέξτε τη σελίδα όπου έχετε τοποθετήσει το shortcode "
+"<code>[view_name_resume_packages]</code>, <strong>αν σκοπεύετε να "
+"χρησιμοποιήσετε προσαρμοσμένη προβολή επιλέξτε όνομα πακέτου σελίδα φόρμας "
+"(προαιρετικό).</strong>"
+
+#: includes/admin/settings/resume.php:266
+msgid "Contact Package Page"
+msgstr "Πακέτο σελίδα επικοινωνίας"
+
+#: includes/admin/settings/resume.php:267
+msgid ""
+"Select the page where you have placed the "
+"<code>[contact_resume_packages]</code> shortcode, <strong>if you plan to use"
+" custom select contact package form page (optional).</strong>"
+msgstr ""
+"Επιλέξτε τη σελίδα όπου έχετε τοποθετήσει το shortcode "
+"<code>[contact_resume_packages]</code>, <strong>αν σκοπεύετε να "
+"χρησιμοποιήσετε προσαρμοσμένο Επιλέξτε επαφή πακέτο σελίδα φόρμας "
+"(προαιρετικό).</strong>"
+
+#: includes/admin/settings.php:131
+msgid ", or use a"
+msgstr ", ή να χρησιμοποιήσετε ένα"
+
+#: includes/admin/settings.php:131
+msgid "<a href=\"%2$s\" target=\"_blank\">Template Override</a>: <code>%1$s</code>."
+msgstr ""
+"<a href=\"%2$s\" target=\"_blank\"> πρότυπο παράκαμψη</a>: <code>%1$ "
+"s</code>."
+
+#: includes/admin/settings.php:181
+msgid "None"
+msgstr "Κανένας"
+
+#: includes/admin/settings.php:182
+msgid "Red"
+msgstr "Κόκκινο"
+
+#: includes/admin/settings.php:183
+msgid "Orange"
+msgstr "Πορτοκαλί"
+
+#: includes/admin/settings.php:184
+msgid "Yellow"
+msgstr "Κίτρινο"
+
+#: includes/admin/settings.php:185
+msgid "Olive"
+msgstr "Ελιά"
+
+#: includes/admin/settings.php:186
+msgid "Green"
+msgstr "Πράσινο"
+
+#: includes/admin/settings.php:187
+msgid "Teal"
+msgstr "Κυπαρισσί"
+
+#: includes/admin/settings.php:188
+msgid "Blue"
+msgstr "Μπλε"
+
+#: includes/admin/settings.php:189
+msgid "Violet"
+msgstr "Βιολέτα"
+
+#: includes/admin/settings.php:190
+msgid "Purple"
+msgstr "Μωβ"
+
+#: includes/admin/settings.php:191
+msgid "Pink"
+msgstr "Ροζ"
+
+#: includes/admin/settings.php:192
+msgid "Grey"
+msgstr "Γκρι"
+
+#: includes/admin/settings.php:193
+msgid "Black"
+msgstr "Μαύρο"
+
+#: includes/admin/settings.php:214
+msgid "Redirects"
+msgstr "Ανακατευθύνσεις"
+
+#: includes/admin/settings.php:223
+msgid "Customize Redirect"
+msgstr "Προσαρμόσετε ανακατεύθυνση"
+
+#: includes/admin/settings.php:224
+msgid "Yes, enable custom redirect settings"
+msgstr "Ναι, Ενεργοποίηση ρυθμίσεων προσαρμοσμένων ανακατεύθυνση"
+
+#: includes/admin/settings.php:225
+msgid "Enable to customize the redirect settings and configuration."
+msgstr ""
+"Επιτρέπουν να προσαρμόσετε τις ρυθμίσεις ανακατεύθυνσης και τη διαμόρφωση."
+
+#: includes/admin/settings.php:233
+msgid "Wait Time"
+msgstr "Χρόνος αναμονής"
+
+#: includes/admin/settings.php:234
+msgid ""
+"Amount of time (in seconds) to wait before executing redirect.  Set to 0 "
+"(zero) to immediately redirect."
+msgstr ""
+"Χρονικό διάστημα (σε δευτερόλεπτα) να περιμένετε πριν από την εκτέλεση "
+"ανακατεύθυνση.  Οριστεί σε 0 (μηδέν) να ανακατευθύνει αμέσως."
+
+#: includes/admin/settings.php:241
+msgid "Hide All"
+msgstr "Απόκρυψη όλων"
+
+#: includes/admin/settings.php:242
+msgid "Yes, hide all page contents while showing the dimmer."
+msgstr ""
+"Ναι, μπορείτε να αποκρύψετε όλα τα περιεχόμενα της σελίδας ενώ δείχνει ο "
+"αυξομειωτής έντασης φωτισμού."
+
+#: includes/admin/settings.php:243
+msgid ""
+"By default, when a redirect is enabled, a dimmer will be shown that covers "
+"the entire page contents with a loading icon in the middle, and notice text "
+"below it.  Enable this option to hide all content behind the dimmer (to only"
+" show loader and notice text)."
+msgstr ""
+"Από προεπιλογή, όταν είναι ενεργοποιημένη η ανακατεύθυνση, έναν αυξομειωτή "
+"έντασης φωτισμού θα εμφανιστεί που καλύπτει τα περιεχόμενα ολόκληρη τη "
+"σελίδα με ένα εικονίδιο φόρτωσης στη μέση, και ειδοποίηση κειμένου κάτω από "
+"αυτό.  Για να ενεργοποιήσετε αυτήν την επιλογή για να αποκρύψετε όλο το "
+"περιεχόμενο πίσω από ο αυξομειωτής έντασης φωτισμού (σε μόνο εμφάνιση "
+"φορτωτή και ειδοποίηση κείμενο)."
+
+#: includes/admin/settings.php:251
+msgid "White Dimmer"
+msgstr "Λευκό αυξομειωτής έντασης φωτισμού"
+
+#: includes/admin/settings.php:252
+msgid "Yes, use the white (inverted) dimmer color."
+msgstr ""
+"Ναι, χρησιμοποιήστε το λευκό χρώμα (ανεστραμμένο) αυξομειωτής έντασης "
+"φωτισμού."
+
+#: includes/admin/settings.php:253
+msgid ""
+"By default, the standard dimmer color is black, enable this setting to use "
+"the inverted color, white."
+msgstr ""
+"Από προεπιλογή, το πρότυπο dimmer χρώμα είναι μαύρο, ενεργοποιήστε αυτήν τη "
+"ρύθμιση για να χρησιμοποιήσετε το ανάποδο, λευκό χρώμα."
+
+#: includes/admin/settings.php:278 includes/admin/settings.php:287
+msgid "Semantic UI"
+msgstr "Σημασιολογική UI"
+
+#: includes/admin/settings.php:288
+msgid "Yes, enable <a href=\"%s\" target=\"_blank\">Semantic UI</a>"
+msgstr "Ναι, ενεργοποίηση <a href=\"%s\" target=\"_blank\"> Σημασιολογική UI</a>"
+
+#: includes/admin/settings.php:289
+msgid "Enable this to use and customize the Semantic UI styling."
+msgstr ""
+"Επιτρέπουν να χρησιμοποιείτε και να προσαρμόζετε το στυλ σημασιολογική UI."
+
+#: includes/admin/settings.php:296
+msgid "Table Style"
+msgstr "Στυλ πίνακα"
+
+#: includes/admin/settings.php:297
+msgid ""
+"Yes, enable <a href=\"%s\" target=\"_blank\">Semantic UI</a> table styling "
+"for the My Packages list"
+msgstr ""
+"Ναι, ενεργοποίηση <a href=\"%s\" target=\"_blank\"> Σημασιολογική UI</a> "
+"Πίνακας στυλ για τη λίστα μου πακέτα"
+
+#: includes/admin/settings.php:298
+msgid ""
+"If enabled, the frontend user package list tables will use the Semantic UI "
+"styling."
+msgstr ""
+"Εάν ενεργοποιηθεί, το frontend χρήστη πακέτο λίστα πίνακες θα χρησιμοποιήσει"
+" το styling σημασιολογική UI."
+
+#: includes/admin/settings.php:306
+msgid "Table Color"
+msgstr "Πίνακας χρωμάτων"
+
+#: includes/admin/settings.php:307
+msgid "Customize color to use for the the table"
+msgstr "Χρώμα για να το χρησιμοποιήσετε για να προσαρμόσετε τον πίνακα"
+
+#: includes/admin/settings.php:343 includes/admin/wc.php:63
+msgid "Available Shortcodes:"
+msgstr "Διαθέσιμες ολιγοψήφιους αριθμούς τηλεφώνου:"
+
+#: includes/admin/settings.php:375
+msgid "%1$s %2$s Placeholder"
+msgstr "%1$ s %2$ s σύμβολο κράτησης θέσης"
+
+#: includes/admin/settings.php:376
+msgid ""
+"The content above will be shown when the user does not have permissions and "
+"a package is required"
+msgstr ""
+"Το παραπάνω περιεχόμενο θα εμφανίζεται όταν ο χρήστης δεν έχει δικαιώματα "
+"και απαιτείται ένα πακέτο"
+
+#: includes/admin/settings.php:404
+msgid "%1$s %2$s Redirect"
+msgstr "Ανακατευθύνετε %1$ s %2$ s."
+
+#: includes/admin/settings.php:405
+msgid "Yes, redirect to the %1$s %2$s package select page"
+msgstr "Ναι, να ανακατευθύνουν σε %1$ s %2$ s πακέτο επιλογή σελίδας"
+
+#: includes/admin/settings.php:406
+msgid ""
+"If enabled, users without permissions will be redirected to the page "
+"(configured in Pages tab) to purchase or select package to use."
+msgstr ""
+"Εάν ενεργοποιηθεί, οι χρήστες χωρίς δικαιώματα θα μεταφερθείτε στη σελίδα "
+"(ρυθμιστεί στην καρτέλα σελίδες) για να αγοράσετε ή να επιλέξετε να "
+"χρησιμοποιήσετε το πακέτο."
+
+#: includes/admin/settings.php:435
+msgid "%1$s %2$s Admin"
+msgstr "%1$ s %2$ s Admin"
+
+#: includes/admin/settings.php:436
+msgid "Yes, require administrators to have package"
+msgstr "Ναι, απαιτούν από τους διαχειριστές να έχουν το πακέτο"
+
+#: includes/admin/settings.php:437
+msgid ""
+"If enabled, administrators will be required to have a package with "
+"permissions for this type."
+msgstr ""
+"Εάν ενεργοποιηθεί, οι διαχειριστές θα πρέπει να έχετε ένα πακέτο με "
+"δικαιώματα για αυτόν τον τύπο."
+
+#: includes/admin/settings.php:466
+msgid "%1$s %2$s Redirect Notice"
+msgstr "%1$ s %2$ s ειδοποίηση ανακατεύθυνσης"
+
+#: includes/admin/settings.php:467
+msgid "Yes, use the %1$s %2$s placeholder as redirect notice"
+msgstr ""
+"Ναι, να χρησιμοποιήσετε το %1$ s %2$ s σύμβολο κράτησης θέσης όπως "
+"ανακατευθύνετε ειδοποίηση"
+
+#: includes/admin/settings.php:468
+msgid ""
+"If enabled, the placeholder value will be used as the notice shown before "
+"redirecting (instead of default one)."
+msgstr ""
+"Εάν ενεργοποιηθεί, το σύμβολο κράτησης θέσης τιμή θα χρησιμοποιηθεί ως η "
+"ειδοποίηση που εμφανίζεται πριν από την ανακατεύθυνση (αντί για ένα "
+"προεπιλεγμένο)."
+
+#: includes/admin/setup.php:34
+msgid "Setup"
+msgstr "Εγκατάστασης (Setup)"
+
+#: includes/admin/setup.php:178 includes/admin/setup.php:223
+msgid "Starter Package"
+msgstr "Starter πακέτο"
+
+#: includes/admin/setup.php:180
+msgid "View 1 Full Listing<br/>Browse All Listings"
+msgstr "Προβολή 1 πλήρη κατάλογο <br/> βρείτε όλες τις καταχωρήσεις"
+
+#: includes/admin/setup.php:188 includes/admin/setup.php:233
+msgid "Plus Package"
+msgstr "Συν το πακέτο"
+
+#: includes/admin/setup.php:190
+msgid ""
+"View 10 Full Listings<br/>Apply/Contact 5 Listings<br/>Browse All Listings"
+msgstr ""
+"Δείτε 10 πλήρη καταχωρήσεις <br/> ισχύουν/επαφής 5 καταχωρήσεις <br/> βρείτε"
+" όλες τις καταχωρήσεις"
+
+#: includes/admin/setup.php:200 includes/admin/setup.php:247
+msgid "Premium Package"
+msgstr "Premium πακέτο"
+
+#: includes/admin/setup.php:202
+msgid ""
+"View Unlimited Full Listings<br/>Apply/Contact 10 Listings<br/>Browse All "
+"Listings"
+msgstr ""
+"Απεριόριστες καταχωρήσεις πλήρη <br/> ισχύουν/επικοινωνία 10 καταχωρίσεις "
+"<br/> βρείτε όλες τις καταχωρήσεις"
+
+#: includes/admin/setup.php:212 includes/admin/setup.php:261
+msgid "Single Application/Contact"
+msgstr "Ενιαία εφαρμογή/επικοινωνία"
+
+#: includes/admin/setup.php:214
+msgid "Apply/Contact 1 Listing"
+msgstr "1 καταχώριση ισχύει/επικοινωνία"
+
+#: includes/admin/setup.php:225
+msgid "View 1 Full Resume<br/>Browse All Resumes"
+msgstr ""
+"Προβολή 1 πλήρες βιογραφικό <br/> Αναζήτηση όλα τα βιογραφικά σημειώματα"
+
+#: includes/admin/setup.php:235
+msgid ""
+"View 10 Full Resumes<br/>View 5 Candidate Full Names<br/>Contact 5 "
+"Candidates<br/>Browse All Resumes"
+msgstr ""
+"Δείτε 10 πλήρη βιογραφικά <br/> Δείτε 5 υποψήφια ονόματα <br/> επικοινωνήστε"
+" με 5 υποψηφίους <br/> Αναζήτηση όλα τα βιογραφικά σημειώματα"
+
+#: includes/admin/setup.php:249
+msgid ""
+"View Unlimited Full Resumes<br/>View Unlimited Candidate Full "
+"Names<br/>Contact 10 Candidates<br/>Browse All Resumes"
+msgstr ""
+"Θέα απεριόριστη πλήρη βιογραφικά <br/> Δείτε πλήρη ονόματα απεριόριστο "
+"υποψήφιο <br/> επικοινωνήστε με 10 υποψήφιοι <br/> Αναζήτηση όλα τα "
+"βιογραφικά σημειώματα"
+
+#: includes/admin/setup.php:263
+msgid "Contact 1 Candidate"
+msgstr "Επαφή 1 υποψήφιος"
+
+#: includes/admin/setup.php:270
+msgid "Silver Full Name Package"
+msgstr "Ασημένια πλήρες όνομα πακέτου"
+
+#: includes/admin/setup.php:272
+msgid "View 5 Candidate Full Names"
+msgstr "Δείτε τα 5 υποψήφια ονόματα"
+
+#: includes/admin/setup.php:312
+msgid "A total of %d pages were successfully created!"
+msgstr "Συνολικά %d σελίδες δημιουργήθηκαν με επιτυχία!"
+
+#: includes/admin/setup.php:343
+msgid "A total of %d packages were successfully created!"
+msgstr "Συνολικά %d πακέτα που δημιουργήθηκαν με επιτυχία!"
+
+#: includes/admin/setup.php:350
+msgid "Job Manager Packages Setup"
+msgstr "Εργασία διαχείρισης πακέτων εγκατάστασης"
+
+#: includes/admin/setup.php:353
+msgid "1. Introduction"
+msgstr "1. ΕΙΣΑΓΩΓΗ"
+
+#: includes/admin/setup.php:354
+msgid "2. Page Setup"
+msgstr "2. Διαμόρφωση σελίδας"
+
+#: includes/admin/setup.php:357
+msgid "3. Resume Page Setup"
+msgstr "3. βιογραφικό διαμόρφωση σελίδας"
+
+#: includes/admin/setup.php:358
+msgid "4. Packages Setup"
+msgstr "4. τα πακέτα εγκατάστασης"
+
+#: includes/admin/setup.php:359
+msgid "5. Done"
+msgstr "5. να γίνει"
+
+#: includes/admin/setup.php:361
+msgid "3. Packages Setup"
+msgstr "3. πακέτα εγκατάστασης"
+
+#: includes/admin/setup.php:362
+msgid "4. Done"
+msgstr "4. γίνεται"
+
+#: includes/admin/setup.php:369
+msgid "Setup Wizard Introduction"
+msgstr "Εισαγωγή Οδηγός εγκατάστασης (Setup)"
+
+#: includes/admin/setup.php:371
+msgid "Thanks for installing <em>WP Job Manager Packages</em>!"
+msgstr ""
+"Ευχαριστώ για την εγκατάσταση <em>WP εργασία διαχείρισης πακέτων</em>!"
+
+#: includes/admin/setup.php:372
+msgid ""
+"This setup wizard will help you get started by creating the pages for "
+"package selection, and configuring those values in the settings for you."
+msgstr ""
+"Αυτός ο οδηγός εγκατάστασης θα σας βοηθήσει να ξεκινήσετε δημιουργώντας "
+"σελίδες επιλογής πακέτων και τη διαμόρφωση αυτών των αξιών με τις ρυθμίσεις "
+"για σας."
+
+#: includes/admin/setup.php:373
+msgid ""
+"If you want to skip the wizard and setup the pages and shortcodes yourself "
+"manually, you can do so very easily using any of the available shortcodes. "
+"Refer to the %sdocumentation%s for help."
+msgstr ""
+"Εάν θέλετε να παραλείψετε τον οδηγό και να στήσετε τις σελίδες και τους "
+"ολιγοψήφιους τον εαυτό σας με μη αυτόματο τρόπο, μπορείτε να κάνετε πολύ "
+"εύκολα χρησιμοποιώντας οποιαδήποτε από τις διαθέσιμες ολιγοψήφιους αριθμούς "
+"τηλεφώνου. Ανατρέξτε στην ενότητα το % sdocumentation %s για βοήθεια."
+
+#: includes/admin/setup.php:378 includes/admin/setup.php:569
+msgid "WooCommerce Was Not Detected"
+msgstr "WooCommerce δεν ανιχνεύθηκε"
+
+#: includes/admin/setup.php:379 includes/admin/setup.php:570
+msgid ""
+"Currently the only integration available with WP Job Manager Packages, is "
+"through WooCommerce (although others will be added later). WooCommerce was "
+"not detected as being activated on your site."
+msgstr ""
+"Επί του παρόντος το μόνο διαθέσιμα ολοκλήρωση με WP εργασία διαχείρισης "
+"πακέτων, είναι μέσω του WooCommerce (αν και άλλοι θα προστεθούν αργότερα). "
+"Δεν ανιχνεύθηκε WooCommerce ως δραστηριοποιείτε στον ιστότοπό σας."
+
+#: includes/admin/setup.php:380 includes/admin/setup.php:572
+msgid "Click Here to Active/Install WooCommerce"
+msgstr "Κάντε κλικ εδώ για να ενεργή εγκατάσταση WooCommerce"
+
+#: includes/admin/setup.php:382
+msgid ""
+"Once you have installed/activated, refresh this page, or click below to "
+"continue setup."
+msgstr ""
+"Αφού έχετε εγκαταστήσει/ενεργοποιημένη, ανανεώστε αυτήν τη σελίδα, ή κάντε "
+"κλικ παρακάτω για να συνεχίσετε την εγκατάσταση."
+
+#: includes/admin/setup.php:388
+msgid "Continue to page setup"
+msgstr "Συνεχίσει να διαμόρφωση σελίδας"
+
+#: includes/admin/setup.php:389
+msgid "Skip setup. I will setup the plugin manually"
+msgstr ""
+"Παράλειψη εγκατάστασης (Setup). Θα στήσετε το plugin με μη αυτόματο τρόπο"
+
+#: includes/admin/setup.php:395
+msgid "Page Setup"
+msgstr "Διαμόρφωση σελίδας"
+
+#: includes/admin/setup.php:397 includes/admin/setup.php:477
+msgid ""
+"<em>WP Job Manager Packages</em> includes %1$sshortcodes%2$s which can be "
+"used within your %3$spages%2$s to output content. These can be created for "
+"you below. For more information on the available shortcodes, view the "
+"%4$sshortcode documentation%2$s."
+msgstr ""
+"<em>WP εργασία διαχείρισης πακέτων</em> περιλαμβάνει %1$ sshortcodes %2$ s "
+"που μπορεί να χρησιμοποιηθεί εντός σας %3$ spages %2$ s για να εξαγάγετε το "
+"περιεχόμενο. Αυτά μπορεί να δημιουργηθεί για σας παρακάτω. Για περισσότερες "
+"πληροφορίες σχετικά με τις διαθέσιμες ΣΥΝΤΟΜΟΙ, Δες το %4$ sshortcode "
+"τεκμηρίωση %2$ s."
+
+#: includes/admin/setup.php:406 includes/admin/setup.php:484
+msgid "Page Title"
+msgstr "Τίτλος σελίδας"
+
+#: includes/admin/setup.php:407 includes/admin/setup.php:485
+msgid "Page Description"
+msgstr "Περιγραφή σελίδας"
+
+#: includes/admin/setup.php:408 includes/admin/setup.php:486
+msgid "Content Shortcode"
+msgstr "Περιεχόμενο Shortcode"
+
+#: includes/admin/setup.php:416 includes/admin/setup.php:494
+msgid ""
+"This page will be used as the default page for package selection, and works "
+"for any of the package types (view, browse, etc)."
+msgstr ""
+"Η σελίδα αυτή θα χρησιμοποιηθεί ως προεπιλεγμένη σελίδα για το πακέτο "
+"επιλογής, και λειτουργεί για οποιοδήποτε από τους τύπους συσκευασίας "
+"(προβολή, αναζήτηση, κλπ)."
+
+#: includes/admin/setup.php:418 includes/admin/setup.php:496
+msgid ""
+"If you do not plan to use the specific package type shortcodes (for separate"
+" pages), you need to make sure this page exists as it will be used as the "
+"fallback page if the type specific pages do not exist (or are not configured"
+" in settings)."
+msgstr ""
+"Αν δεν σκοπεύετε να χρησιμοποιήσετε το συγκεκριμένο πακέτο τύπου "
+"ολιγοψήφιους (για ξεχωριστές σελίδες), θα πρέπει να βεβαιωθείτε ότι υπάρχει "
+"αυτή τη σελίδα όπως θα χρησιμοποιηθεί ως η εναλλακτική σελίδα εάν "
+"συγκεκριμένες ιστοσελίδες τύπου δεν υπάρχουν (ή δεν έχουν ρυθμιστεί στις "
+"ρυθμίσεις)."
+
+#: includes/admin/setup.php:426 includes/admin/setup.php:504
+msgid "This page will be used only for browse packages (not required)."
+msgstr ""
+"Η σελίδα αυτή θα χρησιμοποιηθεί μόνο για αναζήτηση πακέτων (δεν απαιτείται)."
+
+#: includes/admin/setup.php:428 includes/admin/setup.php:506
+msgid ""
+"This page is useful if you wish to customize the browse package selection "
+"page, separate from the standard one above."
+msgstr ""
+"Η σελίδα αυτή είναι χρήσιμη εάν θέλετε να προσαρμόσετε το πακέτο browse "
+"επιλογής σελίδα, ξεχωριστό από την Στάνταρ που παραπάνω."
+
+#: includes/admin/setup.php:436 includes/admin/setup.php:514
+msgid "This page will be used only for apply/contact packages (not required)."
+msgstr ""
+"Η σελίδα αυτή θα χρησιμοποιηθεί μόνο για τα πακέτα ισχύουν/επαφής (δεν "
+"απαιτείται)."
+
+#: includes/admin/setup.php:438 includes/admin/setup.php:516
+msgid ""
+"This page is useful if you wish to customize the apply/contact package "
+"selection page, separate from the standard one above."
+msgstr ""
+"Η σελίδα αυτή είναι χρήσιμη εάν θέλετε να προσαρμόσετε το πακέτο "
+"εφαρμογή/επικοινωνία επιλογής σελίδα, ξεχωριστό από την Στάνταρ που "
+"παραπάνω."
+
+#: includes/admin/setup.php:446 includes/admin/setup.php:524
+msgid "This page will be used only for view listing packages (not required)."
+msgstr ""
+"Η σελίδα αυτή θα χρησιμοποιηθεί μόνο για την προβολή λίστα πακέτα (δεν "
+"απαιτείται)."
+
+#: includes/admin/setup.php:448 includes/admin/setup.php:526
+#: includes/admin/setup.php:536
+msgid ""
+"This page is useful if you wish to customize the view listing package "
+"selection page, separate from the standard one above."
+msgstr ""
+"Η σελίδα αυτή είναι χρήσιμη εάν θέλετε να προσαρμόσετε την προβολή λίστα "
+"πακέτο επιλογής σελίδα, ξεχωριστά από την Στάνταρ που παραπάνω."
+
+#: includes/admin/setup.php:457 includes/admin/setup.php:545
+#: includes/admin/setup.php:625
+msgid "Skip this step"
+msgstr "Παραλείψτε αυτό το βήμα"
+
+#: includes/admin/setup.php:475
+msgid "Resume Page Setup"
+msgstr "Διαμόρφωση σελίδας βιογραφικό"
+
+#: includes/admin/setup.php:476
+msgid ""
+"It looks like you have WP Job Manager Resumes installed/activated, so let's "
+"setup those pages as well!"
+msgstr ""
+"Φαίνεται σαν να έχετε WP εργασία Διευθύντρια βιογραφικά "
+"εγκατασταθεί/ενεργοποιηθεί, οπότε ας εγκατάστασης καθώς και αυτές τις "
+"σελίδες!"
+
+#: includes/admin/setup.php:534
+msgid ""
+"This page will be used only for view name listing packages (not required)."
+msgstr ""
+"Η σελίδα αυτή θα χρησιμοποιηθεί μόνο για προβολή όνομα καταχώρησης πακέτα "
+"(δεν απαιτείται)."
+
+#: includes/admin/setup.php:563
+msgid "Package Setup"
+msgstr "Το πακέτο εγκατάστασης (Setup)"
+
+#: includes/admin/setup.php:564
+msgid ""
+"If you would like, we can also setup <strong>DEMO</strong> packages for you "
+"to use.  This is not required, and is provided for demonstration purposes "
+"only, you will still need to customize the packages to suit your needs."
+msgstr ""
+"Αν θέλετε, μπορούμε να setup επίσης πακέτα <strong>DEMO</strong> για να το "
+"χρησιμοποιήσετε.  Αυτό δεν είναι απαραίτητη, και παρέχεται μόνο για λόγους "
+"επίδειξης, θα πρέπει ακόμα να προσαρμόσετε τα πακέτα που ταιριάζουν στις "
+"ανάγκες σας."
+
+#: includes/admin/setup.php:571
+msgid ""
+"DO NOT proceed with this step before installing and activating WooCommerce!"
+"  WooCommerce must be installed and activated before adding packages!"
+msgstr ""
+"ΜΗΝ προχωρήσετε με αυτό το βήμα πριν από την εγκατάσταση και ενεργοποίηση "
+"WooCommerce!  WooCommerce πρέπει να εγκατασταθεί και ενεργοποιηθεί πριν από "
+"την προσθήκη πακέτων!"
+
+#: includes/admin/setup.php:574
+msgid ""
+"Once you have installed AND activated, refresh this page, or click below to "
+"continue setup."
+msgstr ""
+"Αφού έχουν εγκατασταθεί και ενεργοποιηθεί, ανανεώστε αυτήν τη σελίδα, ή "
+"κάντε κλικ παρακάτω για να συνεχίσετε την εγκατάσταση."
+
+#: includes/admin/setup.php:584
+msgid "Package Title"
+msgstr "Τίτλος δέσμης"
+
+#: includes/admin/setup.php:585
+msgid "Package Price"
+msgstr "Τιμή πακέτου"
+
+#: includes/admin/setup.php:586
+msgid "Package Description"
+msgstr "Περιγραφή του πακέτου"
+
+#: includes/admin/setup.php:592
+msgid "Listing Packages"
+msgstr "Πακέτα καταχώρησης"
+
+#: includes/admin/setup.php:607
+msgid "Resume Packages"
+msgstr "Βιογραφικό πακέτα"
+
+#: includes/admin/setup.php:624
+msgid "Create Selected Packages"
+msgstr "Δημιουργία επιλεγμένα πακέτα"
+
+#: includes/admin/setup.php:643
+msgid "All Done!"
+msgstr "Όλα γίνονται!"
+
+#: includes/admin/setup.php:645
+msgid ""
+"Looks like you're all set to start using the plugin. In case you're "
+"wondering where to go next:"
+msgstr ""
+"Μοιάζει είστε έτοιμοι να αρχίσετε να χρησιμοποιείτε το plugin. Σε περίπτωση "
+"που αναρωτιέστε πού να πάει επόμενο:"
+
+#: includes/admin/setup.php:648
+msgid "Tweak Visibility Settings"
+msgstr "Τσίμπημα τις ρυθμίσεις ορατότητας"
+
+#: includes/admin/setup.php:650
+msgid "Tweak Resume Visibility Settings"
+msgstr "Τσίμπημα τις ρυθμίσεις ορατότητας βιογραφικό"
+
+#: includes/admin/setup.php:652
+msgid "Add a new Product/Package"
+msgstr "Προσθέσετε ένα νέο προϊόν/πακέτο"
+
+#: includes/admin/setup.php:655
+msgid ""
+"And don't forget, if you need any more help using <em>WP Job Manager "
+"Packages</em> you can consult the %1$sdocumentation%2$s or %3$scontact me "
+"via the support area%2$s!"
+msgstr ""
+"Και μην ξεχνάτε, αν χρειάζεστε περισσότερη βοήθεια χρησιμοποιώντας <em>WP "
+"εργασία διαχείρισης πακέτων</em> μπορείτε να συμβουλευτείτε το %1$ "
+"sdocumentation %2$ s ή %3$ scontact μου μέσω της υποστήριξης περιοχή %2$ s!"
+
+#: includes/admin/setup.php:657
+msgid "Flow Process:"
+msgstr "Διαδικασία ροής:"
+
+#: includes/admin/setup.php:658
+msgid ""
+"To give you an understanding of how this plugin works, below is the flow "
+"process with examples. Examples below assume you have configured packages "
+"required for browse, view, and contact/apply.  This also assumes you have "
+"used the shortcode to output the form either on a page created in a previous"
+" setup step, or placed the shortcode inside the placeholder editor (in "
+"settings)."
+msgstr ""
+"Για να σας δώσει μια κατανόηση του πώς λειτουργεί αυτό το plugin, ακολουθεί "
+"η διαδικασία ροής με παραδείγματα. Παρακάτω παραδείγματα υποθέτουν έχετε "
+"ρυθμίσει πακέτων που απαιτούνται για την αναζήτηση, προβολή και "
+"επικοινωνία/εφαρμόζονται.  Αυτό επίσης προϋποθέτει έχετε χρησιμοποιήσει το "
+"shortcode να εξόδου μορφή είτε σε μια σελίδα που δημιουργήθηκε σε μια "
+"προηγούμενη βήμα της εγκατάστασης, ή τοποθετούνται το shortcode μέσα σε το "
+"πρόγραμμα επεξεργασίας της κράτησης θέσης (στις ρυθμίσεις)."
+
+#: includes/admin/setup.php:661
+msgid ""
+"User visits Listings page and is either redirected to package form page, or "
+"shown the package selection form."
+msgstr ""
+"Χρήστης επισκέπτεται τη σελίδα καταχωρίσεις και είναι είτε ανακατεύθυνση στη"
+" σελίδα φόρμας πακέτο, ή εμφανίζεται το έντυπο στοιχείων επιλογής πακέτου."
+
+#: includes/admin/setup.php:664
+msgid ""
+"User selects a package, and is redirected to checkout page to complete "
+"purchase."
+msgstr ""
+"Ο χρήστης επιλέγει ένα πακέτο και ανακατευθύνεται στη σελίδα checkout για να"
+" ολοκληρώσετε την αγορά."
+
+#: includes/admin/setup.php:667
+msgid ""
+"After purchase is complete, notification is shown with link to return to "
+"page user was previously viewing."
+msgstr ""
+"Αφού ολοκληρωθεί η αγορά, ειδοποίηση εμφανίζεται με το σύνδεσμο για να "
+"επιστρέψετε στη σελίδα χρήστη προηγουμένως προβολή."
+
+#: includes/admin/setup.php:670
+msgid ""
+"When user selects a listing, they will be shown the listing like normal (if "
+"they have unlimited package), otherwise they are either redirected or shown "
+"the package form page (like above)."
+msgstr ""
+"Όταν ο χρήστης επιλέγει μια καταχώριση, θα εμφανιστούν την λίστα σαν "
+"κανονικό (αν έχουν απεριόριστη πακέτο), διαφορετικά είναι είτε ανακατεύθυνση"
+" ή εμφανίζονται στη σελίδα φόρμας πακέτο (όπως παραπάνω)."
+
+#: includes/admin/setup.php:673
+msgid ""
+"User will be able to select an existing package from the package form to use"
+" (or they can select one to purchase).  Once they submit the form, they are "
+"redirected back to the listing to view like normal."
+msgstr ""
+"Χρήστης θα είναι σε θέση να επιλέξετε ένα υπάρχον πακέτο από πακέτο μορφή να"
+" χρησιμοποιήσετε (ή μπορούν να επιλέξουν να αγοράσουν).  Μόλις αυτοί να "
+"υποβάλετε τη φόρμα, αυτές οι αιτήσεις ανακατευθύνονται ξανά τον κατάλογο για"
+" να το δείτε σαν κανονικό."
+
+#: includes/admin/setup.php:676
+msgid "Few key points:"
+msgstr "Μερικά βασικά σημεία:"
+
+#: includes/admin/setup.php:678
+msgid ""
+"If the user has an unlimited package, they will immediately be able to view,"
+" contact, etc.  Only packages with limits will require them to select a "
+"package to use."
+msgstr ""
+"Εάν ο χρήστης έχει μια απεριόριστη πακέτο, αμέσως θα είναι σε θέση να δείτε,"
+" επικοινωνίας, κλπ.  Μόνο τα πακέτα με τα όρια θα απαιτήσει να επιλέξετε ένα"
+" πακέτο για να χρησιμοποιήσετε."
+
+#: includes/admin/setup.php:679
+msgid ""
+"All current user packages can be viewed (along with associated listings) on "
+"the My Account page."
+msgstr ""
+"Όλα τα τρέχοντα πακέτα χρήστη μπορούν να προβληθούν (μαζί με τις "
+"καταχωρίσεις που σχετίζονται) στη σελίδα ο λογαριασμός μου."
+
+#: includes/admin/setup.php:681
+msgid ""
+"Administrators are not required to have packages, make sure to use a "
+"separate user account to test with."
+msgstr ""
+"Οι διαχειριστές δεν υποχρεούνται να έχουν πακέτα, βεβαιωθείτε ότι "
+"χρησιμοποιείτε έναν διαφορετικό λογαριασμό χρήστη για να ελέγξετε με."
+
+#: includes/admin/setup.php:684
+msgid ""
+"This plugin has been tested with Listify, Jobify, Listable, Pet Sitter, and "
+"Babysitter themes ... if you have issues, or your theme is not compatible, "
+"please let me know!"
+msgstr ""
+"Αυτό το plugin έχει δοκιμαστεί με Listify, Jobify, Listable, Pet Sitter και "
+"μπέιμπι σίτερ θέματα..., αν έχετε προβλήματα, ή το θέμα σας δεν είναι "
+"συμβατή, παρακαλώ επιτρέψτε μου να ξέρω!"
+
+#: includes/admin/setup.php:687
+msgid ""
+"To use a template override, make sure you place the file in the "
+"<code>jm_packages</code> directory/folder, in your child theme's "
+"directory/folder."
+msgstr ""
+"Για να χρησιμοποιήσετε ένα πρότυπο παράκαμψη, βεβαιωθείτε ότι μπορείτε να "
+"τοποθετήσετε το αρχείο στον κατάλογο <code></code> jm_packages/φάκελο, στον "
+"κατάλογο/φάκελο το θέμα του παιδιού σας."
+
+#: includes/admin/setup.php:690
+msgid "Listable currently only supports the redirect feature."
+msgstr "Listable προς το παρόν υποστηρίζει μόνο τη δυνατότητα ανακατεύθυνσης."
+
+#: includes/admin/setup.php:693
+msgid "Subscriptions will be included in one of the next releases!"
+msgstr "Συνδρομές θα συμπεριληφθεί σε μία από τις επόμενες κυκλοφορίες!"
+
+#: includes/admin/setup.php:696
+msgid ""
+"Currently WooCommerce is the only support backend payment/cart/e-commerce "
+"system.  Let me know if there's another one you would like integrated."
+msgstr ""
+"Επί του παρόντος WooCommerce είναι το μόνο σύστημα "
+"πληρωμής/καλάθι/e-commerce backend υποστήριξη.  Επιτρέψτε μου να ξέρω αν "
+"υπάρχει άλλο ένα που θα θέλατε να ενσωματωθεί."
+
+#: includes/admin/setup.php:699
+msgid "This plugin is full documented, check out the source code!"
+msgstr ""
+"Αυτό το plugin είναι πλήρως τεκμηριωμένη, ελέγξτε έξω τον πηγαίο κώδικα!"
+
+#: includes/admin/setup.php:704
+msgid "Support the Ongoing Development of the core plugin, WP Job Manager"
+msgstr ""
+"Υποστηρίζει τη συνεχή ανάπτυξη του πυρήνα plugin, διαχείριση εργασίας WP"
+
+#: includes/admin/setup.php:705
+msgid ""
+"There are many ways to support open-source projects such as WP Job Manager, "
+"for example code contribution, translation, or even telling your friends how"
+" awesome the plugin (hopefully) is. Thanks in advance for your support - it "
+"is much appreciated!"
+msgstr ""
+"Υπάρχουν πολλοί τρόποι για να υποστηρίξει έργα ανοικτού κώδικα όπως WP "
+"εργασία διαχείρισης, για παράδειγμα την συνεισφορά κώδικα, μετάφραση, ή "
+"ακόμη και λέγοντας στους φίλους σας πόσο τρομερό το plugin (ελπίζουμε) "
+"είναι. Ευχαριστώ εκ των προτέρων για την υποστήριξή σας - είναι πολύ "
+"εκτίμησα!"
+
+#: includes/admin/setup.php:707
+msgid "Leave a positive review"
+msgstr "Αφήσει μια θετική κριτική"
+
+#: includes/admin/setup.php:708
+msgid "Contribute a localization"
+msgstr "Συμβάλλει μια μετάφραση"
+
+#: includes/admin/setup.php:709
+msgid "Contribute code or report a bug"
+msgstr "Συμβάλλετε με κώδικα ή να αναφέρετε ένα σφάλμα"
+
+#: includes/admin/setup.php:710
+msgid "Help other users on the forums"
+msgstr "Βοηθούν τους άλλους χρήστες του φόρουμ"
+
+#: includes/admin/wc/job.php:55 includes/admin/wc/resume.php:56
+msgid "Output price (cost) of package (you MUST include this!)"
+msgstr "Τιμή εξόδου (κόστος) πακέτο (πρέπει να συμπεριλάβετε αυτό!)"
+
+#: includes/admin/wc/job.php:58 includes/admin/wc/resume.php:59
+msgid ""
+"Output package limit set for View (will output number or unlimited based on "
+"config)"
+msgstr ""
+"Όριο πακέτο εξόδου για προβολή (θα έξοδος αριθμός ή unlimited βάσει config)"
+
+#: includes/admin/wc/job.php:61 includes/admin/wc/resume.php:65
+msgid ""
+"Output package limit set for %s (will output number or unlimited based on "
+"config)"
+msgstr ""
+"Όριο πακέτο εξόδου για %s (θα έξοδος αριθμός ή unlimited βάσει config)"
+
+#: includes/admin/wc/resume.php:62
+msgid ""
+"Output package limit set for View Name (will output number or unlimited "
+"based on config)"
+msgstr ""
+"Όριο πακέτο εξόδου για το όνομα της προβολής (θα έξοδος αριθμός ή unlimited "
+"βάσει config)"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:8
+#: includes/admin/wc/views/html-view-resume-package-data.php:4
+msgid "View %s?"
+msgstr "Προβολή %s;"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:9
+#: includes/admin/wc/views/html-view-resume-package-data.php:5
+msgid ""
+"Allow to view single listings with this package (if package required in "
+"settings)."
+msgstr ""
+"Επιτρέπουν να δείτε μεμονωμένες καταχωρίσεις με αυτό το πακέτο (αν το πακέτο"
+" απαιτείται για τις ρυθμίσεις)."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:14
+#: includes/admin/wc/views/html-view-resume-package-data.php:11
+msgid "View %s limit"
+msgstr "Όριο προβολής %s"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:15
+#: includes/admin/wc/views/html-view-resume-package-data.php:12
+msgid ""
+"The number of listings a user can view with this package.  Leave blank to "
+"allow unlimited."
+msgstr ""
+"Ο αριθμός των καταχωρήσεων ο χρήστης να προβάλετε με αυτό το πακέτο.  Αφήστε"
+" το κενό για να επιτρέψετε απεριόριστο."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:28
+#: includes/admin/wc/views/html-view-resume-package-data.php:25
+msgid "View Rollover?"
+msgstr "Προβολή ανατροπής;"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:29
+#: includes/admin/wc/views/html-view-job-package-data.php:57
+#: includes/admin/wc/views/html-view-resume-package-data.php:26
+#: includes/admin/wc/views/html-view-resume-package-data.php:54
+#: includes/admin/wc/views/html-view-resume-package-data.php:82
+msgid "Rollover (Add) unused credits to package when subscription is renewed."
+msgstr ""
+"Ανατροπής (Add) αχρησιμοποίητες πιστώσεις σε πακέτο όταν ανανεώνεται η "
+"συνδρομή."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:36
+msgid ""
+"Allow to %s listings with this package (if package required in settings)."
+msgstr ""
+"Επιτρέπουν να %s καταχωρίσεις με αυτό το πακέτο (αν το πακέτο απαιτείται για"
+" τις ρυθμίσεις)."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:42
+msgid "%1$s %2$s limit"
+msgstr "%1$ s %2$ s όριο"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:43
+msgid ""
+"The number of listings a user can %s with this package. Leave blank to allow"
+" unlimited."
+msgstr ""
+"Ο αριθμός των καταχωρήσεων, ένας χρήστης μπορεί να %s με αυτό το πακέτο. "
+"Αφήστε το κενό για να επιτρέψετε απεριόριστο."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:56
+msgid "%1$s Rollover?"
+msgstr "%1$ s ανατροπής;"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:62
+#: includes/admin/wc/views/html-view-resume-package-data.php:88
+msgid "Allow Browsing?"
+msgstr "Επιτρέψετε την περιήγηση;"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:63
+#: includes/admin/wc/views/html-view-resume-package-data.php:89
+msgid ""
+"Allow to browse listings with this package (if package required in "
+"settings)."
+msgstr ""
+"Επιτρέψει να βρείτε καταχωρήσεις με αυτό το πακέτο (αν το πακέτο απαιτείται "
+"για τις ρυθμίσεις)."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:69
+#: includes/admin/wc/views/html-view-resume-package-data.php:95
+msgid "Use Short Description"
+msgstr "Σύντομη περιγραφή της χρήσης"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:70
+#: includes/admin/wc/views/html-view-resume-package-data.php:96
+msgid ""
+"Enable this to use the short description for your own custom wording on the "
+"package selection form for listings."
+msgstr ""
+"Ενεργοποίηση αυτό για να χρησιμοποιήσετε τη σύντομη περιγραφή για τη δική "
+"σας προσαρμοσμένη διατύπωση στη φόρμα επιλογής πακέτου για καταχωρίσεις."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:32
+msgid "View %s Name?"
+msgstr "Όνομα προβολής %s;"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:33
+msgid ""
+"Allow to view %s name with this package (if package required in settings)."
+msgstr ""
+"Επιτρέπουν να δείτε το όνομα %s με αυτό το πακέτο (αν το πακέτο απαιτείται "
+"για τις ρυθμίσεις)."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:39
+msgid "View %s Name limit"
+msgstr "Όριο όνομα προβολής %s"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:40
+msgid ""
+"The number of %s names a user can view with this package.  Leave blank to "
+"allow unlimited."
+msgstr ""
+"Ο αριθμός των ονομάτων %s που ένας χρήστης μπορεί να δείτε με αυτό το "
+"πακέτο.  Αφήστε το κενό για να επιτρέψετε απεριόριστο."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:53
+msgid "View Name Rollover?"
+msgstr "Προβολή όνομα ανατροπής;"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:60
+msgid "Allow Contact?"
+msgstr "Να επιτρέπεται η επικοινωνία;"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:61
+msgid ""
+"Allow to contact listing with this package (if package required in "
+"settings)."
+msgstr ""
+"Επιτρέπουν να επικοινωνήσετε με την καταχώριση με αυτό το πακέτο (αν το "
+"πακέτο απαιτείται για τις ρυθμίσεις)."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:67
+msgid "Contact %s limit"
+msgstr "Όριο επαφών %s"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:68
+msgid ""
+"The number of %s a user can contact with this package. Leave blank to allow "
+"unlimited."
+msgstr ""
+"Ο αριθμός των %s που ένας χρήστης μπορεί να επικοινωνήσει με αυτό το πακέτο."
+" Αφήστε το κενό για να επιτρέψετε απεριόριστο."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:81
+msgid "Contact Rollover?"
+msgstr "Επικοινωνήστε με την μετακύληση;"
+
+#: includes/admin/wc.php:95
+msgid "%s Visibility Package"
+msgstr "Πακέτο ορατότητας %s"
+
+#: includes/admin/wc.php:98
+msgid "%s Visibility Subscription"
+msgstr "%s προβολής συνδρομή"
+
+#: includes/admin/wc.php:203
+msgid "Fields"
+msgstr "Πεδία"
+
+#: includes/admin.php:45 includes/admin.php:81
+msgid "Visibility Packages"
+msgstr "Πακέτα ορατότητας"
+
+#: includes/admin.php:68
+msgid "Package successfully deleted"
+msgstr "Διαγράφηκε με επιτυχία το πακέτο"
+
+#: includes/admin.php:82 includes/admin.php:105
+msgid "Add User Package"
+msgstr "Προσθήκη χρήστη πακέτο"
+
+#: includes/admin.php:150
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/form.php:114
+msgid "You can now %s this listing"
+msgstr "Μπορείτε να κάνετε τώρα %s αυτή την καταχώρηση"
+
+#: includes/functions.php:18
+msgid "Apply"
+msgstr "Εφαρμόστε"
+
+#: includes/install.php:99
+msgid ""
+"A <a href=\"%s\">package</a> is required to browse listings, please select "
+"one from below."
+msgstr ""
+"Ένα <a href=\"%s\"> πακέτο</a> είναι απαραίτητη για να βρείτε καταχωρήσεις, "
+"παρακαλώ επιλέξτε ένα από τα κάτω."
+
+#: includes/install.php:102
+msgid "Please <a href=\"%s\">select a package</a> to browse resumes."
+msgstr ""
+"Παρακαλώ <a href=\"%s\"> Επιλέξτε ένα πακέτο</a> για να περιηγηθείτε σε "
+"βιογραφικά."
+
+#: includes/install.php:104
+msgid ""
+"Please select a <a href=\"%s\">package</a> to view the full candidate name."
+msgstr ""
+"Παρακαλώ επιλέξτε ένα <a href=\"%s\"> πακέτο</a>, για να προβάλετε το πλήρες"
+" υποψήφιος όνομα."
+
+#: includes/integration/job.php:241 includes/integration/resume.php:307
+msgid "Please <a href=\"%s\">select a package</a> to browse listings."
+msgstr ""
+"Παρακαλώ <a href=\"%s\"> Επιλέξτε ένα πακέτο</a> για να κάνετε αναζήτηση "
+"καταχωρήσεων."
+
+#: includes/integration/job.php:255 includes/integration/resume.php:321
+msgid "Please <a href=\"%s\">select a package</a> to view this listing's details."
+msgstr ""
+"Παρακαλώ <a href=\"%s\"> Επιλέξτε ένα πακέτο</a>, για να προβάλετε "
+"λεπτομέρειες αυτής της λίστας."
+
+#: includes/integration/job.php:269 includes/integration/resume.php:398
+msgid "Please <a href=\"%1$s\">select a package</a> to %2$s this listing."
+msgstr ""
+"Παρακαλώ <a href=\"%1$s\"> Επιλέξτε ένα πακέτο</a> για %2$ s. αυτή την "
+"απαρίθμηση."
+
+#: includes/integration/resume.php:77
+msgid ""
+"A <a href=\"%s\">package</a> is required to view the full name on this "
+"listing."
+msgstr ""
+"Ένα <a href=\"%s\"> πακέτο</a> απαιτείται για να προβάλετε το πλήρες όνομα "
+"σε αυτή την καταχώρηση."
+
+#: includes/integration.php:74
+msgid ""
+"This page should redirect in <span class=\"jmpack_redirect_in\">%1$d</span> "
+"seconds, if not, please <a href=\"%2$s\">click here</a>."
+msgstr ""
+"Αυτή η σελίδα θα πρέπει να ανακατευθύνετε σε <span "
+"class=\"jmpack_redirect_in\"> %1$ d</span> δευτερόλεπτα, αν όχι, παρακαλώ <a"
+" href=\"%2$s\"> κάντε κλικ εδώ</a>."
+
+#: includes/packages/job.php:53 includes/packages/resume.php:55
+msgid "Browse"
+msgstr "Αναζήτηση"
+
+#: includes/packages/job.php:59 includes/packages/resume.php:61
+msgid "View"
+msgstr "Προβολή"
+
+#: includes/packages/job.php:71
+msgid "apply to"
+msgstr "ισχύουν για"
+
+#: includes/packages/job.php:91 includes/packages/resume.php:94
+msgid "%s to "
+msgstr "%s για να "
+
+#: includes/packages/job.php:95 includes/packages/resume.php:98
+msgid "view %s single listing"
+msgid_plural "view %s single listings"
+msgstr[0] "Δείτε μία καταχώριση %s"
+msgstr[1] "δείτε μεμονωμένες καταχωρίσεις %s"
+
+#: includes/packages/job.php:95 includes/packages/job.php:107
+#: includes/packages/resume.php:98 includes/packages/resume.php:109
+#: includes/packages/resume.php:121 includes/packages.php:69
+#: templates/my-packages.php:64
+msgid "unlimited"
+msgstr "απεριόριστη"
+
+#: includes/packages/job.php:107 includes/packages/resume.php:121
+msgid "%s %s listing"
+msgid_plural "%s %s listings"
+msgstr[0] "Κατάλογος %s %s"
+msgstr[1] "καταχωρίσεις για %s %s"
+
+#: includes/packages/job.php:113 includes/packages/resume.php:127
+msgid ", and "
+msgstr ", και "
+
+#: includes/packages/job.php:115 includes/packages/resume.php:129
+msgid "browse all listings"
+msgstr "Βρείτε όλες τις καταχωρήσεις"
+
+#: includes/packages/resume.php:67
+msgid "View Name"
+msgstr "Όνομα προβολής"
+
+#: includes/packages/resume.php:73 includes/themes/listify.php:49
+#: templates/access-denied-contact-details.php:6
+#: templates/jobify/access-denied-contact-details.php:6
+#: templates/jobify/access-denied-contact-details.php:11
+msgid "Contact"
+msgstr "Επικοινωνία"
+
+#: includes/packages/resume.php:109
+msgid "view %s single listing name"
+msgid_plural "view %s single listing names"
+msgstr[0] "μία καταχώριση όνομα προβολής %s"
+msgstr[1] "Προβολή %s ενιαία καταχώριση ονομάτων"
+
+#: includes/shortcodes/job.php:71 includes/shortcodes/resume.php:54
+msgid "Select Browse Package"
+msgstr "Επιλέξτε Αναζήτηση πακέτου"
+
+#: includes/shortcodes/job.php:72 includes/shortcodes/resume.php:55
+msgid "Choose a Browse Package"
+msgstr "Επιλέξτε ένα πακέτο Αναζήτηση"
+
+#: includes/shortcodes/job.php:113 includes/shortcodes/resume.php:96
+msgid "Select a View Package"
+msgstr "Επιλέξτε ένα πακέτο προβολής"
+
+#: includes/shortcodes/job.php:114 includes/shortcodes/resume.php:97
+msgid "Choose a View Package"
+msgstr "Επιλέξτε ένα πακέτο προβολής"
+
+#: includes/shortcodes/job.php:137
+msgid "Select %s Package"
+msgstr "Επιλέξτε το πακέτο %s"
+
+#: includes/shortcodes/job.php:138
+msgid "Choose %s Package"
+msgstr "Επιλέξτε το πακέτο %s"
+
+#: includes/shortcodes/resume.php:120
+msgid "Select a View Name Package"
+msgstr "Επιλέξτε ένα όνομα πακέτου"
+
+#: includes/shortcodes/resume.php:121
+msgid "Choose a View Name Package"
+msgstr "Επιλέξτε ένα πακέτο όνομα προβολής"
+
+#: includes/shortcodes/resume.php:144
+msgid "Select Contact Package"
+msgstr "Επιλέξτε πακέτο επικοινωνίας"
+
+#: includes/shortcodes/resume.php:145
+msgid "Choose Contact Package"
+msgstr "Επιλέξτε το πακέτο επαφής"
+
+#: includes/shortcodes.php:100 templates/listable/package-selection.php:72
+msgid "Select Package"
+msgstr "Επιλέξτε πακέτο"
+
+#: includes/shortcodes.php:101
+msgid "Choose a Package"
+msgstr "Επιλέξτε ένα πακέτο"
+
+#: includes/updater/smyles-updater-licenses.php:105
+#: includes/updater/smyles-updater-licenses.php:199
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: includes/updater/smyles-updater-licenses.php:105
+msgid "Unable to determine slug to deactivate license."
+msgstr ""
+"Αδυναμία προσδιορισμού γυμνοσάλιαγκα να απενεργοποιήσει την άδεια χρήσης."
+
+#: includes/updater/smyles-updater-licenses.php:119
+msgid "Error determining the plugin Product ID."
+msgstr "Σφάλμα προσδιορισμού του plugin Αναγνωριστικό προϊόντος."
+
+#: includes/updater/smyles-updater-licenses.php:123
+msgid "Error pulling the license key from option data."
+msgstr "Σφάλμα τραβώντας το κλειδί άδειας χρήσης από δεδομένα επιλογής."
+
+#: includes/updater/smyles-updater-licenses.php:127
+msgid ""
+"Error pulling the email associated with the license key from option data."
+msgstr ""
+"Σφάλμα τραβώντας το email που σχετίζεται με το κλειδί αδειών από επιλογή "
+"δεδομένων."
+
+#: includes/updater/smyles-updater-licenses.php:131
+msgid ""
+"Error pulling the instance ID associated with the license key from option "
+"data."
+msgstr ""
+"Σφάλμα τραβώντας το Αναγνωριστικό εμφάνισης που σχετίζεται με το κλειδί "
+"αδειών από επιλογή δεδομένων."
+
+#: includes/updater/smyles-updater-licenses.php:144
+msgid ""
+"Connection failed to the License Key API server - possible server issue."
+msgstr ""
+"Σύνδεση απέτυχε να το API κλειδί άδειας χρήσης διακομιστή - θέμα πιθανές "
+"διακομιστή."
+
+#: includes/updater/smyles-updater-licenses.php:151
+msgid " Successfully Deactivated!"
+msgstr " Απενεργοποιηθεί με επιτυχία!"
+
+#: includes/updater/smyles-updater-licenses.php:152
+msgid "You have successfully deactivated the %s license."
+msgstr "Έχετε απενεργοποιήσει επιτυχώς την %s άδεια."
+
+#: includes/updater/smyles-updater-licenses.php:164
+#: includes/updater/smyles-updater-licenses.php:274
+msgid "Error!"
+msgstr "Σφάλμα!"
+
+#: includes/updater/smyles-updater-licenses.php:164
+msgid ""
+"The license has been successfully deactivated locally, but please visit your"
+" sMyles Plugins <a href=\"%s\" target=\"_blank\">My Account</a> page to "
+"verify this activation has been removed from our server.  There was an error"
+" automatically removing it, and chances are that is because it was already "
+"removed via your <a href=\"%s\" target=\"_blank\">My Account</a> page "
+"already.."
+msgstr ""
+"Η άδεια χρήσης έχει απενεργοποιηθεί με επιτυχία σε τοπικό επίπεδο, αλλά "
+"παρακαλούμε επισκεφθείτε τη σελίδα Plugins <a href=\"%s\" target=\"_blank\">"
+" Μου λογαριασμό</a> σας χαμογελαστές φατσούλες να επιβεβαιώσετε αυτή η "
+"ενεργοποίηση έχει καταργηθεί από το διακομιστή μας.  Παρουσιάστηκε σφάλμα "
+"κατά την αφαίρεση αυτόματα, και οι πιθανότητες είναι ότι είναι επειδή είχε "
+"ήδη αφαιρεθεί μέσω της σελίδας <a href=\"%s\" target=\"_blank\"> Ο "
+"λογαριασμός μου</a> σας ήδη..."
+
+#: includes/updater/smyles-updater-licenses.php:200
+msgid ""
+"Unable to determine slug, license key, and/or email to activate license, "
+"contact support."
+msgstr ""
+"Αδυναμία προσδιορισμού γυμνοσάλιαγκας, άδεια κλειδί, ή/και email για να "
+"ενεργοποιήσετε την άδεια χρήσης, επικοινωνήστε με την υποστήριξη."
+
+#: includes/updater/smyles-updater-licenses.php:259
+msgid " Successfully Activated!"
+msgstr " Επιτυχημένος δραστηριοποιημένος!"
+
+#: includes/updater/smyles-updater-licenses.php:259
+msgid ""
+"You have successfully activated the %s license, and will now be able to "
+"automatically upgrade this plugin through WordPress when an update is "
+"available."
+msgstr ""
+"Σας έχουν ενεργοποιηθεί με επιτυχία η %s άδεια, και θα είναι πλέον σε θέση "
+"να αναβαθμίσουν αυτόματα αυτό το plugin μέσω του WordPress, όταν είναι "
+"διαθέσιμη μια ενημέρωση."
+
+#: includes/updater/smyles-updater-licenses.php:362
+msgid "Deactivate the %s License?"
+msgstr "Απενεργοποιήσει την άδεια χρήσης του %s;"
+
+#: includes/updater/smyles-updater-licenses.php:367
+msgid "No"
+msgstr "Όχι"
+
+#: includes/updater/smyles-updater-licenses.php:371
+msgid "Yes"
+msgstr "Ναι"
+
+#: includes/updater/smyles-updater-licenses.php:377
+msgid "sMyles Plugins Licensing"
+msgstr "χαμογελαστές φατσούλες Plugins αδειοδότησης"
+
+#: includes/updater/smyles-updater-licenses.php:380
+msgid "Plugins"
+msgstr "Plugins"
+
+#: includes/updater/views/html-key-input.php:5
+msgid "License"
+msgstr "Άδεια χρήσης"
+
+#: includes/updater/views/html-key-input.php:8
+msgid ""
+"Enter your license key and email and hit return. A valid key is required for"
+" updates."
+msgstr ""
+"Εισάγετε το email και το κλειδί άδειας χρήσης σας και πατήστε return. Για "
+"ενημερωμένες εκδόσεις, απαιτείται ένα έγκυρο κλειδί."
+
+#: includes/updater/views/html-key-notice.php:6
+msgid "Hide notice"
+msgstr "Απόκρυψη ειδοποίηση"
+
+#: includes/updater/views/html-key-notice.php:7
+msgid ""
+"<a href=\"%1$s\">Please activate your license key</a> in order to receive "
+"updates and support for \"%2$s\"."
+msgstr ""
+"<a href=\"%1$s\"> παρακαλούμε να ενεργοποιήσετε το κλειδί άδειας χρήσης "
+"σας</a> ώστε να λαμβάνετε ενημερώσεις και υποστήριξη για «%2$ s.»."
+
+#: includes/updater/views/html-license-activate.php:3
+msgid "Activating ..."
+msgstr "Ενεργοποίηση..."
+
+#: includes/updater/views/html-license-activate.php:6
+#: includes/updater/views/html-license-deactivate.php:6
+msgid "Plugin Not Found"
+msgstr "Plugin δεν βρέθηκε"
+
+#: includes/updater/views/html-license-activate.php:18
+#: includes/updater/views/html-license-deactivate.php:20
+msgid "Details"
+msgstr "Λεπτομέρειες"
+
+#: includes/updater/views/html-license-activate.php:33
+#: includes/updater/views/html-license-deactivate.php:35
+msgid "Installed Version:"
+msgstr "Εγκατεστημένη έκδοση:"
+
+#: includes/updater/views/html-license-activate.php:54
+msgid "Activate License"
+msgstr "Ενεργοποίηση άδειας"
+
+#: includes/updater/views/html-license-deactivate.php:3
+msgid "Deactivating ..."
+msgstr "Απενεργοποίηση..."
+
+#: includes/updater/views/html-license-deactivate.php:43
+msgid "Activated:"
+msgstr "Ενεργοποιημένο:"
+
+#: includes/updater/views/html-license-deactivate.php:64
+msgid "Deactivate License"
+msgstr "Απενεργοποιήσει την άδεια χρήσης"
+
+#: includes/updater/views/html-ms-update.php:6
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr ""
+"Υπάρχει διαθέσιμη μια νέα έκδοση του %1$ s. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\"> Προβολή έκδοσης %3$ s λεπτομέρειες</a> ή "
+"να <a href=\"%4$s\"> ενημερώσετε τώρα</a>."
+
+#: includes/user.php:52
+msgid "This is not a valid package, or is an unlimited package."
+msgstr "Αυτό δεν είναι ένα έγκυρο πακέτο, ή είναι ένα απεριόριστο πακέτο."
+
+#: includes/wc/wcp-job-visibility-package.php:58
+#: includes/wc/wcp-resume-visibility-package.php:61
+msgid "Add to cart"
+msgstr "Προσθήκη στο καλάθι"
+
+#: includes/wc/wcp-job-visibility-package.php:58
+#: includes/wc/wcp-resume-visibility-package.php:61
+msgid "Read More"
+msgstr "Διαβάστε περισσότερα"
+
+#: includes/wc.php:397 includes/wc.php:404
+msgid "page"
+msgstr "σελίδα"
+
+#: includes/wc.php:402
+msgid "listing"
+msgstr "Χρηματιστήριο"
+
+#: includes/wc.php:412
+msgid ""
+"To go back to the %1$s you were previously viewing, <a href=\"%2$s\">click "
+"here</a>."
+msgstr ""
+"Για να επιστρέψετε το %1$ s ήσασταν προηγουμένως την προβολή, <a "
+"href=\"%2$s\"> κάντε κλικ εδώ</a>."
+
+#: templates/jobify/job-application.php:8
+#: templates/jobify/job-application.php:13
+msgid "Apply for job"
+msgstr "Αίτηση για θέση εργασίας"
+
+#: templates/listable/package-selection.php:51
+msgid "Your packages"
+msgstr "Πακέτα σας"
+
+#: templates/listable/package-selection.php:65
+#: templates/package-selection.php:34
+msgid "%1$s out of %2$d available %3$s used"
+msgstr "%1$ s από %2$ d διαθέσιμη %3$ s χρησιμοποιούνται"
+
+#: templates/listable/package-selection.php:80
+msgid "Purchase packages"
+msgstr "Αγοράζουν τα πακέτα"
+
+#: templates/listable/package-selection.php:105
+msgid "Free"
+msgstr "Δωρεάν"
+
+#: templates/listable/package-selection.php:141
+msgid "Get Started"
+msgstr "Να ξεκινήσετε"
+
+#: templates/listable/package-selection.php:150
+#: templates/package-selection.php:78
+msgid "No packages found"
+msgstr "Υπάρχουν πακέτα που βρέθηκαν"
+
+#: templates/my-packages-limit-details.php:5
+msgid "Feature"
+msgstr "Η δυνατότητα"
+
+#: templates/my-packages-limit-details.php:6
+msgid "Remaining"
+msgstr "Που απομένει"
+
+#: templates/my-packages-limit-details.php:7
+msgid "Used"
+msgstr "Χρησιμοποιούνται"
+
+#: templates/my-packages-limit-details.php:8
+msgid "Limit"
+msgstr "Όριο"
+
+#: templates/my-packages-limit-details.php:29
+msgid "Listings"
+msgstr "Καταχωρήσεις"
+
+#: templates/my-packages.php:18
+msgid "My %s Visibility Packages"
+msgstr "Πακέτα ορατότητας μου %s"
+
+#: templates/my-packages.php:23
+msgid "Package Name"
+msgstr "Όνομα πακέτου"
+
+#: templates/my-packages.php:24
+msgid "Package Features"
+msgstr "Χαρακτηριστικά πακέτων"
+
+#: templates/my-packages.php:66
+msgid "of"
+msgstr "του"
+
+#: templates/package-selection.php:22
+msgid "Your Packages:"
+msgstr "Σας πακέτα διακοπών για:"
+
+#: templates/package-selection.php:43
+msgid "Purchase Package:"
+msgstr "Αγοράστε το πακέτο:"
+
+#: wp-job-manager-packages.php:255
+msgid ""
+"WP Job Manager Packages requires WooCommerce Subscriptions 2.0 and above. "
+"Please upgrade as soon as possible!"
+msgstr ""
+"WP εργασία διαχείρισης πακέτων απαιτεί WooCommerce συνδρομές 2.0 και "
+"ανωτέρω. Αναβαθμίστε το συντομότερο δυνατόν!"
+
+#: wp-job-manager-packages.php:401
+msgid ""
+"WP Job Manager - Packages is missing requirements and has been <a "
+"href=\"%s\">deactivated</a>. Please make sure all requirements are "
+"available."
+msgstr ""
+"Διευθυντής εργασίας WP - πακέτα λείπει στις απαιτήσεις και έχει <a "
+"href=\"%s\"> απενεργοποιηθεί</a>. Παρακαλώ βεβαιωθείτε ότι όλες οι "
+"απαιτήσεις είναι διαθέσιμες."
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Packages"
+msgstr "Διευθυντής εργασίας WP - πακέτα διακοπών"
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.smyl.es/wp-job-manager-packages"
+msgstr "https://plugins.smyl.ES/WP-Job-Manager-packages"
+
+#. Description of the plugin/theme
+msgid ""
+"Create and configure custom Visibility Packages for WP Job Manager and WP "
+"Resume Manager to require visitors to purchase a package to view, apply, "
+"contact, browse, and more!"
+msgstr ""
+"Δημιουργία και ρύθμιση παραμέτρων προσαρμοσμένα πακέτα ορατότητας για "
+"διαχείριση εργασίας WP και WP βιογραφικό σημείωμα διευθυντή να απαιτήσει "
+"τους επισκέπτες να αγοράσετε ένα πακέτο για να την προβάλετε, ισχύουν, "
+"επαφή, αναζήτηση και περισσότερο!"
+
+#. Author of the plugin/theme
+msgid "Myles McNamara"
+msgstr "Myles McNamara"
+
+#. Author URI of the plugin/theme
+msgid "https://smyl.es"
+msgstr "https://smyl.ES"
+
+#: includes/admin/setup.php:414
+msgctxt "Default page title (wizard)"
+msgid "Visibility Packages"
+msgstr "Πακέτα ορατότητας"
+
+#: includes/admin/setup.php:424
+msgctxt "Default page title (wizard)"
+msgid "Browse Packages"
+msgstr "Αναζήτηση πακέτων"
+
+#: includes/admin/setup.php:434
+msgctxt "Default page title (wizard)"
+msgid "Apply/Contact Packages"
+msgstr "Εφαρμόσετε/επικοινωνία πακέτα διακοπών"
+
+#: includes/admin/setup.php:444
+msgctxt "Default page title (wizard)"
+msgid "View Packages"
+msgstr "Προβολή πακέτων"
+
+#: includes/admin/setup.php:492
+msgctxt "Default page title (wizard)"
+msgid "Resume Visibility Packages"
+msgstr "Πακέτα ορατότητας βιογραφικό"
+
+#: includes/admin/setup.php:502
+msgctxt "Default page title (wizard)"
+msgid "Browse Resume Packages"
+msgstr "Αναζητήστε το βιογραφικό πακέτα"
+
+#: includes/admin/setup.php:512
+msgctxt "Default page title (wizard)"
+msgid "Resume Contact Packages"
+msgstr "Βιογραφικό επικοινωνία πακέτα διακοπών"
+
+#: includes/admin/setup.php:522
+msgctxt "Default page title (wizard)"
+msgid "View Resume Packages"
+msgstr "Δείτε το βιογραφικό πακέτα"
+
+#: includes/admin/setup.php:532
+msgctxt "Default page title (wizard)"
+msgid "View Name Resume Packages"
+msgstr "Προβολή όνομα βιογραφικό πακέτων"

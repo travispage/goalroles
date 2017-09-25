@@ -1,0 +1,2101 @@
+# Copyright (C) 2017 Myles McNamara
+# This file is distributed under the GPLv3.
+# Translators:
+# Myles McNamara <myles@smyl.es>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - Packages 1.0.0\n"
+"Report-Msgid-Bugs-To: http://plugins.smyl.es\n"
+"POT-Creation-Date: 2017-01-26 22:53:07+00:00\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Myles McNamara <myles@smyl.es>, 2017\n"
+"Language-Team: Romanian (https://www.transifex.com/smyles/teams/24600/ro/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: includes/admin/listtable/addpackage.php:72
+msgid "Package Type"
+msgstr "Tip pachet"
+
+#: includes/admin/listtable/addpackage.php:76
+#: includes/admin/listtable/addpackage.php:77
+msgid "%s Package"
+msgstr "pachet de %s"
+
+#: includes/admin/listtable/addpackage.php:92
+#: includes/admin/listtable/addpackage.php:166
+#: includes/admin/wc/views/html-view-job-package-data.php:35
+msgid "Allow %s?"
+msgstr "Permite %s?"
+
+#: includes/admin/listtable/addpackage.php:93
+#: includes/admin/listtable/addpackage.php:167
+msgid "Whether or not this user package supports this feature"
+msgstr ""
+"Dacă este sau nu acest pachet de utilizator acceptă această caracteristică"
+
+#: includes/admin/listtable/addpackage.php:104
+#: includes/admin/listtable/addpackage.php:178
+msgid "%s Limit"
+msgstr "limita de %s"
+
+#: includes/admin/listtable/addpackage.php:105
+#: includes/admin/listtable/addpackage.php:179
+msgid "Set specific package limit (Use 0 for unlimited)"
+msgstr "Set pachet specifice limită (utilizare 0 pentru nelimitate)"
+
+#: includes/admin/listtable/addpackage.php:108
+#: includes/admin/listtable/addpackage.php:182 includes/admin/listtable.php:70
+#: includes/admin/listtable.php:105 includes/admin/listtable.php:157
+#: includes/admin/wc/views/html-view-job-package-data.php:17
+#: includes/admin/wc/views/html-view-job-package-data.php:45
+#: includes/admin/wc/views/html-view-resume-package-data.php:14
+#: includes/admin/wc/views/html-view-resume-package-data.php:42
+#: includes/admin/wc/views/html-view-resume-package-data.php:70
+msgid "Unlimited"
+msgstr "Nelimitat"
+
+#: includes/admin/listtable/addpackage.php:113
+#: includes/admin/listtable/addpackage.php:187 includes/admin/listtable.php:75
+#: includes/admin/listtable.php:110 includes/admin/listtable.php:157
+msgid "%s Used"
+msgstr "%s utilizat"
+
+#: includes/admin/listtable/addpackage.php:114
+#: includes/admin/listtable/addpackage.php:188
+msgid "Set the total used out of limit available in package"
+msgstr "Set total utilizate din limita disponibil în pachetul"
+
+#: includes/admin/listtable/addpackage.php:122
+#: includes/admin/listtable/addpackage.php:196
+msgid "%s Posts"
+msgstr "%s mesaje"
+
+#: includes/admin/listtable/addpackage.php:123
+#: includes/admin/listtable/addpackage.php:197
+msgid "CSV (Comma Separated Value) of Post IDs used"
+msgstr "CSV (valori separate de virgula) de Post ID-uri utilizate"
+
+#: includes/admin/listtable/addpackage.php:126
+#: includes/admin/listtable/addpackage.php:200
+msgid "Used posts &hellip;"
+msgstr "Folosite mesaje &hellip;"
+
+#: includes/admin/listtable/addpackage.php:231
+#: includes/admin/listtable.php:182
+msgid "User"
+msgstr "Utilizator"
+
+#: includes/admin/listtable/addpackage.php:234
+msgid "Guest"
+msgstr "Comentarii"
+
+#: includes/admin/listtable/addpackage.php:239
+#: includes/admin/listtable.php:185
+msgid "Product"
+msgstr "Produs"
+
+#: includes/admin/listtable/addpackage.php:240
+msgid "Optionally link this package to a product."
+msgstr "Opţional se leagă de acest pachet la un produs."
+
+#: includes/admin/listtable/addpackage.php:243
+msgid "Choose a product&hellip;"
+msgstr "Alege un produs &hellip;"
+
+#: includes/admin/listtable/addpackage.php:278
+#: includes/admin/listtable.php:184
+msgid "Status"
+msgstr "Statutul"
+
+#: includes/admin/listtable/addpackage.php:279
+msgid ""
+"Current status of the package.  Package must be active to show in user "
+"account and available to the user.  On-hold status normally means it's a "
+"subscription pending renewal payment."
+msgstr ""
+"Starea curentă a pachetului.  Pachet trebuie să fie activă în contul de "
+"utilizator şi disponibilă pentru utilizator.  Pe-hold statutul înseamnă în "
+"mod normal este un abonament până la plată de reînnoire."
+
+#: includes/admin/listtable/addpackage.php:282
+msgid "Choose a status&hellip;"
+msgstr "Alege un statut &hellip;"
+
+#: includes/admin/listtable/addpackage.php:297
+#: includes/admin/listtable.php:187
+msgid "Order ID"
+msgstr "ID comanda"
+
+#: includes/admin/listtable/addpackage.php:298
+msgid "Optionally link this package to an order."
+msgstr "Opţional se leagă acest pachet o comandă."
+
+#: includes/admin/listtable/addpackage.php:301
+msgid "N/A"
+msgstr "NEACSU"
+
+#: includes/admin/listtable/addpackage.php:307
+msgid "Save Package"
+msgstr "Salva pachet"
+
+#: includes/admin/listtable/addpackage.php:329
+msgid ""
+"Please select a user from the dropdown to associate this user package with."
+msgstr ""
+"Vă rugăm să selectaţi un utilizator din meniul derulant pentru a asocia "
+"acest pachet de utilizator cu."
+
+#: includes/admin/listtable/addpackage.php:332
+msgid ""
+"A status is required for a package, please select one from the dropdown "
+"(must be active to show in user account)"
+msgstr ""
+"Un statut este necesar pentru un pachet, vă rugăm să selectaţi unul din "
+"meniul derulant (trebuie să fie activă în contul de utilizator)"
+
+#: includes/admin/listtable/addpackage.php:425
+msgid "Package successfully saved"
+msgstr "Pachet salvat cu succes"
+
+#: includes/admin/listtable.php:143 includes/admin/listtable.php:150
+#: includes/admin/listtable.php:155
+msgid "n/a"
+msgstr "neacsu"
+
+#: includes/admin/listtable.php:160
+msgid "Subscription"
+msgstr "Abonament"
+
+#: includes/admin/listtable.php:162
+msgid "Package"
+msgstr "Pachet"
+
+#: includes/admin/listtable.php:165
+msgid "Edit"
+msgstr "Editare"
+
+#: includes/admin/listtable.php:166
+msgid "Delete"
+msgstr "Şterge"
+
+#: includes/admin/listtable.php:183
+msgid "Type"
+msgstr "Tip"
+
+#: includes/admin/listtable.php:186
+msgid "Limits"
+msgstr "Limitele"
+
+#: includes/admin/listtable.php:188
+msgid "Actions"
+msgstr "Acţiunile"
+
+#: includes/admin/plugins/visibility/views/packages.php:19
+msgid "No Packages Found"
+msgstr "Nici un pachet nu a întemeia"
+
+#: includes/admin/plugins/visibility/views/packages.php:25
+msgid "Select a Package"
+msgstr "Selectaţi un pachet"
+
+#: includes/admin/plugins/visibility/views/packages.php:29
+#: includes/admin/plugins/visibility/views/packages.php:43
+msgid "%s Packages"
+msgstr "pachete de %s"
+
+#: includes/admin/plugins/visibility/views/packages.php:57
+#: includes/admin/plugins/visibility/views/packages.php:71
+msgid "WC Paid Listings %s Packages"
+msgstr "WC plătite listări %s pachete"
+
+#: includes/admin/plugins/visibility.php:94
+#: includes/admin/plugins/visibility.php:182
+msgid "Packages"
+msgstr "Pachete"
+
+#: includes/admin/settings/job.php:42 includes/functions.php:61
+#: includes/wc/job.php:38
+msgid "Job"
+msgstr "Job"
+
+#: includes/admin/settings/job.php:43
+msgid "Jobs"
+msgstr "Locuri de munca"
+
+#: includes/admin/settings/job.php:51 includes/admin/settings/job.php:60
+#: includes/admin/settings/resume.php:68 includes/admin/settings/resume.php:77
+msgid "View %s"
+msgstr "Vezi %s"
+
+#: includes/admin/settings/job.php:61 includes/admin/settings/resume.php:78
+msgid "Require %1$s package to view a single %1$s"
+msgstr "Necesita %1$ s pachet pentru a vizualiza un singur %1$ s"
+
+#: includes/admin/settings/job.php:62 includes/admin/settings/resume.php:79
+msgid ""
+"If enabled, visitors will be required to have a %s package with view "
+"permissions, to view any single listing page."
+msgstr ""
+"Dacă este activată, vizitatorii vor fi necesare pentru a avea un pachet de "
+"%s cu permisiuni de vedere, pentru a vizualiza orice pagină de cota unică."
+
+#: includes/admin/settings/job.php:71 includes/admin/settings/job.php:80
+#: includes/admin/settings/resume.php:88 includes/admin/settings/resume.php:97
+msgid "Browse %s"
+msgstr "Răsfoire %s"
+
+#: includes/admin/settings/job.php:81 includes/admin/settings/resume.php:98
+msgid "Require %s package to browse listings"
+msgstr "Solicita pachetul %s pentru a parcurge lista"
+
+#: includes/admin/settings/job.php:82 includes/admin/settings/resume.php:99
+msgid ""
+"If enabled, visitors will be required to have a package with browse "
+"permissions, to view the listing summary on the browse/list/search page."
+msgstr ""
+"Dacă este activată, vizitatorii vor fi necesare pentru a avea un pachet cu "
+"permisiuni de parcurgere, Vezi rezumatul listarea pe pagina "
+"răsfoiţi/lista/cautare."
+
+#: includes/admin/settings/job.php:90 includes/admin/settings/job.php:99
+msgid "%1$s %2$s"
+msgstr "%1$ s %2$ s"
+
+#: includes/admin/settings/job.php:100
+msgid "Require %1$s package to %2$s a %1$s"
+msgstr "Necesita %1$ s pachet %2$ s o %1$ s"
+
+#: includes/admin/settings/job.php:101
+msgid ""
+"If enabled, visitors will be required to have a %1$s package with %2$s "
+"permissions, to %3$s a listing."
+msgstr ""
+"Dacă este activată, vizitatori va fi obligată să aibă un %1$ s pachet cu %2$"
+" s permisiuni, %3$ s o listare."
+
+#: includes/admin/settings/job.php:111 includes/admin/settings/resume.php:128
+msgid "Type Colors"
+msgstr "Tip culori"
+
+#: includes/admin/settings/job.php:120 includes/admin/settings/resume.php:137
+msgid "Customize Type Colors"
+msgstr "Personaliza culorile de tip"
+
+#: includes/admin/settings/job.php:121 includes/admin/settings/resume.php:138
+msgid "Yes, enable custom type colors settings"
+msgstr "Da, permite setările de culori personalizate de tip"
+
+#: includes/admin/settings/job.php:122 includes/admin/settings/resume.php:139
+msgid "Enable to customize the type colors."
+msgstr "Permite să particularizaţi culorile de tip."
+
+#: includes/admin/settings/job.php:130 includes/admin/settings/resume.php:156
+msgid "View Color"
+msgstr "Vezi culoare"
+
+#: includes/admin/settings/job.php:131 includes/admin/settings/resume.php:157
+msgid "Customize color to use for the the view type"
+msgstr "Personalizaţi culoare pentru a utiliza pentru tip de vizualizare"
+
+#: includes/admin/settings/job.php:139 includes/admin/settings/resume.php:147
+msgid "Browse Color"
+msgstr "Culoare maro"
+
+#: includes/admin/settings/job.php:140 includes/admin/settings/resume.php:148
+msgid "Customize color to use for the the browse type"
+msgstr "Personalizaţi culoare pentru a utiliza pentru parcurgere tip"
+
+#: includes/admin/settings/job.php:148
+msgid "%s Color"
+msgstr "%s culoare"
+
+#: includes/admin/settings/job.php:149
+msgid "Customize color to use for the the %1$s type"
+msgstr "Personalizaţi culoare pentru a utiliza pentru %1$ s tip"
+
+#: includes/admin/settings/job.php:157
+msgid "%s Visibility"
+msgstr "%s vizibilitate"
+
+#: includes/admin/settings/job.php:166 includes/admin/settings/resume.php:231
+msgid "%1$s Visibility Pages"
+msgstr "%1$ s vizibilitatea pagini"
+
+#: includes/admin/settings/job.php:173 includes/admin/settings/resume.php:238
+msgid "Select Package Form Page"
+msgstr "Selectaţi pachetul formular pagină"
+
+#: includes/admin/settings/job.php:174
+msgid ""
+"Select the page where you have placed the "
+"<code>[job_visibility_packages]</code> shortcode. This lets the plugin know "
+"where the form is located."
+msgstr ""
+"Selectaţi pagina în care aţi plasat shortcode "
+"<code>[job_visibility_packages]</code>. Acest lucru permite plugin-ul ştiu "
+"în cazul în care formularul este situat."
+
+#: includes/admin/settings/job.php:180 includes/admin/settings/resume.php:245
+msgid "Browse Package Page"
+msgstr "Răsfoiţi pagina de pachet"
+
+#: includes/admin/settings/job.php:181
+msgid ""
+"Select the page where you have placed the <code>[browse_job_packages]</code>"
+" shortcode, <strong>if you plan to use custom select browse package form "
+"page (optional).</strong>"
+msgstr ""
+"Selectaţi pagina în care aţi plasat shortcode "
+"<code>[browse_job_packages]</code>, <strong>în cazul în care intenţionaţi să"
+" utilizaţi personalizat selectaţi parcurge pachet formular pagină "
+"(opţional).</strong>"
+
+#: includes/admin/settings/job.php:187 includes/admin/settings/resume.php:252
+msgid "View Package Page"
+msgstr "Vezi pagina pachet"
+
+#: includes/admin/settings/job.php:188
+msgid ""
+"Select the page where you have placed the <code>[view_job_packages]</code> "
+"shortcode, <strong>if you plan to use custom select view package form page "
+"(optional).</strong>"
+msgstr ""
+"Selectaţi pagina în care aţi plasat shortcode "
+"<code>[view_job_packages]</code>, <strong>în cazul în care intenţionaţi să "
+"utilizaţi personalizat selectaţi Afişaţi pachet formular pagină "
+"(opţional).</strong>"
+
+#: includes/admin/settings/job.php:194
+msgid "%s Package Page"
+msgstr "Filme de pachet %s"
+
+#: includes/admin/settings/job.php:195
+msgid ""
+"Select the page where you have placed the <code>[apply_job_packages]</code> "
+"shortcode, <strong>if you plan to use custom select %s package form page "
+"(optional).</strong>"
+msgstr ""
+"Selectaţi pagina în care aţi plasat shortcode "
+"<code>[apply_job_packages]</code>, <strong>în cazul în care intenţionaţi să "
+"utilizaţi selectaţi personalizat %s pachet formular pagină "
+"(opţional).</strong>"
+
+#: includes/admin/settings/resume.php:42 includes/functions.php:118
+#: includes/wc/resume.php:39
+msgid "Resume"
+msgstr "CV-ul"
+
+#: includes/admin/settings/resume.php:43
+msgid "Resumes"
+msgstr "CV-uri"
+
+#: includes/admin/settings/resume.php:45
+msgid "To override any package configuration above ... "
+msgstr "Pentru a trece peste orice pachet de configurare de mai sus... "
+
+#: includes/admin/settings/resume.php:50
+msgid "View %s Name"
+msgstr "Nume de vizualizare %s"
+
+#: includes/admin/settings/resume.php:59
+msgid "View Name Package"
+msgstr "Vezi numele pachetului"
+
+#: includes/admin/settings/resume.php:60
+msgid "Require %s package to view resumes names"
+msgstr "Solicita pachetul %s pentru a vizualiza numele de CV-uri"
+
+#: includes/admin/settings/resume.php:61
+msgid ""
+"If enabled, visitors will be required to have a %1$s package with view names"
+" permissions, for %1$s names to be visible."
+msgstr ""
+"Dacă este activată, vizitatori va fi obligată să aibă un %1$ s pachet cu "
+"Vezi nume de permisiuni, pentru %1$ s nume să fie vizibile."
+
+#: includes/admin/settings/resume.php:107
+#: includes/admin/settings/resume.php:116
+msgid "Contact %1$s"
+msgstr "Contact %1$ s"
+
+#: includes/admin/settings/resume.php:117
+msgid "Require contact package to contact a %1$s"
+msgstr "Necesita contact pachet să contactaţi o %1$ s"
+
+#: includes/admin/settings/resume.php:118
+msgid ""
+"If enabled, visitors will be required to have a %1$s package with contact "
+"permissions, to contact any single %1$s."
+msgstr ""
+"Dacă este activată, vizitatorii vor fi necesare pentru a avea un %1$ s "
+"pachet cu permisiuni de contact, să contactaţi orice singur %1$ s."
+
+#: includes/admin/settings/resume.php:165
+msgid "View Name Color"
+msgstr "Vezi nume culoare"
+
+#: includes/admin/settings/resume.php:166
+msgid "Customize color to use for the the view name type"
+msgstr ""
+"Personalizaţi culoare pentru a utiliza pentru tip de nume de vizualizare"
+
+#: includes/admin/settings/resume.php:174
+msgid "Contact Color"
+msgstr "Culoare de contact"
+
+#: includes/admin/settings/resume.php:175
+msgid "Customize color to use for the the contact type"
+msgstr "Personalizaţi culoare pentru a utiliza pentru tip contact"
+
+#: includes/admin/settings/resume.php:187
+msgid "Capability Override Settings"
+msgstr "Capacitatea suprascrie setările"
+
+#: includes/admin/settings/resume.php:194
+msgid "View Resume name Capability"
+msgstr "Vezi CV-ul nume capacitatea"
+
+#: includes/admin/settings/resume.php:196
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view resumes "
+"names. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Introduceţi <a href=\"%s\"> capacitatea</a> necesară pentru a vizualiza "
+"numele de CV-uri. Suportă o listă separate prin virgulă de "
+"roluri/capabilităţi."
+
+#: includes/admin/settings/resume.php:201
+msgid "Browse Resume Capability"
+msgstr "Răsfoiţi capacitatea de CV-ul"
+
+#: includes/admin/settings/resume.php:203
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to browse resumes."
+" Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Introduceţi <a href=\"%s\"> capacitatea</a> necesară pentru a parcurge CV-"
+"uri. Suportă o listă separate prin virgulă de roluri/capabilităţi."
+
+#: includes/admin/settings/resume.php:208
+msgid "View Resume Capability"
+msgstr "Vezi CV-ul capacitatea"
+
+#: includes/admin/settings/resume.php:210
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view a single "
+"resume. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Introduceţi <a href=\"%s\"> capacitatea</a> necesară pentru a vizualiza un "
+"singur CV. Suportă o listă separate prin virgulă de roluri/capabilităţi."
+
+#: includes/admin/settings/resume.php:215
+msgid "Contact Details Capability"
+msgstr "Capacitatea de detalii de contact"
+
+#: includes/admin/settings/resume.php:217
+msgid ""
+"Enter the <a href=\"%s\">capability</a> required in order to view contact "
+"details on a resume. Supports a comma separated list of roles/capabilities."
+msgstr ""
+"Introduceţi <a href=\"%s\"> capacitatea</a> necesară pentru a putea "
+"vizualiza datele de contact pe un CV. Suportă o listă separate prin virgulă "
+"de roluri/capabilităţi."
+
+#: includes/admin/settings/resume.php:222
+msgid "Resume Visibility"
+msgstr "Vizibilitatea CV"
+
+#: includes/admin/settings/resume.php:239
+msgid ""
+"Select the page where you have placed the "
+"<code>[resume_visibility_packages]</code> shortcode. This lets the plugin "
+"know where the form is located."
+msgstr ""
+"Selectaţi pagina în care aţi plasat shortcode "
+"<code>[resume_visibility_packages]</code>. Acest lucru permite plugin-ul "
+"ştiu în cazul în care formularul este situat."
+
+#: includes/admin/settings/resume.php:246
+msgid ""
+"Select the page where you have placed the "
+"<code>[browse_resume_packages]</code> shortcode, <strong>if you plan to use "
+"custom select browse package form page (optional).</strong>"
+msgstr ""
+"Selectaţi pagina în care aţi plasat shortcode "
+"<code>[browse_resume_packages]</code>, <strong>în cazul în care intenţionaţi"
+" să utilizaţi personalizat selectaţi parcurge pachet formular pagină "
+"(opţional).</strong>"
+
+#: includes/admin/settings/resume.php:253
+msgid ""
+"Select the page where you have placed the "
+"<code>[view_resume_packages]</code> shortcode, <strong>if you plan to use "
+"custom select view package form page (optional).</strong>"
+msgstr ""
+"Selectaţi pagina în care aţi plasat shortcode "
+"<code>[view_resume_packages]</code>, <strong>în cazul în care intenţionaţi "
+"să utilizaţi personalizat selectaţi Afişaţi pachet formular pagină "
+"(opţional).</strong>"
+
+#: includes/admin/settings/resume.php:259
+msgid "View Name Package Page"
+msgstr "Vezi numele pachetului pagina"
+
+#: includes/admin/settings/resume.php:260
+msgid ""
+"Select the page where you have placed the "
+"<code>[view_name_resume_packages]</code> shortcode, <strong>if you plan to "
+"use custom select view name package form page (optional).</strong>"
+msgstr ""
+"Selectaţi pagina în care aţi plasat shortcode "
+"<code>[view_name_resume_packages]</code>, <strong>dacă intenţionaţi să "
+"utilizaţi personalizat selectaţi Afişaţi numele pachetului formular de "
+"pagină (opţional).</strong>"
+
+#: includes/admin/settings/resume.php:266
+msgid "Contact Package Page"
+msgstr "Pachet pagina de contact"
+
+#: includes/admin/settings/resume.php:267
+msgid ""
+"Select the page where you have placed the "
+"<code>[contact_resume_packages]</code> shortcode, <strong>if you plan to use"
+" custom select contact package form page (optional).</strong>"
+msgstr ""
+"Selectaţi pagina în care aţi plasat shortcode "
+"<code>[contact_resume_packages]</code>, <strong>în cazul în care "
+"intenţionaţi să utilizaţi personalizat selectaţi contactaţi pachet formular "
+"pagină (opţional).</strong>"
+
+#: includes/admin/settings.php:131
+msgid ", or use a"
+msgstr ", sau de a folosi un"
+
+#: includes/admin/settings.php:131
+msgid "<a href=\"%2$s\" target=\"_blank\">Template Override</a>: <code>%1$s</code>."
+msgstr ""
+"<a href=\"%2$s\" target=\"_blank\"> şablon suprascrie</a>: <code>%1$ "
+"s</code>."
+
+#: includes/admin/settings.php:181
+msgid "None"
+msgstr "Nici unul"
+
+#: includes/admin/settings.php:182
+msgid "Red"
+msgstr "Red"
+
+#: includes/admin/settings.php:183
+msgid "Orange"
+msgstr "Orange"
+
+#: includes/admin/settings.php:184
+msgid "Yellow"
+msgstr "Galben"
+
+#: includes/admin/settings.php:185
+msgid "Olive"
+msgstr "Măsline"
+
+#: includes/admin/settings.php:186
+msgid "Green"
+msgstr "Verde"
+
+#: includes/admin/settings.php:187
+msgid "Teal"
+msgstr "Teal"
+
+#: includes/admin/settings.php:188
+msgid "Blue"
+msgstr "Albastru"
+
+#: includes/admin/settings.php:189
+msgid "Violet"
+msgstr "Violet"
+
+#: includes/admin/settings.php:190
+msgid "Purple"
+msgstr "Violet"
+
+#: includes/admin/settings.php:191
+msgid "Pink"
+msgstr "Roz"
+
+#: includes/admin/settings.php:192
+msgid "Grey"
+msgstr "Gri"
+
+#: includes/admin/settings.php:193
+msgid "Black"
+msgstr "Negru"
+
+#: includes/admin/settings.php:214
+msgid "Redirects"
+msgstr "Redirectări"
+
+#: includes/admin/settings.php:223
+msgid "Customize Redirect"
+msgstr "Personaliza Redirect"
+
+#: includes/admin/settings.php:224
+msgid "Yes, enable custom redirect settings"
+msgstr "Da, permite setările de redirecţionare personalizate"
+
+#: includes/admin/settings.php:225
+msgid "Enable to customize the redirect settings and configuration."
+msgstr "Permite să particularizaţi setările de redirecţionare şi configurare."
+
+#: includes/admin/settings.php:233
+msgid "Wait Time"
+msgstr "Aşteptaţi timp"
+
+#: includes/admin/settings.php:234
+msgid ""
+"Amount of time (in seconds) to wait before executing redirect.  Set to 0 "
+"(zero) to immediately redirect."
+msgstr ""
+"Cantitatea de timp (în secunde) să aştepte înainte de a executa "
+"redirecţionare.  Setat la 0 (zero) pentru a redirecta imediat."
+
+#: includes/admin/settings.php:241
+msgid "Hide All"
+msgstr "Ascunde toate"
+
+#: includes/admin/settings.php:242
+msgid "Yes, hide all page contents while showing the dimmer."
+msgstr "Da, ascunde toate cuprins pagina în timp ce arătând dimmer."
+
+#: includes/admin/settings.php:243
+msgid ""
+"By default, when a redirect is enabled, a dimmer will be shown that covers "
+"the entire page contents with a loading icon in the middle, and notice text "
+"below it.  Enable this option to hide all content behind the dimmer (to only"
+" show loader and notice text)."
+msgstr ""
+"În mod implicit, atunci când este activată o redirecţionare, un dimmer va fi"
+" indicat care acoperă conţinutul întreaga pagină cu o pictogramă de "
+"încărcare în mijloc, şi anunţ text dedesubt.  Activaţi această opţiune "
+"pentru a ascunde toate conţinut în spatele dimmer (la doar Arată loader şi "
+"anunţ text)."
+
+#: includes/admin/settings.php:251
+msgid "White Dimmer"
+msgstr "Dimmer alb"
+
+#: includes/admin/settings.php:252
+msgid "Yes, use the white (inverted) dimmer color."
+msgstr "Da, folosesc culoarea alb dimmer (inversat)."
+
+#: includes/admin/settings.php:253
+msgid ""
+"By default, the standard dimmer color is black, enable this setting to use "
+"the inverted color, white."
+msgstr ""
+"În mod implicit, culoarea dimmer standard este negru, activaţi această "
+"setare pentru a utiliza culoarea inversat, alb."
+
+#: includes/admin/settings.php:278 includes/admin/settings.php:287
+msgid "Semantic UI"
+msgstr "Semantice UI"
+
+#: includes/admin/settings.php:288
+msgid "Yes, enable <a href=\"%s\" target=\"_blank\">Semantic UI</a>"
+msgstr "Da, permite <a href=\"%s\" target=\"_blank\"> Semantic UI</a>"
+
+#: includes/admin/settings.php:289
+msgid "Enable this to use and customize the Semantic UI styling."
+msgstr ""
+"Permite acest lucru pentru a utiliza şi personaliza styling Semantic UI."
+
+#: includes/admin/settings.php:296
+msgid "Table Style"
+msgstr "Stilul de tabel"
+
+#: includes/admin/settings.php:297
+msgid ""
+"Yes, enable <a href=\"%s\" target=\"_blank\">Semantic UI</a> table styling "
+"for the My Packages list"
+msgstr ""
+"Da, permite tabel <a href=\"%s\" target=\"_blank\"> Semantic UI</a> coafura "
+"pentru lista de pachete meu"
+
+#: includes/admin/settings.php:298
+msgid ""
+"If enabled, the frontend user package list tables will use the Semantic UI "
+"styling."
+msgstr ""
+"Dacă este activată, interfaţă utilizator pachet Lista tabelelor va folosi "
+"styling Semantic UI."
+
+#: includes/admin/settings.php:306
+msgid "Table Color"
+msgstr "Tabel de culori"
+
+#: includes/admin/settings.php:307
+msgid "Customize color to use for the the table"
+msgstr "Personalizaţi culoare pentru a utiliza pentru masă"
+
+#: includes/admin/settings.php:343 includes/admin/wc.php:63
+msgid "Available Shortcodes:"
+msgstr "Shortcodes disponibile:"
+
+#: includes/admin/settings.php:375
+msgid "%1$s %2$s Placeholder"
+msgstr "%1$ s %2$ s substituent"
+
+#: includes/admin/settings.php:376
+msgid ""
+"The content above will be shown when the user does not have permissions and "
+"a package is required"
+msgstr ""
+"Conţinutul de mai sus va fi afişat când utilizatorul nu are permisiuni şi un"
+" pachet este necesar"
+
+#: includes/admin/settings.php:404
+msgid "%1$s %2$s Redirect"
+msgstr "%1$ s %2$ s Redirect"
+
+#: includes/admin/settings.php:405
+msgid "Yes, redirect to the %1$s %2$s package select page"
+msgstr "Da, redirect la %1$ s %2$ s pachet selectaţi pagina"
+
+#: includes/admin/settings.php:406
+msgid ""
+"If enabled, users without permissions will be redirected to the page "
+"(configured in Pages tab) to purchase or select package to use."
+msgstr ""
+"Dacă este activată, utilizatorii fără permisiuni va fi redirecţionat către "
+"pagina (configurate în fila pagini) pentru a achiziţiona sau selectaţi "
+"pachet la spre folos."
+
+#: includes/admin/settings.php:435
+msgid "%1$s %2$s Admin"
+msgstr "%1$ s %2$ s Admin"
+
+#: includes/admin/settings.php:436
+msgid "Yes, require administrators to have package"
+msgstr "Da, necesita administratorii să aibă pachetul"
+
+#: includes/admin/settings.php:437
+msgid ""
+"If enabled, administrators will be required to have a package with "
+"permissions for this type."
+msgstr ""
+"Dacă este activată, administratorii va fi obligată să aibă un pachet cu "
+"permisiunile pentru acest tip."
+
+#: includes/admin/settings.php:466
+msgid "%1$s %2$s Redirect Notice"
+msgstr "%1$ s %2$ s Redirect notificare"
+
+#: includes/admin/settings.php:467
+msgid "Yes, use the %1$s %2$s placeholder as redirect notice"
+msgstr "Da, folosesc %1$ s %2$ s substituentul şi redirecţiona notificare"
+
+#: includes/admin/settings.php:468
+msgid ""
+"If enabled, the placeholder value will be used as the notice shown before "
+"redirecting (instead of default one)."
+msgstr ""
+"Dacă este activată, valoarea substituent va fi folosit ca notificare indicat"
+" înainte de a redirecţiona (în loc de implicit)."
+
+#: includes/admin/setup.php:34
+msgid "Setup"
+msgstr "Configurare"
+
+#: includes/admin/setup.php:178 includes/admin/setup.php:223
+msgid "Starter Package"
+msgstr "Pachet Starter"
+
+#: includes/admin/setup.php:180
+msgid "View 1 Full Listing<br/>Browse All Listings"
+msgstr "Vezi lista completă 1 <br/> Browse toate listingurile"
+
+#: includes/admin/setup.php:188 includes/admin/setup.php:233
+msgid "Plus Package"
+msgstr "Plus pachet"
+
+#: includes/admin/setup.php:190
+msgid ""
+"View 10 Full Listings<br/>Apply/Contact 5 Listings<br/>Browse All Listings"
+msgstr ""
+"Vezi lista completa 10 <br/> aplica/Contact 5 listări <br/> Browse toate "
+"listingurile"
+
+#: includes/admin/setup.php:200 includes/admin/setup.php:247
+msgid "Premium Package"
+msgstr "Pachetul Premium"
+
+#: includes/admin/setup.php:202
+msgid ""
+"View Unlimited Full Listings<br/>Apply/Contact 10 Listings<br/>Browse All "
+"Listings"
+msgstr ""
+"Vezi lista completa nelimitat <br/> aplica/Contact listări de 10 <br/> "
+"Browse toate listingurile"
+
+#: includes/admin/setup.php:212 includes/admin/setup.php:261
+msgid "Single Application/Contact"
+msgstr "Singură cerere/Contact"
+
+#: includes/admin/setup.php:214
+msgid "Apply/Contact 1 Listing"
+msgstr "1 cota de aplica/Contact"
+
+#: includes/admin/setup.php:225
+msgid "View 1 Full Resume<br/>Browse All Resumes"
+msgstr "Vezi CV-ul complet 1 <br/> Browse toate CV-urile"
+
+#: includes/admin/setup.php:235
+msgid ""
+"View 10 Full Resumes<br/>View 5 Candidate Full Names<br/>Contact 5 "
+"Candidates<br/>Browse All Resumes"
+msgstr ""
+"Vezi CV-uri complet 10 <br/> Vezi 5 numele candidatului <br/> contactaţi 5 "
+"candidaţi <br/> Browse toate CV-urile"
+
+#: includes/admin/setup.php:249
+msgid ""
+"View Unlimited Full Resumes<br/>View Unlimited Candidate Full "
+"Names<br/>Contact 10 Candidates<br/>Browse All Resumes"
+msgstr ""
+"Vezi CV-uri nelimitat plin <br/> Vezi numele candidatului nelimitat <br/> "
+"contactaţi 10 candidaţi <br/> Browse toate CV-urile"
+
+#: includes/admin/setup.php:263
+msgid "Contact 1 Candidate"
+msgstr "Contact 1 candidat"
+
+#: includes/admin/setup.php:270
+msgid "Silver Full Name Package"
+msgstr "Pachet de argint numele complet"
+
+#: includes/admin/setup.php:272
+msgid "View 5 Candidate Full Names"
+msgstr "Vezi 5 numele candidatului"
+
+#: includes/admin/setup.php:312
+msgid "A total of %d pages were successfully created!"
+msgstr "Un total de %d pagini au fost create cu succes!"
+
+#: includes/admin/setup.php:343
+msgid "A total of %d packages were successfully created!"
+msgstr "Un total de %d pachete au fost create cu succes!"
+
+#: includes/admin/setup.php:350
+msgid "Job Manager Packages Setup"
+msgstr "Job Manager pachete instalare"
+
+#: includes/admin/setup.php:353
+msgid "1. Introduction"
+msgstr "1. introducere"
+
+#: includes/admin/setup.php:354
+msgid "2. Page Setup"
+msgstr "2. Inițializare pagină"
+
+#: includes/admin/setup.php:357
+msgid "3. Resume Page Setup"
+msgstr "3. reluarea Inițializare pagină"
+
+#: includes/admin/setup.php:358
+msgid "4. Packages Setup"
+msgstr "4. pachete instalare"
+
+#: includes/admin/setup.php:359
+msgid "5. Done"
+msgstr "5."
+
+#: includes/admin/setup.php:361
+msgid "3. Packages Setup"
+msgstr "3. pachetele de instalare"
+
+#: includes/admin/setup.php:362
+msgid "4. Done"
+msgstr "4. face"
+
+#: includes/admin/setup.php:369
+msgid "Setup Wizard Introduction"
+msgstr "Introducerea de expertul configurare"
+
+#: includes/admin/setup.php:371
+msgid "Thanks for installing <em>WP Job Manager Packages</em>!"
+msgstr "Vă mulţumim pentru instalarea <em>WP Job Manager pachete</em>!"
+
+#: includes/admin/setup.php:372
+msgid ""
+"This setup wizard will help you get started by creating the pages for "
+"package selection, and configuring those values in the settings for you."
+msgstr ""
+"Expertul de instalare vă va ajuta să începeţi prin crearea de pagini pentru "
+"selecţie de pachete, şi configurarea acestor valori în setările pentru tine."
+
+#: includes/admin/setup.php:373
+msgid ""
+"If you want to skip the wizard and setup the pages and shortcodes yourself "
+"manually, you can do so very easily using any of the available shortcodes. "
+"Refer to the %sdocumentation%s for help."
+msgstr ""
+"Dacă doriţi să săriţi peste expertul şi setup pagini şi shortcodes-te "
+"manual, puteţi face deci foarte uşor folosind oricare dintre shortcodes "
+"disponibile. Se referă la % sdocumentation %s pentru a vă ajuta."
+
+#: includes/admin/setup.php:378 includes/admin/setup.php:569
+msgid "WooCommerce Was Not Detected"
+msgstr "Nu a fost detectat WooCommerce"
+
+#: includes/admin/setup.php:379 includes/admin/setup.php:570
+msgid ""
+"Currently the only integration available with WP Job Manager Packages, is "
+"through WooCommerce (although others will be added later). WooCommerce was "
+"not detected as being activated on your site."
+msgstr ""
+"În prezent numai integrarea disponibile cu WP Job Manager de pachete, este "
+"prin intermediul WooCommerce (deşi alţii vor fi adăugate mai târziu). "
+"WooCommerce nu a fost detectat ca fiind activat pe site-ul dvs."
+
+#: includes/admin/setup.php:380 includes/admin/setup.php:572
+msgid "Click Here to Active/Install WooCommerce"
+msgstr "Click aici pentru a Active/instala WooCommerce"
+
+#: includes/admin/setup.php:382
+msgid ""
+"Once you have installed/activated, refresh this page, or click below to "
+"continue setup."
+msgstr ""
+"Odată ce aţi instalat/activat, reîmprospăta această pagină, sau click mai "
+"jos pentru a continua instalarea."
+
+#: includes/admin/setup.php:388
+msgid "Continue to page setup"
+msgstr "Continua Iniţializare pagină"
+
+#: includes/admin/setup.php:389
+msgid "Skip setup. I will setup the plugin manually"
+msgstr "Treci de configurare. Va configura plugin-ul manual"
+
+#: includes/admin/setup.php:395
+msgid "Page Setup"
+msgstr "Inițializare pagină"
+
+#: includes/admin/setup.php:397 includes/admin/setup.php:477
+msgid ""
+"<em>WP Job Manager Packages</em> includes %1$sshortcodes%2$s which can be "
+"used within your %3$spages%2$s to output content. These can be created for "
+"you below. For more information on the available shortcodes, view the "
+"%4$sshortcode documentation%2$s."
+msgstr ""
+"<em>Pachete de WP Job Manager</em> include %1$ sshortcodes %2$ s care pot fi"
+" utilizate în cadrul dumneavoastră %3$ spages %2$ s la ieşire de conţinut. "
+"Acestea pot fi create pentru tine de mai jos. Pentru mai multe informaţii "
+"despre shortcodes disponibile, Vezi %4$ sshortcode documentaţia %2$ s."
+
+#: includes/admin/setup.php:406 includes/admin/setup.php:484
+msgid "Page Title"
+msgstr "Pagina de titlu"
+
+#: includes/admin/setup.php:407 includes/admin/setup.php:485
+msgid "Page Description"
+msgstr "Descrierea paginii"
+
+#: includes/admin/setup.php:408 includes/admin/setup.php:486
+msgid "Content Shortcode"
+msgstr "Conţinut Shortcode"
+
+#: includes/admin/setup.php:416 includes/admin/setup.php:494
+msgid ""
+"This page will be used as the default page for package selection, and works "
+"for any of the package types (view, browse, etc)."
+msgstr ""
+"Această pagină va fi folosit ca pagina implicită pentru pachetul de selecţie"
+" şi de lucrări pentru oricare dintre tipurile de ambalaj (Vezi, răsfoiţi, "
+"etc)."
+
+#: includes/admin/setup.php:418 includes/admin/setup.php:496
+msgid ""
+"If you do not plan to use the specific package type shortcodes (for separate"
+" pages), you need to make sure this page exists as it will be used as the "
+"fallback page if the type specific pages do not exist (or are not configured"
+" in settings)."
+msgstr ""
+"Dacă nu intenţionaţi să utilizaţi specifice pachet tip shortcodes (pentru "
+"pagini separate), trebuie să vă asiguraţi-vă că această pagină există, va fi"
+" utilizat ca pagina de rezervă în cazul în care tipul anumite pagini nu "
+"există (sau nu sunt configurate în Setări)."
+
+#: includes/admin/setup.php:426 includes/admin/setup.php:504
+msgid "This page will be used only for browse packages (not required)."
+msgstr ""
+"Această pagină va fi folosit doar pentru Răsfoire pachete (nu este "
+"obligatoriu)."
+
+#: includes/admin/setup.php:428 includes/admin/setup.php:506
+msgid ""
+"This page is useful if you wish to customize the browse package selection "
+"page, separate from the standard one above."
+msgstr ""
+"Această pagină este util dacă doriţi să particularizaţi Răsfoire pachet "
+"selectie filme, separat de cel standard mai sus."
+
+#: includes/admin/setup.php:436 includes/admin/setup.php:514
+msgid "This page will be used only for apply/contact packages (not required)."
+msgstr ""
+"Această pagină va fi folosit doar pentru pachete de aplica/contact (nu este "
+"obligatoriu)."
+
+#: includes/admin/setup.php:438 includes/admin/setup.php:516
+msgid ""
+"This page is useful if you wish to customize the apply/contact package "
+"selection page, separate from the standard one above."
+msgstr ""
+"Această pagină este util dacă doriţi să particularizaţi apply/pachet "
+"selecţie pagina contact, separat de cel standard mai sus."
+
+#: includes/admin/setup.php:446 includes/admin/setup.php:524
+msgid "This page will be used only for view listing packages (not required)."
+msgstr ""
+"Această pagină vor fi utilizate doar pentru a vizualiza lista pachetelor (nu"
+" este obligatoriu)."
+
+#: includes/admin/setup.php:448 includes/admin/setup.php:526
+#: includes/admin/setup.php:536
+msgid ""
+"This page is useful if you wish to customize the view listing package "
+"selection page, separate from the standard one above."
+msgstr ""
+"Această pagină este util dacă doriţi să particularizaţi Vezi lista pachet "
+"selecţie pagina, separat de cel standard mai sus."
+
+#: includes/admin/setup.php:457 includes/admin/setup.php:545
+#: includes/admin/setup.php:625
+msgid "Skip this step"
+msgstr "Săriţi peste acest pas"
+
+#: includes/admin/setup.php:475
+msgid "Resume Page Setup"
+msgstr "Relua Inițializare pagină"
+
+#: includes/admin/setup.php:476
+msgid ""
+"It looks like you have WP Job Manager Resumes installed/activated, so let's "
+"setup those pages as well!"
+msgstr ""
+"Se pare ca tu ai CV de WP Job Manager instalat/activat, deci haideţi să "
+"acele pagini de configurare!"
+
+#: includes/admin/setup.php:534
+msgid ""
+"This page will be used only for view name listing packages (not required)."
+msgstr ""
+"Această pagină va fi folosit doar pentru pachete de listare de nume Vezi (nu"
+" este obligatoriu)."
+
+#: includes/admin/setup.php:563
+msgid "Package Setup"
+msgstr "Pachet instalare"
+
+#: includes/admin/setup.php:564
+msgid ""
+"If you would like, we can also setup <strong>DEMO</strong> packages for you "
+"to use.  This is not required, and is provided for demonstration purposes "
+"only, you will still need to customize the packages to suit your needs."
+msgstr ""
+"În cazul în care doriţi ca, noi, de asemenea, puteţi seta pachete "
+"<strong>DEMO</strong> pentru tu la spre folos.  Acest lucru nu este "
+"necesară, şi este oferit doar pentru scopuri demonstrative, va trebui în "
+"continuare să particularizaţi pachete pentru a se potrivi nevoilor "
+"dumneavoastră."
+
+#: includes/admin/setup.php:571
+msgid ""
+"DO NOT proceed with this step before installing and activating WooCommerce!"
+"  WooCommerce must be installed and activated before adding packages!"
+msgstr ""
+"Continua cu acest pas înainte de instalarea şi activarea WooCommerce!  "
+"WooCommerce trebuie să fie instalat şi activat înainte de a adăuga pachete!"
+
+#: includes/admin/setup.php:574
+msgid ""
+"Once you have installed AND activated, refresh this page, or click below to "
+"continue setup."
+msgstr ""
+"Odată ce aţi instalat şi activat, reîmprospăta această pagină, sau click mai"
+" jos pentru a continua instalarea."
+
+#: includes/admin/setup.php:584
+msgid "Package Title"
+msgstr "Pachet titlu"
+
+#: includes/admin/setup.php:585
+msgid "Package Price"
+msgstr "Pret pachet"
+
+#: includes/admin/setup.php:586
+msgid "Package Description"
+msgstr "Descrierea pachetului"
+
+#: includes/admin/setup.php:592
+msgid "Listing Packages"
+msgstr "Pachete de listare"
+
+#: includes/admin/setup.php:607
+msgid "Resume Packages"
+msgstr "Pachete de CV"
+
+#: includes/admin/setup.php:624
+msgid "Create Selected Packages"
+msgstr "Crea pachete selectate"
+
+#: includes/admin/setup.php:643
+msgid "All Done!"
+msgstr "Toate făcut!"
+
+#: includes/admin/setup.php:645
+msgid ""
+"Looks like you're all set to start using the plugin. In case you're "
+"wondering where to go next:"
+msgstr ""
+"Se pare ca toate sunteţi gata să începeţi să utilizaţi plugin-ul. În cazul "
+"în care vă întrebaţi de unde să mergem:"
+
+#: includes/admin/setup.php:648
+msgid "Tweak Visibility Settings"
+msgstr "Adaptaţi setările de vizibilitate"
+
+#: includes/admin/setup.php:650
+msgid "Tweak Resume Visibility Settings"
+msgstr "Adaptaţi setările de vizibilitate CV"
+
+#: includes/admin/setup.php:652
+msgid "Add a new Product/Package"
+msgstr "Adauga un nou produs/pachet"
+
+#: includes/admin/setup.php:655
+msgid ""
+"And don't forget, if you need any more help using <em>WP Job Manager "
+"Packages</em> you can consult the %1$sdocumentation%2$s or %3$scontact me "
+"via the support area%2$s!"
+msgstr ""
+"Şi nu uitaţi, dacă aveţi nevoie de ajutor mai mult folosind <em>WP Job "
+"Manager pachete</em> puteţi consulta %1$ sdocumentation %2$ s sau %3$ "
+"scontact mine prin sprijin zona %2$ s!"
+
+#: includes/admin/setup.php:657
+msgid "Flow Process:"
+msgstr "Procesul de flux:"
+
+#: includes/admin/setup.php:658
+msgid ""
+"To give you an understanding of how this plugin works, below is the flow "
+"process with examples. Examples below assume you have configured packages "
+"required for browse, view, and contact/apply.  This also assumes you have "
+"used the shortcode to output the form either on a page created in a previous"
+" setup step, or placed the shortcode inside the placeholder editor (in "
+"settings)."
+msgstr ""
+"Pentru a vă oferi o înţelegere a modului în care funcţionează acest plug-in,"
+" mai jos este procesul de curgere cu exemple. Exemplele de mai jos îşi asumă"
+" aţi configurat pachetele necesare pentru parcurgere, vizualizare şi "
+"contact/aplica.  Aceasta presupune, de asemenea, au folosit shortcode pentru"
+" a forma de ieşire fie o pagină creată într-o etapă anterioară de instalare "
+"sau plasate shortcode în interiorul substituent editor (în Setări)."
+
+#: includes/admin/setup.php:661
+msgid ""
+"User visits Listings page and is either redirected to package form page, or "
+"shown the package selection form."
+msgstr ""
+"Utilizator vizitează pagina de listări şi este redirectionat catre pagina de"
+" forma pachet, sau indicat formularul de selecţie pachet."
+
+#: includes/admin/setup.php:664
+msgid ""
+"User selects a package, and is redirected to checkout page to complete "
+"purchase."
+msgstr ""
+"Utilizatorul selectează un pachet şi este redirectionat catre pagina de "
+"verificare pentru a finaliza achiziţia."
+
+#: includes/admin/setup.php:667
+msgid ""
+"After purchase is complete, notification is shown with link to return to "
+"page user was previously viewing."
+msgstr ""
+"După achiziţionarea este completă, notificarea este indicat cu link-ul "
+"pentru a reveni la pagina de utilizator a fost anterior vizualizarea."
+
+#: includes/admin/setup.php:670
+msgid ""
+"When user selects a listing, they will be shown the listing like normal (if "
+"they have unlimited package), otherwise they are either redirected or shown "
+"the package form page (like above)."
+msgstr ""
+"Atunci când utilizatorul selectează o listare, ei va fi indicat cota ca "
+"normală (dacă au pachet nelimitat), altfel sunt fie Redirecţionat sau "
+"indicat pagina pachet de formă (ca mai sus)."
+
+#: includes/admin/setup.php:673
+msgid ""
+"User will be able to select an existing package from the package form to use"
+" (or they can select one to purchase).  Once they submit the form, they are "
+"redirected back to the listing to view like normal."
+msgstr ""
+"Utilizatorul va fi capabil să selectaţi un pachet existente din formularul "
+"de pachet de a utiliza (sau le puteti selecta unul să cumpere).  Odată ce "
+"depun formularul, acestea sunt redirecţionate înapoi la cota sa Vezi cum ar "
+"fi normal."
+
+#: includes/admin/setup.php:676
+msgid "Few key points:"
+msgstr "Câteva puncte cheie:"
+
+#: includes/admin/setup.php:678
+msgid ""
+"If the user has an unlimited package, they will immediately be able to view,"
+" contact, etc.  Only packages with limits will require them to select a "
+"package to use."
+msgstr ""
+"În cazul în care utilizatorul are un pachet nelimitat, ei imediat va fi "
+"capabil să Vezi, contact, etc.  Doar pachetele cu limite va le solicită să "
+"selectaţi un pachet de a utiliza."
+
+#: includes/admin/setup.php:679
+msgid ""
+"All current user packages can be viewed (along with associated listings) on "
+"the My Account page."
+msgstr ""
+"Toate pachetele de utilizator curent pot fi vizualizate (împreună cu listări"
+" asociate) pe pagina contul meu."
+
+#: includes/admin/setup.php:681
+msgid ""
+"Administrators are not required to have packages, make sure to use a "
+"separate user account to test with."
+msgstr ""
+"Administratorii nu sunt obligate să aibă pachete, asiguraţi-vă că pentru a "
+"utiliza un cont de utilizator separată pentru a testa cu."
+
+#: includes/admin/setup.php:684
+msgid ""
+"This plugin has been tested with Listify, Jobify, Listable, Pet Sitter, and "
+"Babysitter themes ... if you have issues, or your theme is not compatible, "
+"please let me know!"
+msgstr ""
+"Acest plug-in a fost testat cu Listify, Jobify, Listable, Pet Sitter si "
+"Babysitter teme... dacă aveţi probleme, sau tema nu este compatibil, vă "
+"rugăm să-mi spuneţi!"
+
+#: includes/admin/setup.php:687
+msgid ""
+"To use a template override, make sure you place the file in the "
+"<code>jm_packages</code> directory/folder, in your child theme's "
+"directory/folder."
+msgstr ""
+"Pentru a utiliza o suprapunere de şablon, asiguraţi-vă că plasaţi fişierul "
+"în <code>jm_packages</code> Director/folder, în tema copilului/directorul."
+
+#: includes/admin/setup.php:690
+msgid "Listable currently only supports the redirect feature."
+msgstr "Listable acceptă în prezent doar funcţia de redirecţionare."
+
+#: includes/admin/setup.php:693
+msgid "Subscriptions will be included in one of the next releases!"
+msgstr "Abonamentele vor fi incluse în una din versiunile următoare!"
+
+#: includes/admin/setup.php:696
+msgid ""
+"Currently WooCommerce is the only support backend payment/cart/e-commerce "
+"system.  Let me know if there's another one you would like integrated."
+msgstr ""
+"În prezent WooCommerce este singurul sistem de plată/cart/e-commerce suport "
+"back-end.  Să-mi spuneţi dacă există un alt unul ar dori integrate."
+
+#: includes/admin/setup.php:699
+msgid "This plugin is full documented, check out the source code!"
+msgstr "Acest plug-in este complet documentate, check out codul sursa!"
+
+#: includes/admin/setup.php:704
+msgid "Support the Ongoing Development of the core plugin, WP Job Manager"
+msgstr "Dezvoltarea continuă a core plugin, WP Job Manager de sprijin"
+
+#: includes/admin/setup.php:705
+msgid ""
+"There are many ways to support open-source projects such as WP Job Manager, "
+"for example code contribution, translation, or even telling your friends how"
+" awesome the plugin (hopefully) is. Thanks in advance for your support - it "
+"is much appreciated!"
+msgstr ""
+"Există multe modalităţi de a sprijini proiecte open-source, cum ar fi WP Job"
+" Manager, de exemplu codul contribuţia, traducere, sau chiar spune "
+"prietenilor tai cum minunat plugin-ul (sperăm) este. Multumesc anticipat "
+"pentru sprijinul dumneavoastră - este mult apreciat!"
+
+#: includes/admin/setup.php:707
+msgid "Leave a positive review"
+msgstr "Lăsaţi un comentariu pozitiv"
+
+#: includes/admin/setup.php:708
+msgid "Contribute a localization"
+msgstr "Contribui o localizare"
+
+#: includes/admin/setup.php:709
+msgid "Contribute code or report a bug"
+msgstr "Contribui cod sau raportează un bug"
+
+#: includes/admin/setup.php:710
+msgid "Help other users on the forums"
+msgstr "Ajuta alţi utilizatori de pe forum"
+
+#: includes/admin/wc/job.php:55 includes/admin/wc/resume.php:56
+msgid "Output price (cost) of package (you MUST include this!)"
+msgstr "Ieşire pretul (costul) pachetului (trebuie să includă acest lucru!)"
+
+#: includes/admin/wc/job.php:58 includes/admin/wc/resume.php:59
+msgid ""
+"Output package limit set for View (will output number or unlimited based on "
+"config)"
+msgstr ""
+"Ieşire pachet limită stabilit pentru vedere (va ieşire numerică sau "
+"nelimitat bazat pe config)"
+
+#: includes/admin/wc/job.php:61 includes/admin/wc/resume.php:65
+msgid ""
+"Output package limit set for %s (will output number or unlimited based on "
+"config)"
+msgstr ""
+"Ieşire pachet limită stabilit pentru %s (va ieşire numărul sau nelimitat pe "
+"baza config)"
+
+#: includes/admin/wc/resume.php:62
+msgid ""
+"Output package limit set for View Name (will output number or unlimited "
+"based on config)"
+msgstr ""
+"Ieşire pachet limită stabilit pentru nume de vizualizare (va ieşire config "
+"pe baza numerelor sau nelimitat)"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:8
+#: includes/admin/wc/views/html-view-resume-package-data.php:4
+msgid "View %s?"
+msgstr "Vezi %s?"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:9
+#: includes/admin/wc/views/html-view-resume-package-data.php:5
+msgid ""
+"Allow to view single listings with this package (if package required in "
+"settings)."
+msgstr ""
+"Permite să Vezi anunturi singur cu acest pachet (în cazul în care pachetul "
+"necesare în setările)."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:14
+#: includes/admin/wc/views/html-view-resume-package-data.php:11
+msgid "View %s limit"
+msgstr "Vezi %s limită"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:15
+#: includes/admin/wc/views/html-view-resume-package-data.php:12
+msgid ""
+"The number of listings a user can view with this package.  Leave blank to "
+"allow unlimited."
+msgstr ""
+"Numărul de liste, un utilizator poate vizualiza cu acest pachet.  Lăsaţi "
+"necompletat pentru a permite nelimitat."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:28
+#: includes/admin/wc/views/html-view-resume-package-data.php:25
+msgid "View Rollover?"
+msgstr "Vezi Rollover?"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:29
+#: includes/admin/wc/views/html-view-job-package-data.php:57
+#: includes/admin/wc/views/html-view-resume-package-data.php:26
+#: includes/admin/wc/views/html-view-resume-package-data.php:54
+#: includes/admin/wc/views/html-view-resume-package-data.php:82
+msgid "Rollover (Add) unused credits to package when subscription is renewed."
+msgstr ""
+"Rollover (Add) neutilizate credite la pachet atunci când abonament este "
+"reînnoit."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:36
+msgid ""
+"Allow to %s listings with this package (if package required in settings)."
+msgstr ""
+"Permit %s anunturi cu acest pachet (în cazul în care pachetul necesare în "
+"setările)."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:42
+msgid "%1$s %2$s limit"
+msgstr "%1$ s %2$ s limită"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:43
+msgid ""
+"The number of listings a user can %s with this package. Leave blank to allow"
+" unlimited."
+msgstr ""
+"Numărul de liste un utilizator poate %s cu acest pachet. Lăsaţi necompletat "
+"pentru a permite nelimitat."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:56
+msgid "%1$s Rollover?"
+msgstr "%1$ s Rollover?"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:62
+#: includes/admin/wc/views/html-view-resume-package-data.php:88
+msgid "Allow Browsing?"
+msgstr "Permite navigarea?"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:63
+#: includes/admin/wc/views/html-view-resume-package-data.php:89
+msgid ""
+"Allow to browse listings with this package (if package required in "
+"settings)."
+msgstr ""
+"Permite să răsfoiţi liste cu acest pachet (în cazul în care pachetul "
+"necesare în setările)."
+
+#: includes/admin/wc/views/html-view-job-package-data.php:69
+#: includes/admin/wc/views/html-view-resume-package-data.php:95
+msgid "Use Short Description"
+msgstr "Utilizare Scurta descriere"
+
+#: includes/admin/wc/views/html-view-job-package-data.php:70
+#: includes/admin/wc/views/html-view-resume-package-data.php:96
+msgid ""
+"Enable this to use the short description for your own custom wording on the "
+"package selection form for listings."
+msgstr ""
+"Permite acest lucru să utilizeze Scurta descriere pentru propriile formulare"
+" personalizate pe formularul de selecţie pachet pentru listări."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:32
+msgid "View %s Name?"
+msgstr "Nume de vizualizare %s?"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:33
+msgid ""
+"Allow to view %s name with this package (if package required in settings)."
+msgstr ""
+"Permite să Vezi %s numele cu acest pachet (în cazul în care pachetul "
+"necesare în setările)."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:39
+msgid "View %s Name limit"
+msgstr "Limita de nume Vezi %s"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:40
+msgid ""
+"The number of %s names a user can view with this package.  Leave blank to "
+"allow unlimited."
+msgstr ""
+"Număr de %s nume un utilizator poate vizualiza cu acest pachet.  Lăsaţi "
+"necompletat pentru a permite nelimitat."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:53
+msgid "View Name Rollover?"
+msgstr "Vezi numele Rollover?"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:60
+msgid "Allow Contact?"
+msgstr "Permite Contact?"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:61
+msgid ""
+"Allow to contact listing with this package (if package required in "
+"settings)."
+msgstr ""
+"Permite să contactaţi cota cu acest pachet (în cazul în care pachetul "
+"necesare în setările)."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:67
+msgid "Contact %s limit"
+msgstr "Limita de contact %s"
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:68
+msgid ""
+"The number of %s a user can contact with this package. Leave blank to allow "
+"unlimited."
+msgstr ""
+"Număr de %s un utilizator, puteţi contacta cu acest pachet. Lăsaţi "
+"necompletat pentru a permite nelimitat."
+
+#: includes/admin/wc/views/html-view-resume-package-data.php:81
+msgid "Contact Rollover?"
+msgstr "Contact Rollover?"
+
+#: includes/admin/wc.php:95
+msgid "%s Visibility Package"
+msgstr "Pachetul de vizibilitate %s"
+
+#: includes/admin/wc.php:98
+msgid "%s Visibility Subscription"
+msgstr "Abonament de vizibilitate %s"
+
+#: includes/admin/wc.php:203
+msgid "Fields"
+msgstr "Câmpuri"
+
+#: includes/admin.php:45 includes/admin.php:81
+msgid "Visibility Packages"
+msgstr "Pachete de vizibilitate"
+
+#: includes/admin.php:68
+msgid "Package successfully deleted"
+msgstr "Pachet ştearsă cu succes"
+
+#: includes/admin.php:82 includes/admin.php:105
+msgid "Add User Package"
+msgstr "Adauga pachetul de utilizator"
+
+#: includes/admin.php:150
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/form.php:114
+msgid "You can now %s this listing"
+msgstr "Tu poţi acum %s Această listare"
+
+#: includes/functions.php:18
+msgid "Apply"
+msgstr "Se aplică"
+
+#: includes/install.php:99
+msgid ""
+"A <a href=\"%s\">package</a> is required to browse listings, please select "
+"one from below."
+msgstr ""
+"Un <a href=\"%s\"> pachet</a> este necesar pentru a parcurge lista, vă rugăm"
+" să selectaţi unul de mai jos."
+
+#: includes/install.php:102
+msgid "Please <a href=\"%s\">select a package</a> to browse resumes."
+msgstr ""
+"Vă rugăm să <a href=\"%s\"> Selectaţi un pachet</a> pentru a căuta CV-uri."
+
+#: includes/install.php:104
+msgid ""
+"Please select a <a href=\"%s\">package</a> to view the full candidate name."
+msgstr ""
+"Vă rugăm să selectaţi un <a href=\"%s\"> pachet</a> pentru a vedea numele "
+"complet candidat."
+
+#: includes/integration/job.php:241 includes/integration/resume.php:307
+msgid "Please <a href=\"%s\">select a package</a> to browse listings."
+msgstr ""
+"Vă rugăm să <a href=\"%s\"> Selectaţi un pachet</a> pentru a parcurge lista."
+
+#: includes/integration/job.php:255 includes/integration/resume.php:321
+msgid "Please <a href=\"%s\">select a package</a> to view this listing's details."
+msgstr ""
+"Vă rugăm să <a href=\"%s\"> Selectaţi un pachet</a> pentru a vizualiza "
+"detaliile de această listare."
+
+#: includes/integration/job.php:269 includes/integration/resume.php:398
+msgid "Please <a href=\"%1$s\">select a package</a> to %2$s this listing."
+msgstr ""
+"Vă rugăm să <a href=\"%1$s\"> Selectaţi un pachet</a> %2$ s Această listare."
+
+#: includes/integration/resume.php:77
+msgid ""
+"A <a href=\"%s\">package</a> is required to view the full name on this "
+"listing."
+msgstr ""
+"Un <a href=\"%s\"> pachet</a> este necesar pentru a vizualiza numele complet"
+" pe această listare."
+
+#: includes/integration.php:74
+msgid ""
+"This page should redirect in <span class=\"jmpack_redirect_in\">%1$d</span> "
+"seconds, if not, please <a href=\"%2$s\">click here</a>."
+msgstr ""
+"Această pagină ar trebui să redirecţioneze în <span "
+"class=\"jmpack_redirect_in\"> %1$ d</span> secunde, dacă nu, vă rugăm să <a "
+"href=\"%2$s\"> click aici</a>."
+
+#: includes/packages/job.php:53 includes/packages/resume.php:55
+msgid "Browse"
+msgstr "Răsfoire"
+
+#: includes/packages/job.php:59 includes/packages/resume.php:61
+msgid "View"
+msgstr "Vezi"
+
+#: includes/packages/job.php:71
+msgid "apply to"
+msgstr "se aplică"
+
+#: includes/packages/job.php:91 includes/packages/resume.php:94
+msgid "%s to "
+msgstr "%s pentru a "
+
+#: includes/packages/job.php:95 includes/packages/resume.php:98
+msgid "view %s single listing"
+msgid_plural "view %s single listings"
+msgstr[0] "Vezi %s singură listare"
+msgstr[1] "Vezi %s singur listări"
+msgstr[2] "Vezi %s singur listări"
+
+#: includes/packages/job.php:95 includes/packages/job.php:107
+#: includes/packages/resume.php:98 includes/packages/resume.php:109
+#: includes/packages/resume.php:121 includes/packages.php:69
+#: templates/my-packages.php:64
+msgid "unlimited"
+msgstr "nelimitat"
+
+#: includes/packages/job.php:107 includes/packages/resume.php:121
+msgid "%s %s listing"
+msgid_plural "%s %s listings"
+msgstr[0] "cota de %s %s"
+msgstr[1] "listări de %s %s"
+msgstr[2] "listări de %s %s"
+
+#: includes/packages/job.php:113 includes/packages/resume.php:127
+msgid ", and "
+msgstr ", şi "
+
+#: includes/packages/job.php:115 includes/packages/resume.php:129
+msgid "browse all listings"
+msgstr "parcurge toate listele"
+
+#: includes/packages/resume.php:67
+msgid "View Name"
+msgstr "Nume de vizualizare"
+
+#: includes/packages/resume.php:73 includes/themes/listify.php:49
+#: templates/access-denied-contact-details.php:6
+#: templates/jobify/access-denied-contact-details.php:6
+#: templates/jobify/access-denied-contact-details.php:11
+msgid "Contact"
+msgstr "Persoană de contact"
+
+#: includes/packages/resume.php:109
+msgid "view %s single listing name"
+msgid_plural "view %s single listing names"
+msgstr[0] "Vezi %s singură Listare nume"
+msgstr[1] "Vezi %s singură Listare nume"
+msgstr[2] "Vezi %s singură Listare nume"
+
+#: includes/shortcodes/job.php:71 includes/shortcodes/resume.php:54
+msgid "Select Browse Package"
+msgstr "Selectați Răsfoire pachet"
+
+#: includes/shortcodes/job.php:72 includes/shortcodes/resume.php:55
+msgid "Choose a Browse Package"
+msgstr "Alege un pachet de parcurgere"
+
+#: includes/shortcodes/job.php:113 includes/shortcodes/resume.php:96
+msgid "Select a View Package"
+msgstr "Selectaţi un pachet de vedere"
+
+#: includes/shortcodes/job.php:114 includes/shortcodes/resume.php:97
+msgid "Choose a View Package"
+msgstr "Alege un pachet de vedere"
+
+#: includes/shortcodes/job.php:137
+msgid "Select %s Package"
+msgstr "Selectaţi pachetul %s"
+
+#: includes/shortcodes/job.php:138
+msgid "Choose %s Package"
+msgstr "Alege pachetul de %s"
+
+#: includes/shortcodes/resume.php:120
+msgid "Select a View Name Package"
+msgstr "Selectaţi un pachet de nume Vezi"
+
+#: includes/shortcodes/resume.php:121
+msgid "Choose a View Name Package"
+msgstr "Alege un pachet de nume Vezi"
+
+#: includes/shortcodes/resume.php:144
+msgid "Select Contact Package"
+msgstr "Selectaţi pachetul de Contact"
+
+#: includes/shortcodes/resume.php:145
+msgid "Choose Contact Package"
+msgstr "Alege pachetul de Contact"
+
+#: includes/shortcodes.php:100 templates/listable/package-selection.php:72
+msgid "Select Package"
+msgstr "Selectaţi pachetul"
+
+#: includes/shortcodes.php:101
+msgid "Choose a Package"
+msgstr "Alege un pachet"
+
+#: includes/updater/smyles-updater-licenses.php:105
+#: includes/updater/smyles-updater-licenses.php:199
+msgid "Error"
+msgstr "Eroare"
+
+#: includes/updater/smyles-updater-licenses.php:105
+msgid "Unable to determine slug to deactivate license."
+msgstr "Imposibilitatea de a determina melc pentru a dezactiva licenta."
+
+#: includes/updater/smyles-updater-licenses.php:119
+msgid "Error determining the plugin Product ID."
+msgstr "Eroare determinarea plugin-ul ID-ul produsului."
+
+#: includes/updater/smyles-updater-licenses.php:123
+msgid "Error pulling the license key from option data."
+msgstr "Eroare trăgând cheia de licenţă la opţiunea de date."
+
+#: includes/updater/smyles-updater-licenses.php:127
+msgid ""
+"Error pulling the email associated with the license key from option data."
+msgstr ""
+"Eroare trăgând e-mail asociate cu cheia de licenţă la opţiunea de date."
+
+#: includes/updater/smyles-updater-licenses.php:131
+msgid ""
+"Error pulling the instance ID associated with the license key from option "
+"data."
+msgstr ""
+"Eroare trăgând instanţă ID-ul asociat cu cheia de licenţă la opţiunea de "
+"date."
+
+#: includes/updater/smyles-updater-licenses.php:144
+msgid ""
+"Connection failed to the License Key API server - possible server issue."
+msgstr ""
+"Conexiunea a eşuat la server de a da un permis cheie API - server de posibil"
+" problemă."
+
+#: includes/updater/smyles-updater-licenses.php:151
+msgid " Successfully Deactivated!"
+msgstr " Dezactivat cu succes!"
+
+#: includes/updater/smyles-updater-licenses.php:152
+msgid "You have successfully deactivated the %s license."
+msgstr "Tu au dezactivat cu succes %s de licenţă."
+
+#: includes/updater/smyles-updater-licenses.php:164
+#: includes/updater/smyles-updater-licenses.php:274
+msgid "Error!"
+msgstr "Eroare!"
+
+#: includes/updater/smyles-updater-licenses.php:164
+msgid ""
+"The license has been successfully deactivated locally, but please visit your"
+" sMyles Plugins <a href=\"%s\" target=\"_blank\">My Account</a> page to "
+"verify this activation has been removed from our server.  There was an error"
+" automatically removing it, and chances are that is because it was already "
+"removed via your <a href=\"%s\" target=\"_blank\">My Account</a> page "
+"already.."
+msgstr ""
+"Licenţa a fost dezactivat cu succes la nivel local, dar vă rugăm să vizitaţi"
+" pagina sMyles plugin-uri <a href=\"%s\" target=\"_blank\"> Contul meu</a> "
+"pentru a verifica această activare a fost eliminat din serverul nostru.  "
+"Eroare automat scoate-l, şi şansele sunt că este pentru că a fost deja "
+"eliminată prin intermediul paginii <a href=\"%s\" target=\"_blank\"> Contul "
+"meu</a> deja..."
+
+#: includes/updater/smyles-updater-licenses.php:200
+msgid ""
+"Unable to determine slug, license key, and/or email to activate license, "
+"contact support."
+msgstr ""
+"Imposibilitatea de a determina slug, a da un permis cheie şi/sau e-mail "
+"pentru a activa licenţa, contactaţi asistenţa."
+
+#: includes/updater/smyles-updater-licenses.php:259
+msgid " Successfully Activated!"
+msgstr " Activat cu succes!"
+
+#: includes/updater/smyles-updater-licenses.php:259
+msgid ""
+"You have successfully activated the %s license, and will now be able to "
+"automatically upgrade this plugin through WordPress when an update is "
+"available."
+msgstr ""
+"Aţi activat cu succes %s licenţa, şi va fi acum posibilitatea de a actualiza"
+" automat acest plug-in prin WordPress atunci când este disponibilă o "
+"actualizare."
+
+#: includes/updater/smyles-updater-licenses.php:362
+msgid "Deactivate the %s License?"
+msgstr "Dezactiva licenta %s?"
+
+#: includes/updater/smyles-updater-licenses.php:367
+msgid "No"
+msgstr "nu"
+
+#: includes/updater/smyles-updater-licenses.php:371
+msgid "Yes"
+msgstr "da"
+
+#: includes/updater/smyles-updater-licenses.php:377
+msgid "sMyles Plugins Licensing"
+msgstr "sMyles plugin-uri de acordare a licenţelor"
+
+#: includes/updater/smyles-updater-licenses.php:380
+msgid "Plugins"
+msgstr "Plugin-uri"
+
+#: includes/updater/views/html-key-input.php:5
+msgid "License"
+msgstr "A da un permis"
+
+#: includes/updater/views/html-key-input.php:8
+msgid ""
+"Enter your license key and email and hit return. A valid key is required for"
+" updates."
+msgstr ""
+"Introduceţi cheie de licenţă şi e-mail şi a lovi întoarcere. O cheie validă "
+"este necesară pentru actualizări."
+
+#: includes/updater/views/html-key-notice.php:6
+msgid "Hide notice"
+msgstr "Ascunde notificare"
+
+#: includes/updater/views/html-key-notice.php:7
+msgid ""
+"<a href=\"%1$s\">Please activate your license key</a> in order to receive "
+"updates and support for \"%2$s\"."
+msgstr ""
+"<a href=\"%1$s\"> vă rugăm să activaţi cheia de licenţă</a> pentru a primi "
+"actualizări şi suport pentru \"%2$ s\"."
+
+#: includes/updater/views/html-license-activate.php:3
+msgid "Activating ..."
+msgstr "Activarea..."
+
+#: includes/updater/views/html-license-activate.php:6
+#: includes/updater/views/html-license-deactivate.php:6
+msgid "Plugin Not Found"
+msgstr "Plugin-ul nu a fost găsit"
+
+#: includes/updater/views/html-license-activate.php:18
+#: includes/updater/views/html-license-deactivate.php:20
+msgid "Details"
+msgstr "Detalii"
+
+#: includes/updater/views/html-license-activate.php:33
+#: includes/updater/views/html-license-deactivate.php:35
+msgid "Installed Version:"
+msgstr "Versiunea instalată:"
+
+#: includes/updater/views/html-license-activate.php:54
+msgid "Activate License"
+msgstr "Activa licenţa"
+
+#: includes/updater/views/html-license-deactivate.php:3
+msgid "Deactivating ..."
+msgstr "Dezactivarea..."
+
+#: includes/updater/views/html-license-deactivate.php:43
+msgid "Activated:"
+msgstr "Activat:"
+
+#: includes/updater/views/html-license-deactivate.php:64
+msgid "Deactivate License"
+msgstr "Dezactiva licenta"
+
+#: includes/updater/views/html-ms-update.php:6
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr ""
+"Există o nouă versiune a %1$ s. <a target=\"_blank\" class=\"thickbox\" "
+"href=\"%2$s\"> Vezi versiunea %3$ s detalii</a> sau <a href=\"%4$s\"> "
+"actualiza acum</a>."
+
+#: includes/user.php:52
+msgid "This is not a valid package, or is an unlimited package."
+msgstr "Acest lucru nu este un valid pachetul, sau este un pachet nelimitat."
+
+#: includes/wc/wcp-job-visibility-package.php:58
+#: includes/wc/wcp-resume-visibility-package.php:61
+msgid "Add to cart"
+msgstr "Adaugă la coş"
+
+#: includes/wc/wcp-job-visibility-package.php:58
+#: includes/wc/wcp-resume-visibility-package.php:61
+msgid "Read More"
+msgstr "Citeste mai mult"
+
+#: includes/wc.php:397 includes/wc.php:404
+msgid "page"
+msgstr "filme"
+
+#: includes/wc.php:402
+msgid "listing"
+msgstr "listare"
+
+#: includes/wc.php:412
+msgid ""
+"To go back to the %1$s you were previously viewing, <a href=\"%2$s\">click "
+"here</a>."
+msgstr ""
+"Pentru a reveni la %1$ s tu au fost anterior de vizionare, <a href=\"%2$s\">"
+" click aici</a>."
+
+#: templates/jobify/job-application.php:8
+#: templates/jobify/job-application.php:13
+msgid "Apply for job"
+msgstr "Aplica pentru job"
+
+#: templates/listable/package-selection.php:51
+msgid "Your packages"
+msgstr "Pachetele dumneavoastră"
+
+#: templates/listable/package-selection.php:65
+#: templates/package-selection.php:34
+msgid "%1$s out of %2$d available %3$s used"
+msgstr "%1$ s din %2$ d disponibile %3$ s utilizate"
+
+#: templates/listable/package-selection.php:80
+msgid "Purchase packages"
+msgstr "Achiziţiona pachete"
+
+#: templates/listable/package-selection.php:105
+msgid "Free"
+msgstr "Gratuit"
+
+#: templates/listable/package-selection.php:141
+msgid "Get Started"
+msgstr "A începe"
+
+#: templates/listable/package-selection.php:150
+#: templates/package-selection.php:78
+msgid "No packages found"
+msgstr "Nici un pachet nu a întemeia"
+
+#: templates/my-packages-limit-details.php:5
+msgid "Feature"
+msgstr "Caracteristica"
+
+#: templates/my-packages-limit-details.php:6
+msgid "Remaining"
+msgstr "Rămase"
+
+#: templates/my-packages-limit-details.php:7
+msgid "Used"
+msgstr "Folosit"
+
+#: templates/my-packages-limit-details.php:8
+msgid "Limit"
+msgstr "Limita"
+
+#: templates/my-packages-limit-details.php:29
+msgid "Listings"
+msgstr "Listări"
+
+#: templates/my-packages.php:18
+msgid "My %s Visibility Packages"
+msgstr "Mele pachetelor de vizibilitate %s"
+
+#: templates/my-packages.php:23
+msgid "Package Name"
+msgstr "Numele pachetului"
+
+#: templates/my-packages.php:24
+msgid "Package Features"
+msgstr "Caracteristici pachet"
+
+#: templates/my-packages.php:66
+msgid "of"
+msgstr "de"
+
+#: templates/package-selection.php:22
+msgid "Your Packages:"
+msgstr "Pachetele dumneavoastră:"
+
+#: templates/package-selection.php:43
+msgid "Purchase Package:"
+msgstr "Achiziţionaţi pachetul:"
+
+#: wp-job-manager-packages.php:255
+msgid ""
+"WP Job Manager Packages requires WooCommerce Subscriptions 2.0 and above. "
+"Please upgrade as soon as possible!"
+msgstr ""
+"WP Job Manager pachete necesită WooCommerce abonamente 2.0 şi mai sus. Vă "
+"rugăm să faceţi upgrade cât mai repede posibil!"
+
+#: wp-job-manager-packages.php:401
+msgid ""
+"WP Job Manager - Packages is missing requirements and has been <a "
+"href=\"%s\">deactivated</a>. Please make sure all requirements are "
+"available."
+msgstr ""
+"WP Job Manager - pachete lipseşte cerinţelor şi a fost <a href=\"%s\"> "
+"dezactivat</a>. Asigurați-vă că toate cerinţele sunt disponibile."
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Packages"
+msgstr "WP Job Manager - pachete"
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.smyl.es/wp-job-manager-packages"
+msgstr "https://plugins.smyl.es/wp-Job-Manager-packages"
+
+#. Description of the plugin/theme
+msgid ""
+"Create and configure custom Visibility Packages for WP Job Manager and WP "
+"Resume Manager to require visitors to purchase a package to view, apply, "
+"contact, browse, and more!"
+msgstr ""
+"Crearea şi configurarea personalizat pachete vizibilitate pentru WP Job "
+"Manager şi WP CV Manager să solicite vizitatori pentru a cumpăra un pachet "
+"pentru a Vezi, se aplică, de contact, răsfoiţi, şi mai mult!"
+
+#. Author of the plugin/theme
+msgid "Myles McNamara"
+msgstr "Myles McNamara"
+
+#. Author URI of the plugin/theme
+msgid "https://smyl.es"
+msgstr "https://smyl.es"
+
+#: includes/admin/setup.php:414
+msgctxt "Default page title (wizard)"
+msgid "Visibility Packages"
+msgstr "Pachete de vizibilitate"
+
+#: includes/admin/setup.php:424
+msgctxt "Default page title (wizard)"
+msgid "Browse Packages"
+msgstr "Răsfoiţi la pachete"
+
+#: includes/admin/setup.php:434
+msgctxt "Default page title (wizard)"
+msgid "Apply/Contact Packages"
+msgstr "Aplica/Contact pachete"
+
+#: includes/admin/setup.php:444
+msgctxt "Default page title (wizard)"
+msgid "View Packages"
+msgstr "Vezi pachetele"
+
+#: includes/admin/setup.php:492
+msgctxt "Default page title (wizard)"
+msgid "Resume Visibility Packages"
+msgstr "Pachete de vizibilitatea CV"
+
+#: includes/admin/setup.php:502
+msgctxt "Default page title (wizard)"
+msgid "Browse Resume Packages"
+msgstr "Parcurge CV pachete"
+
+#: includes/admin/setup.php:512
+msgctxt "Default page title (wizard)"
+msgid "Resume Contact Packages"
+msgstr "CV-ul pachete Contact"
+
+#: includes/admin/setup.php:522
+msgctxt "Default page title (wizard)"
+msgid "View Resume Packages"
+msgstr "Vezi CV-ul pachete"
+
+#: includes/admin/setup.php:532
+msgctxt "Default page title (wizard)"
+msgid "View Name Resume Packages"
+msgstr "Vezi numele CV pachete"
