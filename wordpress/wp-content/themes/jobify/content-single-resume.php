@@ -11,10 +11,18 @@ global $post;
 
 $thispost = get_the_ID();
 $is_visible = false;
-if (isset($_GET['user_id'])) {
-  $user_id = $_GET['user_id'];  
-  add_post_meta($post->ID, 'visible_to', $user_id);
-  $is_visible = true;
+if (isset($_GET['request'])) {
+  $user_id = $_GET['request'];  
+  $request_token = $_GET['token'];
+  
+  $find_token = get_post_meta( $thispost, $user_id );
+  if ($request_token === $find_token[0]) {
+  	add_post_meta($post->ID, 'visible_to', $user_id);
+  	$is_visible = true;
+  }  
+  else {
+  	var_dump('Token did not match.');
+  }
 } 
 
 $skills     = wp_get_object_terms( $post->ID, 'resume_skill', array(

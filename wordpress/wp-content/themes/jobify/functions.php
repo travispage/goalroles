@@ -496,8 +496,17 @@ function custom_send_job_description_callback () {
         } else {
         	$candidate_id = $resume->post_author;
 			$candidate = get_user_by('id', $candidate_id);
+			$employer_id = get_current_user_id();
 
-			$confirmation_link = get_permalink($resume_id) . "?user_id=" . $thispost->post_author;
+			$request_token = bin2hex(random_bytes(16));
+			$confirmation_link = get_permalink($resume_id) . "?request=" . $employer_id . "&token=" . $request_token;
+						
+			if (!get_post_meta( $post_id, $employer_id )) {
+				add_post_meta( $resume_id, $employer_id, $request_token );
+			}
+			else {
+				update_post_meta( $resume_id, $employer_id, $request_token );
+			}
 
             $response['error'] = 'false';
             $response['result'] = wpautop( $thispost->post_content );                          

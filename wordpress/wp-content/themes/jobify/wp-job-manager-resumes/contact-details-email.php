@@ -68,19 +68,18 @@ $jobs = get_job_listings( array(
 <script>
 $(".job_listing").click(function () {
     var post_id = $(this).attr('post_id');
-    var resume_id = $(this).attr('resume_id');
+    var resume_id = $(this).attr('resume_id');    
     $.ajax({
         type: 'POST',
         url: '<?php echo admin_url('admin-ajax.php'); ?>',
         data: {
             'post_id': post_id,
-            'resume_id': resume_id,
+            'resume_id': resume_id,            
             'action': 'send_job_description' //this is the name of the AJAX method called in WordPress
         }, 
         success: function (result) {
-        	alert('Email successfully sent!');
-        	console.log(result);
-        	// location.reload();
+        	alert('Email successfully sent!');        	
+        	location.reload();
         },
         error: function () {
             console.log("error");
